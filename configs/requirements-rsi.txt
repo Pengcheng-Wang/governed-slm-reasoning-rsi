@@ -1,0 +1,4 @@
+fla-core==0.6.0
+trl==1.17.1
+qwen-vl-utils>=0.0.14
+rank-bm25>=0.2.2

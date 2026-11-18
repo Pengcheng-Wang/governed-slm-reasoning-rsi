@@ -1,0 +1,16 @@
+{
+  "primary_metric": "lean_avg_at_8",
+  "direction": "maximize",
+  "decision_stage": "confirm",
+  "min_improvement": 0.03,
+  "alpha_one_sided": 0.025,
+  "multiplicity_k": 2,
+  "require_env_fingerprint_match": true,
+  "hard_floors": {
+    "axiom_audit_clean_rate": 1.0,
+    "stop_rate": 0.85
+  },
+  "hard_ceilings": {
+    "truncation_rate": 0.15
+  }
+}

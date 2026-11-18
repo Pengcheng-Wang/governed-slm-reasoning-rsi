@@ -1,0 +1,828 @@
+{
+  "lean_40sample": {
+    "false_positive_flags": 0,
+    "sampled_negative_count": 20,
+    "sampled_negatives": [
+      {
+        "error_info": {
+          "diag_head": "Generation did not terminate cleanly (finish_reason=length)",
+          "error_class": "TRUNCATED"
+        },
+        "finish_reason": "length",
+        "id": "powered_val:lean_workbook_plus_8357",
+        "sample_idx": 1
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_17723",
+        "sample_idx": 2
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_5725",
+        "sample_idx": 4
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_11789",
+        "sample_idx": 2
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_35979",
+        "sample_idx": 1
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_42147",
+        "sample_idx": 7
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_56168",
+        "sample_idx": 2
+      },
+      {
+        "error_info": {
+          "diag_head": "FORMAT:theorem_signature_tampered",
+          "error_class": "FORMAT:theorem_signature_tampered"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_21017",
+        "sample_idx": 2
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_9293",
+        "sample_idx": 7
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_80393",
+        "sample_idx": 4
+      },
+      {
+        "error_info": {
+          "diag_head": "FORMAT:theorem_signature_tampered",
+          "error_class": "FORMAT:theorem_signature_tampered"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_59379",
+        "sample_idx": 0
+      },
+      {
+        "error_info": {
+          "diag_head": "<candidate>.lean:6:32: error: unexpected token '\u2200'; expected ':'\n'lean_workbook_plus_27330' does not depend on any axioms",
+          "error_class": "SYNTAX_ERROR"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_27330",
+        "sample_idx": 6
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_35979",
+        "sample_idx": 7
+      },
+      {
+        "error_info": {
+          "diag_head": "<candidate>.lean:6:70: error: unexpected token 'in'; expected ','\n<candidate>.lean:13:14: error(lean.unknownIdentifier): Unknown constant `lean_workbook_plus_39536`",
+          "error_class": "UNKNOWN_IDENT"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_39536",
+        "sample_idx": 0
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_21739",
+        "sample_idx": 5
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_7539",
+        "sample_idx": 7
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_64007",
+        "sample_idx": 5
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_36562",
+        "sample_idx": 1
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_17723",
+        "sample_idx": 0
+      },
+      {
+        "error_info": {
+          "diag_head": "Proof depends on sorry/sorryAx",
+          "error_class": "SORRY_DETECTED"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_68305",
+        "sample_idx": 7
+      }
+    ],
+    "sampled_positive_count": 20,
+    "sampled_positives": [
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  by_contra! h'\n  have h\u2081 : 0 < x := by linarith\n  have h\u2082 : 0 < y := by linarith\n  have h\u2083 : 0 < z := by linarith\n  have h\u2084 : 0 < 1 - x := by linarith\n  have h\u2085 : 0 < 1 - y := by linarith\n  have h\u2086 : 0 < 1 - z := by linarith\n  have h\u2087 : 0 < x * y * z := by positivity\n  have h\u2088 : 0 < (1 - x) * (1"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_69642",
+        "sample_idx": 5
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  nlinarith [sq_nonneg (x * y * z - x * y ^ 2), sq_nonneg (x * y * z - x ^ 2 * y), sq_nonneg (x * y * z - y * z ^ 2), sq_nonneg (x * y * z - x * z ^ 2), sq_nonneg (x * y * z - y ^ 2 * z), sq_nonneg (x * y * z - x ^ 2 * z), sq_nonneg (x * y - x ^ 2), sq_nonneg (x * y - y ^ 2), sq_nonneg (x * y - z"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_9587",
+        "sample_idx": 1
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  intro x y h\n  have h\u2080 : 0 \u2264 x := h.1\n  have h\u2081 : x \u2264 y := h.2.1\n  have h\u2082 : y \u2264 1 := h.2.2\n  have h\u2083 : 0 \u2264 y := by linarith\n  have h\u2084 : 0 \u2264 x * y := by nlinarith\n  nlinarith [sq_nonneg (x - y), sq_nonneg (x + y), sq_nonneg (x - 1 / 2), sq_nonneg (y - 1 / 2)]"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_24391",
+        "sample_idx": 3
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  have h3 : t0 = 14 := by\n    have h4 : t0 = 1 + t0 / 2 + t1 / 2 := h0\n    have h5 : t1 = 1 + t0 / 2 + t2 / 2 := h1\n    have h6 : t2 = 1 + t0 / 2 := h2\n    have h7 : t0 = 14 := by\n      nlinarith\n    exact h7\n  have h8 : t1 = 12 := by\n    have h9 : t0 = 14 := h3\n    have h10 : t1 = 1 + t0 / 2 + t"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_44185",
+        "sample_idx": 0
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  have h\u2083 : a \u2265 b + 2 := by omega\n  have h\u2084 : a * a \u2265 (b + 2) * (b + 2) := by\n    nlinarith\n  have h\u2085 : (a + b) ^ 2 = a * a + 2 * a * b + b * b := by\n    ring\n  rw [h\u2085]\n  nlinarith [mul_pos h\u2082 (by nlinarith : 0 < a + b)]"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_14309",
+        "sample_idx": 2
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  ring_nf\n  <;>\n  nlinarith [sq_nonneg (a - b), sq_nonneg (b - c), sq_nonneg (c - a),\n    mul_nonneg ha hb, mul_nonneg hb hc, mul_nonneg hc ha,\n    mul_nonneg (sub_nonneg.mpr hk.1) (sq_nonneg a),\n    mul_nonneg (sub_nonneg.mpr hk.1) (sq_nonneg b),\n    mul_nonneg (sub_nonneg.mpr hk.1) (sq_nonneg c"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_13292",
+        "sample_idx": 1
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  constructor\n  \u00b7 intro h\n    have h1 : (x - y)^2 + (y - z)^2 + (z - x)^2 = 0 := by\n      nlinarith\n    have h2 : x - y = 0 := by\n      nlinarith\n    have h3 : y - z = 0 := by\n      nlinarith\n    have h4 : z - x = 0 := by\n      nlinarith\n    exact \u27e8by linarith, by linarith, by linarith\u27e9\n  \u00b7 rintr"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_80393",
+        "sample_idx": 1
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  constructor\n  \u00b7 intro h\n    use f 1\n    intro x\n    have h\u2081 := h x 0\n    have h\u2082 := h x 1\n    have h\u2083 := h 0 1\n    have h\u2084 := h 1 0\n    simp at h\u2081 h\u2082 h\u2083 h\u2084\n    linarith\n  \u00b7 rintro \u27e8a, ha\u27e9 x y\n    rw [ha x, ha y]\n    ring"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_11576",
+        "sample_idx": 4
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  nlinarith [sq_nonneg (x - y), sq_nonneg (y - z), sq_nonneg (z - x),\n    mul_pos hx hy, mul_pos hy hz, mul_pos hz hx,\n    mul_pos (mul_pos hx hy) hz, mul_pos (mul_pos hy hz) hx, mul_pos (mul_pos hz hx) hy]"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_26014",
+        "sample_idx": 1
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  nlinarith [sq_nonneg (a - b), sq_nonneg (a - c), sq_nonneg (b - c),\n    mul_nonneg ha.le (sq_nonneg (a - b)), mul_nonneg ha.le (sq_nonneg (a - c)),\n    mul_nonneg ha.le (sq_nonneg (b - c)), mul_nonneg hb.le (sq_nonneg (a - b)),\n    mul_nonneg hb.le (sq_nonneg (a - c)), mul_nonneg hb.le (sq_nonn"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_46804",
+        "sample_idx": 1
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  intro h\n  rcases h with \u27e8hA, hB, hC\u27e9\n  rw [hA, hB, hC]\n  decide"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_40887",
+        "sample_idx": 6
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  have h\u2081 : 0 \u2264 a := hab.1\n  have h\u2082 : 0 \u2264 b := hab.2\n  have h\u2083 : 0 \u2264 a + b := by linarith\n  have h\u2084 : 0 \u2264 Real.sqrt a := Real.sqrt_nonneg a\n  have h\u2085 : 0 \u2264 Real.sqrt b := Real.sqrt_nonneg b\n  have h\u2086 : 0 \u2264 Real.sqrt (2 * (a + b)) := Real.sqrt_nonneg (2 * (a + b))\n  have h\u2087 : 0 \u2264 Real.sqrt a * Re"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_55695",
+        "sample_idx": 7
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  have h3 : a \u2265 0 := by linarith\n  have h4 : b \u2265 0 := by linarith\n  have h5 : c \u2265 0 := by linarith\n  have h6 : d \u2265 0 := by linarith\n  have h7 : a * b \u2265 0 := by positivity\n  have h8 : (c + d) / 2 \u2265 0 := by linarith\n  have h9 : \u221a(a * b) \u2265 0 := by positivity\n  nlinarith [sq_sqrt (by positivity : 0 \u2264"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_72948",
+        "sample_idx": 7
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  have h1 : a - b \u2265 0 := by linarith\n  have h2 : b - c \u2265 0 := by linarith\n  have h3 : a - c \u2265 0 := by linarith\n  have h4 : (a - b) * (b - c) \u2265 0 := by nlinarith\n  have h5 : (a - b) * (b - c) * (a - c) \u2265 0 := by nlinarith\n  have h6 : a^2 * b + a * c^2 + b^2 * c \u2265 a^2 * c + a * b^2 + b * c^2 := by\n"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_50580",
+        "sample_idx": 2
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  have h3 : 0 \u2264 a := by linarith\n  have h4 : 0 \u2264 b := by linarith\n  have h5 : 0 \u2264 c := by linarith\n  have h6 : 0 \u2264 d := by linarith\n  have h7 : 0 \u2264 a * b := by positivity\n  have h8 : 0 \u2264 (c + d) / 2 := by linarith\n  have h9 : (\u221a(a * b)) ^ 2 = a * b := by rw [Real.sq_sqrt (by positivity)]\n  have h"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_72948",
+        "sample_idx": 5
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  cases' le_total 0 b with hb hb <;> simp_all only [abs_of_nonneg, abs_of_nonpos]\n  all_goals\n    linarith"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_20623",
+        "sample_idx": 4
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  intro h\n  have h\u2081 : f 1 = 10 := h.1\n  have h\u2082 : f 2 = 20 := h.2.1\n  have h\u2083 : f 3 = 30 := h.2.2\n  have h\u2084 : f = fun x : \u211d => x^4 + a*x^3 + b*x^2 + c*x + d := hf\n  simp only [h\u2084] at h\u2081 h\u2082 h\u2083 \u22a2\n  ring_nf at h\u2081 h\u2082 h\u2083 \u22a2\n  nlinarith"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_25051",
+        "sample_idx": 1
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  have h\u2081 : 0 \u2264 a * b ^ 2 := by positivity\n  have h\u2082 : 0 \u2264 a * b := by positivity\n  have h\u2083 : 0 \u2264 b ^ 2 := by positivity\n  nlinarith [sq_nonneg (a - 1), sq_nonneg (b - 1),\n    mul_self_nonneg (a * b - 1),\n    mul_self_nonneg (a * b - a),\n    mul_self_nonneg (a * b - b),\n    mul_self_nonneg (a - b"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_72246",
+        "sample_idx": 0
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  constructor\n  \u00b7 \n    have h1 : |a| \u2264 b := h\n    have h2 : -b \u2264 a := by\n      \n      cases' abs_cases a with h3 h3 <;> linarith\n    exact h2\n  \u00b7 \n    have h1 : |a| \u2264 b := h\n    have h2 : a \u2264 b := by\n      \n      cases' abs_cases a with h3 h3 <;> linarith\n    exact h2"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_10625",
+        "sample_idx": 1
+      },
+      {
+        "evidence": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "proof_body_head": "by\n  nlinarith [sq_nonneg (x - y), sq_nonneg (y - z), sq_nonneg (z - x),\n    mul_nonneg hx.le hy.le, mul_nonneg hy.le hz.le, mul_nonneg hz.le hx.le,\n    mul_nonneg (sq_nonneg (x - y)) hx.le, mul_nonneg (sq_nonneg (y - z)) hy.le,\n    mul_nonneg (sq_nonneg (z - x)) hz.le, mul_nonneg (sq_nonneg (x - y)"
+        },
+        "finish_reason": "stop",
+        "id": "powered_val:lean_workbook_plus_26014",
+        "sample_idx": 3
+      }
+    ],
+    "source_details": "q9b_direct_b0_details.jsonl.gz",
+    "total_negative_rows": 594,
+    "total_positive_rows": 430,
+    "total_scored_rows": 1024
+  },
+  "math_40sample": {
+    "false_positive_flags": 0,
+    "sampled_negative_count": 20,
+    "sampled_negatives": [
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "math500:test/intermediate_algebra/2022.json",
+        "sample_idx": 2
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "oly:2212",
+        "sample_idx": 4
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "math500:test/algebra/2176.json",
+        "sample_idx": 5
+      },
+      {
+        "error_info": {
+          "lenient_extracted": "\\sqrt[3]{50}",
+          "parse_failure": false
+        },
+        "finish_reason": "stop",
+        "id": "oly:2035",
+        "sample_idx": 1
+      },
+      {
+        "error_info": {
+          "lenient_extracted": "(0, 4]",
+          "parse_failure": false
+        },
+        "finish_reason": "stop",
+        "id": "oly:2045",
+        "sample_idx": 2
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "oly:2174",
+        "sample_idx": 5
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "oly:2954",
+        "sample_idx": 4
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "oly:1645",
+        "sample_idx": 6
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "oly:2728",
+        "sample_idx": 5
+      },
+      {
+        "error_info": {
+          "lenient_extracted": "130",
+          "parse_failure": false
+        },
+        "finish_reason": "stop",
+        "id": "oly:3076",
+        "sample_idx": 4
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "oly:3037",
+        "sample_idx": 2
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "oly:2625",
+        "sample_idx": 6
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "oly:2319",
+        "sample_idx": 3
+      },
+      {
+        "error_info": {
+          "lenient_extracted": "3",
+          "parse_failure": false
+        },
+        "finish_reason": "stop",
+        "id": "oly:1738",
+        "sample_idx": 2
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "oly:2035",
+        "sample_idx": 2
+      },
+      {
+        "error_info": {
+          "lenient_extracted": "2",
+          "parse_failure": false
+        },
+        "finish_reason": "stop",
+        "id": "oly:2745",
+        "sample_idx": 6
+      },
+      {
+        "error_info": {
+          "lenient_extracted": null,
+          "parse_failure": false
+        },
+        "finish_reason": "length",
+        "id": "oly:2035",
+        "sample_idx": 7
+      },
+      {
+        "error_info": {
+          "lenient_extracted": "3904576",
+          "parse_failure": false
+        },
+        "finish_reason": "stop",
+        "id": "oly:1697",
+        "sample_idx": 1
+      },
+      {
+        "error_info": {
+          "lenient_extracted": "195",
+          "parse_failure": false
+        },
+        "finish_reason": "stop",
+        "id": "oly:2607",
+        "sample_idx": 5
+      },
+      {
+        "error_info": {
+          "lenient_extracted": "9",
+          "parse_failure": false
+        },
+        "finish_reason": "stop",
+        "id": "oly:2475",
+        "sample_idx": 5
+      }
+    ],
+    "sampled_positive_count": 20,
+    "sampled_positives": [
+      {
+        "evidence": {
+          "lenient_extracted": "7986",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:3015",
+        "sample_idx": 1
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "f(x)=1",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:2029",
+        "sample_idx": 5
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "\\frac{1 + \\sqrt{1 + 8n}}{2}",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:2615",
+        "sample_idx": 0
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "145",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "math500:test/geometry/183.json",
+        "sample_idx": 6
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "28",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "math500:test/counting_and_probability/1009.json",
+        "sample_idx": 0
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "12",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:3092",
+        "sample_idx": 5
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "3",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "math500:test/algebra/2176.json",
+        "sample_idx": 3
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "34",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:2300",
+        "sample_idx": 7
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "100",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:2659",
+        "sample_idx": 6
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "158",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:2559",
+        "sample_idx": 3
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "820",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:2823",
+        "sample_idx": 1
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "7530",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:3042",
+        "sample_idx": 4
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "-2019",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:2759",
+        "sample_idx": 2
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "7530",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:3042",
+        "sample_idx": 2
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "8",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "math500:test/prealgebra/1251.json",
+        "sample_idx": 3
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "n",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:2212",
+        "sample_idx": 5
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "10",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:3032",
+        "sample_idx": 7
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "600",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "math500:test/algebra/1339.json",
+        "sample_idx": 3
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "20",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:2344",
+        "sample_idx": 0
+      },
+      {
+        "evidence": {
+          "lenient_extracted": "\\frac{1}{9}",
+          "strict": true
+        },
+        "finish_reason": "stop",
+        "id": "oly:2903",
+        "sample_idx": 3
+      }
+    ],
+    "source_details": "q4b_direct12k_b0_details.jsonl.gz",
+    "total_negative_rows": 243,
+    "total_positive_rows": 781,
+    "total_scored_rows": 1024
+  }
+}

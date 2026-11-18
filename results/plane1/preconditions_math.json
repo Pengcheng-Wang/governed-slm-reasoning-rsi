@@ -1,0 +1,16 @@
+{
+  "archetype": "hybrid",
+  "verifier_type": "deterministic",
+  "has_disjoint_dev_and_holdout": true,
+  "evaluator_locked_and_isolated": true,
+  "hermetic_reset_available": true,
+  "single_trial_minutes": 18.0,
+  "total_budget_minutes": 240.0,
+  "learnable_fraction": 0.375,
+  "paired_noise_se": 0.008093296971735523,
+  "planned_confirmations": 2,
+  "confirm_alpha": 0.025,
+  "expected_total_gain": 0.06,
+  "one_shot_bug_ruled_out": true,
+  "planned_search_trials": 6
+}

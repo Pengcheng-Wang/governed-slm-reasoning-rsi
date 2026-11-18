@@ -1,0 +1,15 @@
+{
+  "primary_metric": "any_verified_solve_at_8",
+  "direction": "maximize",
+  "decision_stage": "confirm",
+  "min_improvement": 0.02,
+  "alpha_one_sided": 0.025,
+  "multiplicity_k": 1,
+  "require_env_fingerprint_match": true,
+  "hard_floors": {
+    "axiom_audit_clean_rate": 1.0
+  },
+  "hard_ceilings": {
+    "truncation_rate": 0.18
+  }
+}

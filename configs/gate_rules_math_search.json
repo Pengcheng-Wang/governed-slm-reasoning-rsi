@@ -1,0 +1,16 @@
+{
+  "primary_metric": "math_avg_at_8",
+  "direction": "maximize",
+  "decision_stage": "search",
+  "min_improvement": 0.01,
+  "alpha_one_sided": 0.05,
+  "multiplicity_k": 1,
+  "require_env_fingerprint_match": true,
+  "max_cumulative_primary_regression": 0.02,
+  "hard_floors": {
+    "stop_rate": 0.85
+  },
+  "hard_ceilings": {
+    "truncation_rate": 0.15
+  }
+}

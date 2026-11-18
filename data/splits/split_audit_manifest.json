@@ -1,0 +1,123 @@
+{
+  "lean_splits": {
+    "lean_confirm243": {
+      "count": 243,
+      "path": "data/splits/lean_confirm243.jsonl",
+      "sha256": "ee259051e8709373e55a419950eb4880c4542eee955ae27200fcaed14bdf20bb"
+    },
+    "lean_frontier_pool": {
+      "count": 1599,
+      "path": "data/raw/lean_frontier_pool.jsonl",
+      "sha256": "0232aa3c82fb9edef657f2f505506af1263c879c3282e49f09324d55a8a82ed5"
+    },
+    "lean_holdout_minif2f_test244_prompts": {
+      "count": 244,
+      "path": "data/splits/lean_holdout_minif2f_test244_prompts.jsonl",
+      "sha256": "47b20b1ee76f332fae509106498b799acab0487ec4e39fa7b189acc74cc5f754"
+    },
+    "lean_holdout_putnam128_prompts": {
+      "count": 128,
+      "path": "data/splits/lean_holdout_putnam128_prompts.jsonl",
+      "sha256": "db475522b117b16f9d0bb701e8cd2402fabe2686b804679d1b7822e7d26a1f80"
+    },
+    "lean_repair_reserve97": {
+      "count": 97,
+      "path": "data/splits/lean_repair_reserve97.jsonl",
+      "sha256": "2cb0dddbd6d518352772bd949ec61ac7c79681c14d0cf07ea5644ce5671e4eb4"
+    },
+    "lean_search128": {
+      "count": 128,
+      "path": "data/splits/lean_search128.jsonl",
+      "sha256": "a704a9d2e9add97d162580ac6b0b85773c207d641d03604486a777488e5c8ed4"
+    },
+    "pool_theorems_with_seed_proofs": 1408,
+    "sealed_lean_holdout_minif2f_test244": {
+      "count": 244,
+      "path": "eval/sealed_holdout/lean_holdout_minif2f_test244.jsonl",
+      "sha256": "0f1e63a7bb98bfc574bf800965b5246ee9d6ff156d46464ada8046e586bf1b64"
+    },
+    "sealed_lean_holdout_putnam128": {
+      "count": 128,
+      "path": "eval/sealed_holdout/lean_holdout_putnam128.jsonl",
+      "sha256": "ffd6388a7d66ba025cb352530a0e940467e6b9e438b2fdf6a270b8baa6e327ec"
+    },
+    "zero_eval_overlap_verified": true
+  },
+  "math_splits": {
+    "dapo_quarantined_eval_13gram_overlaps": 2567,
+    "dapo_unique_total_clean": 14349,
+    "math500_retention_confirm150": {
+      "count": 150,
+      "path": "data/splits/math500_retention_confirm150.jsonl",
+      "sha256": "a073b98c3983ded577ddb5c4dbbf802405c4b0841fdbf211088afbe947a667a5"
+    },
+    "math_confirm300": {
+      "count": 300,
+      "path": "data/splits/math_confirm300.jsonl",
+      "sha256": "e864523efe76d9ff1c33f6136b704bf735bc257039a2a699577f3bc6f5513395"
+    },
+    "math_frontier_pool1600": {
+      "count": 1600,
+      "path": "data/raw/math_frontier_pool1600.jsonl",
+      "sha256": "67930ebf418727e042350ff00183adf86a2e274e67fdcc4a8e5e7a40a9e750b6"
+    },
+    "math_holdout_aime2025_prompts": {
+      "count": 30,
+      "path": "data/splits/math_holdout_aime2025_30_prompts.jsonl",
+      "sha256": "ca63aa4398ec19622bc882c49debacc81f7fbd8fb5e93069d78a7a857b7f9f82"
+    },
+    "math_holdout_aime2026_prompts": {
+      "count": 30,
+      "path": "data/splits/math_holdout_aime2026_30_prompts.jsonl",
+      "sha256": "98f63a806bcb8a7ad1038303cb0658d7daac500b0f1d76e1ba81d0eceace4c46"
+    },
+    "math_holdout_hmmt2026_prompts": {
+      "count": 33,
+      "path": "data/splits/math_holdout_hmmt2026_prompts.jsonl",
+      "sha256": "96e3d58345d8448a3c56c2f9e1732ba92b1a8da16edd3a39f675f2059efce978"
+    },
+    "math_holdout_olympiad120_prompts": {
+      "count": 120,
+      "path": "data/splits/math_holdout_olympiad120_prompts.jsonl",
+      "sha256": "ba4fca69a71c9bb78d9dc398624c15fd3d133996d95a676be9e07aca3500040f"
+    },
+    "math_holdout_retention150_prompts": {
+      "count": 150,
+      "path": "data/splits/math_holdout_retention150_prompts.jsonl",
+      "sha256": "d4c0568ec55834e0789e3dba0100f07cf22e9c8b757f2ffe954d40a35ee65693"
+    },
+    "math_search128": {
+      "count": 128,
+      "path": "data/splits/math_search128.jsonl",
+      "sha256": "8c91247d5552f9a013939590f5a2537470e41f3858d469b43d0dcadb1e2904f9"
+    },
+    "olympiadbench_clean_single_answer_total": 573,
+    "sealed_math_holdout_aime2025": {
+      "count": 30,
+      "path": "eval/sealed_holdout/math_holdout_aime2025_30.jsonl",
+      "sha256": "28345456144bfb91caf30ce9cfdb87f1126c7f2b1689187ebb9d8b1268bf278d"
+    },
+    "sealed_math_holdout_aime2026": {
+      "count": 30,
+      "path": "eval/sealed_holdout/math_holdout_aime2026_30.jsonl",
+      "sha256": "027b6c505186aae111af6454681493ad8c6e47e57b5301aace561bd486190bb6"
+    },
+    "sealed_math_holdout_hmmt2026": {
+      "count": 33,
+      "path": "eval/sealed_holdout/math_holdout_hmmt2026.jsonl",
+      "sha256": "e1e6e11c7862946b880437542d4758c8263c19823f913651f5690f55f115aa23"
+    },
+    "sealed_math_holdout_olympiad120": {
+      "count": 120,
+      "path": "eval/sealed_holdout/math_holdout_olympiad120.jsonl",
+      "sha256": "0911a5d05dfc0106c663b2f21c9381b528a42bea307eb4e830250fe9c9859117"
+    },
+    "sealed_math_holdout_retention150": {
+      "count": 150,
+      "path": "eval/sealed_holdout/math_holdout_retention150.jsonl",
+      "sha256": "1d32bd34c73161614ee6f41ceca46545c4e49ed37918c130ababda9a144c267d"
+    },
+    "zero_eval_13gram_overlap_verified": true
+  },
+  "schema_version": "1.0"
+}

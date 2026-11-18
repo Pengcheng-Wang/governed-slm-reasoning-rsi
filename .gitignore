@@ -1,0 +1,34 @@
+# Strict local-only & credential exclusion rules
+.local/
+progress.md
+PROGRESS.md
+.aml*
+*aml_resource*
+*credential*
+*secret*
+*token*
+*.key
+*.pem
+.env*
+
+# Heavy / mutable runtime artifacts (splits ID manifests in data/splits/ ARE tracked)
+data/raw/
+data/cache/
+data/corpora/
+models/
+runs/
+logs/
+.venv-*/
+results/raw_generations/
+results/training/
+checkpoints/
+worktrees/
+cache/
+tmp/
+__pycache__/
+*.py[cod]
+*.tar.gz
+*.tgz
+*.partial
+.hop-*.sh
+.transfer-*.tgz
