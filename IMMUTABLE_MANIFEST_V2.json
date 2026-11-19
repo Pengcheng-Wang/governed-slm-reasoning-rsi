@@ -1,0 +1,135 @@
+{
+  "created_at_utc": "2026-11-18T22:58:35.060979+00:00",
+  "entries": {
+    "configs_v2/gate_rules_v2_lean_confirm.json": {
+      "exec": false,
+      "sha256": "5ec7739174ebe27762bf50dd83839f0711b58325781c7e54dd53e1a39b5ab550",
+      "size": 418,
+      "type": "file"
+    },
+    "configs_v2/gate_rules_v2_lean_search.json": {
+      "exec": false,
+      "sha256": "f0f1232fb34f88ab2c3af2b6914be1ee892c703cad188244ced57ed78136bfb6",
+      "size": 417,
+      "type": "file"
+    },
+    "configs_v2/gate_rules_v2_math_confirm.json": {
+      "exec": false,
+      "sha256": "c83c91527f386d7495c42135e50c4e6f9fb9c6387d767ee9731244cf5ceed784",
+      "size": 504,
+      "type": "file"
+    },
+    "configs_v2/gate_rules_v2_math_search.json": {
+      "exec": false,
+      "sha256": "4801e21460efff87cf9961b1e6a2867f3b9d1b09bbe6ba47472da8526334379a",
+      "size": 503,
+      "type": "file"
+    },
+    "data/splits_v2/v2_lean_confirm171.jsonl": {
+      "exec": false,
+      "sha256": "985d1de5a151007a81eba731dd8eb24898228a1fc0ab136dfa5fc24df6dc21f9",
+      "size": 230394,
+      "type": "file"
+    },
+    "data/splits_v2/v2_lean_holdout_proofnet174_prompts.jsonl": {
+      "exec": false,
+      "sha256": "342964556419bb8f8bb6b7a59c607a0c458ed4d534dca4c5cf1fd83b4bc351e4",
+      "size": 141367,
+      "type": "file"
+    },
+    "data/splits_v2/v2_lean_search120.jsonl": {
+      "exec": false,
+      "sha256": "dd19bd072397063c362f0ff02fa22bcf1b94baef8b8700e37c2584ccb51cd498",
+      "size": 138566,
+      "type": "file"
+    },
+    "data/splits_v2/v2_math_confirm256.jsonl": {
+      "exec": false,
+      "sha256": "493ba9556edeaf631807b3b0979c519de0fa437338016f756178a9cfe1741556",
+      "size": 253320,
+      "type": "file"
+    },
+    "data/splits_v2/v2_math_holdout_beyondaime_prompts.jsonl": {
+      "exec": false,
+      "sha256": "36316eb98d8ca80c0e01d9f1dd81c3017cc3de8cf4dca283f56fd86149fe0f95",
+      "size": 57722,
+      "type": "file"
+    },
+    "data/splits_v2/v2_math_holdout_brumo2025_prompts.jsonl": {
+      "exec": false,
+      "sha256": "dbc9eceda3a0e06b52f267172a80c4ef73119b6168fdd47d6b74856daf03efe7",
+      "size": 15042,
+      "type": "file"
+    },
+    "data/splits_v2/v2_math_holdout_cmimc2025_prompts.jsonl": {
+      "exec": false,
+      "sha256": "f9bda8bf8e62b4db17c0323b6cfaa5775756ca0307d6af149006721cc476fa11",
+      "size": 22244,
+      "type": "file"
+    },
+    "data/splits_v2/v2_math_holdout_hmmt_nov2025_prompts.jsonl": {
+      "exec": false,
+      "sha256": "38d6dca4e2bc16c4cad7d7492b380c56c32e877903becac0eab89abc319d041d",
+      "size": 16220,
+      "type": "file"
+    },
+    "data/splits_v2/v2_math_search128.jsonl": {
+      "exec": false,
+      "sha256": "ef87b2598d258cc334a495a5001d98dee3ee6e5dff4a85cc707ac660a6e7eb85",
+      "size": 129905,
+      "type": "file"
+    },
+    "data/splits_v2/v2_split_audit_manifest.json": {
+      "exec": false,
+      "sha256": "2b7193d219ee1833a23cb5ac25939050b1a2d4e240d09249bfaab3092cadd002",
+      "size": 560,
+      "type": "file"
+    },
+    "eval_v2/sealed_holdout/v2_lean_holdout_proofnet174.jsonl": {
+      "exec": false,
+      "sha256": "591c0dc05d124cb8ba4833d67d2ea112c05900568d992df724dc522f7d1c3e32",
+      "size": 232485,
+      "type": "file"
+    },
+    "eval_v2/sealed_holdout/v2_math_holdout_beyondaime.jsonl": {
+      "exec": false,
+      "sha256": "fa06eee936eb1418a64ca86da11bf6361baee266082fc9d05729b3c91d36a0dc",
+      "size": 103350,
+      "type": "file"
+    },
+    "eval_v2/sealed_holdout/v2_math_holdout_brumo2025.jsonl": {
+      "exec": false,
+      "sha256": "5e879d5eba20b5fa238830597860f21baac294e8b35914fc0dd565ff7d8c6d4a",
+      "size": 26728,
+      "type": "file"
+    },
+    "eval_v2/sealed_holdout/v2_math_holdout_cmimc2025.jsonl": {
+      "exec": false,
+      "sha256": "783e3242839d00590f2b9239d70273e7c4c04c3c6b8f0fd2e189b8632fe8c2d7",
+      "size": 40110,
+      "type": "file"
+    },
+    "eval_v2/sealed_holdout/v2_math_holdout_hmmt_nov2025.jsonl": {
+      "exec": false,
+      "sha256": "bfd38ca4f6cedc621c3a59cbf66c9b7ac73e18853d43827a66ddecfbd48dace5",
+      "size": 28707,
+      "type": "file"
+    },
+    "program_v2.md": {
+      "exec": false,
+      "sha256": "6ba92888c499b02692aedc3b6e828a9c72972c6e822c97883390395143a6b742",
+      "size": 5070,
+      "type": "file"
+    }
+  },
+  "entry_count": 20,
+  "manifest_root_sha256": "f79f2fcf32262a0455ba85256ea2c4a8ab72b3eef94c76f0399190932e74ccf2",
+  "protected_roots": [
+    "program_v2.md",
+    "configs_v2",
+    "data/splits_v2",
+    "eval_v2/sealed_holdout"
+  ],
+  "root": "/scratch/governed_slm_rsi_v2",
+  "schema_version": "2.0"
+}

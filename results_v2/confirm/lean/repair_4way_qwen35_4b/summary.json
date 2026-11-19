@@ -1,0 +1,96 @@
+{
+  "candidate_prefix": "confirm_qwen35_4b",
+  "model_key": "qwen35_4b",
+  "model_path": "/scratch/governed_slm_rsi_v2/checkpoints/track_l/l2_qwen35_4b_restem_rep5050",
+  "n_theorems": 164,
+  "paired_causal_contrasts": {
+    "compiler_repair_vs_direct8": {
+      "ci95_hi": 0.0,
+      "ci95_lo": 0.0,
+      "delta": 0.0,
+      "n_a_wins": 0,
+      "n_b_wins": 0
+    },
+    "compiler_repair_vs_masked_retry": {
+      "ci95_hi": 0.0,
+      "ci95_lo": -0.018292682926829267,
+      "delta": -0.006097560975609756,
+      "n_a_wins": 0,
+      "n_b_wins": 1
+    },
+    "compiler_repair_vs_shuffled_diag": {
+      "ci95_hi": 0.0,
+      "ci95_lo": -0.018292682926829267,
+      "delta": -0.006097560975609756,
+      "n_a_wins": 0,
+      "n_b_wins": 1
+    },
+    "masked_retry_vs_direct8": {
+      "ci95_hi": 0.018292682926829267,
+      "ci95_lo": 0.0,
+      "delta": 0.006097560975609756,
+      "n_a_wins": 1,
+      "n_b_wins": 0
+    }
+  },
+  "policies": {
+    "compiler_repair_4_4": {
+      "any_verified_solve_at_8": 0.06097560975609756,
+      "axiom_audit_pass_rate": 1.0,
+      "lean_pass_at_8": 0.06097560975609756,
+      "n_theorems": 164,
+      "solved_pass1_at_4": 10,
+      "solved_pass2_repairs": 0,
+      "solved_total_at_8": 10,
+      "stop_rate": 0.9764150943396226,
+      "total_completion_tokens": 469963,
+      "total_lean_calls": 1272,
+      "total_llm_calls": 1272,
+      "wall_seconds_pass2": 400.1626708500553
+    },
+    "direct8": {
+      "any_verified_solve_at_8": 0.06097560975609756,
+      "axiom_audit_pass_rate": 1.0,
+      "lean_pass_at_8": 0.06097560975609756,
+      "n_theorems": 164,
+      "solved_pass1_at_4": 10,
+      "solved_pass2_repairs": 0,
+      "solved_total_at_8": 10,
+      "stop_rate": 0.9677672955974843,
+      "total_completion_tokens": 498685,
+      "total_lean_calls": 1272,
+      "total_llm_calls": 1272,
+      "wall_seconds_pass2": 407.6307140858844
+    },
+    "masked_retry_4_4": {
+      "any_verified_solve_at_8": 0.06707317073170732,
+      "axiom_audit_pass_rate": 1.0,
+      "lean_pass_at_8": 0.06707317073170732,
+      "n_theorems": 164,
+      "solved_pass1_at_4": 10,
+      "solved_pass2_repairs": 1,
+      "solved_total_at_8": 11,
+      "stop_rate": 0.9764150943396226,
+      "total_completion_tokens": 467099,
+      "total_lean_calls": 1272,
+      "total_llm_calls": 1272,
+      "wall_seconds_pass2": 405.3990460948553
+    },
+    "shuffled_diag_4_4": {
+      "any_verified_solve_at_8": 0.06707317073170732,
+      "axiom_audit_pass_rate": 1.0,
+      "lean_pass_at_8": 0.06707317073170732,
+      "n_theorems": 164,
+      "solved_pass1_at_4": 10,
+      "solved_pass2_repairs": 1,
+      "solved_total_at_8": 11,
+      "stop_rate": 0.9819182389937107,
+      "total_completion_tokens": 471581,
+      "total_lean_calls": 1272,
+      "total_llm_calls": 1272,
+      "wall_seconds_pass2": 412.3260742770508
+    }
+  },
+  "solved_pass1_direct4": 10,
+  "split_file": "/scratch/governed_slm_rsi_v2/results/.runtime_unique_id_views/v2_lean_confirm171.jsonl"
+}

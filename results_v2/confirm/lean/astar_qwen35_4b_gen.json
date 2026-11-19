@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 0.5217867327822994,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 2048,
+  "model_key": "qwen35_4b",
+  "model_path": "/scratch/governed_slm_rsi_v2/checkpoints/track_l/l3_qwen35_4b_dapo_chunked",
+  "n_problems": 164,
+  "n_requests": 1312,
+  "n_workers": 8,
+  "output": "/scratch/governed_slm_rsi_v2/results/confirm/lean/astar_qwen35_4b.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/results/.runtime_unique_id_views/v2_lean_confirm171.jsonl",
+  "stop_rate": 0.9740853658536586,
+  "temperature": 0.8,
+  "thinking": false,
+  "toks_per_sec": 1719.9108568386932,
+  "total_completion_tokens": 403842,
+  "tp": 1,
+  "truncation_rate": 0.025914634146341462,
+  "wall_seconds": 234.8040297520347
+}

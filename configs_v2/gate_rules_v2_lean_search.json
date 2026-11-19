@@ -1,0 +1,19 @@
+{
+  "primary_metric": "lean_avg_at_8",
+  "direction": "maximize",
+  "decision_stage": "search",
+  "min_improvement": 0.01,
+  "alpha_one_sided": 0.05,
+  "multiplicity_k": 1,
+  "require_env_fingerprint_match": true,
+  "metric_directions": {
+    "stop_rate": "maximize"
+  },
+  "max_degradation_vs_baseline": {
+    "stop_rate": 0.025
+  },
+  "hard_floors": {
+    "axiom_audit_clean_rate": 1.0,
+    "stop_rate": 0.22
+  }
+}

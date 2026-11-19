@@ -1,0 +1,25 @@
+{
+  "track_l_v2": {
+    "confirm_proofnet_valid": 164,
+    "holdout_proofnet_test": 167,
+    "search": 120,
+    "train_pool": 600
+  },
+  "track_m_v2": {
+    "confirm_omnimath_t3_t4": 256,
+    "holdout_contests": {
+      "beyondaime": 100,
+      "brumo2025": 30,
+      "cmimc2025": 40,
+      "hmmt_nov2025": 30
+    },
+    "holdout_total": 200,
+    "search": 128,
+    "train_pool": 600
+  },
+  "v1_blocked_ids": 1781,
+  "v1_blocked_lean_shas": 839,
+  "v1_blocked_math_shas": 2144,
+  "zero_cross_split_overlap_verified": true,
+  "zero_v1_overlap_verified": true
+}

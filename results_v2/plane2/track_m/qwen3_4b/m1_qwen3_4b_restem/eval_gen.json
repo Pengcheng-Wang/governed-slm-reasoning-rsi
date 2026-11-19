@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 4.415493834742034,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 16384,
+  "model_key": "qwen3_4b",
+  "model_path": "/scratch/governed_slm_rsi_v2/checkpoints/track_m/m1_qwen3_4b_restem",
+  "n_problems": 128,
+  "n_requests": 1024,
+  "n_workers": 8,
+  "output": "/scratch/governed_slm_rsi_v2/results/plane2/track_m/qwen3_4b/m1_qwen3_4b_restem/eval.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_math_search128.jsonl",
+  "stop_rate": 0.61328125,
+  "temperature": 0.8,
+  "thinking": true,
+  "toks_per_sec": 6711.350479871741,
+  "total_completion_tokens": 13335267,
+  "tp": 1,
+  "truncation_rate": 0.38671875,
+  "wall_seconds": 1986.9722256339155
+}

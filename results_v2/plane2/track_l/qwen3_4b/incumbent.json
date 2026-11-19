@@ -1,0 +1,14 @@
+{
+  "model_key": "qwen3_4b",
+  "status": "COMPLETED",
+  "thinking": true,
+  "eval_max_tokens": 6144,
+  "b0_eval": "/scratch/governed_slm_rsi_v2/results/plane1/lean/b0_qwen3_4b_think6k_metrics.json",
+  "b0_avg_at_8": 0.05416666666666667,
+  "incumbent_id": "b0_qwen3_4b",
+  "incumbent_ckpt": "/scratch/governed_slm_rsi_v2/models/Qwen3-4B",
+  "incumbent_eval": "/scratch/governed_slm_rsi_v2/results/plane1/lean/b0_qwen3_4b_think6k_metrics.json",
+  "incumbent_avg_at_8": 0.05416666666666667,
+  "repair_trained_ckpt": "/scratch/governed_slm_rsi_v2/checkpoints/track_l/l2_qwen3_4b_restem_rep5050",
+  "promoted_challenger": false
+}

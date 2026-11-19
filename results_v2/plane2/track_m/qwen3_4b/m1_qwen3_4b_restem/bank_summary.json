@@ -1,0 +1,15 @@
+{
+  "cumulative_bank_traces": 559,
+  "frontier_remaining": 419,
+  "model_key": "qwen3_4b",
+  "new_clean_traces_admitted": 913,
+  "newly_solved_problems": 215,
+  "pool_coverage_rate": 0.35833333333333334,
+  "pool_total_problems": 600,
+  "raw_rollout_truncation_rate": 0.6766666666666666,
+  "raw_rollouts_scored": 3600,
+  "repair_prompts_emitted": 0,
+  "round_tag": "m1_qwen3_4b_restem",
+  "solved_pool_problems": 215,
+  "track": "math"
+}

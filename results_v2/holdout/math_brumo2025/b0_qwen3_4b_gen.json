@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 1.3753316879200024,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 16384,
+  "model_key": "qwen3_4b",
+  "model_path": "/scratch/governed_slm_rsi_v2/models/Qwen3-4B",
+  "n_problems": 30,
+  "n_requests": 240,
+  "n_workers": 8,
+  "output": "/scratch/governed_slm_rsi_v2/results/holdout/math_brumo2025/b0_qwen3_4b.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_math_holdout_brumo2025_prompts.jsonl",
+  "stop_rate": 0.6083333333333333,
+  "temperature": 0.8,
+  "thinking": true,
+  "toks_per_sec": 4718.237992491939,
+  "total_completion_tokens": 2920114,
+  "tp": 1,
+  "truncation_rate": 0.39166666666666666,
+  "wall_seconds": 618.8992595640011
+}

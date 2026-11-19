@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 0.7070611421246495,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 8192,
+  "model_key": "goedel_8b",
+  "model_path": "/scratch/governed_slm_rsi_v2/models/Goedel-Prover-V2-8B",
+  "n_problems": 120,
+  "n_requests": 960,
+  "n_workers": 8,
+  "output": "/scratch/governed_slm_rsi_v2/results/plane1/lean/ref_goedel_8b_think8k.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_lean_search120.jsonl",
+  "stop_rate": 0.90625,
+  "temperature": 0.8,
+  "thinking": true,
+  "toks_per_sec": 5916.090601738003,
+  "total_completion_tokens": 1882367,
+  "tp": 1,
+  "truncation_rate": 0.09375,
+  "wall_seconds": 318.1775139560923
+}

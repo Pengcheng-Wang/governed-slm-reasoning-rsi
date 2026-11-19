@@ -1,0 +1,16 @@
+{
+  "model_key": "phi4_mini",
+  "status": "COMPLETED",
+  "thinking": true,
+  "eval_max_tokens": 12288,
+  "presence_penalty": 0.0,
+  "b0_eval": "/scratch/governed_slm_rsi_v2/results/plane1/math/b0_phi4_mini_think12k_metrics.json",
+  "b0_avg_at_8": 0.2587890625,
+  "b0_stop_rate": 0.4638671875,
+  "incumbent_id": "b0_phi4_mini",
+  "incumbent_ckpt": "/scratch/governed_slm_rsi_v2/models/Phi-4-mini-reasoning",
+  "incumbent_eval": "/scratch/governed_slm_rsi_v2/results/plane1/math/b0_phi4_mini_think12k_metrics.json",
+  "incumbent_avg_at_8": 0.2587890625,
+  "incumbent_stop_rate": 0.4638671875,
+  "promoted_challenger": false
+}

@@ -1,0 +1,626 @@
+{
+  "candidate_id": "l1_qwen35_4b_restem",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "expected_k": 8,
+  "items": [
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1017",
+      "id": "v2_lwb:lean_workbook_plus_1017",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1020",
+      "id": "v2_lwb:lean_workbook_plus_1020",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1198",
+      "id": "v2_lwb:lean_workbook_plus_1198",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1244",
+      "id": "v2_lwb:lean_workbook_plus_1244",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1254",
+      "id": "v2_lwb:lean_workbook_plus_1254",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1258",
+      "id": "v2_lwb:lean_workbook_plus_1258",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1263",
+      "id": "v2_lwb:lean_workbook_plus_1263",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_135",
+      "id": "v2_lwb:lean_workbook_plus_135",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1380",
+      "id": "v2_lwb:lean_workbook_plus_1380",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1383",
+      "id": "v2_lwb:lean_workbook_plus_1383",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_139",
+      "id": "v2_lwb:lean_workbook_plus_139",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1453",
+      "id": "v2_lwb:lean_workbook_plus_1453",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1810",
+      "id": "v2_lwb:lean_workbook_plus_1810",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1833",
+      "id": "v2_lwb:lean_workbook_plus_1833",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1834",
+      "id": "v2_lwb:lean_workbook_plus_1834",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1858",
+      "id": "v2_lwb:lean_workbook_plus_1858",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1901",
+      "id": "v2_lwb:lean_workbook_plus_1901",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_1986",
+      "id": "v2_lwb:lean_workbook_plus_1986",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2",
+      "id": "v2_lwb:lean_workbook_plus_2",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2064",
+      "id": "v2_lwb:lean_workbook_plus_2064",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2081",
+      "id": "v2_lwb:lean_workbook_plus_2081",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2150",
+      "id": "v2_lwb:lean_workbook_plus_2150",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2192",
+      "id": "v2_lwb:lean_workbook_plus_2192",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2227",
+      "id": "v2_lwb:lean_workbook_plus_2227",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2319",
+      "id": "v2_lwb:lean_workbook_plus_2319",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2368",
+      "id": "v2_lwb:lean_workbook_plus_2368",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2372",
+      "id": "v2_lwb:lean_workbook_plus_2372",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_263",
+      "id": "v2_lwb:lean_workbook_plus_263",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2722",
+      "id": "v2_lwb:lean_workbook_plus_2722",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2728",
+      "id": "v2_lwb:lean_workbook_plus_2728",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2737",
+      "id": "v2_lwb:lean_workbook_plus_2737",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2967",
+      "id": "v2_lwb:lean_workbook_plus_2967",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2973",
+      "id": "v2_lwb:lean_workbook_plus_2973",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_2995",
+      "id": "v2_lwb:lean_workbook_plus_2995",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3039",
+      "id": "v2_lwb:lean_workbook_plus_3039",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_306",
+      "id": "v2_lwb:lean_workbook_plus_306",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3092",
+      "id": "v2_lwb:lean_workbook_plus_3092",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3103",
+      "id": "v2_lwb:lean_workbook_plus_3103",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3175",
+      "id": "v2_lwb:lean_workbook_plus_3175",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3200",
+      "id": "v2_lwb:lean_workbook_plus_3200",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3225",
+      "id": "v2_lwb:lean_workbook_plus_3225",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3320",
+      "id": "v2_lwb:lean_workbook_plus_3320",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3321",
+      "id": "v2_lwb:lean_workbook_plus_3321",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3332",
+      "id": "v2_lwb:lean_workbook_plus_3332",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3340",
+      "id": "v2_lwb:lean_workbook_plus_3340",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3345",
+      "id": "v2_lwb:lean_workbook_plus_3345",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3370",
+      "id": "v2_lwb:lean_workbook_plus_3370",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3399",
+      "id": "v2_lwb:lean_workbook_plus_3399",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3410",
+      "id": "v2_lwb:lean_workbook_plus_3410",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3469",
+      "id": "v2_lwb:lean_workbook_plus_3469",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3470",
+      "id": "v2_lwb:lean_workbook_plus_3470",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3558",
+      "id": "v2_lwb:lean_workbook_plus_3558",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3563",
+      "id": "v2_lwb:lean_workbook_plus_3563",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3614",
+      "id": "v2_lwb:lean_workbook_plus_3614",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3619",
+      "id": "v2_lwb:lean_workbook_plus_3619",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3670",
+      "id": "v2_lwb:lean_workbook_plus_3670",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3778",
+      "id": "v2_lwb:lean_workbook_plus_3778",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_3858",
+      "id": "v2_lwb:lean_workbook_plus_3858",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4033",
+      "id": "v2_lwb:lean_workbook_plus_4033",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4047",
+      "id": "v2_lwb:lean_workbook_plus_4047",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_406",
+      "id": "v2_lwb:lean_workbook_plus_406",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4128",
+      "id": "v2_lwb:lean_workbook_plus_4128",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4157",
+      "id": "v2_lwb:lean_workbook_plus_4157",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4170",
+      "id": "v2_lwb:lean_workbook_plus_4170",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_420",
+      "id": "v2_lwb:lean_workbook_plus_420",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4292",
+      "id": "v2_lwb:lean_workbook_plus_4292",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4399",
+      "id": "v2_lwb:lean_workbook_plus_4399",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4420",
+      "id": "v2_lwb:lean_workbook_plus_4420",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4647",
+      "id": "v2_lwb:lean_workbook_plus_4647",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4655",
+      "id": "v2_lwb:lean_workbook_plus_4655",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4693",
+      "id": "v2_lwb:lean_workbook_plus_4693",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4698",
+      "id": "v2_lwb:lean_workbook_plus_4698",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4742",
+      "id": "v2_lwb:lean_workbook_plus_4742",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_476",
+      "id": "v2_lwb:lean_workbook_plus_476",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4762",
+      "id": "v2_lwb:lean_workbook_plus_4762",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4859",
+      "id": "v2_lwb:lean_workbook_plus_4859",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_489",
+      "id": "v2_lwb:lean_workbook_plus_489",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_4939",
+      "id": "v2_lwb:lean_workbook_plus_4939",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5016",
+      "id": "v2_lwb:lean_workbook_plus_5016",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5034",
+      "id": "v2_lwb:lean_workbook_plus_5034",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5094",
+      "id": "v2_lwb:lean_workbook_plus_5094",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5177",
+      "id": "v2_lwb:lean_workbook_plus_5177",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_519",
+      "id": "v2_lwb:lean_workbook_plus_519",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5192",
+      "id": "v2_lwb:lean_workbook_plus_5192",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5335",
+      "id": "v2_lwb:lean_workbook_plus_5335",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5353",
+      "id": "v2_lwb:lean_workbook_plus_5353",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5420",
+      "id": "v2_lwb:lean_workbook_plus_5420",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5490",
+      "id": "v2_lwb:lean_workbook_plus_5490",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5508",
+      "id": "v2_lwb:lean_workbook_plus_5508",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5538",
+      "id": "v2_lwb:lean_workbook_plus_5538",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5632",
+      "id": "v2_lwb:lean_workbook_plus_5632",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5668",
+      "id": "v2_lwb:lean_workbook_plus_5668",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5685",
+      "id": "v2_lwb:lean_workbook_plus_5685",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5724",
+      "id": "v2_lwb:lean_workbook_plus_5724",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5763",
+      "id": "v2_lwb:lean_workbook_plus_5763",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5799",
+      "id": "v2_lwb:lean_workbook_plus_5799",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5846",
+      "id": "v2_lwb:lean_workbook_plus_5846",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5851",
+      "id": "v2_lwb:lean_workbook_plus_5851",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_5855",
+      "id": "v2_lwb:lean_workbook_plus_5855",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6063",
+      "id": "v2_lwb:lean_workbook_plus_6063",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6070",
+      "id": "v2_lwb:lean_workbook_plus_6070",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6081",
+      "id": "v2_lwb:lean_workbook_plus_6081",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6115",
+      "id": "v2_lwb:lean_workbook_plus_6115",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6168",
+      "id": "v2_lwb:lean_workbook_plus_6168",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6174",
+      "id": "v2_lwb:lean_workbook_plus_6174",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6187",
+      "id": "v2_lwb:lean_workbook_plus_6187",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6223",
+      "id": "v2_lwb:lean_workbook_plus_6223",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6295",
+      "id": "v2_lwb:lean_workbook_plus_6295",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6320",
+      "id": "v2_lwb:lean_workbook_plus_6320",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6324",
+      "id": "v2_lwb:lean_workbook_plus_6324",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6401",
+      "id": "v2_lwb:lean_workbook_plus_6401",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_6442",
+      "id": "v2_lwb:lean_workbook_plus_6442",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_676",
+      "id": "v2_lwb:lean_workbook_plus_676",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_785",
+      "id": "v2_lwb:lean_workbook_plus_785",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_836",
+      "id": "v2_lwb:lean_workbook_plus_836",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_86",
+      "id": "v2_lwb:lean_workbook_plus_86",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_873",
+      "id": "v2_lwb:lean_workbook_plus_873",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_903",
+      "id": "v2_lwb:lean_workbook_plus_903",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_910",
+      "id": "v2_lwb:lean_workbook_plus_910",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_lwb:lean_workbook_plus_941",
+      "id": "v2_lwb:lean_workbook_plus_941",
+      "value": 1.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.46770833333333334,
+    "axiom_audit_clean_rate": 1.0,
+    "lean_avg_at_8": 0.46770833333333334,
+    "lean_pass_at_8": 0.6083333333333333,
+    "lean_strict_avg_at_8": 0.46770833333333334,
+    "learnable_fraction": 0.3,
+    "median_tokens": 132.0,
+    "p95_tokens": 640.4499999999996,
+    "p99_tokens": 1486.9599999999982,
+    "solved_problem_count": 73.0,
+    "stop_rate": 0.996875,
+    "truncation_rate": 0.003125
+  },
+  "n_problems": 120,
+  "protocol_id": "v2_lean_search",
+  "schema_version": "1.0",
+  "scored_at_utc": "2026-11-18T23:43:55.502551+00:00",
+  "track": "lean"
+}

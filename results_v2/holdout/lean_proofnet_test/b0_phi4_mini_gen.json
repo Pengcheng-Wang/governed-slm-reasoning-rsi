@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 1.9483272529688354,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 6144,
+  "model_key": "phi4_mini",
+  "model_path": "/scratch/governed_slm_rsi_v2/models/Phi-4-mini-reasoning",
+  "n_problems": 167,
+  "n_requests": 1336,
+  "n_workers": 8,
+  "output": "/scratch/governed_slm_rsi_v2/results/holdout/lean_proofnet_test/b0_phi4_mini.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/results/.runtime_unique_id_views/v2_lean_holdout_proofnet174_prompts.jsonl",
+  "stop_rate": 0.15494011976047903,
+  "temperature": 0.8,
+  "thinking": true,
+  "toks_per_sec": 8898.697859477554,
+  "total_completion_tokens": 7801909,
+  "tp": 1,
+  "truncation_rate": 0.8450598802395209,
+  "wall_seconds": 876.7472638359759
+}

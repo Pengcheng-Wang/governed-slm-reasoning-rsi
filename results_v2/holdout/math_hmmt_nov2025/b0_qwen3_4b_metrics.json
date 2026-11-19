@@ -1,0 +1,178 @@
+{
+  "candidate_id": "holdout_hmmt_nov2025_b0_qwen3_4b",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "expected_k": 8,
+  "items": [
+    {
+      "cluster_id": "v2_hmmt_nov2025:1",
+      "id": "v2_hmmt_nov2025:1",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:10",
+      "id": "v2_hmmt_nov2025:10",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:11",
+      "id": "v2_hmmt_nov2025:11",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:12",
+      "id": "v2_hmmt_nov2025:12",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:13",
+      "id": "v2_hmmt_nov2025:13",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:14",
+      "id": "v2_hmmt_nov2025:14",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:15",
+      "id": "v2_hmmt_nov2025:15",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:16",
+      "id": "v2_hmmt_nov2025:16",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:17",
+      "id": "v2_hmmt_nov2025:17",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:18",
+      "id": "v2_hmmt_nov2025:18",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:19",
+      "id": "v2_hmmt_nov2025:19",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:2",
+      "id": "v2_hmmt_nov2025:2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:20",
+      "id": "v2_hmmt_nov2025:20",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:21",
+      "id": "v2_hmmt_nov2025:21",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:22",
+      "id": "v2_hmmt_nov2025:22",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:23",
+      "id": "v2_hmmt_nov2025:23",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:24",
+      "id": "v2_hmmt_nov2025:24",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:25",
+      "id": "v2_hmmt_nov2025:25",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:26",
+      "id": "v2_hmmt_nov2025:26",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:27",
+      "id": "v2_hmmt_nov2025:27",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:28",
+      "id": "v2_hmmt_nov2025:28",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:29",
+      "id": "v2_hmmt_nov2025:29",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:3",
+      "id": "v2_hmmt_nov2025:3",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:30",
+      "id": "v2_hmmt_nov2025:30",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:4",
+      "id": "v2_hmmt_nov2025:4",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:5",
+      "id": "v2_hmmt_nov2025:5",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:6",
+      "id": "v2_hmmt_nov2025:6",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:7",
+      "id": "v2_hmmt_nov2025:7",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:8",
+      "id": "v2_hmmt_nov2025:8",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:9",
+      "id": "v2_hmmt_nov2025:9",
+      "value": 1.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.37083333333333335,
+    "learnable_fraction": 0.4,
+    "math_avg_at_8": 0.375,
+    "math_maj_at_8": 0.5,
+    "math_pass_at_8": 0.5333333333333333,
+    "math_strict_avg_at_8": 0.375,
+    "median_tokens": 16384.0,
+    "natural_stop_parse_failure_rate": 0.0,
+    "p95_tokens": 16384.0,
+    "p99_tokens": 16384.0,
+    "solved_problem_count": 16.0,
+    "stop_rate": 0.44166666666666665,
+    "timeout_killed_rollouts": 0.0,
+    "truncation_rate": 0.5583333333333333
+  },
+  "n_problems": 30,
+  "protocol_id": "v2_math_holdout_hmmt_nov2025",
+  "schema_version": "1.0",
+  "scored_at_utc": "2026-11-19T13:55:41.431482+00:00",
+  "track": "math"
+}

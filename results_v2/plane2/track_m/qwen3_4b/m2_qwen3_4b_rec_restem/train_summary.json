@@ -1,0 +1,32 @@
+{
+  "adapted_linear_modules": 252,
+  "base_model": "/scratch/governed_slm_rsi_v2/models/Qwen3-4B",
+  "data_audit": {
+    "dropped_whole_overlong_rows": 0,
+    "seq_len_max": 10344,
+    "seq_len_p50": 7582,
+    "seq_len_p95": 10084,
+    "sup_eos_id": 151645,
+    "supervised_tokens_total": 4509382,
+    "total_traces": 626,
+    "unique_problems": 234
+  },
+  "final_loss": 0.19473810493946075,
+  "global_steps": 40,
+  "gpu_hours": 1.005402173275749,
+  "initial_loss": 0.2027631551027298,
+  "merge_parity": {
+    "max_abs_logit_diff": 0.8125,
+    "mean_abs_logit_diff": 0.06711158156394958,
+    "merged_linear_tensors": 252,
+    "top1_token_agreement": 1.0
+  },
+  "model_key": "qwen3_4b",
+  "output_dir": "/scratch/governed_slm_rsi_v2/checkpoints/track_m/m2_qwen3_4b_rec_restem",
+  "peak_allocated_gib": 13.13478422164917,
+  "total_params": 4088528384,
+  "train_file": "/scratch/governed_slm_rsi_v2/data/verified_banks_v2/math_qwen3_4b_r2_cumulative.jsonl",
+  "train_wall_seconds": 452.430977974087,
+  "trainable_fraction": 0.016157473250893787,
+  "trainable_params": 66060288
+}

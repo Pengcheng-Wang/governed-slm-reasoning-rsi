@@ -1,0 +1,28 @@
+{
+  "amendment_id": "AMENDMENT_V3_6_CONJUNCTIVE_DUAL_LEDGER",
+  "anchored_v2_manifest_root_sha256": "f79f2fcf32262a0455ba85256ea2c4a8ab72b3eef94c76f0399190932e74ccf2",
+  "conjunctive_law": {
+    "comparator_first_pinning": "Zero-shot comparators (B_0, Qwen3.8-27B, Goedel-Prover-V2-8B) are evaluated and SHA-256 pinned BEFORE reserving HOLDOUT_SEAL_*.json (O_CREAT | O_EXCL + fsync on local NVMe) or evaluating any promoted A* candidate.",
+    "holdout_conjunctive_inference": "Both item-pooled (N=200) and equal_stratum (4 x 1/4) stratified Rademacher sign-flip permutation p_one_sided must pass Holm-Bonferroni across all promoted models in the track.",
+    "holdout_math_strata_counts": {
+      "beyondaime": 100,
+      "brumo2025": 30,
+      "cmimc2025": 40,
+      "hmmt_nov2025": 30
+    },
+    "holm_bonferroni_indexing": "0-based step-down alpha / (K - rank_0) across ALL K tested challengers in track, stopping at first non-rejection.",
+    "math500_retention_role": "Evaluated outside the 4-contest average (N=150, mean@8 per item) as a non-degradation retention check.",
+    "rule": "v3.6 can ONLY veto a v2 Confirmation PROMOTE, never rescue a v2 ROLLBACK.",
+    "unpromoted_holdout_policy": "Any challenger failing Confirmation retains B_0 and is NEVER evaluated on Protected Holdout."
+  },
+  "created_at_utc": "2026-11-19T12:05:29.137589+00:00",
+  "guard_v36_script_sha256": "90652db6649ad43cc3894f784c45e47d99f844807cda7c5ead0bd4c79ef1970a",
+  "sealed_holdout_split_sha256": {
+    "lean_proofnet_test": "591c0dc05d124cb8ba4833d67d2ea112c05900568d992df724dc522f7d1c3e32",
+    "math_beyondaime": "fa06eee936eb1418a64ca86da11bf6361baee266082fc9d05729b3c91d36a0dc",
+    "math_brumo2025": "5e879d5eba20b5fa238830597860f21baac294e8b35914fc0dd565ff7d8c6d4a",
+    "math_cmimc2025": "783e3242839d00590f2b9239d70273e7c4c04c3c6b8f0fd2e189b8632fe8c2d7",
+    "math_hmmt_nov2025": "bfd38ca4f6cedc621c3a59cbf66c9b7ac73e18853d43827a66ddecfbd48dace5"
+  },
+  "status": "MID_CAMPAIGN_AMENDMENT_PRE_HOLDOUT"
+}

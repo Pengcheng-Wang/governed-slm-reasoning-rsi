@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 0.8929331539224626,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 12288,
+  "model_key": "qwen35_4b",
+  "model_path": "/scratch/governed_slm_rsi_v1/models/qwen35_4b",
+  "n_problems": 100,
+  "n_requests": 800,
+  "n_workers": 8,
+  "output": "/scratch/governed_slm_rsi_v2/results/holdout/math_beyondaime/b0_qwen35_4b.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_math_holdout_beyondaime_prompts.jsonl",
+  "stop_rate": 0.64375,
+  "temperature": 0.7,
+  "thinking": false,
+  "toks_per_sec": 19322.944502602742,
+  "total_completion_tokens": 7764344,
+  "tp": 1,
+  "truncation_rate": 0.35625,
+  "wall_seconds": 401.8199192651082
+}

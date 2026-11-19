@@ -1,0 +1,22 @@
+{
+  "candidate_id": "confirm_ref_goedel_8b",
+  "protocol_id": "v2_lean_confirm",
+  "model_key": "goedel_8b",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_lean_confirm171.jsonl",
+  "split_sha256": "985d1de5a151007a81eba731dd8eb24898228a1fc0ab136dfa5fc24df6dc21f9",
+  "gen_prompts_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_lean_confirm171.jsonl",
+  "gen_prompts_sha256": "985d1de5a151007a81eba731dd8eb24898228a1fc0ab136dfa5fc24df6dc21f9",
+  "ckpt": {
+    "model_path": "/scratch/governed_slm_rsi_v2/models/Goedel-Prover-V2-8B",
+    "config.json": "6d4190d4c7ae77cba38a83cce1152ead961929795a7a95d4814b3fb65ab878a3",
+    "model.safetensors.index.json": "3649bb967710edc0f995e3839a363a069482a1688216f87745248966751d0221",
+    "tokenizer_config.json": "5d27a191a7ba6f93bcc2a8e78bc633764bbaaee263e9f3d9225e2c8621a5dd72"
+  },
+  "k": 8,
+  "thinking": false,
+  "temperature": 0.8,
+  "presence_penalty": 0.0,
+  "max_tokens": 2048,
+  "seed": 20261118,
+  "metrics_sha256": "d6bafbde87b5be3c15a99e81080d5b1f1bd580d4e2323a61d67883d2670d9761"
+}

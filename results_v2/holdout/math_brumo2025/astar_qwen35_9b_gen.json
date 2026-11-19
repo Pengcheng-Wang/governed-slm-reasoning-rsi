@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 0.6681400194826226,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 12288,
+  "model_key": "qwen35_9b",
+  "model_path": "/scratch/governed_slm_rsi_v2/checkpoints/track_m/m3_qwen35_9b_dapo_chunked12k",
+  "n_problems": 30,
+  "n_requests": 240,
+  "n_workers": 8,
+  "output": "/scratch/governed_slm_rsi_v2/results/holdout/math_brumo2025/astar_qwen35_9b.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_math_holdout_brumo2025_prompts.jsonl",
+  "stop_rate": 0.9333333333333333,
+  "temperature": 0.7,
+  "thinking": false,
+  "toks_per_sec": 4809.577360145973,
+  "total_completion_tokens": 1446062,
+  "tp": 1,
+  "truncation_rate": 0.06666666666666667,
+  "wall_seconds": 300.66300876718014
+}

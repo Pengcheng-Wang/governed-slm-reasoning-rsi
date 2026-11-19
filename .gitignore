@@ -32,3 +32,6 @@ __pycache__/
 *.partial
 .hop-*.sh
 .transfer-*.tgz
+.isolated_caches/
+.shards_*/
+.runtime_unique_id_views/

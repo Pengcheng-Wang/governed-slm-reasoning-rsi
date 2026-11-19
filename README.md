@@ -1,6 +1,34 @@
-# `AILab_Governed_SLM_RSI_v1` — Two-Plane Governed Recursive Self-Improvement for Small Language Models on Formal Lean 4.24 & Competition Mathematics
+# `AILab_Governed_SLM_RSI` — Two-Plane Governed Recursive Self-Improvement for Small Language Models (`3.8B–9B`) on Formal Lean 4.24 & Competition Mathematics (Phases V1 & V2)
 
 ## 1. Executive Summary
+
+Across **Phase V1** (`IMMUTABLE_MANIFEST.json`, `33` files, `6` ledgers, `28` Holdout receipts) and **Phase V2** (`IMMUTABLE_MANIFEST_V2.json`, `20` files, Conjunctive `v2 + v3.6` dual-ledger governance, `14` ledgers, `38` Holdout receipts), we studied whether **Small Language Models (`3.8B–9B`) can self-improve on challenging formal Lean 4.24 theorem proving and competition/olympiad mathematics with zero external teacher traces** under executable two-plane governance (`/governed-loop-optimization`) and frontier adversarial review (`/copilot-app-frontier-cowork` at `Max` effort: `GPT-6.2 Sol Max`, `GPT 6.2 Astra, Max`, and `Opus 5.5, Max`).
+
+### Headline Verified Outcomes Across Both Phases (Single-Touch Protected Holdout)
+
+1. **Phase V2 Multi-Architecture Olympiad & 2025 Contest Mathematics (`N=200` Decontaminated 4-Contest Holdout: `BeyondAIME` `100`, `CMIMC 2025` `40`, `BRUMO 2025` `30`, `HMMT Nov 2025` `30`, zero external teacher traces):**
+   - **`Qwen3.5-9B` (`m3_qwen35_9b_dapo_chunked12k` — Checkpointed-Chunk `12k` `DAPO + LUFFY` RLVR):**
+     - **Item-pooled (`N=200`):** **`38.44% -> 48.94%` `math_avg_at_8` (`+10.50 pp`, 95% CI `[+7.88, +13.19] pp`, 20k stratified sign-flip Monte Carlo `p = 5.0e-5` [`0/20,000` flips exceeded observed gain])**, `pass@8`: **`70.00% -> 74.00%`**, `stop_rate`: **`55.38% -> 80.88%` (`+25.50 pp`)**.
+     - **Equal-stratum (`4 x 1/4`):** **`42.33% -> 53.14%` `math_avg_at_8` (`+10.80 pp`, 95% CI `[+7.83, +13.86] pp`, Monte Carlo `p = 5.0e-5`)**, improving every contest (`BeyondAIME +9.88 pp`, `BRUMO 2025 +13.75 pp`, `CMIMC 2025 +11.25 pp`, `HMMT Nov 2025 +8.33 pp`).
+   - **`Qwen3.5-4B` (`m3_qwen35_4b_dapo_chunked12k`):**
+     - **Item-pooled (`N=200`):** **`36.13% -> 43.31%` `math_avg_at_8` (`+7.19 pp`, 95% CI `[+4.81, +9.63] pp`, Monte Carlo `p = 5.0e-5`)**, `pass@8`: **`66.00% -> 70.50%`**, `stop_rate`: **`66.50% -> 88.00%` (`+21.50 pp`)**.
+     - **Equal-stratum (`4 x 1/4`):** **`39.88% -> 46.99%` `math_avg_at_8` (`+7.11 pp`, 95% CI `[+4.29, +9.85] pp`, Monte Carlo `p = 5.0e-5`)**.
+     - *Exploratory cross-scale contrast:* Self-improved `Qwen3.5-4B` (`A*`) outperforms untuned `2.25x`-larger `Qwen3.5-9B` (`B_0`) across all 4 contests (**`+4.88 pp` item-pooled, `p = 0.00075`; `+4.66 pp` equal-stratum, `p = 0.00215`**), while zero-shot `Qwen3.8-27B` (`57.75%` pooled / `62.19%` equal-stratum) remains higher.
+   - **Architectural & Cold-Start Boundaries (`Qwen3-4B` Pure Dense & `Phi-4-mini-reasoning` `3.8B` LongRoPE):**
+     - `Qwen3-4B` (`think16k`) improved `+1.07 pp` on Search and `+2.49 pp` on `Omni-MATH` Confirmation (`29.79% -> 32.28%`, `p = 0.00066`, passing the `2.00 pp` config gate) and was conservatively withheld from Holdout by the orchestrator's `3.00 pp` filter (`B_0 = 33.19%` pooled retained).
+     - `Phi-4-mini-reasoning` (`3.8B` `<think>`) rolled back on all `3/3` Search attempts (`25.88%` `B_0` retained; Holdout `B_0 = 18.75%` pooled) despite fixing a LongRoPE `96`-dim `inv_freq` DDP broadcast deadlock and uncensoring pool generation (`8k -> 12k`), demonstrating that extreme `<think>` verbosity (`54–69%` truncation) resists weight-only self-play without length-curriculum distillation.
+
+2. **Phase V1 & V2 Formal Lean `v4.24.0 + Mathlib` Theorem Proving (In-Domain Gains vs. Cross-Distribution Vocabulary Wall):**
+   - **In-Domain Competition Formalization:** In Phase V1 Holdout (`MiniF2F-v2s test`, `N=244`), `Qwen3.5-4B` rose **`27.66% -> 33.15%` `lean_avg_at_8` (`+5.48 pp`, 95% CI `[+2.92, +8.09] pp`, `100%` `#print axioms` clean)**, surpassing untuned `Qwen3.5-9B` (`30.02%`). In Phase V2 `Lean-Workbook` Search (`N=120`), `Qwen3.5-9B` rose **`48.02% -> 55.52%` (`+7.50 pp`)** (surpassing `Qwen3.8-27B` `41.98%` and closing `72%` of the Search gap to specialist `Goedel-Prover-V2-8B` `58.44%`) and `Qwen3.5-4B` rose **`40.73% -> 49.58%` (`+8.85 pp`)**.
+   - **Cross-Distribution Formal Shift (`Lean-Workbook -> ProofNet-Lean4`):** On undergraduate textbook `ProofNet-valid` (`N=164`, Rudin/Munkres/Dummit-Foote), Mathlib definition shift dropped even specialist `Goedel-Prover-V2-8B` to `8.38%`; `Qwen3.5-9B` (`3.35% -> 3.89%`, exact paired sign-test `p = 0.500`) and `Qwen3.5-4B` (`2.21% -> 2.90%`, `p = 0.363`) showed no statistically detectable gain, so Conjunctive governance rolled both back and left `ProofNet-test` (`N=167`) strictly untouched by `A*` (`B_0` retained).
+
+3. **Controlled Causal Isolations (Phase V2):**
+   - **3-Arm Recursion Isolation (`M_2^{frozen-gen}` vs `M_2^{rec-yield}` vs `M_2^{rec-full}`):** At matched trace count (`992`) and optimizer steps (`62`), `M_2^{rec-yield}` vs `M_2^{frozen-gen}` showed no statistically detectable difference (`+0.49 pp` Math, 95% CI `[-2.05, +2.93] pp`; `-0.73 pp` Lean, 95% CI `[-5.21, +3.65] pp`), showing Round-2 `ReST^EM` saturates quickly while Round-3 Checkpointed-Chunk `DAPO + LUFFY` online RLVR drives the decisive post-Round-1 leap (`+4.20 pp` on `4B`, `+3.42 pp` on `9B` Math).
+   - **4-Way Lean Compiler-Repair Isolation (`direct8` vs `masked_retry_4+4` vs `shuffled_diag_4+4` vs `compiler_repair_4+4`):** `10/10/11/11` of `164` on `ProofNet-valid` (no detectable benefit over `direct8`) and exploratory `60.83%` (`direct8`) vs `57.50%` across all three draft-conditioned `4+4` repair arms on `v2_lean_search120`, diagnosing failed-draft anchoring on `4B` single-turn repair and cleanly withholding repair promotion to Holdout.
+
+---
+
+### Phase V1 Background & Motivation
 
 Prior `AILab*` studies exposed two severe walls when post-training hybrid Gated-DeltaNet Small Language Models (`Qwen/Qwen3.5-4B` and `Qwen/Qwen3.5-9B`) on hard formal theorem proving and competition mathematics:
 - In **`AILab_SLM_Qwen35_v1`** (Competition Math), every `Qwen3.5-4B` post-training attempt regressed (`-6 pp` LoRA, `-56` to `-63 pp` Full SFT due to chat-template/EOS/merge mismatches), and hard contest benchmarks (`AIME 2026`, `HMMT Feb 2026`) suffered runaway `<think>` truncation (`24–33%+` unfinished traces).
@@ -166,4 +194,126 @@ Protected Holdout was touched **exactly once** (`28` cryptographic `*_receipt.js
   - `plane2/`: Verified hash-chained ledgers (`track_l_ledger.jsonl`, `track_m_4b_ledger.jsonl`, `track_m_9b_ledger.jsonl`).
   - `confirm/`: `confirm_summary.json` and per-track Confirmation ledgers (`track_l_confirm_ledger.jsonl`, `track_m_4b_confirm_ledger.jsonl`, `track_m_9b_confirm_ledger.jsonl`).
   - `holdout/`: `holdout_final_summary.json` (all `28` single-touch receipts, metrics, and `10,000`-resample paired bootstrap CIs).
-- `sources/`: Three rounds of independent `GPT-6.2 Sol Max` frontier adversarial design, pre-Confirmation, and post-Holdout claim audits.
+- `sources/`: Three rounds of independent `GPT-6.2 Sol Max` frontier adversarial design, pre-Confirmation, and post-Holdout claim audits (Phase V1) plus five-section M365 Copilot `Cowork` (`GPT 6.2 Astra, Max` & `Opus 5.5, Max`) + post-Holdout adversarial review dossier (`sources/cowork_v2_frontier_design_review.md`).
+
+---
+
+## 9. Phase V2 — Multi-Architecture & Multi-Benchmark Expansion (`IMMUTABLE_MANIFEST_V2.json` + `AMENDMENT_V3_6.json`)
+
+Phase V2 kept Phase V1 `100%` sealed and expanded governed zero-teacher self-improvement across **4 Small Language Models (`3.8B–9B`, 3 distinct Transformer/SSM families) + 2 specialist/frontier references** on **completely disjoint** benchmarks (`0` statement/text SHA-256 overlap with Phase V1):
+- **SLM Candidates (`0` external teacher traces):**
+  1. `Qwen/Qwen3.5-4B` (`4B` Hybrid Gated-DeltaNet + Softmax, `248` linear projections, `r=32`)
+  2. `Qwen/Qwen3-4B` (`4B` Size-Matched Pure Dense Transformer, `252` linear projections, `r=32`)
+  3. `microsoft/Phi-4-mini-reasoning` (`3.8B` LongRoPE `<think>` family, `128` fused projections, parameter-matched `r=48`)
+  4. `Qwen/Qwen3.5-9B` (`9B` Hybrid Gated-DeltaNet + Softmax, recovering V1's `2,688`-token OOM via Checkpointed-Chunk `12,288`-token RLVR)
+- **Zero-Shot Reference Comparators:** `Goedel-LM/Goedel-Prover-V2-8B` (specialist Lean 4 prover) and `Qwen/Qwen3.8-27B`.
+- **Disjoint Splits (`IMMUTABLE_MANIFEST_V2.json`, `20/20` entries `VERIFIED`, root SHA-256 `f79f2fcf32262a0455ba85256ea2c4a8ab72b3eef94c76f0399190932e74ccf2`):**
+  - *Track L (Lean `v4.24.0 + Mathlib`):* `Lean-Workbook` Search (`N=120`) + `1,000`-theorem training pool -> **`ProofNet-Lean4 valid` (`N=164` unique elaborated theorems) Confirmation** -> **`ProofNet-Lean4 test` (`N=167` unique elaborated theorems) Protected Holdout**.
+  - *Track M (Olympiad & 2025 Contest Math):* Disjoint Contest Search (`N=128`) + `360`-problem training pool -> **`Omni-MATH Tier 3–4` (`N=256`) Confirmation** -> **Decontaminated `2025` 4-Contest Protected Holdout (`N=200`: `BeyondAIME` `100`, `CMIMC 2025` `40`, `BRUMO 2025` `30`, `HMMT Nov 2025` `30`)**, plus reused V1 `MATH-500` (`N=150`) general-math retention check outside the 4-contest average.
+
+---
+
+## 10. Phase V2 Plane-1 Calibration & Plane-2 Weight-Space RSI (`8` Model x Track Pipelines)
+
+| Track & Split | Model (`Architecture / Channel`) | Calibrated `B_0` `avg@8` (`pass@8`) | Round-1 `ReST^EM` | Round-2 Recursive `ReST^EM` | Round-3 Checkpointed-Chunk `12k` `DAPO + LUFFY` | Search Outcome (`Incumbent`) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **Track L (`v2_lean_search120`)** | **`Qwen3.5-9B` (`Hybrid GDN`, `direct`)** | `48.02%` (`63.33%`) | `50.73%` | `53.13%` | **`55.52%` (`+7.50 pp`)** | **`3/3` `PROVISIONAL_KEEP`** |
+| **Track L (`v2_lean_search120`)** | **`Qwen3.5-4B` (`Hybrid GDN`, `direct`)** | `40.73%` (`55.00%`) | `46.77%` | `48.54%` | **`49.58%` (`+8.85 pp`)** | **`3/3` `PROVISIONAL_KEEP`** |
+| **Track L (`v2_lean_search120`)** | `Qwen3-4B` (`Pure Dense`, `think6k`) | `5.42%` (`13.33%`) | `5.83%` | `5.63%` | `5.10%` | `3/3` `ROLLBACK` (`B_0` kept) |
+| **Track L (`v2_lean_search120`)** | `Phi-4-mini-reasoning` (`3.8B`, `think6k`) | `0.31%` (`2.50%`) | — | — | — | Pre-registered skip (`learnable = 2.5% < 10%`) |
+| **Track L Comparators** | `Goedel-Prover-V2-8B` / `Qwen3.8-27B` | `58.44%` / `41.98%` | — | — | — | Zero-shot references |
+| **Track M (`v2_math_search128`)** | **`Qwen3.5-9B` (`Hybrid GDN`, `direct12k`)** | `37.60%` (`54.69%`, `stop 56.5%`) | `42.29%` | `45.90%` | **`49.32%` (`+11.72 pp`, `stop 81.5%`)** | **`3/3` `PROVISIONAL_KEEP`** |
+| **Track M (`v2_math_search128`)** | **`Qwen3.5-4B` (`Hybrid GDN`, `direct12k`)** | `36.72%` (`56.25%`, `stop 64.8%`) | `41.50%` | `42.29%` (`< +1 pp`) | **`45.70%` (`+8.98 pp`, `stop 88.5%`)** | **`m1` & `m3` `PROVISIONAL_KEEP`** |
+| **Track M (`v2_math_search128`)** | **`Qwen3-4B` (`Pure Dense`, `think16k`)** | `35.94%` (`44.53%`, `stop 56.5%`) | `36.62%` | **`37.01%` (`+1.07 pp`)** | `36.43%` | **`m2` `PROVISIONAL_KEEP`** |
+| **Track M (`v2_math_search128`)** | `Phi-4-mini-reasoning` (`3.8B`, `think12k`) | `25.88%` (`39.84%`, `stop 46.4%`) | `25.68%` | `25.29%` (`12k` uncensored) | `24.41%` (`stop` breach) | `3/3` `ROLLBACK` (`B_0` kept) |
+| **Track M Comparator** | `Qwen3.8-27B` (`direct12k`) | `51.95%` (`65.62%`, `stop 99.2%`) | — | — | — | Zero-shot reference |
+
+- **Systems & Memory Engineering Highlights:**
+  1. **Checkpointed-Chunk `12,288`-Token Logits RLVR (`code/v2/train_dapo_chunked_v2.py`):** Applying `lm_head + log_softmax + gather` in checkpointed `1,024`-token completion chunks reduced `Qwen3.5-9B` `12k` RLVR peak VRAM from `39.7 GB` (OOM in V1) to `< 30 GB` on `80 GB` A100s, unlocking `+11.72 pp` on Search (`stop_rate`: `56.54% -> 81.45%`) and `+13.57 pp` on Confirmation!
+  2. **`Phi-4-mini` LongRoPE `inv_freq` DDP Deadlock Fix:** `Phi3LongRoPEScaledRotaryEmbedding` dynamically swaps its `96`-dim `inv_freq` buffer across the `4,096`-token threshold (`short_factor` vs `long_factor`), causing `WorkNCCL(OpType=BROADCAST, NumelIn=96)` rank hangs when ranks hold mixed `< 4,096` and `> 4,096` microbatches. Setting `DDP(..., broadcast_buffers=False)` + pre-merge `dist.destroy_process_group()` eliminated the deadlock cleanly.
+
+---
+
+## 11. Phase V2 Controlled Causal Isolations (`Qwen3.5-4B`)
+
+1. **3-Arm Recursive vs. Frozen-Generator Control (Round 2 from `M_0`, Matched Prompts & Optimizer Budget):**
+   - **Track M (`v2_math_search128`):** `B_0 = 36.72%`, `M_1 = 41.50%` -> `M_2^{frozen-gen} = 41.89%`, `M_2^{rec-full} = 42.29%` (`+0.39 pp` vs `frozen-gen`, 95% CI `[-1.95, +2.73] pp`), `M_2^{rec-yield} = 42.38%` (`+0.49 pp` vs `frozen-gen`, 95% CI `[-2.05, +2.93] pp`, matched `992` traces & `62` steps).
+   - **Track L (`v2_lean_search120`):** `B_0 = 40.73%`, `M_1 = 46.77%` -> `M_2^{frozen-gen} = 49.79%`, `M_2^{rec-yield} = 49.06%` (`-0.73 pp` vs `frozen-gen`, 95% CI `[-5.21, +3.65] pp`), `M_2^{rec-full} = 48.54%` (`-1.25 pp`, 95% CI `[-5.42, +2.71] pp`).
+   - **Finding:** At matched trace counts and gradient steps, `M_2^{rec-yield}` and `M_2^{frozen-gen}` show **no statistically detectable difference**: recursive `M_1` expands pool frontier coverage (`+19` solved Math pool problems) and halves Lean proof length (`median_tokens`: `232.5 -> 122.5`), while off-policy Round-2 `ReST^EM` saturates quickly and **Round-3 Checkpointed-Chunk `DAPO + LUFFY` online RLVR drives the decisive post-R1 gain (`+4.20 pp` on `4B`, `+3.42 pp` on `9B` Math)**.
+
+2. **4-Way Call-Matched (`<= 8` Calls) Lean Compiler-Diagnostic Repair Isolation:**
+   - **OOD `ProofNet-valid` (`N=164`):** `direct8 = 6.10%` (`10/164`), `compiler_repair_4+4 = 6.10%` (`10/164`), `masked_retry_4+4 = 6.71%` (`11/164`), `shuffled_diag_4+4 = 6.71%` (`11/164`) -> **inconclusive / no detectable benefit over `direct8` at 8 attempts**, cleanly withholding 2-pass repair promotion to Holdout.
+   - **Exploratory In-Domain `v2_lean_search120` (`N=120`):** `direct8 = 60.83%` (`73/120`, `8.00` calls) vs `57.50%` (`69/120`, `5.84` calls) across all three `4+4` repair variants (`compiler_repair_4+4`, `masked_retry_4+4`, `shuffled_diag_4+4`), showing that conditioning a `4B` model on its own failed proof draft induces **failed-draft anchoring** relative to `4` fresh independent samples.
+
+---
+
+## 12. Phase V2 Conjunctive `v2 + v3.6` Confirmation Firewall (`results_v2/confirm/v2_confirm_summary.json`)
+
+Before any Protected Holdout access, `AMENDMENT_V3_6.json` (`85cd4407bc7a6c4e72ccf120edc40d17c9f5f1c7774eb5f1961e8f26ad1ee45b`) layered `governed_loop_guard_v3.py` (`v3.6`) as a strict **veto-only conjunction** over `IMMUTABLE_MANIFEST_V2.json`:
+
+| Track & Split | Model | `B_0 -> A*` `avg@8` (`pass@8`) | Paired Delta (95% CI) | One-Sided `p` | `stop_rate` (`B_0 -> A*`) | Conjunctive Verdict |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **Track M (`Omni-MATH Tier 3–4`, `N=256`)** | **`Qwen3.5-9B`** | **`33.45% -> 47.02%`** (`58.98% -> 65.23%`) | **`+13.57 pp` (`[+10.99, +16.26]`)** | **`6.46e-24`** | **`51.42% -> 79.25%`** | **`PROMOTE` (`v2` & `v3.6`)** |
+| **Track M (`Omni-MATH Tier 3–4`, `N=256`)** | **`Qwen3.5-4B`** | **`34.13% -> 43.41%`** (`58.20% -> 64.84%`) | **`+9.28 pp` (`[+6.74, +11.96]`)** | **`1.36e-12`** | **`62.35% -> 86.57%`** | **`PROMOTE` (`v2` & `v3.6`)** |
+| **Track M (`Omni-MATH Tier 3–4`, `N=256`)** | `Qwen3-4B` (`think16k`) | `29.79% -> 32.28%` (`41.41% -> 42.97%`) | `+2.49 pp` (`[+1.03, +4.05]`) | `6.58e-4` | `46.53% -> 53.71%` | **Withheld (`< 3.00 pp` orchestrator bar; see §14)** |
+| **Track M (`Omni-MATH Tier 3–4`, `N=256`)** | `Phi-4-mini` / `Qwen3.8-27B` | `20.80%` (`B_0`) / `51.66%` (`Ref`) | — | — | `40.97%` / `98.83%` | Untested (`0` Search promotions) / Ref |
+| **Track L (`ProofNet-valid`, `N=164`)** | `Qwen3.5-9B` | `3.35% -> 3.89%` (`7.32% -> 9.76%`) | `+0.53 pp` (`[-0.53, +1.68]`) | `p_exact = 0.500` | `86.28% -> 99.16%` | **`ROLLBACK` (`B_0` retained)** |
+| **Track L (`ProofNet-valid`, `N=164`)** | `Qwen3.5-4B` | `2.21% -> 2.90%` (`6.71% -> 7.93%`) | `+0.69 pp` (`[-0.53, +2.06]`) | `p_exact = 0.363` | `86.74% -> 99.54%` | **`ROLLBACK` (`B_0` retained)** |
+| **Track L (`ProofNet-valid`, `N=164`)** | `Goedel-8B` / `Qwen3.8-27B` | `8.38%` / `3.05%` | — | — | `67.15%` / `32.70%` | Zero-shot references |
+
+---
+
+## 13. Phase V2 Single-Touch Protected Holdout (`38` Verified Receipts, `HOLDOUT_SEAL_*` `FINALIZED`)
+
+Zero-shot comparators were evaluated and SHA-256 pinned (`COMPARATOR_PIN_track_m_{qwen35_4b,qwen35_9b}.json`) and `HOLDOUT_SEAL_track_m_{qwen35_4b,qwen35_9b}.json` were atomically reserved (`O_CREAT | O_EXCL` + `fsync`) **before** evaluating the two promoted `A*` models strictly once on Protected Holdout. Unpromoted challengers were **never evaluated on Protected Holdout**.
+
+### 13.1 Track M Protected Holdout — Decontaminated `2025` 4-Contest Suite (`N=200`, `k=8`)
+
+| Contest / Aggregation (`N`) | `Phi-4-mini B_0` | `Qwen3-4B B_0` | `Qwen3.5-4B B_0` | **`Qwen3.5-4B A*`** (`Delta vs 4B B_0`) | `Qwen3.5-9B B_0` | **`Qwen3.5-9B A*`** (`Delta vs 9B B_0`) | `Qwen3.8-27B` (Ref) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **`BeyondAIME` (`N=100`)** | `14.38%` | `27.63%` | `29.50%` | **`37.75%` (`+8.25 pp`)** | `32.25%` | **`42.13%` (`+9.88 pp`)** | `50.75%` |
+| **`CMIMC 2025` (`N=40`)** | `20.00%` | `30.00%` | `37.50%` | **`38.13%` (`+0.63 pp`)** | `35.00%` | **`46.25%` (`+11.25 pp`)** | `53.44%` |
+| **`BRUMO 2025` (`N=30`)** | `33.75%` | `51.67%` | `53.75%` | **`61.67%` (`+7.92 pp`)** | `57.92%` | **`71.67%` (`+13.75 pp`)** | `77.50%` |
+| **`HMMT Nov 2025` (`N=30`)** | `16.67%` | `37.50%` | `38.75%` | **`50.42%` (`+11.67 pp`)** | `44.17%` | **`52.50%` (`+8.33 pp`)** | `67.08%` |
+| **Item-Pooled `avg@8` (`N=200`)** | `18.75%` | `33.19%` | `36.13%` | **`43.31%` (`+7.19 pp`, CI `[+4.81, +9.63]`)** | `38.44%` | **`48.94%` (`+10.50 pp`, CI `[+7.88, +13.19]`)** | `57.75%` |
+| **Equal-Stratum `avg@8` (`4 x 1/4`)** | `21.20%` | `36.70%` | `39.88%` | **`46.99%` (`+7.11 pp`, CI `[+4.29, +9.85]`)** | `42.33%` | **`53.14%` (`+10.80 pp`, CI `[+7.83, +13.86]`)** | `62.19%` |
+| **Item-Pooled `pass@8` (`N=200`)** | `33.00%` | `52.50%` | `66.00%` | **`70.50%` (`+4.50 pp`)** | `70.00%` | **`74.00%` (`+4.00 pp`)** | `82.00%` |
+| **Item-Pooled `stop_rate` (`N=200`)** | `33.50%` | `44.88%` | `66.50%` | **`88.00%` (`+21.50 pp`)** | `55.38%` | **`80.88%` (`+25.50 pp`)** | `98.13%` |
+| **20k Stratified Sign-Flip `p` (vs own `B_0`)** | — | — | — | **Monte Carlo `p = 5.0e-5` (`0/20,000`)** | — | **Monte Carlo `p = 5.0e-5` (`0/20,000`)** | — |
+| **Reused V1 `MATH-500` Check (`N=150`, `mean@8`)** | — | — | `95.17%` | **`96.00%` (`+0.83 pp`, `100% pass@8`)** | `96.08%` | **`97.92%` (`+1.83 pp`, CI `[+0.42, +3.50]`)** | — |
+
+- **Exploratory Cross-Scale Contrasts (Outside Pre-Registered `A* vs own B_0` Family):**
+  - `Qwen3.5-4B A*` vs untuned `Qwen3.5-9B B_0`: **`+4.88 pp` item-pooled (`95%` CI `[+2.00, +7.75] pp`, stratified sign-flip `p = 0.00075`)** and **`+4.66 pp` equal-stratum (`95%` CI `[+1.50, +7.79] pp`, `p = 0.00215`)**, winning on all 4 contests (`+5.50`, `+3.13`, `+3.75`, `+6.25 pp`).
+  - Against zero-shot `Qwen3.8-27B`, `Qwen3.5-9B A*` (`-8.81 pp` pooled, `-9.06 pp` equal-stratum) and `Qwen3.5-4B A*` (`-14.44 pp` pooled, `-15.20 pp` equal-stratum) close `54.4%` and `33.2%` of their respective `B_0 -> 27B` gaps while remaining below `27B`.
+
+### 13.2 Track L Protected Holdout — `ProofNet-Lean4 test` (`N=167`, Zero-Shot Baselines Only; `A*` Untouched)
+
+| Metric (`N=167`, `k=8`) | `Phi-4-mini B_0` | `Qwen3-4B B_0` | `Qwen3.5-4B B_0` | `Qwen3.5-9B B_0` | `Qwen3.8-27B` (Ref) | `Goedel-Prover-V2-8B` (Specialist Ref) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **`lean_avg_at_8`** | `0.00%` | `0.07%` | `1.72%` | **`2.69%`** | `2.62%` | **`7.86%`** |
+| **`lean_pass_at_8`** | `0.00%` | `0.60%` | `4.19%` | **`7.78%`** | `7.19%` | **`12.57%`** |
+
+---
+
+## 14. Protocol Transparency & Audit Reconciliations (`sources/cowork_v2_frontier_design_review.md` §5)
+
+1. **`Qwen3-4B` Confirmation Threshold & Holm Family:** `configs_v2/gate_rules_v2_math_confirm.json` and `program_v2.md` specified `min_improvement = 2.00 pp` and one-sided family `alpha = 0.025`, whereas `code/v2/run_v2_confirm_and_holdout.py` enforced a stricter `3.00 pp` orchestrator filter (`min_eff = 0.030`, per-track `alpha = 0.05`). Under **both** family definitions (`alpha = 0.025` or `0.05`, per-track `K=3` or global `K=5`), `Qwen3.5-9B` (`p = 6.46e-24`) and `Qwen3.5-4B` (`p = 1.36e-12`) unequivocally pass. `Qwen3-4B` (`+2.49 pp`, `p = 6.58e-4`) passed both the `2.00 pp` config gate (`v2` & `v3.6` gate JSONs returned `PROMOTE`) and `alpha = 0.025` Holm-Bonferroni, and was conservatively withheld from Holdout solely by the orchestrator's `3.00 pp` filter (`B_0` retained).
+2. **Monte Carlo Permutation Resolution:** `p = 5.0e-5` on Holdout reflects `0` of `20,000` stratified Rademacher sign flips exceeding the observed statistic (`1 / 20,001` Monte Carlo resolution floor under paired-difference symmetry), not an exact analytic `p`-value.
+3. **Retention Set & Provenance Scope:** `math_holdout_retention150.jsonl` (`N=150`) is a reused V1 descriptive retention check outside the 4-contest Holdout average rather than fresh Holdout evidence or formal TOST non-inferiority. Single-touch governance relies on auditable two-phase local-NVMe seal files (`HOLDOUT_SEAL_*.json`), `COMPARATOR_PIN_*.json`, `14/14` verified hash-chained ledgers, and `38/38` verified SHA-256 receipts (`52/52` report metric dicts verified bit-for-bit against raw `*_metrics.json` files).
+
+---
+
+## 15. Reproducible Verification Commands
+
+```bash
+# 1. Verify Phase V1 & Phase V2 Immutable Split/Verifier Manifests
+python -I -B eval/governed_loop_guard.py verify-manifest --manifest IMMUTABLE_MANIFEST.json --root .
+python -I -B code/v2/governed_loop_guard_v3.py verify-manifest --manifest IMMUTABLE_MANIFEST_V2.json --root . --expected-root-sha256 f79f2fcf32262a0455ba85256ea2c4a8ab72b3eef94c76f0399190932e74ccf2
+
+# 2. Verify Zero Holdout/Test Path Leaks Across All Phase V2 Candidate/Training/Eval Scripts
+python -I -B code/v2/governed_loop_guard_v3.py audit-leaks --paths code/v2/model_registry_v2.py code/v2/vllm_eval_v2.py code/v2/build_v2_banks_and_controls.py code/v2/train_slm_v2.py code/v2/train_dapo_chunked_v2.py code/v2/repair_policy_v2.py code/v2/run_v2_plane2_track_l.py code/v2/run_v2_plane2_track_m.py --fail-on-warn
+
+# 3. Re-Verify All 14 Phase V2 Hash-Chained Ledgers, 38 Holdout Receipts & Rebuild Statistical Bundle
+python -I -B code/v2/build_v2_report_bundle.py .
+```
+

@@ -1,0 +1,239 @@
+{
+  "track_l": {},
+  "track_m": {
+    "qwen35_4b": {
+      "conjunctive_pooled_and_equal_stratum_passed": true,
+      "holdout_holm_alpha_threshold": 0.025,
+      "holdout_holm_k": 2,
+      "holdout_holm_rank_0based": 0,
+      "math500_retention_n150": {
+        "a_mean": 0.96,
+        "b_mean": 0.9516666666666667,
+        "ci95_hi": 0.02,
+        "ci95_lo": -0.0025,
+        "delta": 0.008333333333333333,
+        "non_degradation_point_ok": true,
+        "p_one_sided": 0.07299283216848051,
+        "se": 0.005731875482838596,
+        "z": 1.453858053665607
+      },
+      "p_conjunctive": 4.999750012499375e-05,
+      "seal_file": "/scratch/governed_slm_rsi_v2/results/v3_governance/HOLDOUT_SEAL_track_m_qwen35_4b.json",
+      "seal_sha256": "c742350aa85805f209487fe4d30631ea56a6c66ec158a447f4df2025f1dcf3ed",
+      "stratified_sign_flip_vs_b0": {
+        "equal_stratum": {
+          "cand_mean": 0.46989583333333335,
+          "ci95_hi": 0.09854166666666667,
+          "ci95_lo": 0.042916666666666665,
+          "delta": 0.07114583333333334,
+          "p_sign_flip_one_sided": 4.999750012499375e-05,
+          "ref_mean": 0.39875,
+          "se_stratified_boot": 0.014016024908964862
+        },
+        "item_pooled": {
+          "cand_mean": 0.433125,
+          "ci95_hi": 0.09625,
+          "ci95_lo": 0.048125,
+          "delta": 0.071875,
+          "p_sign_flip_one_sided": 4.999750012499375e-05,
+          "ref_mean": 0.36125,
+          "se_stratified_boot": 0.01219776953722148
+        },
+        "n_strata": 4,
+        "n_total": 200,
+        "per_stratum_descriptive": {
+          "beyondaime": {
+            "cand_mean": 0.3775,
+            "delta": 0.0825,
+            "n": 100,
+            "ref_mean": 0.295
+          },
+          "brumo2025": {
+            "cand_mean": 0.6166666666666667,
+            "delta": 0.07916666666666666,
+            "n": 30,
+            "ref_mean": 0.5375
+          },
+          "cmimc2025": {
+            "cand_mean": 0.38125,
+            "delta": 0.00625,
+            "n": 40,
+            "ref_mean": 0.375
+          },
+          "hmmt_nov2025": {
+            "cand_mean": 0.5041666666666667,
+            "delta": 0.11666666666666667,
+            "n": 30,
+            "ref_mean": 0.3875
+          }
+        }
+      },
+      "stratified_sign_flip_vs_qwen38_27b": {
+        "equal_stratum": {
+          "cand_mean": 0.46989583333333335,
+          "ci95_hi": -0.11682291666666667,
+          "ci95_lo": -0.188125,
+          "delta": -0.15203125,
+          "p_sign_flip_one_sided": 1.0,
+          "ref_mean": 0.6219270833333334,
+          "se_stratified_boot": 0.018261803960644217
+        },
+        "item_pooled": {
+          "cand_mean": 0.433125,
+          "ci95_hi": -0.113125,
+          "ci95_lo": -0.175625,
+          "delta": -0.144375,
+          "p_sign_flip_one_sided": 1.0,
+          "ref_mean": 0.5775,
+          "se_stratified_boot": 0.015940491746342444
+        },
+        "n_strata": 4,
+        "n_total": 200,
+        "per_stratum_descriptive": {
+          "beyondaime": {
+            "cand_mean": 0.3775,
+            "delta": -0.13,
+            "n": 100,
+            "ref_mean": 0.5075
+          },
+          "brumo2025": {
+            "cand_mean": 0.6166666666666667,
+            "delta": -0.15833333333333333,
+            "n": 30,
+            "ref_mean": 0.775
+          },
+          "cmimc2025": {
+            "cand_mean": 0.38125,
+            "delta": -0.153125,
+            "n": 40,
+            "ref_mean": 0.534375
+          },
+          "hmmt_nov2025": {
+            "cand_mean": 0.5041666666666667,
+            "delta": -0.16666666666666666,
+            "n": 30,
+            "ref_mean": 0.6708333333333333
+          }
+        }
+      },
+      "weights_root_sha256_verified": "b329ee67b57d6615387deeeb4d988cd2abde175d169d48117d32035837ec6b0d"
+    },
+    "qwen35_9b": {
+      "conjunctive_pooled_and_equal_stratum_passed": true,
+      "holdout_holm_alpha_threshold": 0.05,
+      "holdout_holm_k": 2,
+      "holdout_holm_rank_0based": 1,
+      "math500_retention_n150": {
+        "a_mean": 0.9791666666666666,
+        "b_mean": 0.9608333333333333,
+        "ci95_hi": 0.035,
+        "ci95_lo": 0.004166666666666667,
+        "delta": 0.018333333333333333,
+        "non_degradation_point_ok": true,
+        "p_one_sided": 0.009089109130512972,
+        "se": 0.007761889426584538,
+        "z": 2.3619678567619773
+      },
+      "p_conjunctive": 4.999750012499375e-05,
+      "seal_file": "/scratch/governed_slm_rsi_v2/results/v3_governance/HOLDOUT_SEAL_track_m_qwen35_9b.json",
+      "seal_sha256": "aee96bfca84c8a51b1552c15123e070c74394bd788f986f03e253e11de725b5d",
+      "stratified_sign_flip_vs_b0": {
+        "equal_stratum": {
+          "cand_mean": 0.5313541666666667,
+          "ci95_hi": 0.13859375000000002,
+          "ci95_lo": 0.07828125,
+          "delta": 0.10802083333333334,
+          "p_sign_flip_one_sided": 4.999750012499375e-05,
+          "ref_mean": 0.42333333333333334,
+          "se_stratified_boot": 0.01543637837695389
+        },
+        "item_pooled": {
+          "cand_mean": 0.489375,
+          "ci95_hi": 0.131875,
+          "ci95_lo": 0.07875,
+          "delta": 0.105,
+          "p_sign_flip_one_sided": 4.999750012499375e-05,
+          "ref_mean": 0.384375,
+          "se_stratified_boot": 0.013470167414179253
+        },
+        "n_strata": 4,
+        "n_total": 200,
+        "per_stratum_descriptive": {
+          "beyondaime": {
+            "cand_mean": 0.42125,
+            "delta": 0.09875,
+            "n": 100,
+            "ref_mean": 0.3225
+          },
+          "brumo2025": {
+            "cand_mean": 0.7166666666666667,
+            "delta": 0.1375,
+            "n": 30,
+            "ref_mean": 0.5791666666666667
+          },
+          "cmimc2025": {
+            "cand_mean": 0.4625,
+            "delta": 0.1125,
+            "n": 40,
+            "ref_mean": 0.35
+          },
+          "hmmt_nov2025": {
+            "cand_mean": 0.525,
+            "delta": 0.08333333333333333,
+            "n": 30,
+            "ref_mean": 0.44166666666666665
+          }
+        }
+      },
+      "stratified_sign_flip_vs_qwen38_27b": {
+        "equal_stratum": {
+          "cand_mean": 0.5313541666666667,
+          "ci95_hi": -0.05901041666666666,
+          "ci95_lo": -0.1234375,
+          "delta": -0.09057291666666667,
+          "p_sign_flip_one_sided": 1.0,
+          "ref_mean": 0.6219270833333334,
+          "se_stratified_boot": 0.016556142929534938
+        },
+        "item_pooled": {
+          "cand_mean": 0.489375,
+          "ci95_hi": -0.060625,
+          "ci95_lo": -0.115625,
+          "delta": -0.088125,
+          "p_sign_flip_one_sided": 1.0,
+          "ref_mean": 0.5775,
+          "se_stratified_boot": 0.014130749902580574
+        },
+        "n_strata": 4,
+        "n_total": 200,
+        "per_stratum_descriptive": {
+          "beyondaime": {
+            "cand_mean": 0.42125,
+            "delta": -0.08625,
+            "n": 100,
+            "ref_mean": 0.5075
+          },
+          "brumo2025": {
+            "cand_mean": 0.7166666666666667,
+            "delta": -0.058333333333333334,
+            "n": 30,
+            "ref_mean": 0.775
+          },
+          "cmimc2025": {
+            "cand_mean": 0.4625,
+            "delta": -0.071875,
+            "n": 40,
+            "ref_mean": 0.534375
+          },
+          "hmmt_nov2025": {
+            "cand_mean": 0.525,
+            "delta": -0.14583333333333334,
+            "n": 30,
+            "ref_mean": 0.6708333333333333
+          }
+        }
+      },
+      "weights_root_sha256_verified": "bba137f589b6509b7bddd874bc3e51d310c3f4f0d658796e694ded6d71d17a73"
+    }
+  }
+}

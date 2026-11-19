@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-11-19T11:17:38.023966+00:00",
+  "trial_id": "m3_phi4_mini_dapo_chunked12k",
+  "candidate_id": "m3_phi4_mini_dapo_chunked12k",
+  "protocol_id": "v2_math_search_think12k",
+  "hypothesis": "R3 Full-12K Activation-Checkpointed Chunked-Logits DAPO+LUFFY RLVR on phi4_mini",
+  "decision_stage": "search",
+  "primary_metric": "math_avg_at_8",
+  "primary_statistic": "mean",
+  "direction": "maximize",
+  "candidate_primary": 0.244140625,
+  "incumbent_primary": 0.2587890625,
+  "baseline_primary": 0.2587890625,
+  "raw_delta_vs_incumbent": -0.0146484375,
+  "signed_improvement": -0.0146484375,
+  "lcb_one_sided_vs_incumbent": -0.0341796875,
+  "lcb_one_sided_vs_baseline": -0.0341796875,
+  "effective_se": 0.011574766930363857,
+  "effective_alpha_one_sided": 0.05,
+  "tripwires": [
+    "hard_floor_failed:stop_rate=0.43359375<0.44",
+    "baseline_degradation_exceeded:stop_rate_degradation=0.030273>0.025"
+  ],
+  "warnings": [],
+  "decision": "ROLLBACK",
+  "decision_reason": "guardrail_or_regression",
+  "dev_looks_used": 3,
+  "consecutive_rollbacks": 3,
+  "halt_recommended": false,
+  "prev_entry_sha256": "f826ea486d5b6c879b7143201528acab1221fa7a03fbbee22d168c1106afd359",
+  "entry_sha256": "00e038968a79389b693e154e59f999061c454383a09a7d45c5f1bcbcee53324d"
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-11-19T03:57:13.278264+00:00",
+  "trial_id": "m2_qwen35_4b_rec_restem",
+  "candidate_id": "m2_qwen35_4b_rec_restem",
+  "protocol_id": "v2_math_search_direct12k",
+  "hypothesis": "R2 pure M_1 recursive frontier self-play reset to M_0 on qwen35_4b (zero teacher distillation)",
+  "decision_stage": "search",
+  "primary_metric": "math_avg_at_8",
+  "primary_statistic": "mean",
+  "direction": "maximize",
+  "candidate_primary": 0.4228515625,
+  "incumbent_primary": 0.4150390625,
+  "baseline_primary": 0.3671875,
+  "raw_delta_vs_incumbent": 0.0078125,
+  "signed_improvement": 0.0078125,
+  "lcb_one_sided_vs_incumbent": -0.013671875,
+  "lcb_one_sided_vs_baseline": 0.029296875,
+  "effective_se": 0.012894068317928477,
+  "effective_alpha_one_sided": 0.05,
+  "tripwires": [
+    "missing_guardrail_metric:candidate.natural_stop_parse_failure_rate"
+  ],
+  "warnings": [],
+  "decision": "ROLLBACK",
+  "decision_reason": "guardrail_or_regression",
+  "dev_looks_used": 3,
+  "consecutive_rollbacks": 2,
+  "halt_recommended": false,
+  "prev_entry_sha256": "8914640f201606bac599e53e64c827bb7916058686557c05970c09f6be037d56",
+  "entry_sha256": "38325ca38fb1c83a167325ca8666f060981a786d8db0201aadee896c1d9511ad"
+}

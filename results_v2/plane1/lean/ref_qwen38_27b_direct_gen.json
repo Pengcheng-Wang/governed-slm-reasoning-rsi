@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 0.942018271493208,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 2048,
+  "model_key": "qwen38_27b",
+  "model_path": "/scratch/governed_slm_rsi_v1/models/qwen38_27b",
+  "n_problems": 120,
+  "n_requests": 960,
+  "n_workers": 2,
+  "output": "/scratch/governed_slm_rsi_v2/results/plane1/lean/ref_qwen38_27b_direct.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_lean_search120.jsonl",
+  "stop_rate": 0.83125,
+  "temperature": 0.8,
+  "thinking": false,
+  "toks_per_sec": 1663.3883541753785,
+  "total_completion_tokens": 705124,
+  "tp": 4,
+  "truncation_rate": 0.16875,
+  "wall_seconds": 423.90822217194363
+}

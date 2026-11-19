@@ -1,0 +1,22 @@
+{
+  "candidate_id": "confirm_b0_qwen3_4b",
+  "protocol_id": "v2_lean_confirm",
+  "model_key": "qwen3_4b",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_lean_confirm171.jsonl",
+  "split_sha256": "985d1de5a151007a81eba731dd8eb24898228a1fc0ab136dfa5fc24df6dc21f9",
+  "gen_prompts_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_lean_confirm171.jsonl",
+  "gen_prompts_sha256": "985d1de5a151007a81eba731dd8eb24898228a1fc0ab136dfa5fc24df6dc21f9",
+  "ckpt": {
+    "model_path": "/scratch/governed_slm_rsi_v2/models/Qwen3-4B",
+    "config.json": "8ba006f74fecfaaeb392872a60f4a480e7ec9860153d2e1b769ec81f9a147f8a",
+    "model.safetensors.index.json": "6dc0981b8829fead746441f68f38f24c5ca4a3a66351f652c26c6df0efc43ab2",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "k": 8,
+  "thinking": true,
+  "temperature": 0.8,
+  "presence_penalty": 0.0,
+  "max_tokens": 6144,
+  "seed": 20261118,
+  "metrics_sha256": "a2c7e2864eaa73d3a280355571187ae7cd1ed749e96b4be9dbea0f5e168c7531"
+}

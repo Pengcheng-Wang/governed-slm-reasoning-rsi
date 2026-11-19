@@ -1,0 +1,15 @@
+{
+  "cumulative_bank_traces": 1113,
+  "frontier_remaining": 213,
+  "model_key": "qwen35_9b",
+  "new_clean_traces_admitted": 165,
+  "newly_solved_problems": 41,
+  "pool_coverage_rate": 0.6966666666666667,
+  "pool_total_problems": 600,
+  "raw_rollout_truncation_rate": 0.5993827160493828,
+  "raw_rollouts_scored": 1620,
+  "repair_prompts_emitted": 0,
+  "round_tag": "m2_qwen35_9b_rec_restem",
+  "solved_pool_problems": 418,
+  "track": "math"
+}

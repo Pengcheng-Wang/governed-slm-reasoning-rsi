@@ -1,0 +1,32 @@
+{
+  "adapted_linear_modules": 252,
+  "base_model": "/scratch/governed_slm_rsi_v2/models/Qwen3-4B",
+  "data_audit": {
+    "dropped_whole_overlong_rows": 0,
+    "seq_len_max": 6342,
+    "seq_len_p50": 2909,
+    "seq_len_p95": 5675,
+    "sup_eos_id": 151645,
+    "supervised_tokens_total": 345020,
+    "total_traces": 122,
+    "unique_problems": 52
+  },
+  "final_loss": 0.21851304173469543,
+  "global_steps": 12,
+  "gpu_hours": 0.1513721382152289,
+  "initial_loss": 0.24748285114765167,
+  "merge_parity": {
+    "max_abs_logit_diff": 1.5,
+    "mean_abs_logit_diff": 0.10177623480558395,
+    "merged_linear_tensors": 252,
+    "top1_token_agreement": 0.984375
+  },
+  "model_key": "qwen3_4b",
+  "output_dir": "/scratch/governed_slm_rsi_v2/checkpoints/track_l/l1_qwen3_4b_restem",
+  "peak_allocated_gib": 11.445259094238281,
+  "total_params": 4088528384,
+  "train_file": "/scratch/governed_slm_rsi_v2/data/verified_banks_v2/lean_qwen3_4b_r1.jsonl",
+  "train_wall_seconds": 68.11746219685301,
+  "trainable_fraction": 0.016157473250893787,
+  "trainable_params": 66060288
+}

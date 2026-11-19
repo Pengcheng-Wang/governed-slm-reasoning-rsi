@@ -1,0 +1,15 @@
+{
+  "cumulative_bank_traces": 359,
+  "frontier_remaining": 243,
+  "model_key": "phi4_mini",
+  "new_clean_traces_admitted": 424,
+  "newly_solved_problems": 150,
+  "pool_coverage_rate": 0.4166666666666667,
+  "pool_total_problems": 360,
+  "raw_rollout_truncation_rate": 0.5423611111111111,
+  "raw_rollouts_scored": 1440,
+  "repair_prompts_emitted": 0,
+  "round_tag": "m2_phi4_mini_uncensored12k_restem",
+  "solved_pool_problems": 150,
+  "track": "math"
+}

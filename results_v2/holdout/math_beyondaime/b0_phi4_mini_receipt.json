@@ -1,0 +1,22 @@
+{
+  "candidate_id": "holdout_beyondaime_b0_phi4_mini",
+  "protocol_id": "v2_math_holdout_beyondaime",
+  "model_key": "phi4_mini",
+  "split_file": "/scratch/governed_slm_rsi_v2/eval_v2/sealed_holdout/v2_math_holdout_beyondaime.jsonl",
+  "split_sha256": "fa06eee936eb1418a64ca86da11bf6361baee266082fc9d05729b3c91d36a0dc",
+  "gen_prompts_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_math_holdout_beyondaime_prompts.jsonl",
+  "gen_prompts_sha256": "36316eb98d8ca80c0e01d9f1dd81c3017cc3de8cf4dca283f56fd86149fe0f95",
+  "ckpt": {
+    "model_path": "/scratch/governed_slm_rsi_v2/models/Phi-4-mini-reasoning",
+    "config.json": "2283ba68d420b7fddf4be894361142dfa34636c0a81e3af819cc1e660f128f6c",
+    "model.safetensors.index.json": "613a98d5e5716ca96fa75931abedc9c5a5d95f488ce4d62df71e639fe3ac6c59",
+    "tokenizer_config.json": "a8c82becd87806054deee49ad3e00322eafdd72f65b0b7dfd99a75c74f5df329"
+  },
+  "k": 8,
+  "thinking": true,
+  "temperature": 0.8,
+  "presence_penalty": 0.0,
+  "max_tokens": 12288,
+  "seed": 20261118,
+  "metrics_sha256": "6e6f5891c0ea42104d120860808704934279a1fefc52ff81078fb27c216cb746"
+}

@@ -1,0 +1,778 @@
+{
+  "candidate_id": "holdout_math500_astar_qwen35_4b",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "expected_k": 8,
+  "items": [
+    {
+      "cluster_id": "math500:test/algebra/109.json",
+      "id": "math500:test/algebra/109.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/114.json",
+      "id": "math500:test/algebra/114.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1184.json",
+      "id": "math500:test/algebra/1184.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1199.json",
+      "id": "math500:test/algebra/1199.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1214.json",
+      "id": "math500:test/algebra/1214.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1275.json",
+      "id": "math500:test/algebra/1275.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1332.json",
+      "id": "math500:test/algebra/1332.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1343.json",
+      "id": "math500:test/algebra/1343.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1425.json",
+      "id": "math500:test/algebra/1425.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1519.json",
+      "id": "math500:test/algebra/1519.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1547.json",
+      "id": "math500:test/algebra/1547.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1553.json",
+      "id": "math500:test/algebra/1553.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1578.json",
+      "id": "math500:test/algebra/1578.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1787.json",
+      "id": "math500:test/algebra/1787.json",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "math500:test/algebra/187.json",
+      "id": "math500:test/algebra/187.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1934.json",
+      "id": "math500:test/algebra/1934.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/1937.json",
+      "id": "math500:test/algebra/1937.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/2046.json",
+      "id": "math500:test/algebra/2046.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/2102.json",
+      "id": "math500:test/algebra/2102.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/2159.json",
+      "id": "math500:test/algebra/2159.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/2214.json",
+      "id": "math500:test/algebra/2214.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/2257.json",
+      "id": "math500:test/algebra/2257.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/2470.json",
+      "id": "math500:test/algebra/2470.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/251.json",
+      "id": "math500:test/algebra/251.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/2551.json",
+      "id": "math500:test/algebra/2551.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/2593.json",
+      "id": "math500:test/algebra/2593.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/2735.json",
+      "id": "math500:test/algebra/2735.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/2789.json",
+      "id": "math500:test/algebra/2789.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/435.json",
+      "id": "math500:test/algebra/435.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/518.json",
+      "id": "math500:test/algebra/518.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/524.json",
+      "id": "math500:test/algebra/524.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/661.json",
+      "id": "math500:test/algebra/661.json",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "math500:test/algebra/694.json",
+      "id": "math500:test/algebra/694.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/722.json",
+      "id": "math500:test/algebra/722.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/791.json",
+      "id": "math500:test/algebra/791.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/824.json",
+      "id": "math500:test/algebra/824.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/algebra/841.json",
+      "id": "math500:test/algebra/841.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/counting_and_probability/1060.json",
+      "id": "math500:test/counting_and_probability/1060.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/counting_and_probability/134.json",
+      "id": "math500:test/counting_and_probability/134.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/counting_and_probability/339.json",
+      "id": "math500:test/counting_and_probability/339.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/counting_and_probability/508.json",
+      "id": "math500:test/counting_and_probability/508.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/counting_and_probability/71.json",
+      "id": "math500:test/counting_and_probability/71.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/counting_and_probability/761.json",
+      "id": "math500:test/counting_and_probability/761.json",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "math500:test/counting_and_probability/803.json",
+      "id": "math500:test/counting_and_probability/803.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/geometry/178.json",
+      "id": "math500:test/geometry/178.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/geometry/248.json",
+      "id": "math500:test/geometry/248.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/geometry/254.json",
+      "id": "math500:test/geometry/254.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/geometry/456.json",
+      "id": "math500:test/geometry/456.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/geometry/465.json",
+      "id": "math500:test/geometry/465.json",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "math500:test/geometry/477.json",
+      "id": "math500:test/geometry/477.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/geometry/627.json",
+      "id": "math500:test/geometry/627.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/geometry/65.json",
+      "id": "math500:test/geometry/65.json",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1000.json",
+      "id": "math500:test/intermediate_algebra/1000.json",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/101.json",
+      "id": "math500:test/intermediate_algebra/101.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1102.json",
+      "id": "math500:test/intermediate_algebra/1102.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1126.json",
+      "id": "math500:test/intermediate_algebra/1126.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1151.json",
+      "id": "math500:test/intermediate_algebra/1151.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1168.json",
+      "id": "math500:test/intermediate_algebra/1168.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1210.json",
+      "id": "math500:test/intermediate_algebra/1210.json",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1217.json",
+      "id": "math500:test/intermediate_algebra/1217.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1232.json",
+      "id": "math500:test/intermediate_algebra/1232.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1422.json",
+      "id": "math500:test/intermediate_algebra/1422.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/149.json",
+      "id": "math500:test/intermediate_algebra/149.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1572.json",
+      "id": "math500:test/intermediate_algebra/1572.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1779.json",
+      "id": "math500:test/intermediate_algebra/1779.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/1797.json",
+      "id": "math500:test/intermediate_algebra/1797.json",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/2046.json",
+      "id": "math500:test/intermediate_algebra/2046.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/345.json",
+      "id": "math500:test/intermediate_algebra/345.json",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/428.json",
+      "id": "math500:test/intermediate_algebra/428.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/515.json",
+      "id": "math500:test/intermediate_algebra/515.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/752.json",
+      "id": "math500:test/intermediate_algebra/752.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/754.json",
+      "id": "math500:test/intermediate_algebra/754.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/834.json",
+      "id": "math500:test/intermediate_algebra/834.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/860.json",
+      "id": "math500:test/intermediate_algebra/860.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/986.json",
+      "id": "math500:test/intermediate_algebra/986.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/intermediate_algebra/991.json",
+      "id": "math500:test/intermediate_algebra/991.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/1032.json",
+      "id": "math500:test/number_theory/1032.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/109.json",
+      "id": "math500:test/number_theory/109.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/1172.json",
+      "id": "math500:test/number_theory/1172.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/1201.json",
+      "id": "math500:test/number_theory/1201.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/156.json",
+      "id": "math500:test/number_theory/156.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/183.json",
+      "id": "math500:test/number_theory/183.json",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "math500:test/number_theory/203.json",
+      "id": "math500:test/number_theory/203.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/255.json",
+      "id": "math500:test/number_theory/255.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/342.json",
+      "id": "math500:test/number_theory/342.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/368.json",
+      "id": "math500:test/number_theory/368.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/459.json",
+      "id": "math500:test/number_theory/459.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/466.json",
+      "id": "math500:test/number_theory/466.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/488.json",
+      "id": "math500:test/number_theory/488.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/521.json",
+      "id": "math500:test/number_theory/521.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/533.json",
+      "id": "math500:test/number_theory/533.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/572.json",
+      "id": "math500:test/number_theory/572.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/598.json",
+      "id": "math500:test/number_theory/598.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/679.json",
+      "id": "math500:test/number_theory/679.json",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "math500:test/number_theory/914.json",
+      "id": "math500:test/number_theory/914.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/928.json",
+      "id": "math500:test/number_theory/928.json",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "math500:test/number_theory/931.json",
+      "id": "math500:test/number_theory/931.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/number_theory/978.json",
+      "id": "math500:test/number_theory/978.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/105.json",
+      "id": "math500:test/prealgebra/105.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1113.json",
+      "id": "math500:test/prealgebra/1113.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1114.json",
+      "id": "math500:test/prealgebra/1114.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1233.json",
+      "id": "math500:test/prealgebra/1233.json",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1238.json",
+      "id": "math500:test/prealgebra/1238.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1247.json",
+      "id": "math500:test/prealgebra/1247.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1388.json",
+      "id": "math500:test/prealgebra/1388.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1436.json",
+      "id": "math500:test/prealgebra/1436.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/153.json",
+      "id": "math500:test/prealgebra/153.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1572.json",
+      "id": "math500:test/prealgebra/1572.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1622.json",
+      "id": "math500:test/prealgebra/1622.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1730.json",
+      "id": "math500:test/prealgebra/1730.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1742.json",
+      "id": "math500:test/prealgebra/1742.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1743.json",
+      "id": "math500:test/prealgebra/1743.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1747.json",
+      "id": "math500:test/prealgebra/1747.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1784.json",
+      "id": "math500:test/prealgebra/1784.json",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1787.json",
+      "id": "math500:test/prealgebra/1787.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1807.json",
+      "id": "math500:test/prealgebra/1807.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1907.json",
+      "id": "math500:test/prealgebra/1907.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1908.json",
+      "id": "math500:test/prealgebra/1908.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/192.json",
+      "id": "math500:test/prealgebra/192.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1922.json",
+      "id": "math500:test/prealgebra/1922.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1924.json",
+      "id": "math500:test/prealgebra/1924.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1991.json",
+      "id": "math500:test/prealgebra/1991.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/1995.json",
+      "id": "math500:test/prealgebra/1995.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/2057.json",
+      "id": "math500:test/prealgebra/2057.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/2086.json",
+      "id": "math500:test/prealgebra/2086.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/260.json",
+      "id": "math500:test/prealgebra/260.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/307.json",
+      "id": "math500:test/prealgebra/307.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/505.json",
+      "id": "math500:test/prealgebra/505.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/572.json",
+      "id": "math500:test/prealgebra/572.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/65.json",
+      "id": "math500:test/prealgebra/65.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/874.json",
+      "id": "math500:test/prealgebra/874.json",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/930.json",
+      "id": "math500:test/prealgebra/930.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/prealgebra/977.json",
+      "id": "math500:test/prealgebra/977.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/117.json",
+      "id": "math500:test/precalculus/117.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/1199.json",
+      "id": "math500:test/precalculus/1199.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/1201.json",
+      "id": "math500:test/precalculus/1201.json",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "math500:test/precalculus/1289.json",
+      "id": "math500:test/precalculus/1289.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/1291.json",
+      "id": "math500:test/precalculus/1291.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/1313.json",
+      "id": "math500:test/precalculus/1313.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/190.json",
+      "id": "math500:test/precalculus/190.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/24313.json",
+      "id": "math500:test/precalculus/24313.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/263.json",
+      "id": "math500:test/precalculus/263.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/356.json",
+      "id": "math500:test/precalculus/356.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/43.json",
+      "id": "math500:test/precalculus/43.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/499.json",
+      "id": "math500:test/precalculus/499.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/625.json",
+      "id": "math500:test/precalculus/625.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/695.json",
+      "id": "math500:test/precalculus/695.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/801.json",
+      "id": "math500:test/precalculus/801.json",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "math500:test/precalculus/881.json",
+      "id": "math500:test/precalculus/881.json",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "math500:test/precalculus/989.json",
+      "id": "math500:test/precalculus/989.json",
+      "value": 1.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.96,
+    "learnable_fraction": 0.11333333333333333,
+    "math_avg_at_8": 0.96,
+    "math_maj_at_8": 0.9733333333333334,
+    "math_pass_at_8": 1.0,
+    "math_strict_avg_at_8": 0.96,
+    "median_tokens": 701.5,
+    "natural_stop_parse_failure_rate": 0.0,
+    "p95_tokens": 4015.2999999999915,
+    "p99_tokens": 11786.829999999998,
+    "solved_problem_count": 150.0,
+    "stop_rate": 0.9916666666666667,
+    "timeout_killed_rollouts": 0.0,
+    "truncation_rate": 0.008333333333333333
+  },
+  "n_problems": 150,
+  "protocol_id": "v2_math_holdout_math500_retention",
+  "schema_version": "1.0",
+  "scored_at_utc": "2026-11-19T14:37:17.123026+00:00",
+  "track": "math"
+}

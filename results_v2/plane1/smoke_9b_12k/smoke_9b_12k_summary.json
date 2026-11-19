@@ -1,0 +1,25 @@
+{
+  "adapted_linear_modules": 248,
+  "gpu_hours": 0.15713882536265172,
+  "group_stats": {
+    "active_rl_samples": 16,
+    "dead_group_fraction": 0.0,
+    "dead_groups_skipped": 0,
+    "groups_total": 2,
+    "mean_shaped_reward": 0.2957277097902098,
+    "off_policy_positive_samples": 0
+  },
+  "init_model": "/scratch/governed_slm_rsi_v1/models/qwen35_9b",
+  "merge_parity": {
+    "max_abs_logit_diff": 9.90625,
+    "mean_abs_logit_diff": 0.21984967589378357,
+    "merged_linear_tensors": 248,
+    "top1_token_agreement": 1.0
+  },
+  "model_key": "qwen35_9b",
+  "output_dir": "/scratch/governed_slm_rsi_v2/results/plane1/smoke_9b_12k/tmp_merged_9b",
+  "peak_allocated_gib": 30.83630084991455,
+  "rl_steps": 1,
+  "rollouts_file": "/scratch/governed_slm_rsi_v2/results/plane1/smoke_9b_12k/synth_12k_rollouts.jsonl",
+  "wall_seconds": 70.71247141319327
+}

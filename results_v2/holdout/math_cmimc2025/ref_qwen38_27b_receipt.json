@@ -1,0 +1,23 @@
+{
+  "candidate_id": "holdout_cmimc2025_ref_qwen38_27b",
+  "protocol_id": "v2_math_holdout_cmimc2025",
+  "model_key": "qwen38_27b",
+  "split_file": "/scratch/governed_slm_rsi_v2/eval_v2/sealed_holdout/v2_math_holdout_cmimc2025.jsonl",
+  "split_sha256": "783e3242839d00590f2b9239d70273e7c4c04c3c6b8f0fd2e189b8632fe8c2d7",
+  "gen_prompts_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_math_holdout_cmimc2025_prompts.jsonl",
+  "gen_prompts_sha256": "f9bda8bf8e62b4db17c0323b6cfaa5775756ca0307d6af149006721cc476fa11",
+  "ckpt": {
+    "model_path": "/scratch/governed_slm_rsi_v1/models/qwen38_27b",
+    "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+    "model.safetensors.index.json": "77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df",
+    "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+    "chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+  },
+  "k": 8,
+  "thinking": false,
+  "temperature": 0.7,
+  "presence_penalty": 0.0,
+  "max_tokens": 12288,
+  "seed": 20261118,
+  "metrics_sha256": "01aa3f8947f85eae9d43e3e9e37fa1595495fb9fb22e6eb5a66e9271b7ba26bd"
+}

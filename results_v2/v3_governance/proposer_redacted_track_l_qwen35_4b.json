@@ -1,0 +1,10 @@
+{
+  "trial_id": "v36_confirm_track_l_qwen35_4b",
+  "candidate_id": "confirm_astar_qwen35_4b",
+  "comparator_id": "b0",
+  "decision_stage": "confirm",
+  "decision": "ROLLBACK",
+  "tripwires": [],
+  "consecutive_rollbacks": 1,
+  "halt_recommended": true
+}

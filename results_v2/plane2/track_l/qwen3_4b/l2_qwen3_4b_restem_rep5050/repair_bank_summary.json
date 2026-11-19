@@ -1,0 +1,12 @@
+{
+  "combined_bank_rows": 157,
+  "diag_kept_pairs": 2,
+  "diag_masked_pairs": 4,
+  "model_key": "qwen3_4b",
+  "prev_direct_bank_rows": 151,
+  "repair_rollouts_scored": 44,
+  "round_tag": "l2_qwen3_4b_restem_rep5050",
+  "unique_repaired_prompts": 4,
+  "unique_repaired_theorems": 3,
+  "verified_natural_repair_pairs": 6
+}

@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 9.001519360464687,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 12288,
+  "model_key": "phi4_mini",
+  "model_path": "/scratch/governed_slm_rsi_v2/models/Phi-4-mini-reasoning",
+  "n_problems": 256,
+  "n_requests": 2048,
+  "n_workers": 8,
+  "output": "/scratch/governed_slm_rsi_v2/results/confirm/math/b0_phi4_mini.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_math_confirm256.jsonl",
+  "stop_rate": 0.40966796875,
+  "temperature": 0.8,
+  "thinking": true,
+  "toks_per_sec": 5290.220496705561,
+  "total_completion_tokens": 21429010,
+  "tp": 1,
+  "truncation_rate": 0.59033203125,
+  "wall_seconds": 4050.683712209109
+}

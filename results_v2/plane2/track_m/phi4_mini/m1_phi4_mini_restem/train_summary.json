@@ -1,0 +1,32 @@
+{
+  "adapted_linear_modules": 128,
+  "base_model": "/scratch/governed_slm_rsi_v2/models/Phi-4-mini-reasoning",
+  "data_audit": {
+    "dropped_whole_overlong_rows": 0,
+    "seq_len_max": 8300,
+    "seq_len_p50": 5406,
+    "seq_len_p95": 8044,
+    "sup_eos_id": 200020,
+    "supervised_tokens_total": 1471877,
+    "total_traces": 286,
+    "unique_problems": 121
+  },
+  "final_loss": 0.18180203437805176,
+  "global_steps": 18,
+  "gpu_hours": 0.2885548347933218,
+  "initial_loss": 0.1746496558189392,
+  "merge_parity": {
+    "max_abs_logit_diff": 2.5,
+    "mean_abs_logit_diff": 0.1974127540985743,
+    "merged_linear_tensors": 128,
+    "top1_token_agreement": 0.9895833333333334
+  },
+  "model_key": "phi4_mini",
+  "output_dir": "/scratch/governed_slm_rsi_v2/checkpoints/track_m/m1_phi4_mini_restem",
+  "peak_allocated_gib": 12.271831035614014,
+  "total_params": 3905227776,
+  "train_file": "/scratch/governed_slm_rsi_v2/data/verified_banks_v2/math_phi4_mini_r1.jsonl",
+  "train_wall_seconds": 129.8496756569948,
+  "trainable_fraction": 0.017721377591676742,
+  "trainable_params": 69206016
+}

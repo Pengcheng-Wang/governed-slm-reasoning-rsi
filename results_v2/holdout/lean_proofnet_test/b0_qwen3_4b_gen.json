@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 1.1272562803224557,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 6144,
+  "model_key": "qwen3_4b",
+  "model_path": "/scratch/governed_slm_rsi_v2/models/Qwen3-4B",
+  "n_problems": 167,
+  "n_requests": 1336,
+  "n_workers": 8,
+  "output": "/scratch/governed_slm_rsi_v2/results/holdout/lean_proofnet_test/b0_qwen3_4b.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/results/.runtime_unique_id_views/v2_lean_holdout_proofnet174_prompts.jsonl",
+  "stop_rate": 0.041916167664670656,
+  "temperature": 0.8,
+  "thinking": true,
+  "toks_per_sec": 16006.749488880578,
+  "total_completion_tokens": 8119669,
+  "tp": 1,
+  "truncation_rate": 0.9580838323353293,
+  "wall_seconds": 507.26532614510506
+}

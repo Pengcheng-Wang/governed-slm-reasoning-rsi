@@ -1,0 +1,25 @@
+{
+  "adapted_linear_modules": 128,
+  "gpu_hours": 0.6146811751974747,
+  "group_stats": {
+    "active_rl_samples": 468,
+    "dead_group_fraction": 0.1875,
+    "dead_groups_skipped": 18,
+    "groups_total": 96,
+    "mean_shaped_reward": 0.15322963711635584,
+    "off_policy_positive_samples": 15
+  },
+  "init_model": "/scratch/governed_slm_rsi_v2/models/Phi-4-mini-reasoning",
+  "merge_parity": {
+    "max_abs_logit_diff": 1.5,
+    "mean_abs_logit_diff": 0.15309724335869154,
+    "merged_linear_tensors": 128,
+    "top1_token_agreement": 0.9895833333333334
+  },
+  "model_key": "phi4_mini",
+  "output_dir": "/scratch/governed_slm_rsi_v2/checkpoints/track_m/m3_phi4_mini_dapo_chunked12k",
+  "peak_allocated_gib": 14.908055782318115,
+  "rl_steps": 15,
+  "rollouts_file": "/scratch/governed_slm_rsi_v2/results/plane2/track_m/phi4_mini/m3_phi4_mini_dapo_chunked12k/rl_groups.jsonl",
+  "wall_seconds": 276.6065288388636
+}

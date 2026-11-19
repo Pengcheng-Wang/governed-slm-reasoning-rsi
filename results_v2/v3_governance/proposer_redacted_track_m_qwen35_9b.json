@@ -1,0 +1,10 @@
+{
+  "trial_id": "v36_confirm_track_m_qwen35_9b",
+  "candidate_id": "confirm_math_astar_qwen35_9b",
+  "comparator_id": "b0",
+  "decision_stage": "confirm",
+  "decision": "PROMOTE",
+  "tripwires": [],
+  "consecutive_rollbacks": 0,
+  "halt_recommended": false
+}

@@ -1,0 +1,22 @@
+{
+  "candidate_id": "confirm_astar_qwen35_9b",
+  "protocol_id": "v2_lean_confirm",
+  "model_key": "qwen35_9b",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_lean_confirm171.jsonl",
+  "split_sha256": "985d1de5a151007a81eba731dd8eb24898228a1fc0ab136dfa5fc24df6dc21f9",
+  "gen_prompts_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_lean_confirm171.jsonl",
+  "gen_prompts_sha256": "985d1de5a151007a81eba731dd8eb24898228a1fc0ab136dfa5fc24df6dc21f9",
+  "ckpt": {
+    "model_path": "/scratch/governed_slm_rsi_v2/checkpoints/track_l/l3_qwen35_9b_dapo_chunked",
+    "config.json": "b8f20daac954dce69fb607a9c2e93a6ec544663c7e0574e902a30cf4b741b37a",
+    "tokenizer_config.json": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+    "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+  },
+  "k": 8,
+  "thinking": false,
+  "temperature": 0.8,
+  "presence_penalty": 0.0,
+  "max_tokens": 2048,
+  "seed": 20261118,
+  "metrics_sha256": "2d2d74932cf2c79cf4af18eb308674bbbfb7792da455c9644ab14e370f5213cd"
+}

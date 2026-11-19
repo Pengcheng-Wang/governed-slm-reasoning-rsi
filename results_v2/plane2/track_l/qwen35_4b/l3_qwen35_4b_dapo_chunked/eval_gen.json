@@ -1,0 +1,21 @@
+{
+  "gpu_hours": 0.6109396611976747,
+  "gpus_used": 8,
+  "k": 8,
+  "max_tokens": 2048,
+  "model_key": "qwen35_4b",
+  "model_path": "/scratch/governed_slm_rsi_v2/checkpoints/track_l/l3_qwen35_4b_dapo_chunked",
+  "n_problems": 120,
+  "n_requests": 960,
+  "n_workers": 8,
+  "output": "/scratch/governed_slm_rsi_v2/results/plane2/track_l/qwen35_4b/l3_qwen35_4b_dapo_chunked/eval.jsonl.gz",
+  "split_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_lean_search120.jsonl",
+  "stop_rate": 0.996875,
+  "temperature": 0.8,
+  "thinking": false,
+  "toks_per_sec": 578.4531966826335,
+  "total_completion_tokens": 159030,
+  "tp": 1,
+  "truncation_rate": 0.003125,
+  "wall_seconds": 274.92284753895365
+}

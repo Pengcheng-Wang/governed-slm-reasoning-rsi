@@ -1,0 +1,14 @@
+{
+  "amendment_v36_sha256": "85cd4407bc7a6c4e72ccf120edc40d17c9f5f1c7774eb5f1961e8f26ad1ee45b",
+  "astar_candidate_id": "confirm_math_astar_qwen35_4b",
+  "comparator_holdout_digests": {
+    "b0_4contest_sha256": "e31d8728500d750143bbee997166afd62072b146a7406facbc7d060431b69796",
+    "b0_math500_retention_sha256": "e3aa9e1dc35ccb21ad1774fb8c489dc5064d991c1b3df1641899a0b338333ca3",
+    "ref_qwen38_27b_4contest_sha256": "b783241bcc0f7b456874ed03aadaac2f9186a7ee0a870c17fb440ac99b43af85"
+  },
+  "guard_v36_sha256": "90652db6649ad43cc3894f784c45e47d99f844807cda7c5ead0bd4c79ef1970a",
+  "manifest_v2_root_sha256": "f79f2fcf32262a0455ba85256ea2c4a8ab72b3eef94c76f0399190932e74ccf2",
+  "model_key": "qwen35_4b",
+  "track": "track_m",
+  "weights_root_sha256": "b329ee67b57d6615387deeeb4d988cd2abde175d169d48117d32035837ec6b0d"
+}

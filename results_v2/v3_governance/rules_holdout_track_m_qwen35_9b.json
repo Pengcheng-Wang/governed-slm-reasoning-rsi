@@ -1,0 +1,30 @@
+{
+  "aggregation_weighting": "equal_stratum",
+  "alpha_one_sided": 0.016666666666666666,
+  "decision_stage": "confirm",
+  "direction": "maximize",
+  "hard_ceilings": {
+    "natural_stop_parse_failure_rate": 0.03
+  },
+  "hard_floors": {
+    "stop_rate": 0.44
+  },
+  "max_confirm_looks": 1,
+  "max_degradation_vs_baseline": {
+    "stop_rate": 0.02
+  },
+  "metric_directions": {
+    "natural_stop_parse_failure_rate": "minimize",
+    "stop_rate": "maximize"
+  },
+  "min_improvement": 0.02,
+  "multiplicity_k": 4,
+  "per_stratum_hard_floors": {
+    "stop_rate": 0.25
+  },
+  "primary_metric": "math_avg_at_8",
+  "require_env_fingerprint_match": true,
+  "required_comparators": [
+    "b0"
+  ]
+}

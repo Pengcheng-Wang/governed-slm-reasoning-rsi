@@ -1,0 +1,22 @@
+{
+  "candidate_id": "holdout_hmmt_nov2025_b0_qwen3_4b",
+  "protocol_id": "v2_math_holdout_hmmt_nov2025",
+  "model_key": "qwen3_4b",
+  "split_file": "/scratch/governed_slm_rsi_v2/eval_v2/sealed_holdout/v2_math_holdout_hmmt_nov2025.jsonl",
+  "split_sha256": "bfd38ca4f6cedc621c3a59cbf66c9b7ac73e18853d43827a66ddecfbd48dace5",
+  "gen_prompts_file": "/scratch/governed_slm_rsi_v2/data/splits_v2/v2_math_holdout_hmmt_nov2025_prompts.jsonl",
+  "gen_prompts_sha256": "38d6dca4e2bc16c4cad7d7492b380c56c32e877903becac0eab89abc319d041d",
+  "ckpt": {
+    "model_path": "/scratch/governed_slm_rsi_v2/models/Qwen3-4B",
+    "config.json": "8ba006f74fecfaaeb392872a60f4a480e7ec9860153d2e1b769ec81f9a147f8a",
+    "model.safetensors.index.json": "6dc0981b8829fead746441f68f38f24c5ca4a3a66351f652c26c6df0efc43ab2",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "k": 8,
+  "thinking": true,
+  "temperature": 0.8,
+  "presence_penalty": 0.0,
+  "max_tokens": 16384,
+  "seed": 20261118,
+  "metrics_sha256": "158a5fe65eea7eb19863fd735d23f340a8f0219c558a7f3e7b31c96dee6f8c0b"
+}

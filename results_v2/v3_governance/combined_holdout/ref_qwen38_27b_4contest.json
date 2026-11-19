@@ -1,0 +1,1250 @@
+{
+  "candidate_id": "holdout_4contest_ref_qwen38_27b",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "items": [
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:0",
+      "id": "beyondaime::v2_beyondaime:0",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:1",
+      "id": "beyondaime::v2_beyondaime:1",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:10",
+      "id": "beyondaime::v2_beyondaime:10",
+      "stratum_id": "beyondaime",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:11",
+      "id": "beyondaime::v2_beyondaime:11",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:12",
+      "id": "beyondaime::v2_beyondaime:12",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:13",
+      "id": "beyondaime::v2_beyondaime:13",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:14",
+      "id": "beyondaime::v2_beyondaime:14",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:15",
+      "id": "beyondaime::v2_beyondaime:15",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:16",
+      "id": "beyondaime::v2_beyondaime:16",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:17",
+      "id": "beyondaime::v2_beyondaime:17",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:18",
+      "id": "beyondaime::v2_beyondaime:18",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:19",
+      "id": "beyondaime::v2_beyondaime:19",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:2",
+      "id": "beyondaime::v2_beyondaime:2",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:20",
+      "id": "beyondaime::v2_beyondaime:20",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:21",
+      "id": "beyondaime::v2_beyondaime:21",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:22",
+      "id": "beyondaime::v2_beyondaime:22",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:23",
+      "id": "beyondaime::v2_beyondaime:23",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:24",
+      "id": "beyondaime::v2_beyondaime:24",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:25",
+      "id": "beyondaime::v2_beyondaime:25",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:26",
+      "id": "beyondaime::v2_beyondaime:26",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:27",
+      "id": "beyondaime::v2_beyondaime:27",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:28",
+      "id": "beyondaime::v2_beyondaime:28",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:29",
+      "id": "beyondaime::v2_beyondaime:29",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:3",
+      "id": "beyondaime::v2_beyondaime:3",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:30",
+      "id": "beyondaime::v2_beyondaime:30",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:31",
+      "id": "beyondaime::v2_beyondaime:31",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:32",
+      "id": "beyondaime::v2_beyondaime:32",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:33",
+      "id": "beyondaime::v2_beyondaime:33",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:34",
+      "id": "beyondaime::v2_beyondaime:34",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:35",
+      "id": "beyondaime::v2_beyondaime:35",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:36",
+      "id": "beyondaime::v2_beyondaime:36",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:37",
+      "id": "beyondaime::v2_beyondaime:37",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:38",
+      "id": "beyondaime::v2_beyondaime:38",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:39",
+      "id": "beyondaime::v2_beyondaime:39",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:4",
+      "id": "beyondaime::v2_beyondaime:4",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:40",
+      "id": "beyondaime::v2_beyondaime:40",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:41",
+      "id": "beyondaime::v2_beyondaime:41",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:42",
+      "id": "beyondaime::v2_beyondaime:42",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:43",
+      "id": "beyondaime::v2_beyondaime:43",
+      "stratum_id": "beyondaime",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:44",
+      "id": "beyondaime::v2_beyondaime:44",
+      "stratum_id": "beyondaime",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:45",
+      "id": "beyondaime::v2_beyondaime:45",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:46",
+      "id": "beyondaime::v2_beyondaime:46",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:47",
+      "id": "beyondaime::v2_beyondaime:47",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:48",
+      "id": "beyondaime::v2_beyondaime:48",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:49",
+      "id": "beyondaime::v2_beyondaime:49",
+      "stratum_id": "beyondaime",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:5",
+      "id": "beyondaime::v2_beyondaime:5",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:50",
+      "id": "beyondaime::v2_beyondaime:50",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:51",
+      "id": "beyondaime::v2_beyondaime:51",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:52",
+      "id": "beyondaime::v2_beyondaime:52",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:53",
+      "id": "beyondaime::v2_beyondaime:53",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:54",
+      "id": "beyondaime::v2_beyondaime:54",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:55",
+      "id": "beyondaime::v2_beyondaime:55",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:56",
+      "id": "beyondaime::v2_beyondaime:56",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:57",
+      "id": "beyondaime::v2_beyondaime:57",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:58",
+      "id": "beyondaime::v2_beyondaime:58",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:59",
+      "id": "beyondaime::v2_beyondaime:59",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:6",
+      "id": "beyondaime::v2_beyondaime:6",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:60",
+      "id": "beyondaime::v2_beyondaime:60",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:61",
+      "id": "beyondaime::v2_beyondaime:61",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:62",
+      "id": "beyondaime::v2_beyondaime:62",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:63",
+      "id": "beyondaime::v2_beyondaime:63",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:64",
+      "id": "beyondaime::v2_beyondaime:64",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:65",
+      "id": "beyondaime::v2_beyondaime:65",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:66",
+      "id": "beyondaime::v2_beyondaime:66",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:67",
+      "id": "beyondaime::v2_beyondaime:67",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:68",
+      "id": "beyondaime::v2_beyondaime:68",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:69",
+      "id": "beyondaime::v2_beyondaime:69",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:7",
+      "id": "beyondaime::v2_beyondaime:7",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:70",
+      "id": "beyondaime::v2_beyondaime:70",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:71",
+      "id": "beyondaime::v2_beyondaime:71",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:72",
+      "id": "beyondaime::v2_beyondaime:72",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:73",
+      "id": "beyondaime::v2_beyondaime:73",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:74",
+      "id": "beyondaime::v2_beyondaime:74",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:75",
+      "id": "beyondaime::v2_beyondaime:75",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:76",
+      "id": "beyondaime::v2_beyondaime:76",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:77",
+      "id": "beyondaime::v2_beyondaime:77",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:78",
+      "id": "beyondaime::v2_beyondaime:78",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:79",
+      "id": "beyondaime::v2_beyondaime:79",
+      "stratum_id": "beyondaime",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:8",
+      "id": "beyondaime::v2_beyondaime:8",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:80",
+      "id": "beyondaime::v2_beyondaime:80",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:81",
+      "id": "beyondaime::v2_beyondaime:81",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:82",
+      "id": "beyondaime::v2_beyondaime:82",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:83",
+      "id": "beyondaime::v2_beyondaime:83",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:84",
+      "id": "beyondaime::v2_beyondaime:84",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:85",
+      "id": "beyondaime::v2_beyondaime:85",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:86",
+      "id": "beyondaime::v2_beyondaime:86",
+      "stratum_id": "beyondaime",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:87",
+      "id": "beyondaime::v2_beyondaime:87",
+      "stratum_id": "beyondaime",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:88",
+      "id": "beyondaime::v2_beyondaime:88",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:89",
+      "id": "beyondaime::v2_beyondaime:89",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:9",
+      "id": "beyondaime::v2_beyondaime:9",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:90",
+      "id": "beyondaime::v2_beyondaime:90",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:91",
+      "id": "beyondaime::v2_beyondaime:91",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:92",
+      "id": "beyondaime::v2_beyondaime:92",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:93",
+      "id": "beyondaime::v2_beyondaime:93",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:94",
+      "id": "beyondaime::v2_beyondaime:94",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:95",
+      "id": "beyondaime::v2_beyondaime:95",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:96",
+      "id": "beyondaime::v2_beyondaime:96",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:97",
+      "id": "beyondaime::v2_beyondaime:97",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:98",
+      "id": "beyondaime::v2_beyondaime:98",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "beyondaime::v2_beyondaime:99",
+      "id": "beyondaime::v2_beyondaime:99",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:1",
+      "id": "brumo2025::v2_brumo2025:1",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:10",
+      "id": "brumo2025::v2_brumo2025:10",
+      "stratum_id": "brumo2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:11",
+      "id": "brumo2025::v2_brumo2025:11",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:12",
+      "id": "brumo2025::v2_brumo2025:12",
+      "stratum_id": "brumo2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:13",
+      "id": "brumo2025::v2_brumo2025:13",
+      "stratum_id": "brumo2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:14",
+      "id": "brumo2025::v2_brumo2025:14",
+      "stratum_id": "brumo2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:15",
+      "id": "brumo2025::v2_brumo2025:15",
+      "stratum_id": "brumo2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:16",
+      "id": "brumo2025::v2_brumo2025:16",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:17",
+      "id": "brumo2025::v2_brumo2025:17",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:18",
+      "id": "brumo2025::v2_brumo2025:18",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:19",
+      "id": "brumo2025::v2_brumo2025:19",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:2",
+      "id": "brumo2025::v2_brumo2025:2",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:20",
+      "id": "brumo2025::v2_brumo2025:20",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:21",
+      "id": "brumo2025::v2_brumo2025:21",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:22",
+      "id": "brumo2025::v2_brumo2025:22",
+      "stratum_id": "brumo2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:23",
+      "id": "brumo2025::v2_brumo2025:23",
+      "stratum_id": "brumo2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:24",
+      "id": "brumo2025::v2_brumo2025:24",
+      "stratum_id": "brumo2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:25",
+      "id": "brumo2025::v2_brumo2025:25",
+      "stratum_id": "brumo2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:26",
+      "id": "brumo2025::v2_brumo2025:26",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:27",
+      "id": "brumo2025::v2_brumo2025:27",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:28",
+      "id": "brumo2025::v2_brumo2025:28",
+      "stratum_id": "brumo2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:29",
+      "id": "brumo2025::v2_brumo2025:29",
+      "stratum_id": "brumo2025",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:3",
+      "id": "brumo2025::v2_brumo2025:3",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:30",
+      "id": "brumo2025::v2_brumo2025:30",
+      "stratum_id": "brumo2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:4",
+      "id": "brumo2025::v2_brumo2025:4",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:5",
+      "id": "brumo2025::v2_brumo2025:5",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:6",
+      "id": "brumo2025::v2_brumo2025:6",
+      "stratum_id": "brumo2025",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:7",
+      "id": "brumo2025::v2_brumo2025:7",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:8",
+      "id": "brumo2025::v2_brumo2025:8",
+      "stratum_id": "brumo2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "brumo2025::v2_brumo2025:9",
+      "id": "brumo2025::v2_brumo2025:9",
+      "stratum_id": "brumo2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:1",
+      "id": "cmimc2025::v2_cmimc2025:1",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:10",
+      "id": "cmimc2025::v2_cmimc2025:10",
+      "stratum_id": "cmimc2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:11",
+      "id": "cmimc2025::v2_cmimc2025:11",
+      "stratum_id": "cmimc2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:12",
+      "id": "cmimc2025::v2_cmimc2025:12",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:13",
+      "id": "cmimc2025::v2_cmimc2025:13",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:14",
+      "id": "cmimc2025::v2_cmimc2025:14",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:15",
+      "id": "cmimc2025::v2_cmimc2025:15",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:16",
+      "id": "cmimc2025::v2_cmimc2025:16",
+      "stratum_id": "cmimc2025",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:17",
+      "id": "cmimc2025::v2_cmimc2025:17",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:18",
+      "id": "cmimc2025::v2_cmimc2025:18",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:19",
+      "id": "cmimc2025::v2_cmimc2025:19",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:2",
+      "id": "cmimc2025::v2_cmimc2025:2",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:20",
+      "id": "cmimc2025::v2_cmimc2025:20",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:21",
+      "id": "cmimc2025::v2_cmimc2025:21",
+      "stratum_id": "cmimc2025",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:22",
+      "id": "cmimc2025::v2_cmimc2025:22",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:23",
+      "id": "cmimc2025::v2_cmimc2025:23",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:24",
+      "id": "cmimc2025::v2_cmimc2025:24",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:25",
+      "id": "cmimc2025::v2_cmimc2025:25",
+      "stratum_id": "cmimc2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:26",
+      "id": "cmimc2025::v2_cmimc2025:26",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:27",
+      "id": "cmimc2025::v2_cmimc2025:27",
+      "stratum_id": "cmimc2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:28",
+      "id": "cmimc2025::v2_cmimc2025:28",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:29",
+      "id": "cmimc2025::v2_cmimc2025:29",
+      "stratum_id": "cmimc2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:3",
+      "id": "cmimc2025::v2_cmimc2025:3",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:30",
+      "id": "cmimc2025::v2_cmimc2025:30",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:31",
+      "id": "cmimc2025::v2_cmimc2025:31",
+      "stratum_id": "cmimc2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:32",
+      "id": "cmimc2025::v2_cmimc2025:32",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:33",
+      "id": "cmimc2025::v2_cmimc2025:33",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:34",
+      "id": "cmimc2025::v2_cmimc2025:34",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:35",
+      "id": "cmimc2025::v2_cmimc2025:35",
+      "stratum_id": "cmimc2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:36",
+      "id": "cmimc2025::v2_cmimc2025:36",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:37",
+      "id": "cmimc2025::v2_cmimc2025:37",
+      "stratum_id": "cmimc2025",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:38",
+      "id": "cmimc2025::v2_cmimc2025:38",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:39",
+      "id": "cmimc2025::v2_cmimc2025:39",
+      "stratum_id": "cmimc2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:4",
+      "id": "cmimc2025::v2_cmimc2025:4",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:40",
+      "id": "cmimc2025::v2_cmimc2025:40",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:5",
+      "id": "cmimc2025::v2_cmimc2025:5",
+      "stratum_id": "cmimc2025",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:6",
+      "id": "cmimc2025::v2_cmimc2025:6",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:7",
+      "id": "cmimc2025::v2_cmimc2025:7",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:8",
+      "id": "cmimc2025::v2_cmimc2025:8",
+      "stratum_id": "cmimc2025",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "cmimc2025::v2_cmimc2025:9",
+      "id": "cmimc2025::v2_cmimc2025:9",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:1",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:1",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:10",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:10",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:11",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:11",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:12",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:12",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:13",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:13",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:14",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:14",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:15",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:15",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:16",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:16",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:17",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:17",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:18",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:18",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:19",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:19",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:2",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:2",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:20",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:20",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:21",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:21",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:22",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:22",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:23",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:23",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:24",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:24",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:25",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:25",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:26",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:26",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:27",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:27",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:28",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:28",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:29",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:29",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:3",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:3",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:30",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:30",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:4",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:4",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:5",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:5",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:6",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:6",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:7",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:7",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:8",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:8",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "hmmt_nov2025::v2_hmmt_nov2025:9",
+      "id": "hmmt_nov2025::v2_hmmt_nov2025:9",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.875
+    }
+  ],
+  "metrics": {
+    "math_avg_at_8": 0.5775,
+    "math_equal_stratum_avg_at_8": 0.6219270833333334,
+    "natural_stop_parse_failure_rate": 0.0,
+    "stop_rate": 0.98125
+  },
+  "protocol_fingerprint": {
+    "expected_k": 8,
+    "protocol_id": "v2_math_holdout_4contest_suite",
+    "strata_counts": {
+      "beyondaime": 100,
+      "brumo2025": 30,
+      "cmimc2025": 40,
+      "hmmt_nov2025": 30
+    },
+    "track": "math"
+  },
+  "schema_version": "3.0",
+  "stratum_metrics": {
+    "beyondaime": {
+      "math_avg_at_8": 0.5075,
+      "math_pass_at_8": 0.75,
+      "natural_stop_parse_failure_rate": 0.0,
+      "stop_rate": 0.98125
+    },
+    "brumo2025": {
+      "math_avg_at_8": 0.775,
+      "math_pass_at_8": 0.9333333333333333,
+      "natural_stop_parse_failure_rate": 0.0,
+      "stop_rate": 0.9958333333333333
+    },
+    "cmimc2025": {
+      "math_avg_at_8": 0.534375,
+      "math_pass_at_8": 0.825,
+      "natural_stop_parse_failure_rate": 0.0,
+      "stop_rate": 0.96875
+    },
+    "hmmt_nov2025": {
+      "math_avg_at_8": 0.6708333333333333,
+      "math_pass_at_8": 0.9333333333333333,
+      "natural_stop_parse_failure_rate": 0.0,
+      "stop_rate": 0.9833333333333333
+    }
+  }
+}

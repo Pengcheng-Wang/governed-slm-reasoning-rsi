@@ -1,0 +1,1308 @@
+{
+  "candidate_id": "confirm_math_astar_qwen35_4b",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "expected_k": 8,
+  "items": [
+    {
+      "cluster_id": "v2_omnimath:0",
+      "id": "v2_omnimath:0",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:10",
+      "id": "v2_omnimath:10",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:1009",
+      "id": "v2_omnimath:1009",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:1012",
+      "id": "v2_omnimath:1012",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1018",
+      "id": "v2_omnimath:1018",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1022",
+      "id": "v2_omnimath:1022",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:1028",
+      "id": "v2_omnimath:1028",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:1030",
+      "id": "v2_omnimath:1030",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1060",
+      "id": "v2_omnimath:1060",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:1114",
+      "id": "v2_omnimath:1114",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_omnimath:114",
+      "id": "v2_omnimath:114",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1141",
+      "id": "v2_omnimath:1141",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1156",
+      "id": "v2_omnimath:1156",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:1162",
+      "id": "v2_omnimath:1162",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1166",
+      "id": "v2_omnimath:1166",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1170",
+      "id": "v2_omnimath:1170",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1171",
+      "id": "v2_omnimath:1171",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1172",
+      "id": "v2_omnimath:1172",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1205",
+      "id": "v2_omnimath:1205",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:1226",
+      "id": "v2_omnimath:1226",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:1237",
+      "id": "v2_omnimath:1237",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1273",
+      "id": "v2_omnimath:1273",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1299",
+      "id": "v2_omnimath:1299",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1319",
+      "id": "v2_omnimath:1319",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:1339",
+      "id": "v2_omnimath:1339",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1344",
+      "id": "v2_omnimath:1344",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1376",
+      "id": "v2_omnimath:1376",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1383",
+      "id": "v2_omnimath:1383",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:139",
+      "id": "v2_omnimath:139",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1398",
+      "id": "v2_omnimath:1398",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1404",
+      "id": "v2_omnimath:1404",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:1433",
+      "id": "v2_omnimath:1433",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:144",
+      "id": "v2_omnimath:144",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:1451",
+      "id": "v2_omnimath:1451",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:1469",
+      "id": "v2_omnimath:1469",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1476",
+      "id": "v2_omnimath:1476",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:1487",
+      "id": "v2_omnimath:1487",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1508",
+      "id": "v2_omnimath:1508",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1528",
+      "id": "v2_omnimath:1528",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_omnimath:1533",
+      "id": "v2_omnimath:1533",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1546",
+      "id": "v2_omnimath:1546",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:1570",
+      "id": "v2_omnimath:1570",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_omnimath:159",
+      "id": "v2_omnimath:159",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1597",
+      "id": "v2_omnimath:1597",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:1616",
+      "id": "v2_omnimath:1616",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_omnimath:1622",
+      "id": "v2_omnimath:1622",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_omnimath:1631",
+      "id": "v2_omnimath:1631",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1649",
+      "id": "v2_omnimath:1649",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:166",
+      "id": "v2_omnimath:166",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1671",
+      "id": "v2_omnimath:1671",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:1692",
+      "id": "v2_omnimath:1692",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1717",
+      "id": "v2_omnimath:1717",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1733",
+      "id": "v2_omnimath:1733",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1802",
+      "id": "v2_omnimath:1802",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:1803",
+      "id": "v2_omnimath:1803",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:1820",
+      "id": "v2_omnimath:1820",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:1843",
+      "id": "v2_omnimath:1843",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:1871",
+      "id": "v2_omnimath:1871",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1907",
+      "id": "v2_omnimath:1907",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:192",
+      "id": "v2_omnimath:192",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1932",
+      "id": "v2_omnimath:1932",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:195",
+      "id": "v2_omnimath:195",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:1981",
+      "id": "v2_omnimath:1981",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:1994",
+      "id": "v2_omnimath:1994",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:200",
+      "id": "v2_omnimath:200",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:2044",
+      "id": "v2_omnimath:2044",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:2071",
+      "id": "v2_omnimath:2071",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:209",
+      "id": "v2_omnimath:209",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2130",
+      "id": "v2_omnimath:2130",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2139",
+      "id": "v2_omnimath:2139",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_omnimath:214",
+      "id": "v2_omnimath:214",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:2141",
+      "id": "v2_omnimath:2141",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:2226",
+      "id": "v2_omnimath:2226",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_omnimath:226",
+      "id": "v2_omnimath:226",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_omnimath:2263",
+      "id": "v2_omnimath:2263",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2332",
+      "id": "v2_omnimath:2332",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:2350",
+      "id": "v2_omnimath:2350",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:2360",
+      "id": "v2_omnimath:2360",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:237",
+      "id": "v2_omnimath:237",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:2385",
+      "id": "v2_omnimath:2385",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2386",
+      "id": "v2_omnimath:2386",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:2387",
+      "id": "v2_omnimath:2387",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2408",
+      "id": "v2_omnimath:2408",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:2409",
+      "id": "v2_omnimath:2409",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2422",
+      "id": "v2_omnimath:2422",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:2429",
+      "id": "v2_omnimath:2429",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2456",
+      "id": "v2_omnimath:2456",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2482",
+      "id": "v2_omnimath:2482",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2494",
+      "id": "v2_omnimath:2494",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:2515",
+      "id": "v2_omnimath:2515",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2576",
+      "id": "v2_omnimath:2576",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_omnimath:258",
+      "id": "v2_omnimath:258",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:2590",
+      "id": "v2_omnimath:2590",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_omnimath:2597",
+      "id": "v2_omnimath:2597",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:2626",
+      "id": "v2_omnimath:2626",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2633",
+      "id": "v2_omnimath:2633",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2645",
+      "id": "v2_omnimath:2645",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:2653",
+      "id": "v2_omnimath:2653",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_omnimath:2657",
+      "id": "v2_omnimath:2657",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:311",
+      "id": "v2_omnimath:311",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:3142",
+      "id": "v2_omnimath:3142",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:315",
+      "id": "v2_omnimath:315",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:3170",
+      "id": "v2_omnimath:3170",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:3172",
+      "id": "v2_omnimath:3172",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:3178",
+      "id": "v2_omnimath:3178",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3204",
+      "id": "v2_omnimath:3204",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:3207",
+      "id": "v2_omnimath:3207",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3225",
+      "id": "v2_omnimath:3225",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3239",
+      "id": "v2_omnimath:3239",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:3242",
+      "id": "v2_omnimath:3242",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:3243",
+      "id": "v2_omnimath:3243",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3244",
+      "id": "v2_omnimath:3244",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3250",
+      "id": "v2_omnimath:3250",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3253",
+      "id": "v2_omnimath:3253",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3261",
+      "id": "v2_omnimath:3261",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3267",
+      "id": "v2_omnimath:3267",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:3314",
+      "id": "v2_omnimath:3314",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:333",
+      "id": "v2_omnimath:333",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3347",
+      "id": "v2_omnimath:3347",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:335",
+      "id": "v2_omnimath:335",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_omnimath:343",
+      "id": "v2_omnimath:343",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_omnimath:353",
+      "id": "v2_omnimath:353",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:3563",
+      "id": "v2_omnimath:3563",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3576",
+      "id": "v2_omnimath:3576",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3584",
+      "id": "v2_omnimath:3584",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3587",
+      "id": "v2_omnimath:3587",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3593",
+      "id": "v2_omnimath:3593",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:3613",
+      "id": "v2_omnimath:3613",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:3626",
+      "id": "v2_omnimath:3626",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3632",
+      "id": "v2_omnimath:3632",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:3635",
+      "id": "v2_omnimath:3635",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3647",
+      "id": "v2_omnimath:3647",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3683",
+      "id": "v2_omnimath:3683",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:3689",
+      "id": "v2_omnimath:3689",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_omnimath:3691",
+      "id": "v2_omnimath:3691",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_omnimath:3697",
+      "id": "v2_omnimath:3697",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3698",
+      "id": "v2_omnimath:3698",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:3700",
+      "id": "v2_omnimath:3700",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3701",
+      "id": "v2_omnimath:3701",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3720",
+      "id": "v2_omnimath:3720",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3724",
+      "id": "v2_omnimath:3724",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:3728",
+      "id": "v2_omnimath:3728",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3732",
+      "id": "v2_omnimath:3732",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3741",
+      "id": "v2_omnimath:3741",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3742",
+      "id": "v2_omnimath:3742",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3772",
+      "id": "v2_omnimath:3772",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3778",
+      "id": "v2_omnimath:3778",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:3784",
+      "id": "v2_omnimath:3784",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3805",
+      "id": "v2_omnimath:3805",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3815",
+      "id": "v2_omnimath:3815",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3825",
+      "id": "v2_omnimath:3825",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3826",
+      "id": "v2_omnimath:3826",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:3831",
+      "id": "v2_omnimath:3831",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_omnimath:3832",
+      "id": "v2_omnimath:3832",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:3855",
+      "id": "v2_omnimath:3855",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:3866",
+      "id": "v2_omnimath:3866",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:3867",
+      "id": "v2_omnimath:3867",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3868",
+      "id": "v2_omnimath:3868",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_omnimath:3879",
+      "id": "v2_omnimath:3879",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:3881",
+      "id": "v2_omnimath:3881",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:3882",
+      "id": "v2_omnimath:3882",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3883",
+      "id": "v2_omnimath:3883",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3884",
+      "id": "v2_omnimath:3884",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3889",
+      "id": "v2_omnimath:3889",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3892",
+      "id": "v2_omnimath:3892",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3893",
+      "id": "v2_omnimath:3893",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3897",
+      "id": "v2_omnimath:3897",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3907",
+      "id": "v2_omnimath:3907",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_omnimath:3911",
+      "id": "v2_omnimath:3911",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3912",
+      "id": "v2_omnimath:3912",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3920",
+      "id": "v2_omnimath:3920",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3927",
+      "id": "v2_omnimath:3927",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3931",
+      "id": "v2_omnimath:3931",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3935",
+      "id": "v2_omnimath:3935",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3945",
+      "id": "v2_omnimath:3945",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3952",
+      "id": "v2_omnimath:3952",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3956",
+      "id": "v2_omnimath:3956",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3969",
+      "id": "v2_omnimath:3969",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3988",
+      "id": "v2_omnimath:3988",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3989",
+      "id": "v2_omnimath:3989",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:3997",
+      "id": "v2_omnimath:3997",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4",
+      "id": "v2_omnimath:4",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:4007",
+      "id": "v2_omnimath:4007",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4019",
+      "id": "v2_omnimath:4019",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4020",
+      "id": "v2_omnimath:4020",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4042",
+      "id": "v2_omnimath:4042",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4046",
+      "id": "v2_omnimath:4046",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4047",
+      "id": "v2_omnimath:4047",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:4061",
+      "id": "v2_omnimath:4061",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:4070",
+      "id": "v2_omnimath:4070",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:4075",
+      "id": "v2_omnimath:4075",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4076",
+      "id": "v2_omnimath:4076",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:4082",
+      "id": "v2_omnimath:4082",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4108",
+      "id": "v2_omnimath:4108",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4117",
+      "id": "v2_omnimath:4117",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4152",
+      "id": "v2_omnimath:4152",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:4156",
+      "id": "v2_omnimath:4156",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4157",
+      "id": "v2_omnimath:4157",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4164",
+      "id": "v2_omnimath:4164",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:4176",
+      "id": "v2_omnimath:4176",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_omnimath:4178",
+      "id": "v2_omnimath:4178",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_omnimath:4195",
+      "id": "v2_omnimath:4195",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:4201",
+      "id": "v2_omnimath:4201",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_omnimath:4204",
+      "id": "v2_omnimath:4204",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4223",
+      "id": "v2_omnimath:4223",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4228",
+      "id": "v2_omnimath:4228",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:4233",
+      "id": "v2_omnimath:4233",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4235",
+      "id": "v2_omnimath:4235",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4237",
+      "id": "v2_omnimath:4237",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4248",
+      "id": "v2_omnimath:4248",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4252",
+      "id": "v2_omnimath:4252",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:4255",
+      "id": "v2_omnimath:4255",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:4259",
+      "id": "v2_omnimath:4259",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4276",
+      "id": "v2_omnimath:4276",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:428",
+      "id": "v2_omnimath:428",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_omnimath:4299",
+      "id": "v2_omnimath:4299",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:43",
+      "id": "v2_omnimath:43",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4305",
+      "id": "v2_omnimath:4305",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4350",
+      "id": "v2_omnimath:4350",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:440",
+      "id": "v2_omnimath:440",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:4417",
+      "id": "v2_omnimath:4417",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:49",
+      "id": "v2_omnimath:49",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:505",
+      "id": "v2_omnimath:505",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:506",
+      "id": "v2_omnimath:506",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:519",
+      "id": "v2_omnimath:519",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_omnimath:541",
+      "id": "v2_omnimath:541",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:551",
+      "id": "v2_omnimath:551",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_omnimath:552",
+      "id": "v2_omnimath:552",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_omnimath:574",
+      "id": "v2_omnimath:574",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:576",
+      "id": "v2_omnimath:576",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:6",
+      "id": "v2_omnimath:6",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:631",
+      "id": "v2_omnimath:631",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_omnimath:654",
+      "id": "v2_omnimath:654",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:686",
+      "id": "v2_omnimath:686",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:692",
+      "id": "v2_omnimath:692",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:72",
+      "id": "v2_omnimath:72",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_omnimath:721",
+      "id": "v2_omnimath:721",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_omnimath:724",
+      "id": "v2_omnimath:724",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:730",
+      "id": "v2_omnimath:730",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:78",
+      "id": "v2_omnimath:78",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_omnimath:817",
+      "id": "v2_omnimath:817",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:821",
+      "id": "v2_omnimath:821",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_omnimath:84",
+      "id": "v2_omnimath:84",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:841",
+      "id": "v2_omnimath:841",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:876",
+      "id": "v2_omnimath:876",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:89",
+      "id": "v2_omnimath:89",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:9",
+      "id": "v2_omnimath:9",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:913",
+      "id": "v2_omnimath:913",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:93",
+      "id": "v2_omnimath:93",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_omnimath:952",
+      "id": "v2_omnimath:952",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:954",
+      "id": "v2_omnimath:954",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:958",
+      "id": "v2_omnimath:958",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_omnimath:972",
+      "id": "v2_omnimath:972",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_omnimath:978",
+      "id": "v2_omnimath:978",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_omnimath:99",
+      "id": "v2_omnimath:99",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_omnimath:997",
+      "id": "v2_omnimath:997",
+      "value": 0.25
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.43310546875,
+    "learnable_fraction": 0.43359375,
+    "math_avg_at_8": 0.43408203125,
+    "math_maj_at_8": 0.49609375,
+    "math_pass_at_8": 0.6484375,
+    "math_strict_avg_at_8": 0.43408203125,
+    "median_tokens": 9211.5,
+    "natural_stop_parse_failure_rate": 0.0,
+    "p95_tokens": 12288.0,
+    "p99_tokens": 12288.0,
+    "solved_problem_count": 166.0,
+    "stop_rate": 0.86572265625,
+    "timeout_killed_rollouts": 0.0,
+    "truncation_rate": 0.13427734375
+  },
+  "n_problems": 256,
+  "protocol_id": "v2_math_confirm",
+  "schema_version": "1.0",
+  "scored_at_utc": "2026-11-19T08:59:32.063398+00:00",
+  "track": "math"
+}

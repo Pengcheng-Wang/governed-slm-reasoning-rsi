@@ -1,0 +1,528 @@
+{
+  "candidate_id": "holdout_beyondaime_b0_qwen3_4b",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "expected_k": 8,
+  "items": [
+    {
+      "cluster_id": "v2_beyondaime:0",
+      "id": "v2_beyondaime:0",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:1",
+      "id": "v2_beyondaime:1",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:10",
+      "id": "v2_beyondaime:10",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:11",
+      "id": "v2_beyondaime:11",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:12",
+      "id": "v2_beyondaime:12",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:13",
+      "id": "v2_beyondaime:13",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:14",
+      "id": "v2_beyondaime:14",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:15",
+      "id": "v2_beyondaime:15",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:16",
+      "id": "v2_beyondaime:16",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:17",
+      "id": "v2_beyondaime:17",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:18",
+      "id": "v2_beyondaime:18",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:19",
+      "id": "v2_beyondaime:19",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_beyondaime:2",
+      "id": "v2_beyondaime:2",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:20",
+      "id": "v2_beyondaime:20",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:21",
+      "id": "v2_beyondaime:21",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:22",
+      "id": "v2_beyondaime:22",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:23",
+      "id": "v2_beyondaime:23",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:24",
+      "id": "v2_beyondaime:24",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:25",
+      "id": "v2_beyondaime:25",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:26",
+      "id": "v2_beyondaime:26",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:27",
+      "id": "v2_beyondaime:27",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:28",
+      "id": "v2_beyondaime:28",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:29",
+      "id": "v2_beyondaime:29",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:3",
+      "id": "v2_beyondaime:3",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:30",
+      "id": "v2_beyondaime:30",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:31",
+      "id": "v2_beyondaime:31",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:32",
+      "id": "v2_beyondaime:32",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_beyondaime:33",
+      "id": "v2_beyondaime:33",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:34",
+      "id": "v2_beyondaime:34",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_beyondaime:35",
+      "id": "v2_beyondaime:35",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:36",
+      "id": "v2_beyondaime:36",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:37",
+      "id": "v2_beyondaime:37",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:38",
+      "id": "v2_beyondaime:38",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_beyondaime:39",
+      "id": "v2_beyondaime:39",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:4",
+      "id": "v2_beyondaime:4",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:40",
+      "id": "v2_beyondaime:40",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_beyondaime:41",
+      "id": "v2_beyondaime:41",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_beyondaime:42",
+      "id": "v2_beyondaime:42",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_beyondaime:43",
+      "id": "v2_beyondaime:43",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:44",
+      "id": "v2_beyondaime:44",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:45",
+      "id": "v2_beyondaime:45",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:46",
+      "id": "v2_beyondaime:46",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:47",
+      "id": "v2_beyondaime:47",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:48",
+      "id": "v2_beyondaime:48",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:49",
+      "id": "v2_beyondaime:49",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:5",
+      "id": "v2_beyondaime:5",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:50",
+      "id": "v2_beyondaime:50",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_beyondaime:51",
+      "id": "v2_beyondaime:51",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:52",
+      "id": "v2_beyondaime:52",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_beyondaime:53",
+      "id": "v2_beyondaime:53",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:54",
+      "id": "v2_beyondaime:54",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:55",
+      "id": "v2_beyondaime:55",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:56",
+      "id": "v2_beyondaime:56",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:57",
+      "id": "v2_beyondaime:57",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_beyondaime:58",
+      "id": "v2_beyondaime:58",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:59",
+      "id": "v2_beyondaime:59",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:6",
+      "id": "v2_beyondaime:6",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:60",
+      "id": "v2_beyondaime:60",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_beyondaime:61",
+      "id": "v2_beyondaime:61",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:62",
+      "id": "v2_beyondaime:62",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:63",
+      "id": "v2_beyondaime:63",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:64",
+      "id": "v2_beyondaime:64",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:65",
+      "id": "v2_beyondaime:65",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:66",
+      "id": "v2_beyondaime:66",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:67",
+      "id": "v2_beyondaime:67",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:68",
+      "id": "v2_beyondaime:68",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_beyondaime:69",
+      "id": "v2_beyondaime:69",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_beyondaime:7",
+      "id": "v2_beyondaime:7",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:70",
+      "id": "v2_beyondaime:70",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:71",
+      "id": "v2_beyondaime:71",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:72",
+      "id": "v2_beyondaime:72",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:73",
+      "id": "v2_beyondaime:73",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:74",
+      "id": "v2_beyondaime:74",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:75",
+      "id": "v2_beyondaime:75",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_beyondaime:76",
+      "id": "v2_beyondaime:76",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:77",
+      "id": "v2_beyondaime:77",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:78",
+      "id": "v2_beyondaime:78",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:79",
+      "id": "v2_beyondaime:79",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:8",
+      "id": "v2_beyondaime:8",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:80",
+      "id": "v2_beyondaime:80",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_beyondaime:81",
+      "id": "v2_beyondaime:81",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:82",
+      "id": "v2_beyondaime:82",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:83",
+      "id": "v2_beyondaime:83",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:84",
+      "id": "v2_beyondaime:84",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:85",
+      "id": "v2_beyondaime:85",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:86",
+      "id": "v2_beyondaime:86",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:87",
+      "id": "v2_beyondaime:87",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:88",
+      "id": "v2_beyondaime:88",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:89",
+      "id": "v2_beyondaime:89",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:9",
+      "id": "v2_beyondaime:9",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:90",
+      "id": "v2_beyondaime:90",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:91",
+      "id": "v2_beyondaime:91",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:92",
+      "id": "v2_beyondaime:92",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:93",
+      "id": "v2_beyondaime:93",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:94",
+      "id": "v2_beyondaime:94",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:95",
+      "id": "v2_beyondaime:95",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_beyondaime:96",
+      "id": "v2_beyondaime:96",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:97",
+      "id": "v2_beyondaime:97",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:98",
+      "id": "v2_beyondaime:98",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:99",
+      "id": "v2_beyondaime:99",
+      "value": 0.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.27125,
+    "learnable_fraction": 0.38,
+    "math_avg_at_8": 0.27625,
+    "math_maj_at_8": 0.44,
+    "math_pass_at_8": 0.47,
+    "math_strict_avg_at_8": 0.27625,
+    "median_tokens": 16384.0,
+    "natural_stop_parse_failure_rate": 0.0,
+    "p95_tokens": 16384.0,
+    "p99_tokens": 16384.0,
+    "solved_problem_count": 47.0,
+    "stop_rate": 0.4275,
+    "timeout_killed_rollouts": 0.0,
+    "truncation_rate": 0.5725
+  },
+  "n_problems": 100,
+  "protocol_id": "v2_math_holdout_beyondaime",
+  "schema_version": "1.0",
+  "scored_at_utc": "2026-11-19T13:00:41.347715+00:00",
+  "track": "math"
+}

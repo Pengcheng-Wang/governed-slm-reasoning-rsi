@@ -1,0 +1,861 @@
+{
+  "candidate_id": "holdout_lean_ref_goedel_8b",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "expected_k": 8,
+  "items": [
+    {
+      "cluster_id": "proofnet_test:exercise_10_1_13",
+      "id": "proofnet_test:exercise_10_1_13",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_10_4_7a",
+      "id": "proofnet_test:exercise_10_4_7a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_10_6_7",
+      "id": "proofnet_test:exercise_10_6_7",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_11_13_3",
+      "id": "proofnet_test:exercise_11_13_3",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_11_2_13",
+      "id": "proofnet_test:exercise_11_2_13",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_11_4_6a",
+      "id": "proofnet_test:exercise_11_4_6a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_11_4_6c",
+      "id": "proofnet_test:exercise_11_4_6c",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_12_12",
+      "id": "proofnet_test:exercise_12_12",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_13_3b",
+      "id": "proofnet_test:exercise_13_3b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_13_4a2",
+      "id": "proofnet_test:exercise_13_4a2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_13_4b2",
+      "id": "proofnet_test:exercise_13_4b2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_13_5b",
+      "id": "proofnet_test:exercise_13_5b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_13_6_10",
+      "id": "proofnet_test:exercise_13_6_10",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_13_8a",
+      "id": "proofnet_test:exercise_13_8a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_16_1",
+      "id": "proofnet_test:exercise_16_1",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_16_6",
+      "id": "proofnet_test:exercise_16_6",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_18_13",
+      "id": "proofnet_test:exercise_18_13",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_18_8a",
+      "id": "proofnet_test:exercise_18_8a",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1998_b6",
+      "id": "proofnet_test:exercise_1998_b6",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1999_b4",
+      "id": "proofnet_test:exercise_1999_b4",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_13b",
+      "id": "proofnet_test:exercise_1_13b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_17",
+      "id": "proofnet_test:exercise_1_17",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_18b",
+      "id": "proofnet_test:exercise_1_18b",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_1_15",
+      "id": "proofnet_test:exercise_1_1_15",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_1_17",
+      "id": "proofnet_test:exercise_1_1_17",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_1_20",
+      "id": "proofnet_test:exercise_1_1_20",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_1_22b",
+      "id": "proofnet_test:exercise_1_1_22b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_1_29",
+      "id": "proofnet_test:exercise_1_1_29",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_1_2a",
+      "id": "proofnet_test:exercise_1_1_2a",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_1_4",
+      "id": "proofnet_test:exercise_1_1_4",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_1b",
+      "id": "proofnet_test:exercise_1_1b",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_2",
+      "id": "proofnet_test:exercise_1_2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_30",
+      "id": "proofnet_test:exercise_1_30",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_3_8",
+      "id": "proofnet_test:exercise_1_3_8",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_4",
+      "id": "proofnet_test:exercise_1_4",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_4__row70",
+      "id": "proofnet_test:exercise_1_4__row70",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_6_23",
+      "id": "proofnet_test:exercise_1_6_23",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_7",
+      "id": "proofnet_test:exercise_1_7",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_8",
+      "id": "proofnet_test:exercise_1_8",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_1_9",
+      "id": "proofnet_test:exercise_1_9",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2001_a5",
+      "id": "proofnet_test:exercise_2001_a5",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2014_a5",
+      "id": "proofnet_test:exercise_2014_a5",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2018_a5",
+      "id": "proofnet_test:exercise_2018_a5",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2018_b4",
+      "id": "proofnet_test:exercise_2018_b4",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_20_2",
+      "id": "proofnet_test:exercise_20_2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_21_6b",
+      "id": "proofnet_test:exercise_21_6b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_22_5",
+      "id": "proofnet_test:exercise_22_5",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_23_3",
+      "id": "proofnet_test:exercise_23_3",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_23_6",
+      "id": "proofnet_test:exercise_23_6",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_24_3a",
+      "id": "proofnet_test:exercise_24_3a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_26_12",
+      "id": "proofnet_test:exercise_26_12",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_28_4",
+      "id": "proofnet_test:exercise_28_4",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_28_6",
+      "id": "proofnet_test:exercise_28_6",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_29_4",
+      "id": "proofnet_test:exercise_29_4",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_10_1",
+      "id": "proofnet_test:exercise_2_10_1",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_11_7",
+      "id": "proofnet_test:exercise_2_11_7",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_19a",
+      "id": "proofnet_test:exercise_2_19a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_1_13",
+      "id": "proofnet_test:exercise_2_1_13",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_1_18",
+      "id": "proofnet_test:exercise_2_1_18",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_1_26",
+      "id": "proofnet_test:exercise_2_1_26",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_2",
+      "id": "proofnet_test:exercise_2_2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_25",
+      "id": "proofnet_test:exercise_2_25",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_26",
+      "id": "proofnet_test:exercise_2_26",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_27a",
+      "id": "proofnet_test:exercise_2_27a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_27b",
+      "id": "proofnet_test:exercise_2_27b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_29",
+      "id": "proofnet_test:exercise_2_29",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_2_6c",
+      "id": "proofnet_test:exercise_2_2_6c",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_32a",
+      "id": "proofnet_test:exercise_2_32a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_3_16",
+      "id": "proofnet_test:exercise_2_3_16",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_3_2",
+      "id": "proofnet_test:exercise_2_3_2",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_4",
+      "id": "proofnet_test:exercise_2_4",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_46",
+      "id": "proofnet_test:exercise_2_46",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_4_16a",
+      "id": "proofnet_test:exercise_2_4_16a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_4_16c",
+      "id": "proofnet_test:exercise_2_4_16c",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_5_23",
+      "id": "proofnet_test:exercise_2_5_23",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_5_31",
+      "id": "proofnet_test:exercise_2_5_31",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_5_52",
+      "id": "proofnet_test:exercise_2_5_52",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_7_7",
+      "id": "proofnet_test:exercise_2_7_7",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_2_92",
+      "id": "proofnet_test:exercise_2_92",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_30_10",
+      "id": "proofnet_test:exercise_30_10",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_31_1",
+      "id": "proofnet_test:exercise_31_1",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_31_3",
+      "id": "proofnet_test:exercise_31_3",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_32_2a",
+      "id": "proofnet_test:exercise_32_2a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_32_2c",
+      "id": "proofnet_test:exercise_32_2c",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_33_7",
+      "id": "proofnet_test:exercise_33_7",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_34_9",
+      "id": "proofnet_test:exercise_34_9",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_1",
+      "id": "proofnet_test:exercise_3_1",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_10",
+      "id": "proofnet_test:exercise_3_10",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_14",
+      "id": "proofnet_test:exercise_3_14",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_1_22a",
+      "id": "proofnet_test:exercise_3_1_22a",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_21",
+      "id": "proofnet_test:exercise_3_21",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_2_16",
+      "id": "proofnet_test:exercise_3_2_16",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_2_21",
+      "id": "proofnet_test:exercise_3_2_21",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_2_7",
+      "id": "proofnet_test:exercise_3_2_7",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_2_8",
+      "id": "proofnet_test:exercise_3_2_8",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_2a",
+      "id": "proofnet_test:exercise_3_2a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_3_3",
+      "id": "proofnet_test:exercise_3_3_3",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_4",
+      "id": "proofnet_test:exercise_3_4",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_4_4",
+      "id": "proofnet_test:exercise_3_4_4",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_4_5b",
+      "id": "proofnet_test:exercise_3_4_5b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_4__row154",
+      "id": "proofnet_test:exercise_3_4__row154",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_5",
+      "id": "proofnet_test:exercise_3_5",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_63a",
+      "id": "proofnet_test:exercise_3_63a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_7_2",
+      "id": "proofnet_test:exercise_3_7_2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_3_8",
+      "id": "proofnet_test:exercise_3_8",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_43_2",
+      "id": "proofnet_test:exercise_43_2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_11",
+      "id": "proofnet_test:exercise_4_11",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_11a",
+      "id": "proofnet_test:exercise_4_11a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_15",
+      "id": "proofnet_test:exercise_4_15",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_15a",
+      "id": "proofnet_test:exercise_4_15a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_1a",
+      "id": "proofnet_test:exercise_4_1a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_21a",
+      "id": "proofnet_test:exercise_4_21a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_2_6",
+      "id": "proofnet_test:exercise_4_2_6",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_2_8",
+      "id": "proofnet_test:exercise_4_2_8",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_2_9a",
+      "id": "proofnet_test:exercise_4_2_9a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_3",
+      "id": "proofnet_test:exercise_4_3",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_3_1",
+      "id": "proofnet_test:exercise_4_3_1",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_4",
+      "id": "proofnet_test:exercise_4_4",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_4_2",
+      "id": "proofnet_test:exercise_4_4_2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_4_6b",
+      "id": "proofnet_test:exercise_4_4_6b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_4_8a",
+      "id": "proofnet_test:exercise_4_4_8a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_4_9",
+      "id": "proofnet_test:exercise_4_4_9",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_4b",
+      "id": "proofnet_test:exercise_4_4b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_5_13",
+      "id": "proofnet_test:exercise_4_5_13",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_5_15",
+      "id": "proofnet_test:exercise_4_5_15",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_5_17",
+      "id": "proofnet_test:exercise_4_5_17",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_5_19",
+      "id": "proofnet_test:exercise_4_5_19",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_5_21",
+      "id": "proofnet_test:exercise_4_5_21",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_5_23",
+      "id": "proofnet_test:exercise_4_5_23",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_5_23__row110",
+      "id": "proofnet_test:exercise_4_5_23__row110",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_5_33",
+      "id": "proofnet_test:exercise_4_5_33",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_5b",
+      "id": "proofnet_test:exercise_4_5b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_6",
+      "id": "proofnet_test:exercise_4_6",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_6_2",
+      "id": "proofnet_test:exercise_4_6_2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_4_8a",
+      "id": "proofnet_test:exercise_4_8a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_1",
+      "id": "proofnet_test:exercise_5_1",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_11",
+      "id": "proofnet_test:exercise_5_11",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_13",
+      "id": "proofnet_test:exercise_5_13",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_17",
+      "id": "proofnet_test:exercise_5_17",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_1_8",
+      "id": "proofnet_test:exercise_5_1_8",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_1__row74",
+      "id": "proofnet_test:exercise_5_1__row74",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_24",
+      "id": "proofnet_test:exercise_5_24",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_28",
+      "id": "proofnet_test:exercise_5_28",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_3",
+      "id": "proofnet_test:exercise_5_3",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_3_7",
+      "id": "proofnet_test:exercise_5_3_7",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_4_3",
+      "id": "proofnet_test:exercise_5_4_3",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_5",
+      "id": "proofnet_test:exercise_5_5",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_6_14",
+      "id": "proofnet_test:exercise_5_6_14",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_5_7",
+      "id": "proofnet_test:exercise_5_7",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_6_3",
+      "id": "proofnet_test:exercise_6_3",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_6_4_12",
+      "id": "proofnet_test:exercise_6_4_12",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_6_4_2",
+      "id": "proofnet_test:exercise_6_4_2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_7_11",
+      "id": "proofnet_test:exercise_7_11",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_7_1_12",
+      "id": "proofnet_test:exercise_7_1_12",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_7_1_2",
+      "id": "proofnet_test:exercise_7_1_2",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_7_2_2",
+      "id": "proofnet_test:exercise_7_2_2",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_7_3_16",
+      "id": "proofnet_test:exercise_7_3_16",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_7_4_27",
+      "id": "proofnet_test:exercise_7_4_27",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_7_5",
+      "id": "proofnet_test:exercise_7_5",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_7_9",
+      "id": "proofnet_test:exercise_7_9",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_8_2_4",
+      "id": "proofnet_test:exercise_8_2_4",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_8_3_5a",
+      "id": "proofnet_test:exercise_8_3_5a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_8_3_6b",
+      "id": "proofnet_test:exercise_8_3_6b",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_9_1_10",
+      "id": "proofnet_test:exercise_9_1_10",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_9_4_2a",
+      "id": "proofnet_test:exercise_9_4_2a",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_9_4_2c",
+      "id": "proofnet_test:exercise_9_4_2c",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "proofnet_test:exercise_9_4_9",
+      "id": "proofnet_test:exercise_9_4_9",
+      "value": 0.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.07035928143712575,
+    "axiom_audit_clean_rate": 1.0,
+    "lean_avg_at_8": 0.07859281437125748,
+    "lean_pass_at_8": 0.12574850299401197,
+    "lean_strict_avg_at_8": 0.07035928143712575,
+    "learnable_fraction": 0.09580838323353294,
+    "median_tokens": 965.0,
+    "p95_tokens": 2048.0,
+    "p99_tokens": 2048.0,
+    "solved_problem_count": 21.0,
+    "stop_rate": 0.6714071856287425,
+    "truncation_rate": 0.3285928143712575
+  },
+  "n_problems": 167,
+  "protocol_id": "v2_lean_holdout_proofnet",
+  "schema_version": "1.0",
+  "scored_at_utc": "2026-11-19T12:53:34.912288+00:00",
+  "track": "lean"
+}

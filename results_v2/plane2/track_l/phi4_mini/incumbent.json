@@ -1,0 +1,11 @@
+{
+  "model_key": "phi4_mini",
+  "status": "SKIPPED_BELOW_ESTIMABILITY_FLOOR",
+  "b0_eval": "/scratch/governed_slm_rsi_v2/results/plane1/lean/b0_phi4_mini_think6k_metrics.json",
+  "b0_learnable_fraction": 0.025,
+  "b0_pass_at_8": 0.025,
+  "b0_avg_at_8": 0.003125,
+  "incumbent_ckpt": "/scratch/governed_slm_rsi_v2/models/Phi-4-mini-reasoning",
+  "incumbent_eval": "/scratch/governed_slm_rsi_v2/results/plane1/lean/b0_phi4_mini_think6k_metrics.json",
+  "promoted_challenger": false
+}
