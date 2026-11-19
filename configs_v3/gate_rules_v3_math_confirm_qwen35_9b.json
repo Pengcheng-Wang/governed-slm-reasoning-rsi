@@ -1,0 +1,32 @@
+{
+  "primary_metric": "math_avg_at_8",
+  "direction": "maximize",
+  "decision_stage": "confirm",
+  "weighting": "equal_stratum",
+  "claim_scope": "fixed_checkpoint",
+  "current_incumbent_id": "v2_m_astar_qwen35_9b",
+  "required_comparators": [
+    "b0_qwen35_9b",
+    "v2_m_astar_qwen35_9b"
+  ],
+  "min_improvement": 0.015,
+  "alpha_one_sided": 0.025,
+  "max_confirm_looks": 2,
+  "multiplicity_k": 2,
+  "require_env_fingerprint_match": true,
+  "metric_directions": {
+    "stop_rate": "maximize",
+    "math_pass_at_8": "maximize",
+    "natural_stop_parse_failure_rate": "minimize"
+  },
+  "max_degradation_vs_baseline": {
+    "stop_rate": 0.025,
+    "math_pass_at_8": 0.035
+  },
+  "hard_floors": {
+    "stop_rate": 0.65
+  },
+  "hard_ceilings": {
+    "natural_stop_parse_failure_rate": 0.03
+  }
+}
