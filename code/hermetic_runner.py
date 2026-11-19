@@ -2,7 +2,7 @@
 """
 Hermetic Plane-2 Candidate Runner & Ledger Gate Wrapper.
 
-Enforces `/governed-loop-optimization` Plane-2 invariants before and after every experiment:
+Enforces two-plane governance invariants before and after every experiment:
   1. Verifies `IMMUTABLE_MANIFEST.json` against the external root SHA-256 (`--expected-root-sha256`)
      BEFORE running any training, rollout, or evaluation step (`STOP_INFRA_DRIFT` on mismatch).
   2. Sets offline/isolated cache environment variables (`HF_HUB_OFFLINE=1`, `TRANSFORMERS_OFFLINE=1`,

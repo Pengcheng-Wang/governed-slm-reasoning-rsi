@@ -2,9 +2,9 @@
 """
 Multi-Architecture Full-12K Activation-Checkpointed Chunked-Logits `DAPO + LUFFY` RLVR Trainer V2.
 
-Fixes Phase V1's 9B 2,688-token OOM using `Opus 5.5, Max`'s exact activation-checkpointed 1,024-token
-`lm_head` log-softmax chunks (`< 30 GB` peak HBM on A100-80GB at full 12,800-token sequences!) and
-`GPT 6.2 Astra, Max`'s linear 10,000->12,288 soft-overlong termination penalty + truncated IS cap.
+Fixes 9B/27B long-sequence logit OOMs using activation-checkpointed 1,024-token
+`lm_head` log-softmax chunks (`< 30 GB` peak HBM on A100-80GB at full 12,800-token sequences)
+with a linear 10,000->12,288 soft-overlong termination penalty + truncated IS cap.
 """
 from __future__ import annotations
 

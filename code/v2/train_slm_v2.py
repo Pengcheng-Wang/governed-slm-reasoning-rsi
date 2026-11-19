@@ -2,7 +2,7 @@
 """
 Multi-Architecture Governed `ReST^EM` SFT Trainer V2 (`Qwen3.5` Hybrid GDN, `Qwen3` Dense, `Phi-4` Fused LongRoPE).
 
-Implements all `GPT 6.2 Astra, Max` & `Opus 5.5, Max` safeguards:
+Implements architecture-aware training and hygiene safeguards:
   1. Model-aware loader (`AutoModelForImageTextToText` vs `AutoModelForCausalLM`), chat-template rendering,
      and supervised turn-terminator EOS (`248046` `<|im_end|>`, `151645` `<|im_end|>`, or `200020` `<|end|>`).
   2. Asserts adapted LoRA linear module count >= `spec.expected_min_lora_modules` at initialization

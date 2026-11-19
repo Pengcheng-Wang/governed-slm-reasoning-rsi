@@ -1,5 +1,8 @@
 # Strict local-only & credential exclusion rules
 .local/
+sources/
+*cowork*
+*Cowork*
 progress.md
 PROGRESS.md
 .aml*

@@ -3,8 +3,8 @@
 Phase V2 Plane-2 Multi-Model Governed RSI Driver for Track L (Formal Lean 4.24 Theorem Proving).
 
 Executes across the multi-architecture candidate matrix (`qwen35_4b`, `qwen3_4b`, `qwen35_9b`, `phi4_mini`)
-with strict `IMMUTABLE_MANIFEST_V2.json` verification, hash-chained per-model ledgers, and BOTH
-`GPT 6.2 Astra, Max` + `Opus 5.5, Max` causal mechanism isolations:
+with strict `IMMUTABLE_MANIFEST_V2.json` verification, hash-chained per-model ledgers, and
+controlled causal mechanism isolations:
   1. Pre-registered `learnable_fraction(B_0) >= 0.10` estimability gate per model.
   2. Round L1 (`l1_{mk}_restem`): Pure self-generated `M_0` rollouts (`k=8`) on `v2_lean_train_pool600`
      -> `#print axioms` verified bank + failed-draft compiler diagnostic harvest -> train from `M_0`.

@@ -2,7 +2,7 @@
 """
 Plane-1 Calibration Aggregator, 40-Sample Verifier Audit, and Precondition Checker.
 
-Performs all mandatory `/governed-loop-optimization` Plane-1 duties:
+Performs all mandatory Plane-1 calibration and audit checks:
   1. Collects all Plane-1 Search eval JSONs across Track L (`4B`, `9B`, `27B`) and Track M (`4B`, `9B`, `27B`).
   2. Computes paired per-cluster A/A repeat noise (`se_AA`) on `lean_search128` (`4B B_0` vs `B_0_retest`)
      and `math_search128` (`4B B_0_think` vs `B_0_think_retest`).

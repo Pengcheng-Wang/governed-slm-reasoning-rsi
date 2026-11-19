@@ -260,7 +260,7 @@ def run_model_track_m(mk: str, port_base: int) -> dict[str, Any]:
 
     # Round M2: Pure Frontier Self-Play -> Reset to M_0 (Zero 27B Teacher Confound!)
     # On phi4_mini (<think> LongRoPE), M1 audit revealed 69.3% truncation under 8,192 cap;
-    # M2 raises rollout budget to 12,288 (matching eval cap 1:1) + block-repetition filter per GPT 6.2 Astra Max review.
+    # M2 raises rollout budget to 12,288 (matching eval cap 1:1) + block-repetition filter.
     if mk == "phi4_mini":
         m2_id = "m2_phi4_mini_uncensored12k_restem"
         m2_dir = p2 / m2_id

@@ -2,7 +2,7 @@
 """
 Paired Confirmation Gate & Single-Touch Protected Holdout Evaluator.
 
-Enforces `/governed-loop-optimization` Confirmation & Protected Holdout firewalls:
+Enforces strict Confirmation & Protected Holdout firewalls:
   1. Verifies `IMMUTABLE_MANIFEST.json` against the external root SHA-256 pin before AND after execution.
   2. Evaluates `B_0` vs Search-promoted `A*` (`4B` and `9B`) + `Qwen3.8-27B` comparator on:
        - Track L Confirmation: `data/splits/lean_confirm243.jsonl` (`MiniF2F-v2s valid`, `n=243` pure theorems)

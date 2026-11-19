@@ -3,8 +3,7 @@
 Conjunctive Guard v3.6 Governance, Full-Shard Weight Hashing, Local-NVMe Seal &
 Stratified Rademacher Sign-Flip Permutation Engine (`v36_conjunctive_guard_helper.py`).
 
-Implements every safeguard from the M365 Copilot `Cowork` `Max`-effort reviews
-(`GPT 6.2 Astra, Max` & `Opus 5.5, Max`):
+Implements pre-Holdout governance and statistical safeguards from external frontier-model reviews:
   1. Full-checkpoint canonical weight manifest (`canonical_checkpoint_manifest`):
      lstat-checks every file in `ckpt_dir` (rejecting symlinks and verifying exact
      `model.safetensors.index.json` shard coverage) and SHA-256 hashes every `*.safetensors`

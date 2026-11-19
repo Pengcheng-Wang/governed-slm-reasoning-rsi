@@ -3,7 +3,7 @@
 Phase V2 Causal 4-Way Call-Matched Lean 4.24 Proof+Repair Policy Evaluator (`<= 8` LLM calls, `<= 8` Lean calls).
 
 Given a frozen checkpoint and a split file (`Confirm` or `Holdout`), shares a SINGLE Pass-1 (`k=4` direct calls)
-across all 4 matched 8-call inference policies (`GPT 6.2 Astra, Max` + `Opus 5.5, Max` specification):
+across all 4 matched 8-call inference policies:
   1. `direct8`:            4 Pass-1 direct + 4 Pass-2 independent direct calls
   2. `masked_retry_4_4`:   4 Pass-1 direct + 4 Pass-2 retries on failed proof body WITHOUT compiler diagnostics
   3. `shuffled_diag_4_4`:  4 Pass-1 direct + 4 Pass-2 placebo repairs with real compiler diagnostics permuted from OTHER failed theorems

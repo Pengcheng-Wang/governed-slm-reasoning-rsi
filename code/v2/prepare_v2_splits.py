@@ -388,7 +388,7 @@ def main() -> int:
     tier_train_extra.sort(key=lambda x: x[0])
     print(f"Disjoint scorable Omni-MATH pool: Tier3={len(tier3)}, Tier4={len(tier4)}, Tier2.5={len(tier_train_extra)}", flush=True)
 
-    # Confirm = lowest 128 hashes of Tier 3 + lowest 128 hashes of Tier 4 = 256 (GPT 6.2 Astra Max spec)
+    # Confirm = lowest 128 hashes of Tier 3 + lowest 128 hashes of Tier 4 = 256
     n_c3 = min(128, len(tier3) // 2)
     n_c4 = min(128, len(tier4) // 2)
     v2_math_confirm = [x[1] for x in tier3[:n_c3]] + [x[1] for x in tier4[:n_c4]]
