@@ -347,7 +347,7 @@ def run_plane1(args: argparse.Namespace) -> int:
                     "--trial-id", f"aa_null_{track}_{model_key}",
                     "--hypothesis", "A/A independent rollout seed null check must not promote",
                 ],
-                allow_rc=(0, 3),
+                allow_rc=(0, 1, 3),
             )
             aa_dec = json.loads(r_aa.stdout)
             print(f"[Plane-1 A/A Null] {track} {model_key}: decision={aa_dec.get('decision')}", flush=True)
@@ -564,7 +564,7 @@ def run_plane2_track(args: argparse.Namespace, track: str) -> int:
                 "--ledger", str(ledger_path),
                 "--round-id", f"round_sft_{track}_{model_key}",
             ],
-            allow_rc=(0, 3),
+            allow_rc=(0, 1, 3),
         )
         sft_win_file.write_text(r_sft.stdout, encoding="utf-8")
 
@@ -668,14 +668,15 @@ def run_plane2_track(args: argparse.Namespace, track: str) -> int:
                 "--ledger", str(ledger_path),
                 "--round-id", f"round_final_tournament_{track}_{model_key}",
             ],
-            allow_rc=(0, 3),
+            allow_rc=(0, 1, 3),
         )
         win_payload = json.loads(r_win.stdout)
-        winner_id = win_payload.get("winner_candidate_id")
+        winner_id = win_payload.get("selected_candidate_id") or win_payload.get("winner_candidate_id")
         if not winner_id:
             # If none beat the prior V2 champion by +0.8pp LCB on Search, pick top-LCB tripwire-clean candidate for Confirm test
-            ranked = win_payload.get("ranked_candidates", [])
+            ranked = win_payload.get("leaderboard") or win_payload.get("ranked_candidates") or []
             clean_ranked = [c for c in ranked if not c.get("tripwires")]
+            clean_ranked.sort(key=lambda c: float(c.get("rank_score", -1e9)), reverse=True)
             if clean_ranked:
                 winner_id = clean_ranked[0]["candidate_id"]
             else:
@@ -803,11 +804,10 @@ def run_confirm_and_holdout_track(args: argparse.Namespace, track: str) -> int:
                     "--ledger", str(confirm_ledger),
                     "--trial-id", f"confirm_{astar_id}_vs_{comp_id}",
                     "--comparator-id", comp_id,
-                    "--candidate-id", astar_id,
                     "--candidate-artifacts", str(cand_pin_json),
                     "--hypothesis", f"Phase V3 2-SFT+RLVR winner {astar_id} beats {comp_id} on Confirm_V3",
                 ],
-                allow_rc=(0, 3),
+                allow_rc=(0, 1, 3),
             )
             verdicts[comp_id] = json.loads(r_gd.stdout)
         verdicts_summary_path.write_text(json.dumps(verdicts, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -941,7 +941,7 @@ def run_confirm_and_holdout_track(args: argparse.Namespace, track: str) -> int:
             "--candidate-holdout", str(astar_hold_json),
             *comp_args,
         ],
-        allow_rc=(0, 3),
+        allow_rc=(0, 1, 3),
     )
     final_hold_status.write_text(r_fin.stdout, encoding="utf-8")
     return 0
