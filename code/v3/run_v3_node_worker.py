@@ -18,6 +18,7 @@ import argparse
 import collections
 import concurrent.futures
 import gzip
+import hashlib
 import json
 import os
 import shutil
@@ -88,6 +89,16 @@ STAGE_HP: dict[tuple[str, str], dict[str, Any]] = {
         "s2_lr": 3.5e-5, "s2_epochs": 2, "s2_max_steps": 72,
         "rl_pool_n": 240, "rl_lr": 1.0e-5, "rl_max_steps": 24,
     },
+    ("math", "qwen38_35b_a3b"): {
+        "s1_lr": 2.2e-5, "s1_epochs": 2, "s1_max_steps": 100,
+        "s2_lr": 1.1e-5, "s2_epochs": 2, "s2_max_steps": 48,
+        "rl_pool_n": 192, "rl_lr": 9.0e-6, "rl_max_steps": 28,
+    },
+    ("lean", "qwen38_35b_a3b"): {
+        "s1_lr": 6.0e-5, "s1_epochs": 2, "s1_max_steps": 140,
+        "s2_lr": 3.0e-5, "s2_epochs": 2, "s2_max_steps": 72,
+        "rl_pool_n": 240, "rl_lr": 1.0e-5, "rl_max_steps": 28,
+    },
 }
 
 
@@ -123,6 +134,63 @@ def verify_manifest_pin() -> str:
     return expected
 
 
+def _ensure_unique_split_ids(split_prompts_file: Path, split_truth_file: Path) -> tuple[Path, Path]:
+    """
+    If a frozen split JSONL contains distinct problems whose string `id`s collide (e.g. `arxivmath_2026:1`
+    across 4 ArxivMath subject domains), materializes a deterministic read-only disambiguated view under
+    `V3_ROOT / "data/disambiguated_splits"` without modifying a single byte of `IMMUTABLE_MANIFEST_V3.json`.
+    """
+    t_rows = _read_jsonl(split_truth_file)
+    id_counts = collections.Counter(str(r["id"]) for r in t_rows)
+    if len(id_counts) == len(t_rows):
+        return split_prompts_file, split_truth_file
+
+    dis_dir = V3_ROOT / "data/disambiguated_splits"
+    dis_dir.mkdir(parents=True, exist_ok=True)
+    tag = hashlib.sha256(f"{split_prompts_file}:{split_truth_file}".encode("utf-8")).hexdigest()[:10]
+    out_t = dis_dir / f"{split_truth_file.stem}_{tag}_truth.jsonl"
+    out_p = out_t if split_prompts_file == split_truth_file else (dis_dir / f"{split_prompts_file.stem}_{tag}_prompts.jsonl")
+    if out_t.exists() and out_p.exists():
+        return out_p, out_t
+
+    p_rows = t_rows if split_prompts_file == split_truth_file else _read_jsonl(split_prompts_file)
+    if len(p_rows) != len(t_rows):
+        raise RuntimeError(f"Prompt/truth length mismatch: {len(p_rows)} vs {len(t_rows)}")
+
+    seen_occ: dict[str, int] = collections.defaultdict(int)
+    new_p: list[dict[str, Any]] = []
+    new_t: list[dict[str, Any]] = []
+    for pr, tr in zip(p_rows, t_rows):
+        raw_id = str(tr["id"])
+        if str(pr["id"]) != raw_id:
+            raise RuntimeError(f"Row ID alignment mismatch: {pr['id']} vs {raw_id}")
+        p_sha = hashlib.sha256(json.dumps(pr["messages"], sort_keys=True).encode("utf-8")).hexdigest()
+        t_sha = hashlib.sha256(json.dumps(tr["messages"], sort_keys=True).encode("utf-8")).hexdigest()
+        if p_sha != t_sha:
+            raise RuntimeError(f"Row messages SHA mismatch on {raw_id}")
+
+        seen_occ[raw_id] += 1
+        occ = seen_occ[raw_id]
+        uid = raw_id if id_counts[raw_id] == 1 else f"{raw_id}__occ{occ}"
+
+        pr_c = dict(pr)
+        pr_c["id"] = uid
+        if "cluster_id" in pr_c and str(pr_c["cluster_id"]) == raw_id:
+            pr_c["cluster_id"] = uid
+        new_p.append(pr_c)
+
+        tr_c = dict(tr)
+        tr_c["id"] = uid
+        if "cluster_id" in tr_c and str(tr_c["cluster_id"]) == raw_id:
+            tr_c["cluster_id"] = uid
+        new_t.append(tr_c)
+
+    _write_jsonl(out_t, new_t)
+    if out_p != out_t:
+        _write_jsonl(out_p, new_p)
+    return out_p, out_t
+
+
 def eval_and_score_model(
     *,
     track: str,
@@ -140,6 +208,8 @@ def eval_and_score_model(
 ) -> dict[str, Any]:
     if out_scored_json.exists():
         return json.loads(out_scored_json.read_text(encoding="utf-8"))
+
+    split_prompts_file, split_truth_file = _ensure_unique_split_ids(split_prompts_file, split_truth_file)
 
     spec = MODEL_REGISTRY_V3[model_key]
     thinking = spec.lean_thinking if track == "lean" else spec.math_thinking
@@ -296,11 +366,14 @@ def run_plane1(args: argparse.Namespace) -> int:
     spec = MODEL_REGISTRY_V3[model_key]
     p1_dir = V3_ROOT / "results_v3/plane1" / model_key
     p1_dir.mkdir(parents=True, exist_ok=True)
+    req_tracks = {t.strip() for t in getattr(args, "tracks", "lean,math").split(",") if t.strip()}
 
     for track, split_fn, proto in [
         ("math", "v3_math_search160.jsonl", "v3_math_search160_k8"),
         ("lean", "v3_lean_search140.jsonl", "v3_lean_search140_k8"),
     ]:
+        if track not in req_tracks:
+            continue
         sp_path = V3_ROOT / "data/splits_v3" / split_fn
         b0_out = p1_dir / f"{track}_b0_{model_key}_search.json"
         eval_and_score_model(
@@ -376,6 +449,8 @@ def run_plane1(args: argparse.Namespace) -> int:
         ("math", "v3_math_stage2_frontier_pool.jsonl"),
         ("lean", "v3_lean_stage2_frontier_pool.jsonl"),
     ]:
+        if track not in req_tracks:
+            continue
         pool_p = V3_ROOT / "data/corpora_v3" / pool_fn
         probe_out = p1_dir / f"{track}_b0_{model_key}_stage2_probe_k4.json"
         if not probe_out.exists():
@@ -718,6 +793,18 @@ def run_confirm_and_holdout_track(args: argparse.Namespace, track: str) -> int:
     hold_proto = f"v3_{track}_holdout_k8"
 
     rules_confirm = V3_ROOT / "configs_v3" / f"gate_rules_v3_{track}_confirm_{model_key}.json"
+    if not rules_confirm.exists():
+        rules_confirm = V3_ROOT / "configs_v3_moe" / f"gate_rules_v3_{track}_confirm_{model_key}.json"
+        moe_manifest = V3_ROOT / "IMMUTABLE_MANIFEST_V3_MOE.json"
+        moe_pin = Path("/scratch/governed_slm_rsi_v3_moe_trust_root.sha256")
+        if moe_manifest.exists() and moe_pin.exists():
+            _run_checked(
+                [
+                    sys.executable, "-I", "-B", str(GUARD_PY), "verify-manifest",
+                    "--manifest", str(moe_manifest),
+                    "--expected-root-sha256", moe_pin.read_text(encoding="utf-8").strip(),
+                ]
+            )
     rules_obj = json.loads(rules_confirm.read_text(encoding="utf-8"))
     req_comps: list[str] = [str(x) for x in rules_obj["required_comparators"]]
     confirm_ledger = ch_dir / f"confirm_ledger_v3_{track}_{model_key}.jsonl"
@@ -1009,11 +1096,30 @@ def run_longitudinal(args: argparse.Namespace) -> int:
         l_win = json.loads(l_win_file.read_text(encoding="utf-8"))
         l_cid = str(l_win["selected_for_confirm_id"])
         l_ckpt = str(l_win["selected_for_confirm_ckpt"])
+        pn_raw_p = V2_ROOT / "data/splits_v2/v2_lean_holdout_proofnet174_prompts.jsonl"
+        pn_raw_t = V2_ROOT / "eval_v2/sealed_holdout/v2_lean_holdout_proofnet174.jsonl"
+        pn_dedup_p = V3_ROOT / "data/longitudinal_proofnet167_prompts.jsonl"
+        pn_dedup_t = V3_ROOT / "data/longitudinal_proofnet167_truth.jsonl"
+        if pn_raw_p.exists() and pn_raw_t.exists() and not (pn_dedup_p.exists() and pn_dedup_t.exists()):
+            for src_f, dst_f in [(pn_raw_p, pn_dedup_p), (pn_raw_t, pn_dedup_t)]:
+                seen_ids: set[str] = set()
+                kept_lines: list[str] = []
+                for ln in src_f.read_text(encoding="utf-8").splitlines():
+                    if not ln.strip():
+                        continue
+                    rid = str(json.loads(ln)["id"])
+                    if rid not in seen_ids:
+                        seen_ids.add(rid)
+                        kept_lines.append(ln)
+                dst_f.write_text("\n".join(kept_lines) + "\n", encoding="utf-8")
+            # Remove any stale 174-row `.gen.jsonl.gz` generated before deduplication
+            for stale_gz in long_dir.glob("leansuite_proofnet_test167_*.gen.jsonl.gz"):
+                stale_gz.unlink(missing_ok=True)
         for bench_tag, p_path, t_path in [
             (
                 "proofnet_test167",
-                V2_ROOT / "data/splits_v2/v2_lean_holdout_proofnet174_prompts.jsonl",
-                V2_ROOT / "eval_v2/sealed_holdout/v2_lean_holdout_proofnet174.jsonl",
+                pn_dedup_p,
+                pn_dedup_t,
             ),
             (
                 "minif2f_test244",
@@ -1058,7 +1164,7 @@ def run_longitudinal(args: argparse.Namespace) -> int:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Phase V3 Per-Node Governed End-to-End Worker")
     ap.add_argument("--phase", required=True, choices=["plane1", "plane2", "confirm-and-holdout", "longitudinal", "full-post-freeze"])
-    ap.add_argument("--model-key", required=True, choices=["qwen35_4b", "qwen35_9b", "qwen38_27b"])
+    ap.add_argument("--model-key", required=True, choices=["qwen35_4b", "qwen35_9b", "qwen38_27b", "qwen38_35b_a3b"])
     ap.add_argument("--tracks", default="lean,math", help="Comma-separated tracks (`lean,math`)")
     ap.add_argument("--gpus", default="0,1,2,3,4,5,6,7")
     args = ap.parse_args()

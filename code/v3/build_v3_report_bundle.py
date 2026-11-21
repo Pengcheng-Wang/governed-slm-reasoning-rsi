@@ -1,34 +1,42 @@
 #!/usr/bin/env python3
 """
-Phase V3 Final Report Bundle & Cross-Scale Capability-Curve Compiler (`4B`, `9B`, `27B`).
+Phase V3 Final Report Bundle & Cross-Scale Capability-Curve Compiler (`4B`, `9B`, `27B`, `35B-A3B`).
 
 Verifies:
-  1. `IMMUTABLE_MANIFEST_V3.json` against `/scratch/governed_slm_rsi_v3_trust_root.sha256`.
+  1. `IMMUTABLE_MANIFEST_V3.json` and `IMMUTABLE_MANIFEST_V3_MOE.json` against pinned SHA-256 digests.
   2. All Plane-2 Search and Confirmation/Holdout hash-chained ledgers (`verify-ledger`).
   3. Compiles complete stage-by-stage `B_0 -> Stage-I Breadth SFT -> Stage-II ZPD Frontier SFT -> Stage-III RLVR (R1, R2, R3)`
      capability trajectories (`pass@1,2,4,8`, `maj@8`, `capability_slope_8_1`, `0->+`, `+->0`, interior `Delta p_hat`,
-     `distinct_answers_at_8`, `tokens_per_correct`), Protected Single-Touch Holdout results (overall + per-contest),
+     `distinct_answers_at_8`, `tokens_per_correct`), Protected Single-Touch Holdout results (overall + per-contest + seals),
      and Longitudinal evaluations on the V2 `2025` 4-Contest Suite + `ProofNet-test` + `MiniF2F-test`.
 """
 from __future__ import annotations
 
 import collections
 import json
+import os
 import statistics
 import subprocess
 import sys
 from pathlib import Path
 from typing import Any
 
-V3_ROOT = Path("/scratch/governed_slm_rsi_v3")
-EVAL_V3_DIR = V3_ROOT / "eval_v3"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_V3_ROOT = (
+    Path(os.environ["SLM_RSI_V3_ROOT"])
+    if "SLM_RSI_V3_ROOT" in os.environ
+    else (Path("/scratch/governed_slm_rsi_v3") if Path("/scratch/governed_slm_rsi_v3").exists() else REPO_ROOT)
+)
+EVAL_V3_DIR = REPO_ROOT / "eval_v3"
 if str(EVAL_V3_DIR) not in sys.path:
     sys.path.insert(0, str(EVAL_V3_DIR))
 
 from isolated_scorer_v3 import compute_paired_transitions  # noqa: E402
 
-GUARD_PY = EVAL_V3_DIR / "governed_loop_guard_v37.py"
+EXPECTED_V3_MANIFEST_SHA256 = "3d86f390ae8acc2f7e1debd2930bb2be2cf8ba737f62d348632ad51cd37f8d0b"
+EXPECTED_V3_MOE_MANIFEST_SHA256 = "d26ff13faf04fc7eb221bf81061480d345deadfdd003d3dc3a11d063f20a84dc"
 TRUST_PIN = Path("/scratch/governed_slm_rsi_v3_trust_root.sha256")
+MOE_TRUST_PIN = Path("/scratch/governed_slm_rsi_v3_moe_trust_root.sha256")
 
 
 def _extract_compact_metrics(pay: dict[str, Any]) -> dict[str, Any]:
@@ -47,7 +55,9 @@ def _extract_compact_metrics(pay: dict[str, Any]) -> dict[str, Any]:
         "capability_slope_8_1": m.get("capability_slope_8_1"),
         "stop_rate": m.get("stop_rate"),
         "truncation_rate": m.get("truncation_rate"),
+        "mean_tokens": m.get("mean_tokens"),
         "median_tokens": m.get("median_tokens"),
+        "mean_correct_tokens": m.get("mean_correct_tokens"),
         "tokens_per_correct": m.get("tokens_per_correct"),
     }
     if tr == "math":
@@ -75,10 +85,15 @@ def _extract_compact_metrics(pay: dict[str, Any]) -> dict[str, Any]:
 
 def _per_contest_breakdown(holdout_truth: Path, scored_pay: dict[str, Any]) -> dict[str, float]:
     contest_by_id: dict[str, str] = {}
-    for ln in holdout_truth.read_text(encoding="utf-8").splitlines():
-        if ln.strip():
-            r = json.loads(ln)
-            contest_by_id[str(r["id"])] = str(r.get("contest", r.get("source", "default")))
+    occ_by_id: dict[str, int] = collections.defaultdict(int)
+    raw_rows = [json.loads(ln) for ln in holdout_truth.read_text(encoding="utf-8").splitlines() if ln.strip()]
+    id_counts = collections.Counter(str(r["id"]) for r in raw_rows)
+    for r in raw_rows:
+        rid = str(r["id"])
+        occ_by_id[rid] += 1
+        uid = rid if id_counts[rid] == 1 else f"{rid}__occ{occ_by_id[rid]}"
+        contest_by_id[rid] = str(r.get("contest", r.get("source", "default")))
+        contest_by_id[uid] = str(r.get("contest", r.get("source", "default")))
     vals: dict[str, list[float]] = collections.defaultdict(list)
     for it in scored_pay["items"]:
         c = contest_by_id.get(str(it["id"]), "default")
@@ -87,11 +102,17 @@ def _per_contest_breakdown(holdout_truth: Path, scored_pay: dict[str, Any]) -> d
 
 
 def main() -> int:
-    expected = TRUST_PIN.read_text(encoding="utf-8").strip()
+    v3_root = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else DEFAULT_V3_ROOT.resolve()
+    guard_py = v3_root / "eval_v3/governed_loop_guard_v37.py"
+    if not guard_py.exists():
+        guard_py = EVAL_V3_DIR / "governed_loop_guard_v37.py"
+
+    expected = TRUST_PIN.read_text(encoding="utf-8").strip() if TRUST_PIN.exists() else EXPECTED_V3_MANIFEST_SHA256
     r_man = subprocess.run(
         [
-            sys.executable, "-I", "-B", str(GUARD_PY), "verify-manifest",
-            "--manifest", str(V3_ROOT / "IMMUTABLE_MANIFEST_V3.json"),
+            sys.executable, "-I", "-B", str(guard_py), "verify-manifest",
+            "--manifest", str(v3_root / "IMMUTABLE_MANIFEST_V3.json"),
+            "--root", str(v3_root),
             "--expected-root-sha256", expected,
         ],
         capture_output=True,
@@ -100,19 +121,39 @@ def main() -> int:
     if r_man.returncode != 0:
         raise RuntimeError(f"Manifest verification failed: {r_man.stdout}\n{r_man.stderr}")
 
+    moe_expected = None
+    moe_man_path = v3_root / "IMMUTABLE_MANIFEST_V3_MOE.json"
+    if not moe_man_path.exists():
+        moe_man_path = v3_root / "configs_v3_moe/IMMUTABLE_MANIFEST_V3_MOE.json"
+    if moe_man_path.exists():
+        moe_expected = MOE_TRUST_PIN.read_text(encoding="utf-8").strip() if MOE_TRUST_PIN.exists() else EXPECTED_V3_MOE_MANIFEST_SHA256
+        r_moe = subprocess.run(
+            [
+                sys.executable, "-I", "-B", str(guard_py), "verify-manifest",
+                "--manifest", str(moe_man_path),
+                "--root", str(v3_root),
+                "--expected-root-sha256", moe_expected,
+            ],
+            capture_output=True,
+            text=True,
+        )
+        if r_moe.returncode != 0:
+            raise RuntimeError(f"MoE Manifest verification failed: {r_moe.stdout}\n{r_moe.stderr}")
+
     verified_ledgers: list[str] = []
-    for lp in sorted((V3_ROOT / "results_v3").rglob("*ledger*.jsonl")):
+    for lp in sorted((v3_root / "results_v3").rglob("*ledger*.jsonl")):
         rl = subprocess.run(
-            [sys.executable, "-I", "-B", str(GUARD_PY), "verify-ledger", "--ledger", str(lp)],
+            [sys.executable, "-I", "-B", str(guard_py), "verify-ledger", "--ledger", str(lp)],
             capture_output=True,
             text=True,
         )
         if rl.returncode != 0:
             raise RuntimeError(f"Ledger verification failed on {lp}: {rl.stdout}\n{rl.stderr}")
-        verified_ledgers.append(lp.relative_to(V3_ROOT).as_posix())
+        verified_ledgers.append(lp.relative_to(v3_root).as_posix())
 
     bundle: dict[str, Any] = {
         "manifest_root_sha256": expected,
+        "moe_manifest_root_sha256": moe_expected,
         "verified_ledgers_count": len(verified_ledgers),
         "verified_ledgers": verified_ledgers,
         "search_trajectories": {},
@@ -121,12 +162,12 @@ def main() -> int:
     }
 
     for track in ("math", "lean"):
-        hold_truth = V3_ROOT / "eval_v3/sealed_holdout" / f"v3_{track}_holdout.jsonl"
-        for mkey in ("qwen35_4b", "qwen35_9b", "qwen38_27b"):
+        hold_truth = v3_root / "eval_v3/sealed_holdout" / f"v3_{track}_holdout.jsonl"
+        for mkey in ("qwen35_4b", "qwen35_9b", "qwen38_27b", "qwen38_35b_a3b"):
             key = f"{track}_{mkey}"
-            p1_dir = V3_ROOT / "results_v3/plane1" / mkey
-            p2_dir = V3_ROOT / "results_v3/plane2" / key
-            ch_dir = V3_ROOT / "results_v3/confirm_holdout" / key
+            p1_dir = v3_root / "results_v3/plane1" / mkey
+            p2_dir = v3_root / "results_v3/plane2" / key
+            ch_dir = v3_root / "results_v3/confirm_holdout" / key
 
             traj: list[dict[str, Any]] = []
             b0_s = p1_dir / f"{track}_b0_{mkey}_search.json"
@@ -161,18 +202,21 @@ def main() -> int:
                         except Exception:
                             pass
                     ch_entry["holdout"].append(_extract_compact_metrics(hpay))
-                    ch_entry["holdout_per_contest"][hpay["candidate_id"]] = _per_contest_breakdown(hold_truth, hpay)
+                    if hold_truth.exists():
+                        ch_entry["holdout_per_contest"][hpay["candidate_id"]] = _per_contest_breakdown(hold_truth, hpay)
+                for sf in sorted(ch_dir.glob("HOLDOUT_SEAL_*.json")):
+                    ch_entry["holdout_seal"] = json.loads(sf.read_text(encoding="utf-8"))
                 bundle["confirm_and_holdout"][key] = ch_entry
 
-    for mkey in ("qwen35_4b", "qwen35_9b", "qwen38_27b"):
-        ldir = V3_ROOT / "results_v3/longitudinal" / mkey
+    for mkey in ("qwen35_4b", "qwen35_9b", "qwen38_27b", "qwen38_35b_a3b"):
+        ldir = v3_root / "results_v3/longitudinal" / mkey
         if ldir.exists():
             bundle["longitudinal"][mkey] = [
                 {"file": fp.stem, **_extract_compact_metrics(json.loads(fp.read_text(encoding="utf-8")))}
                 for fp in sorted(ldir.glob("*.json"))
             ]
 
-    out_f = V3_ROOT / "results_v3/v3_final_report_bundle.json"
+    out_f = v3_root / "results_v3/v3_final_report_bundle.json"
     out_f.parent.mkdir(parents=True, exist_ok=True)
     out_f.write_text(json.dumps(bundle, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps({"status": "V3_REPORT_BUNDLE_BUILT", "verified_ledgers": len(verified_ledgers), "output": str(out_f)}, indent=2))

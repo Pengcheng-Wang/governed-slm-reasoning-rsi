@@ -578,27 +578,33 @@ def consolidate_and_verify_fp32_checkpoint(
     )
 
     cls = AutoModelForImageTextToText if spec.loader_kind == "image_text" else AutoModelForCausalLM
-    reloaded = cls.from_pretrained(
-        str(out_dir),
-        dtype="auto",
-        low_cpu_mem_usage=True,
-        trust_remote_code=True,
-        attn_implementation="flash_attention_2",
-    )
+    use_multi_gpu_reload = is_fsdp and (torch.cuda.device_count() > 1)
+    reload_kwargs: dict[str, Any] = {
+        "dtype": "auto",
+        "low_cpu_mem_usage": True,
+        "trust_remote_code": True,
+        "attn_implementation": "flash_attention_2",
+    }
+    if use_multi_gpu_reload:
+        reload_kwargs["device_map"] = "auto"
+    reloaded = cls.from_pretrained(str(out_dir), **reload_kwargs)
     if hasattr(reloaded, "model") and hasattr(reloaded.model, "visual"):
         reloaded.model.visual = None
-    reloaded.to(device)
+    if not use_multi_gpu_reload:
+        reloaded.to(device)
     reloaded.eval()
     r_backbone, r_head = get_backbone_and_head(reloaded)
+    in_dev = next(r_backbone.parameters()).device
+    head_dev = r_head.weight.device
 
     max_abs_diff = 0.0
     mean_diffs: list[float] = []
     top1_matches = 0
     top1_total = 0
     for i, ref_log in enumerate(ref_logits_rank0):
-        ids = torch.tensor([parity_samples[i]["input_ids"][:2048]], dtype=torch.long, device=device)
+        ids = torch.tensor([parity_samples[i]["input_ids"][:2048]], dtype=torch.long, device=in_dev)
         mask = torch.ones_like(ids)
-        h = r_backbone(input_ids=ids, attention_mask=mask, use_cache=False).last_hidden_state[:, -32:, :]
+        h = r_backbone(input_ids=ids, attention_mask=mask, use_cache=False).last_hidden_state[:, -32:, :].to(head_dev)
         m_log = F.linear(h, r_head.weight, r_head.bias).float().cpu()
         diff = (m_log - ref_log).abs()
         max_abs_diff = max(max_abs_diff, float(diff.max().item()))

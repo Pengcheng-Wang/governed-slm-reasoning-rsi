@@ -9,6 +9,7 @@ coverage across all hybrid Gated-DeltaNet + full-attention + SwiGLU linear proje
 from __future__ import annotations
 
 from dataclasses import dataclass
+import os
 from typing import List
 
 
@@ -17,6 +18,13 @@ HYBRID_QWEN35_LORA_REGEX = (
     r"linear_attn\.(?:in_proj_qkv|in_proj_z|in_proj_a|in_proj_b|out_proj)|"
     r"self_attn\.(?:q_proj|k_proj|v_proj|o_proj)|"
     r"mlp\.(?:gate_proj|up_proj|down_proj))$"
+)
+
+HYBRID_QWEN35_MOE_LORA_REGEX = (
+    r"^model\.language_model\.layers\.\d+\.(?:"
+    r"linear_attn\.(?:in_proj_qkv|in_proj_z|in_proj_a|in_proj_b|out_proj)|"
+    r"self_attn\.(?:q_proj|k_proj|v_proj|o_proj)|"
+    r"mlp\.shared_expert\.(?:gate_proj|up_proj|down_proj))$"
 )
 
 DENSE_CAUSAL_LORA_REGEX = (
@@ -115,6 +123,28 @@ MODEL_REGISTRY_V3: dict[str, ModelSpecV3] = {
         lora_r=32,
         lora_alpha=64,
         expected_min_lora_modules=480,  # 64 layers -> 496 adapted linear projections
+        tp_eval=4,
+    ),
+    "qwen38_35b_a3b": ModelSpecV3(
+        key="qwen38_35b_a3b",
+        hf_repo="Qwen/Qwen3.5-35B-A3B",
+        local_path=os.environ.get("SLM_RSI_MOE35_PATH", "/scratch/governed_slm_rsi_v3/models/qwen38_35b_a3b"),
+        family="Qwen3.8-MoE-35B-A3B",
+        params_b=35.0,
+        loader_kind="image_text",
+        dist_strategy="fsdp",
+        vllm_lm_only=True,
+        supports_enable_thinking_kwarg=True,
+        lean_thinking=False,
+        lean_max_tokens=2048,
+        math_thinking=False,
+        math_max_tokens=12288,
+        stop_token_ids=[248044, 248046],
+        sup_eos_id=248046,
+        lora_regex=HYBRID_QWEN35_MOE_LORA_REGEX,
+        lora_r=64,
+        lora_alpha=128,
+        expected_min_lora_modules=300,  # 40 MoE layers -> 310 unconditionally active attention + shared-expert Linear projections
         tp_eval=4,
     ),
     "goedel_prover_v2_8b": ModelSpecV3(
