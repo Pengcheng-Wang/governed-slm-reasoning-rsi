@@ -1,0 +1,2233 @@
+{
+  "candidate_id": "b0_qwen3_30b_a3b",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "expected_k": 8,
+  "items": [
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aimeII_2001_p3",
+      "id": "minif2f_v2s_test:minif2f_v2s_aimeII_2001_p3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aimeII_2020_p6",
+      "id": "minif2f_v2s_test:minif2f_v2s_aimeII_2020_p6",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aimeI_2000_p7",
+      "id": "minif2f_v2s_test:minif2f_v2s_aimeI_2000_p7",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1983_p9",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1983_p9",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1984_p15",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1984_p15",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1984_p5",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1984_p5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1987_p8",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1987_p8",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1988_p3",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1988_p3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1988_p4",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1988_p4",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1990_p2",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1990_p2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1991_p1",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1991_p1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1991_p6",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1991_p6",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1994_p4",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1994_p4",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1996_p5",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1996_p5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_aime_1997_p11",
+      "id": "minif2f_v2s_test:minif2f_v2s_aime_1997_p11",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_2complexrootspoly_xsqp49eqxp7itxpn7i",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_2complexrootspoly_xsqp49eqxp7itxpn7i",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_2rootsintpoly_am10tap11eqasqpam110",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_2rootsintpoly_am10tap11eqasqpam110",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_2rootspoly_apatapbeq2asqp2ab",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_2rootspoly_apatapbeq2asqp2ab",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_2varlineareq_xpeeq7_2xpeeq3_eeq11_xeqn4",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_2varlineareq_xpeeq7_2xpeeq3_eeq11_xeqn4",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_3rootspoly_amdtamctambeqnasqmbpctapcbtdpasqmbpctapcbta",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_3rootspoly_amdtamctambeqnasqmbpctapcbtdpasqmbpctapcbta",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_amgm_prod1toneq1_sum1tongeqn",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_amgm_prod1toneq1_sum1tongeqn",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_amgm_sumasqdivbsqgeqsumbdiva",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_amgm_sumasqdivbsqgeqsumbdiva",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_apb4leq8ta4pb4",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_apb4leq8ta4pb4",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_binomnegdiscrineq_10alt28asqp1",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_binomnegdiscrineq_10alt28asqp1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_manipexpr_2erprsqpesqeqnrpnesq",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_manipexpr_2erprsqpesqeqnrpnesq",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_manipexpr_apbeq2cceqiacpbceqm2",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_manipexpr_apbeq2cceqiacpbceqm2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_sqineq_2at2pclta2c2p41pc",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_sqineq_2at2pclta2c2p41pc",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_sqineq_2unitcircatblt1",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_sqineq_2unitcircatblt1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_sqineq_36azm9asqle36zsq",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_sqineq_36azm9asqle36zsq",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_sqineq_4bap1lt4bsqpap1sq",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_sqineq_4bap1lt4bsqpap1sq",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_algebra_xmysqpymzsqpzmxsqeqxyz_xpypzp6dvdx3y3z3",
+      "id": "minif2f_v2s_test:minif2f_v2s_algebra_xmysqpymzsqpzmxsqeqxyz_xpypzp6dvdx3y3z3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12_2000_p11",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12_2000_p11",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12_2000_p15",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12_2000_p15",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12_2000_p5",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12_2000_p5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12_2001_p2",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12_2001_p2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12_2001_p9",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12_2001_p9",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2002_p1",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2002_p1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2002_p12",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2002_p12",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2002_p21",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2002_p21",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2003_p1",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2003_p1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2003_p24",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2003_p24",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2003_p25",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2003_p25",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2008_p15",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2008_p15",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2008_p2",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2008_p2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2008_p4",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2008_p4",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2008_p8",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2008_p8",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2009_p15",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2009_p15",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2009_p2",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2009_p2",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2009_p25",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2009_p25",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2009_p5",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2009_p5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2009_p9",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2009_p9",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2010_p10",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2010_p10",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2010_p11",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2010_p11",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2010_p22",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2010_p22",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2011_p18",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2011_p18",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2013_p7",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2013_p7",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2013_p8",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2013_p8",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2015_p10",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2015_p10",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2016_p2",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2016_p2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2016_p3",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2016_p3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2017_p2",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2017_p2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2017_p7",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2017_p7",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2019_p21",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2019_p21",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2019_p9",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2019_p9",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2020_p13",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2020_p13",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2020_p21",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2020_p21",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12a_2021_p7",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12a_2021_p7",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12b_2002_p11",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12b_2002_p11",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12b_2002_p3",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12b_2002_p3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12b_2002_p6",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12b_2002_p6",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12b_2003_p17",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12b_2003_p17",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12b_2003_p6",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12b_2003_p6",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12b_2003_p9",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12b_2003_p9",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12b_2004_p3",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12b_2004_p3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12b_2020_p5",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12b_2020_p5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_amc12b_2021_p21",
+      "id": "minif2f_v2s_test:minif2f_v2s_amc12b_2021_p21",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1961_p1",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1961_p1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1962_p4",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1962_p4",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1964_p1_1",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1964_p1_1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1964_p1_2",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1964_p1_2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1965_p1",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1965_p1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1966_p4",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1966_p4",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1966_p5",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1966_p5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1967_p3",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1967_p3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1973_p3",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1973_p3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1974_p5",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1974_p5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1977_p5",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1977_p5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1978_p5",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1978_p5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1979_p1",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1979_p1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1984_p2",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1984_p2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1987_p4",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1987_p4",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1987_p6",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1987_p6",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1988_p6",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1988_p6",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1990_p3",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1990_p3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_1993_p5",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_1993_p5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_imo_2006_p3",
+      "id": "minif2f_v2s_test:minif2f_v2s_imo_2006_p3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_induction_divisibility_3div2tooddnp1",
+      "id": "minif2f_v2s_test:minif2f_v2s_induction_divisibility_3div2tooddnp1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_induction_divisibility_3divnto3m2n",
+      "id": "minif2f_v2s_test:minif2f_v2s_induction_divisibility_3divnto3m2n",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_induction_divisibility_9div10tonm1",
+      "id": "minif2f_v2s_test:minif2f_v2s_induction_divisibility_9div10tonm1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_induction_ineq_nsqlefactn",
+      "id": "minif2f_v2s_test:minif2f_v2s_induction_ineq_nsqlefactn",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_induction_seq_mul2pnp1",
+      "id": "minif2f_v2s_test:minif2f_v2s_induction_seq_mul2pnp1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_induction_sum2kp1npqsqm1",
+      "id": "minif2f_v2s_test:minif2f_v2s_induction_sum2kp1npqsqm1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_induction_sum_1oktkp1",
+      "id": "minif2f_v2s_test:minif2f_v2s_induction_sum_1oktkp1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_induction_sum_odd",
+      "id": "minif2f_v2s_test:minif2f_v2s_induction_sum_odd",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_10",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_10",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_101",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_101",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_104",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_104",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_109",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_109",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_11",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_11",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_110",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_110",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_116",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_116",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_119",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_119",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_123",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_123",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_126",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_126",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_13",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_13",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_131",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_131",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_132",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_132",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_140",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_140",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_144",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_144",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_149",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_149",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_15",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_15",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_151",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_151",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_159",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_159",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_181",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_181",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_182",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_182",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_185",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_185",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_190",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_190",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_192",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_192",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_206",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_206",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_214",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_214",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_22",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_22",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_224",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_224",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_234",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_234",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_245",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_245",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_247",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_247",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_251",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_251",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_267",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_267",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_28",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_28",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_282",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_282",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_31",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_31",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_323",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_323",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_327",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_327",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_35",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_35",
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_37",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_37",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_393",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_393",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_405",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_405",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_410",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_410",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_421",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_421",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_422",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_422",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_43",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_43",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_433",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_433",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_437",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_437",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_451",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_451",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_455",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_455",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_462",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_462",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_48",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_48",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_480",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_480",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_482",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_482",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_493",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_493",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_509",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_509",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_51",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_51",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_510",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_510",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_536",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_536",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_547",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_547",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_55",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_55",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_568",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_568",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_59",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_59",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_616",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_616",
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_67",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_67",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_69",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_69",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_73",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_73",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_77",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_77",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_89",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_89",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_96",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_algebra_96",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_101",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_101",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_102",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_102",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_109",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_109",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_110",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_110",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_126",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_126",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_13",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_13",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_132",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_132",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_136",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_136",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_149",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_149",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_155",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_155",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_156",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_156",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_169",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_169",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_188",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_188",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_198",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_198",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_200",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_200",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_202",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_202",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_211",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_211",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_22",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_22",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_221",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_221",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_232",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_232",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_236",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_236",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_24",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_24",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_252",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_252",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_257",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_257",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_269",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_269",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_284",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_284",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_30",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_30",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_301",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_301",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_303",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_303",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_32",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_32",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_326",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_326",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_33",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_33",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_335",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_335",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_35",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_35",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_37",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_37",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_370",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_370",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_403",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_403",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_405",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_405",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_412",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_412",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_42",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_42",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_43",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_43",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_45",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_45",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_458",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_458",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_461",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_461",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_466",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_466",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_48",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_48",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_530",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_530",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_543",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_543",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_629",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_629",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_64",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_64",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_640",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_640",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_668",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_668",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_690",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_690",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_709",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_709",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_739",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_739",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_780",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_780",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_81",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_81",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_84",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_84",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_92",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_92",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_961",
+      "id": "minif2f_v2s_test:minif2f_v2s_mathd_numbertheory_961",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_numbertheory_2dvd4expn",
+      "id": "minif2f_v2s_test:minif2f_v2s_numbertheory_2dvd4expn",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_numbertheory_aneqprodakp4_anmsqrtanp1eq2",
+      "id": "minif2f_v2s_test:minif2f_v2s_numbertheory_aneqprodakp4_anmsqrtanp1eq2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_numbertheory_nckeqnm1ckpnm1ckm1",
+      "id": "minif2f_v2s_test:minif2f_v2s_numbertheory_nckeqnm1ckpnm1ckm1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_numbertheory_prmdvsneqnsqmodpeq0",
+      "id": "minif2f_v2s_test:minif2f_v2s_numbertheory_prmdvsneqnsqmodpeq0",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_numbertheory_sqmod3in01d",
+      "id": "minif2f_v2s_test:minif2f_v2s_numbertheory_sqmod3in01d",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_numbertheory_sqmod4in01d",
+      "id": "minif2f_v2s_test:minif2f_v2s_numbertheory_sqmod4in01d",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_numbertheory_sumkmulnckeqnmul2pownm1",
+      "id": "minif2f_v2s_test:minif2f_v2s_numbertheory_sumkmulnckeqnmul2pownm1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "minif2f_v2s_test:minif2f_v2s_numbertheory_xsqpysqintdenomeq",
+      "id": "minif2f_v2s_test:minif2f_v2s_numbertheory_xsqpysqintdenomeq",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "minif2f_v2s_test",
+      "stratum_id": "minif2f_v2s_test",
+      "value": 0.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.010245901639344262,
+    "axiom_audit_clean_rate": 1.0,
+    "capability_slope_8_1": 0.030737704918032786,
+    "lean_avg_at_8": 0.010245901639344262,
+    "lean_equal_stratum_avg_at_8": 0.010245901639344262,
+    "lean_pass_at_1": 0.010245901639344262,
+    "lean_pass_at_2": 0.018149882903981264,
+    "lean_pass_at_4": 0.029156908665105386,
+    "lean_pass_at_8": 0.040983606557377046,
+    "lean_strict_avg_at_8": 0.010245901639344262,
+    "learnable_fraction": 0.040983606557377046,
+    "mean_correct_tokens": 84.9,
+    "mean_incorrect_tokens": 841.8514492753624,
+    "mean_tokens": 834.0957991803278,
+    "median_tokens": 406.5,
+    "p95_tokens": 2048.0,
+    "p99_tokens": 2048.0,
+    "solved_problem_count": 10.0,
+    "stop_rate": 0.7151639344262295,
+    "stratum_minif2f_v2s_test_avg_at_8": 0.010245901639344262,
+    "tokens_per_correct": 81407.75,
+    "total_correct_rollouts": 20.0,
+    "truncation_rate": 0.2848360655737705
+  },
+  "n_problems": 244,
+  "protocol_id": "longitudinal_minif2f_test244_k8",
+  "schema_version": "3.0",
+  "scored_at_utc": "2026-11-22T15:02:06.622288+00:00",
+  "track": "lean"
+}

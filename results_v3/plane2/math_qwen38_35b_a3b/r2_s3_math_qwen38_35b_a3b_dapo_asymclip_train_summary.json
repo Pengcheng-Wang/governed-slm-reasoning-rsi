@@ -1,0 +1,38 @@
+{
+  "adapted_linear_modules": 310,
+  "algo": "dapo_asymclip",
+  "applied_prior_fp32_deltas": 0,
+  "dist_strategy": "fsdp_full_shard",
+  "lr": 9e-06,
+  "mean_clip_frac_neg": 0.002756957419457976,
+  "mean_clip_frac_pos": 0.0029134458167718647,
+  "mean_loss": 0.24677335439870754,
+  "merge_parity": {
+    "max_abs_logit_diff": 3.42578125,
+    "mean_abs_logit_diff": 0.12061410024762154,
+    "merged_linear_tensors": 310,
+    "top1_token_agreement": 0.9921875
+  },
+  "model_key": "qwen38_35b_a3b",
+  "peak_hbm_gb_rank0": 26.442,
+  "ppo_epochs": 2,
+  "rl_audit": {
+    "active_rl_samples": 376,
+    "algo": "dapo_asymclip",
+    "groups_all_solved": 60,
+    "groups_all_zero": 21,
+    "groups_mixed_active": 47,
+    "groups_total": 128,
+    "mean_comp_len_norm": 7057.2,
+    "mean_shaped_reward": 0.5819,
+    "off_policy_rescued_groups": 0
+  },
+  "saved_milestones": {
+    "pct100": "/scratch/governed_slm_rsi_v3/checkpoints_v3/math_qwen38_35b_a3b/r2_s3_math_qwen38_35b_a3b_dapo_asymclip_pct100",
+    "pct50": "/scratch/governed_slm_rsi_v3/checkpoints_v3/math_qwen38_35b_a3b/r2_s3_math_qwen38_35b_a3b_dapo_asymclip_milestones/pct50"
+  },
+  "status": "RLVR_TRAINED_AND_MERGED_V3",
+  "steps_executed": 24,
+  "wall_seconds": 999.42,
+  "world_size": 8
+}

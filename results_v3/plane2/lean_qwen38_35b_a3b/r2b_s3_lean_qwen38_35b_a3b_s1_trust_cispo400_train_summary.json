@@ -1,0 +1,38 @@
+{
+  "adapted_linear_modules": 310,
+  "algo": "drgrpo_cispo",
+  "applied_prior_fp32_deltas": 310,
+  "dist_strategy": "fsdp_full_shard",
+  "lr": 5.5e-06,
+  "mean_clip_frac_neg": 0.006474627995413803,
+  "mean_clip_frac_pos": 0.006488197923098328,
+  "mean_loss": -0.006276597671482402,
+  "merge_parity": {
+    "max_abs_logit_diff": 8.46875,
+    "mean_abs_logit_diff": 0.20422350987792015,
+    "merged_linear_tensors": 310,
+    "top1_token_agreement": 1.0
+  },
+  "model_key": "qwen38_35b_a3b",
+  "peak_hbm_gb_rank0": 25.244,
+  "ppo_epochs": 1,
+  "rl_audit": {
+    "active_rl_samples": 1128,
+    "algo": "drgrpo_cispo",
+    "groups_all_solved": 148,
+    "groups_all_zero": 111,
+    "groups_mixed_active": 141,
+    "groups_total": 400,
+    "mean_comp_len_norm": 749.42,
+    "mean_shaped_reward": 0.4759,
+    "off_policy_rescued_groups": 0
+  },
+  "saved_milestones": {
+    "pct100": "/scratch/governed_slm_rsi_v3/checkpoints_v3/lean_qwen38_35b_a3b/r2b_s3_lean_qwen38_35b_a3b_s1_trust_cispo400_pct100",
+    "pct50": "/scratch/governed_slm_rsi_v3/checkpoints_v3/lean_qwen38_35b_a3b/r2b_s3_lean_qwen38_35b_a3b_s1_trust_cispo400_milestones/pct50"
+  },
+  "status": "RLVR_TRAINED_AND_MERGED_V3",
+  "steps_executed": 24,
+  "wall_seconds": 1028.79,
+  "world_size": 8
+}

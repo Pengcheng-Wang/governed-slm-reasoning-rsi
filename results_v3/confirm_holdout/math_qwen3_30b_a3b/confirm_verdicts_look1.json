@@ -1,0 +1,50 @@
+{
+  "b0_qwen3_30b_a3b": {
+    "aggregation_weighting": "equal_item",
+    "baseline_primary": 0.6054166666666667,
+    "bootstrap_mode": "cluster_1d",
+    "candidate_artifact_sha256": "fa8363e884c1aba0293b45bb47c3bba4c3bbeff9ff99023f2abe9fb44cb3a141",
+    "candidate_id": "r2_s3_math_qwen3_30b_a3b_gspo_luffy_pct100",
+    "candidate_primary": 0.6391666666666667,
+    "ci95_vs_incumbent": [
+      0.009166666666666656,
+      0.057083333333333375
+    ],
+    "comparator_id": "b0_qwen3_30b_a3b",
+    "confirm_looks_used": 1,
+    "consecutive_rollbacks": 1,
+    "decision": "ROLLBACK",
+    "decision_mode": "superiority",
+    "decision_reason": "guardrail_or_regression",
+    "decision_stage": "confirm",
+    "dev_looks_used": 1,
+    "direction": "maximize",
+    "effective_alpha_one_sided": 0.0125,
+    "effective_null_margin": 0.015,
+    "effective_se": 0.012161443476212853,
+    "entry_sha256": "f733abca419e0a46aa19e34b396eb1d24b54662cbcb051d44693407398e174d8",
+    "halt_recommended": false,
+    "hypothesis": "Phase V3 2-SFT+RLVR winner r2_s3_math_qwen3_30b_a3b_gspo_luffy_pct100 beats b0_qwen3_30b_a3b on Confirm_V3",
+    "incumbent_primary": 0.6054166666666667,
+    "lcb_one_sided_vs_baseline": 0.01041666666666663,
+    "lcb_one_sided_vs_incumbent": 0.006249999999999978,
+    "margin_excess_lcb_one_sided": -0.008750000000000022,
+    "margin_mode": "additive",
+    "prev_entry_sha256": "GENESIS",
+    "primary_metric": "math_avg_at_8",
+    "primary_statistic": "mean",
+    "protocol_id": "v3_math_confirm300_k8",
+    "raw_delta_vs_incumbent": 0.03374999999999995,
+    "rules_sha256": "06c17dad26d006236269c48b79ac5781ed9b732ceade3966edbf3ad394efc9ef",
+    "signed_improvement": 0.03374999999999995,
+    "signflip_method": "monte_carlo_8000",
+    "signflip_p_one_sided_vs_incumbent": 0.0621172353455818,
+    "timestamp_utc": "2026-11-22T19:35:19.107137+00:00",
+    "trial_id": "confirm_r2_s3_math_qwen3_30b_a3b_gspo_luffy_pct100_vs_b0_qwen3_30b_a3b",
+    "tripwires": [
+      "baseline_degradation_exceeded:stop_rate_degradation=0.031250>0.025"
+    ],
+    "unresolved_rollbacks_since_promote": 1,
+    "warnings": []
+  }
+}

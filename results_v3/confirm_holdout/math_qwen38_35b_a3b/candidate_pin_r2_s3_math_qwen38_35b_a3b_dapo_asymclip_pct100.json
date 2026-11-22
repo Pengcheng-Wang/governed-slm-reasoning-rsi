@@ -1,0 +1,8 @@
+{
+  "candidate_id": "r2_s3_math_qwen38_35b_a3b_dapo_asymclip_pct100",
+  "ckpt_dir": "/scratch/governed_slm_rsi_v3/checkpoints_v3/math_qwen38_35b_a3b/r2_s3_math_qwen38_35b_a3b_dapo_asymclip_pct100",
+  "shards": [
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors"
+  ]
+}

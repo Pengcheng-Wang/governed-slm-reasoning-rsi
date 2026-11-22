@@ -1,0 +1,178 @@
+{
+  "candidate_id": "NONE",
+  "candidates_evaluated": 16,
+  "consecutive_rollbacks": 1,
+  "decision": "ROLLBACK",
+  "decision_stage": "search",
+  "eligible_count": 0,
+  "entry_sha256": "68e8e46d22fe9b6b82e9b157acf06de3935a10829ee006b8663a9cf0e75c3f3e",
+  "leaderboard": [
+    {
+      "candidate_id": "r2b_s3_lean_qwen38_35b_a3b_restem_trust_cispo400_pct50",
+      "lcb_one_sided": -0.01517857142857143,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2b_s3_lean_qwen38_35b_a3b_restem_trust_cispo400_pct50_search.json",
+      "rank_score": -0.01517857142857143,
+      "signed_gain": 0.0,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2b_s3_lean_qwen38_35b_a3b_restem_trust_cispo400_pct100",
+      "lcb_one_sided": -0.01607142857142857,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2b_s3_lean_qwen38_35b_a3b_restem_trust_cispo400_pct100_search.json",
+      "rank_score": -0.01607142857142857,
+      "signed_gain": -0.0008928571428571397,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s3_lean_qwen38_35b_a3b_full_s1_cispo400_pct100",
+      "lcb_one_sided": -0.01964285714285713,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s3_lean_qwen38_35b_a3b_full_s1_cispo400_pct100_search.json",
+      "rank_score": -0.01964285714285713,
+      "signed_gain": 0.0017857142857142794,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2b_s3_lean_qwen38_35b_a3b_s1_trust_cispo400_pct100",
+      "lcb_one_sided": -0.021428571428571463,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2b_s3_lean_qwen38_35b_a3b_s1_trust_cispo400_pct100_search.json",
+      "rank_score": -0.021428571428571463,
+      "signed_gain": -0.008035714285714313,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s3_lean_qwen38_35b_a3b_full_s1_dapo400_pct100",
+      "lcb_one_sided": -0.021428571428571463,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s3_lean_qwen38_35b_a3b_full_s1_dapo400_pct100_search.json",
+      "rank_score": -0.021428571428571463,
+      "signed_gain": -0.006249999999999978,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s3_lean_qwen38_35b_a3b_full_s1_cispo400_pct50",
+      "lcb_one_sided": -0.024107142857142827,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s3_lean_qwen38_35b_a3b_full_s1_cispo400_pct50_search.json",
+      "rank_score": -0.024107142857142827,
+      "signed_gain": -0.005357142857142838,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2b_s2_lean_qwen38_35b_a3b_restem_frontier_sft",
+      "lcb_one_sided": -0.025000000000000022,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2b_s2_lean_qwen38_35b_a3b_restem_frontier_sft_search.json",
+      "rank_score": -0.025000000000000022,
+      "signed_gain": -0.006249999999999978,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2b_s3_lean_qwen38_35b_a3b_s1_trust_cispo400_pct50",
+      "lcb_one_sided": -0.03214285714285714,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2b_s3_lean_qwen38_35b_a3b_s1_trust_cispo400_pct50_search.json",
+      "rank_score": -0.03214285714285714,
+      "signed_gain": -0.01696428571428571,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s3_lean_qwen38_35b_a3b_gentle_sft_cispo400_pct50",
+      "lcb_one_sided": -0.035714285714285754,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s3_lean_qwen38_35b_a3b_gentle_sft_cispo400_pct50_search.json",
+      "rank_score": -0.035714285714285754,
+      "signed_gain": -0.008928571428571452,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s3_lean_qwen38_35b_a3b_gentle_sft_cispo400_pct100",
+      "lcb_one_sided": -0.04196428571428573,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s3_lean_qwen38_35b_a3b_gentle_sft_cispo400_pct100_search.json",
+      "rank_score": -0.04196428571428573,
+      "signed_gain": -0.012500000000000011,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s3_lean_qwen38_35b_a3b_full_s1_dapo400_pct50",
+      "lcb_one_sided": -0.042857142857142816,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s3_lean_qwen38_35b_a3b_full_s1_dapo400_pct50_search.json",
+      "rank_score": -0.042857142857142816,
+      "signed_gain": -0.024107142857142883,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s3_lean_qwen38_35b_a3b_gentle_sft_dapo400_pct50",
+      "lcb_one_sided": -0.04999999999999999,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s3_lean_qwen38_35b_a3b_gentle_sft_dapo400_pct50_search.json",
+      "rank_score": -0.04999999999999999,
+      "signed_gain": -0.02946428571428572,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s1_lean_qwen38_35b_a3b_gentle_balanced_sft",
+      "lcb_one_sided": -0.06964285714285712,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s1_lean_qwen38_35b_a3b_gentle_balanced_sft_search.json",
+      "rank_score": -0.06964285714285712,
+      "signed_gain": -0.04464285714285715,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s3_lean_qwen38_35b_a3b_gentle_sft_dapo400_pct100",
+      "lcb_one_sided": -0.07946428571428571,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s3_lean_qwen38_35b_a3b_gentle_sft_dapo400_pct100_search.json",
+      "rank_score": -0.07946428571428571,
+      "signed_gain": -0.05535714285714288,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s3_lean_qwen38_35b_a3b_pure_b0_dapo400_pct50",
+      "lcb_one_sided": -0.08571428571428569,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s3_lean_qwen38_35b_a3b_pure_b0_dapo400_pct50_search.json",
+      "rank_score": -0.08571428571428569,
+      "signed_gain": -0.05178571428571427,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "r2_s3_lean_qwen38_35b_a3b_pure_b0_dapo400_pct100",
+      "lcb_one_sided": -0.09464285714285714,
+      "passed_search": false,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/r2_s3_lean_qwen38_35b_a3b_pure_b0_dapo400_pct100_search.json",
+      "rank_score": -0.09464285714285714,
+      "signed_gain": -0.05892857142857144,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    }
+  ],
+  "prev_entry_sha256": "db1cea2e27083ef2dda2320ee93e55f372a27b8e959d8686f420ebef5fd52c33",
+  "selected_candidate_id": null,
+  "selected_path": null,
+  "selection_protocol": "batch_order_invariant",
+  "timestamp_utc": "2026-11-22T21:39:05.663580+00:00",
+  "trial_id": "round2_unified_tournament_lean_qwen38_35b_a3b",
+  "unresolved_rollbacks_since_promote": 1
+}

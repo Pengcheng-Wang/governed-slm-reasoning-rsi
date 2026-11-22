@@ -1,0 +1,6 @@
+{
+  "status": "CONFIRMED_ROLLBACK_NO_HOLDOUT_TOUCH",
+  "track": "lean",
+  "model_key": "qwen38_35b_a3b",
+  "candidate_id": "s3_lean_qwen38_35b_a3b_dapo_asymclip_pct50"
+}

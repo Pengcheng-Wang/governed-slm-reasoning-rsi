@@ -1,0 +1,35 @@
+{
+  "status": "FINALIZED",
+  "seal_file": "/scratch/governed_slm_rsi_v3/results_v3/confirm_holdout/lean_qwen3_30b_a3b/HOLDOUT_SEAL_v3_lean_qwen3_30b_a3b.json",
+  "holdout_seal_sha256": "31918bf7978f4aa8ada136db7655a7df41905bd753c81ad9482e4ba73d761dbd",
+  "ledger_entry_sha256": "d77bfb8f55b9c5043388700f7883e3eab0f9904228b6ec4641cc81965ea2265a",
+  "holdout_guardrails_passed": true,
+  "holdout_tripwires": [],
+  "comparisons": {
+    "b0_qwen3_30b_a3b": {
+      "n_items": 225,
+      "n_clusters": 225,
+      "n_seeds": 0,
+      "n_strata": 4,
+      "bootstrap_mode": "cluster_1d",
+      "weighting": "equal_item",
+      "statistic": "mean",
+      "margin_mode": "additive",
+      "effective_null_margin": 0.015,
+      "obs_candidate": 0.11333333333333333,
+      "obs_reference": 0.01,
+      "signed_gain": 0.10333333333333333,
+      "se": 0.016757946956858942,
+      "lcb_one_sided": 0.07166666666666667,
+      "margin_excess_lcb_one_sided": 0.05666666666666667,
+      "ci95_low": 0.07166666666666667,
+      "ci95_high": 0.13777777777777778,
+      "distinct_cluster_deltas": 9,
+      "n_positive_clusters": 42,
+      "signflip_p_one_sided": 0.00012498437695288088,
+      "signflip_method": "monte_carlo_8000",
+      "insufficient_replication": false,
+      "low_cluster_warning": false
+    }
+  }
+}

@@ -194,8 +194,8 @@ def main() -> int:
             if ch_dir.exists():
                 ch_entry: dict[str, Any] = {"confirm": [], "holdout": [], "holdout_per_contest": {}}
                 for cf in sorted(ch_dir.glob("confirm_*.json")):
-                    if cf.name == "confirm_verdicts.json":
-                        ch_entry["confirm_verdicts"] = json.loads(cf.read_text(encoding="utf-8"))
+                    if cf.name.startswith("confirm_verdicts"):
+                        ch_entry[cf.stem] = json.loads(cf.read_text(encoding="utf-8"))
                     else:
                         ch_entry["confirm"].append(_extract_compact_metrics(json.loads(cf.read_text(encoding="utf-8"))))
                 b0_h_pay = None
@@ -203,8 +203,9 @@ def main() -> int:
                 if b0_hp.exists():
                     b0_h_pay = json.loads(b0_hp.read_text(encoding="utf-8"))
                 for hf in sorted(ch_dir.glob("holdout_*.json")):
-                    if hf.name == "holdout_status.json":
-                        ch_entry["holdout_status"] = json.loads(hf.read_text(encoding="utf-8"))
+                    if hf.name.startswith("holdout_status") or hf.name.upper().startswith("HOLDOUT_SEAL"):
+                        if hf.name.startswith("holdout_status"):
+                            ch_entry[hf.stem] = json.loads(hf.read_text(encoding="utf-8"))
                         continue
                     hpay = json.loads(hf.read_text(encoding="utf-8"))
                     if b0_h_pay is not None and hpay["candidate_id"] != b0_h_pay["candidate_id"] and "paired_transitions" not in hpay:

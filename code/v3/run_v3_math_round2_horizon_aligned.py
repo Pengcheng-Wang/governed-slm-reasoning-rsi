@@ -42,6 +42,7 @@ for p in (THIS_DIR, EVAL_V3_DIR):
     if str(p) not in sys.path:
         sys.path.insert(0, str(p))
 
+from isolated_scorer_v3 import score_math_tasks_safely  # noqa: E402
 from math_verifier import score_math_response  # noqa: E402
 from model_registry_v3 import MODEL_REGISTRY_V3  # noqa: E402
 from prepare_v3_splits_and_corpora import (  # noqa: E402
@@ -288,20 +289,18 @@ def build_horizon_aligned_corpora_for_model(
     unsolved_ids: list[str] = []
 
     # 1A. Model-native verified natural-stop derivations on `1,600` hard DeepMath problems (`k=4` probe)
+    # Batch-score via `score_math_tasks_safely(..., workers=32)` so pathological SymPy infinite products
+    # are OS-killed in 8s rather than hanging in-process.
     n_probe_problems = 0
+    cand_probe_tasks: list[tuple[dict[str, Any], dict[str, Any], bool]] = []
     for pid, sp in sorted(spec_by_id.items()):
         prob = str(sp["problem"])
         if decon.is_math_contaminated(prob):
             continue
-        sk = _skeleton_sha(prob)
-        gold = str(sp["gold"]).strip()
-        int_task = bool(sp.get("integer_task", re.fullmatch(r"[+-]?\d+", gold) is not None))
         nc = ncorr_by_id.get(pid, 0)
         if nc == 0:
             unsolved_ids.append(pid)
             continue
-
-        valid_traces: list[tuple[int, str]] = []
         for gr in gen_by_id.get(pid, []):
             if str(gr.get("finish_reason")) != "stop":
                 continue
@@ -309,9 +308,27 @@ def build_horizon_aligned_corpora_for_model(
             txt = str(gr.get("text", "")).strip()
             if ctoks < 250 or ctoks > 9200 or "<think>" in txt or "</think>" in txt:
                 continue
-            sc = score_math_response(txt, gold, finish_reason="stop", thinking=False, integer_task=int_task, problem=prob)
-            if sc.get("strict_correct") and sc.get("sft_clean_admissible"):
-                valid_traces.append((ctoks, txt))
+            cand_probe_tasks.append((gr, sp, False))
+
+    scored_probe = score_math_tasks_safely(cand_probe_tasks, workers=32) if cand_probe_tasks else []
+    admissible_keys: set[tuple[str, int]] = {
+        (str(sr["id"]), int(sr["sample_idx"]))
+        for sr in scored_probe
+        if sr.get("strict_correct") and sr.get("sft_clean_admissible")
+    }
+
+    for pid, sp in sorted(spec_by_id.items()):
+        prob = str(sp["problem"])
+        if decon.is_math_contaminated(prob) or ncorr_by_id.get(pid, 0) == 0:
+            continue
+        sk = _skeleton_sha(prob)
+        gold = str(sp["gold"]).strip()
+        nc = ncorr_by_id.get(pid, 0)
+
+        valid_traces: list[tuple[int, str]] = []
+        for gr in gen_by_id.get(pid, []):
+            if (pid, int(gr.get("sample_idx", -1))) in admissible_keys:
+                valid_traces.append((int(gr.get("completion_tokens", 0)), str(gr.get("text", "")).strip()))
 
         if not valid_traces:
             continue

@@ -1,0 +1,7 @@
+{
+  "status": "CONFIRMED_NO_PROMOTE_AFTER_2_LOOKS_NO_HOLDOUT_TOUCH",
+  "track": "lean",
+  "model_key": "qwen38_35b_a3b",
+  "candidate_id": "r2_s3_lean_qwen38_35b_a3b_full_s1_cispo400_pct100",
+  "decision": "INCONCLUSIVE_RETEST"
+}

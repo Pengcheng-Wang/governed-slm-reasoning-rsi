@@ -1,0 +1,48 @@
+{
+  "aggregation_weighting": "equal_item",
+  "candidate_artifact_sha256": "4d66120de5b26439b4d47fece5db4493c4cf09b5dba11095203de3b9993d5237",
+  "candidate_id": "s3_lean_qwen3_30b_a3b_drgrpo_cispo_pct100",
+  "comparisons": {
+    "b0_qwen3_30b_a3b": {
+      "bootstrap_mode": "cluster_1d",
+      "ci95_high": 0.13777777777777778,
+      "ci95_low": 0.07166666666666667,
+      "distinct_cluster_deltas": 9,
+      "effective_null_margin": 0.015,
+      "insufficient_replication": false,
+      "lcb_one_sided": 0.07166666666666667,
+      "low_cluster_warning": false,
+      "margin_excess_lcb_one_sided": 0.05666666666666667,
+      "margin_mode": "additive",
+      "n_clusters": 225,
+      "n_items": 225,
+      "n_positive_clusters": 42,
+      "n_seeds": 0,
+      "n_strata": 4,
+      "obs_candidate": 0.11333333333333333,
+      "obs_reference": 0.01,
+      "se": 0.016757946956858942,
+      "signed_gain": 0.10333333333333333,
+      "signflip_method": "monte_carlo_8000",
+      "signflip_p_one_sided": 0.00012498437695288088,
+      "statistic": "mean",
+      "weighting": "equal_item"
+    }
+  },
+  "direction": "maximize",
+  "finalized_at_utc": "2026-11-22T14:35:24.255146+00:00",
+  "holdout_guardrails_passed": true,
+  "holdout_primary_replicated": true,
+  "holdout_tripwires": [],
+  "ledger_head_at_reserve_sha256": "c632734629104d5cdc545a8ccf7a9091f508ef1b94157ef4f6cf860f16c3d0b1",
+  "manifest_root_sha256": "7940ee090af186cace0dd32518866315716c7ff0d6859e3603ff2f3e52dfaa94",
+  "primary_metric": "lean_avg_at_8",
+  "primary_statistic": "mean",
+  "required_comparators_verified": [
+    "b0_qwen3_30b_a3b"
+  ],
+  "reserved_at_utc": "2026-11-22T14:21:21.843095+00:00",
+  "rules_sha256": "0600a7dc7c1d677c00d9a69150a83cc6bd5d801a1bdf2f18527cef607882b947",
+  "schema_version": "3.0",
+  "status": "FINALIZED"
+}

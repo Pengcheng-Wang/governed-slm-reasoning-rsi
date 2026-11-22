@@ -1,0 +1,8 @@
+{
+  "candidate_id": "s3_lean_qwen3_30b_a3b_drgrpo_cispo_pct100",
+  "ckpt_dir": "/scratch/governed_slm_rsi_v3/checkpoints_v3/lean_qwen3_30b_a3b/s3_lean_qwen3_30b_a3b_drgrpo_cispo_pct100",
+  "shards": [
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors"
+  ]
+}

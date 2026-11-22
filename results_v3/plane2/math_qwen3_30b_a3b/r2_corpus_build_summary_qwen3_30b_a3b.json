@@ -1,0 +1,13 @@
+{
+  "model_key": "qwen3_30b_a3b",
+  "rl_longcot_upgraded_refs": 221,
+  "rl_pool_rows": 640,
+  "stage1_offpolicy_longcot_rescues": 152,
+  "stage1_omnimath_problems": 0,
+  "stage1_probe_problems": 1267,
+  "stage1_total_rows": 2520,
+  "stage2_axion_strengthened_items": 0,
+  "stage2_replay_rows": 131,
+  "stage2_total_rows": 785,
+  "stage2_zpd_rows": 502
+}

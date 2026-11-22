@@ -1,0 +1,38 @@
+{
+  "timestamp_utc": "2026-11-22T11:40:33.171560+00:00",
+  "trial_id": "round_sft_lean_qwen38_35b_a3b",
+  "decision_stage": "search",
+  "selection_protocol": "batch_order_invariant",
+  "candidate_id": "s1_lean_qwen38_35b_a3b_breadth_sft",
+  "selected_candidate_id": "s1_lean_qwen38_35b_a3b_breadth_sft",
+  "selected_path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s1_lean_qwen38_35b_a3b_breadth_sft_search.json",
+  "decision": "PROVISIONAL_KEEP",
+  "candidates_evaluated": 2,
+  "eligible_count": 2,
+  "leaderboard": [
+    {
+      "candidate_id": "s1_lean_qwen38_35b_a3b_breadth_sft",
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s1_lean_qwen38_35b_a3b_breadth_sft_search.json",
+      "passed_search": true,
+      "signed_gain": 0.0928571428571428,
+      "lcb_one_sided": 0.05178571428571427,
+      "rank_score": 0.05178571428571427,
+      "wall_clock_sec": 1000000000.0,
+      "tripwires": []
+    },
+    {
+      "candidate_id": "s2_lean_qwen38_35b_a3b_zpd_sft",
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s2_lean_qwen38_35b_a3b_zpd_sft_search.json",
+      "passed_search": true,
+      "signed_gain": 0.07678571428571423,
+      "lcb_one_sided": 0.03303571428571428,
+      "rank_score": 0.03303571428571428,
+      "wall_clock_sec": 1000000000.0,
+      "tripwires": []
+    }
+  ],
+  "consecutive_rollbacks": 0,
+  "unresolved_rollbacks_since_promote": 0,
+  "prev_entry_sha256": "GENESIS",
+  "entry_sha256": "52dda5c49da53ad93208169e17f1b5a917df692df093155c5352f100494f294d"
+}

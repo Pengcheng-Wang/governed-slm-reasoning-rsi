@@ -1,0 +1,484 @@
+{
+  "candidate_id": "r2_s3_math_qwen38_35b_a3b_dapo_asymclip_pct100",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "expected_k": 8,
+  "items": [
+    {
+      "cluster_id": "v2_cmimc2025:1",
+      "id": "v2_cmimc2025:1",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:10",
+      "id": "v2_cmimc2025:10",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:11",
+      "id": "v2_cmimc2025:11",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_cmimc2025:12",
+      "id": "v2_cmimc2025:12",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:13",
+      "id": "v2_cmimc2025:13",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_cmimc2025:14",
+      "id": "v2_cmimc2025:14",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:15",
+      "id": "v2_cmimc2025:15",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:16",
+      "id": "v2_cmimc2025:16",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:17",
+      "id": "v2_cmimc2025:17",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:18",
+      "id": "v2_cmimc2025:18",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_cmimc2025:19",
+      "id": "v2_cmimc2025:19",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_cmimc2025:2",
+      "id": "v2_cmimc2025:2",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:20",
+      "id": "v2_cmimc2025:20",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_cmimc2025:21",
+      "id": "v2_cmimc2025:21",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_cmimc2025:22",
+      "id": "v2_cmimc2025:22",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:23",
+      "id": "v2_cmimc2025:23",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:24",
+      "id": "v2_cmimc2025:24",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:25",
+      "id": "v2_cmimc2025:25",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:26",
+      "id": "v2_cmimc2025:26",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:27",
+      "id": "v2_cmimc2025:27",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_cmimc2025:28",
+      "id": "v2_cmimc2025:28",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:29",
+      "id": "v2_cmimc2025:29",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_cmimc2025:3",
+      "id": "v2_cmimc2025:3",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:30",
+      "id": "v2_cmimc2025:30",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_cmimc2025:31",
+      "id": "v2_cmimc2025:31",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:32",
+      "id": "v2_cmimc2025:32",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:33",
+      "id": "v2_cmimc2025:33",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:34",
+      "id": "v2_cmimc2025:34",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:35",
+      "id": "v2_cmimc2025:35",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_cmimc2025:36",
+      "id": "v2_cmimc2025:36",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_cmimc2025:37",
+      "id": "v2_cmimc2025:37",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_cmimc2025:38",
+      "id": "v2_cmimc2025:38",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:39",
+      "id": "v2_cmimc2025:39",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:4",
+      "id": "v2_cmimc2025:4",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:40",
+      "id": "v2_cmimc2025:40",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_cmimc2025:5",
+      "id": "v2_cmimc2025:5",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_cmimc2025:6",
+      "id": "v2_cmimc2025:6",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_cmimc2025:7",
+      "id": "v2_cmimc2025:7",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_cmimc2025:8",
+      "id": "v2_cmimc2025:8",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_cmimc2025:9",
+      "id": "v2_cmimc2025:9",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.25
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.559375,
+    "capability_slope_8_1": 0.21562500000000007,
+    "distinct_answers_at_8": 1.7,
+    "forgotten_rate": 0.0,
+    "interior_sharpening_delta": 0.4375,
+    "learnable_fraction": 0.425,
+    "math_avg_at_8": 0.559375,
+    "math_equal_stratum_avg_at_8": 0.559375,
+    "math_maj_at_8": 0.65,
+    "math_pass_at_1": 0.559375,
+    "math_pass_at_2": 0.6401785714285715,
+    "math_pass_at_4": 0.7046428571428571,
+    "math_pass_at_8": 0.775,
+    "math_strict_avg_at_8": 0.559375,
+    "mean_correct_tokens": 7000.882681564246,
+    "mean_incorrect_tokens": 11747.673758865249,
+    "mean_tokens": 9092.4375,
+    "median_tokens": 10034.0,
+    "natural_stop_parse_failure_rate": 0.0,
+    "net_frontier_expansion": 0.175,
+    "newly_solved_rate": 0.175,
+    "overall_parse_failure_rate": 0.0,
+    "p95_tokens": 12288.0,
+    "p99_tokens": 12288.0,
+    "solved_problem_count": 31.0,
+    "stop_rate": 0.71875,
+    "stratum_cmimc2025_avg_at_8": 0.559375,
+    "tokens_per_correct": 16254.636871508379,
+    "total_correct_rollouts": 179.0,
+    "truncation_rate": 0.28125
+  },
+  "n_problems": 40,
+  "paired_transitions": {
+    "baseline_id": "b0_qwen38_35b_a3b",
+    "both_solved_count": 24,
+    "both_unsolved_count": 9,
+    "candidate_id": "r2_s3_math_qwen38_35b_a3b_dapo_asymclip_pct100",
+    "ci95_delta_avg_at_k": [
+      0.22812500000000002,
+      0.390625
+    ],
+    "ci95_delta_capability_slope_8_1": [
+      -0.278125,
+      0.021875000000000002
+    ],
+    "ci95_delta_maj_at_8": [
+      0.0,
+      0.15000000000000002
+    ],
+    "ci95_delta_pass_at_8": [
+      0.07500000000000001,
+      0.30000000000000004
+    ],
+    "delta_capability_slope_8_1": -0.13124999999999992,
+    "delta_maj_at_8": 0.075,
+    "delta_pass_at_1": 0.30624999999999997,
+    "delta_pass_at_2": 0.25357142857142867,
+    "delta_pass_at_4": 0.1885714285714286,
+    "delta_pass_at_8": 0.17500000000000004,
+    "expected_k": 8,
+    "forgotten_count": 0,
+    "forgotten_of_solved": 0.0,
+    "forgotten_rate": 0.0,
+    "full_mastery_delta": 0.35,
+    "interior_item_count": 24,
+    "interior_sharpening_delta": 0.4375,
+    "n_problems": 40,
+    "net_frontier_expansion": 0.175,
+    "newly_solved_count": 7,
+    "newly_solved_of_unsolved": 0.4375,
+    "newly_solved_rate": 0.175
+  },
+  "protocol_id": "longitudinal_cmimc2025_40_k8",
+  "schema_version": "3.0",
+  "scored_at_utc": "2026-11-22T17:14:28.360110+00:00",
+  "track": "math"
+}

@@ -24,6 +24,14 @@ logs/
 .venv-*/
 results/raw_generations/
 results/training/
+results_v3/**/*.raw_gen.jsonl.gz
+results_v3/plane1/**/.*_probe_prompts.jsonl
+results_v3/plane2/**/*rollouts*.jsonl
+results_v3/plane2/**/*sft*.jsonl
+results_v3/plane2/**/*bank*.jsonl
+results_v3/plane2/**/*_rl_pool_*.jsonl
+results_v3/plane2/**/*_rl400_*.jsonl
+results_v3/plane2/lean_qwen38_35b_a3b_r2p4/
 checkpoints/
 worktrees/
 cache/

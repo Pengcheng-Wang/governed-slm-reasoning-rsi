@@ -1,34 +1,41 @@
-# Governed Reasoning Post-Training & Self-Improvement (`3.8B` to `35B-A3B` MoE)
+# Governed Reasoning Post-Training & Self-Improvement (`3.8B` Dense to `35B-A3B` Sparse MoE)
 
-Systematic post-training and verifier-gated self-improvement for language models (`3.8B`–`27B` Dense and `35B-A3B` Sparse MoE) on **Competition / Research Mathematics** and **Formal Lean 4.24 Theorem Proving**.
+Systematic post-training and verifier-gated self-improvement across **Dense models (`3.8B`–`27B`)** and **`3B`-Active Sparse Mixture-of-Experts (`30B-A3B`, `35B-A3B`)** on **Competition / 2026 Research Mathematics** and **Formal Lean 4.24 Theorem Proving**.
 
 ## Overview
 
-We combine **model-aware verifiable data construction** (`2 SFT + RL`, without mid-training or DPO) with **executable two-plane governance** and **independent external model review**:
-1. **Plane 1 (Pre-Freeze Calibration):** Token-budget and channel alignment, deterministic out-of-process verifiers (`Lean v4.24.0 + Mathlib` `#print axioms` kernel check and timeout-isolated symbolic math grading), and SHA-256-locked `Search -> Confirmation -> Single-Touch Holdout` split manifests.
-2. **Plane 2 (Post-Training & RLVR Optimization):**
-   - **Breadth (`2-SFT`):** Horizon-aligned multi-domain verified reasoning SFT + model-aware Zone-of-Proximal-Development (`ZPD`) hard-frontier strengthening (`DDP` and 8-GPU `FSDP FULL_SHARD`).
-   - **Depth (`RLVR`):** Activation-checkpointed `12K` chunked-logits verifier RL tournament (`DAPO`, `Dr.GRPO + CISPO`, `GSPO + LUFFY`) on nonzero-variance prompts to sharpen `pass@1`, `pass@2`, and `maj@8` while raising natural completion rates (`stop_rate`).
-3. **Statistical Promotion & Single-Touch Holdout:** Hash-chained trial ledgers, Intersection-Union (`IUT`) / Holm-Bonferroni Confirmation gates against `B_0` and prior champions, and write-once `HOLDOUT_SEAL` evaluation (`O_CREAT | O_EXCL` + SHA-256 receipts).
+We combine **model-aware verifiable data construction** (`2 SFT + RL` and zero-SFT `RLVR` crossovers, without mid-training or DPO) with **executable two-plane governance** and **independent multi-agent external model review**:
+1. **Plane 1 (Pre-Freeze Calibration):** Channel and token-budget alignment, deterministic out-of-process verifiers (`Lean v4.24.0 + Mathlib` `#print axioms` kernel check and timeout-isolated symbolic math grading), empirical `A/A` null checks (`10/10 -> ROLLBACK`), and SHA-256-locked `Search -> Confirmation -> Single-Touch Holdout` manifests.
+2. **Plane 2 (Diagnostic Post-Training & Multi-Proposal RLVR):**
+   - **Breadth (`2-SFT`):** Horizon-matched multi-domain verified SFT + Zone-of-Proximal-Development (`ZPD`) frontier strengthening (`DDP` and 8-GPU `FSDP FULL_SHARD`; on Sparse MoEs, adapting only `0.17%–0.38%` unconditionally active shared projections with all `128`/`256` routed experts frozen).
+   - **Depth & Termination (`RLVR`):** Checkpointed-chunk `12K` verifier RL tournaments (`DAPO`, `Dr.GRPO + CISPO`, `GSPO + LUFFY`) to sharpen `pass@1`, `pass@2`, and `maj@8` while eliminating runaway truncation (`stop_rate`).
+3. **Statistical Promotion & Single-Touch Holdout:** Hash-chained trial ledgers, Intersection-Union (`IUT`) / Bonferroni (`K=2`) Confirmation gates (`+1.50 pp` LCB margin + `stop_rate` safety ceiling), and write-once `HOLDOUT_SEAL` evaluation (`O_CREAT | O_EXCL`). Every candidate promoted by `Confirm_V3` replicated positively on Single-Touch `Holdout_V3`, while all unpromoted candidates made `0` candidate Holdout evaluations.
 
 ---
 
 ## Headline Results
 
-### 1. Phase V3 — `2-SFT + 3-Proposal RLVR` Across `4B`, `9B`, `27B` Dense (`FSDP`), and `35B-A3B` Sparse MoE (`k=8`)
+### 1. Phase V3 — Dense (`4B`, `9B`, `27B`) & `3B`-Active Sparse MoE (`30B-A3B`, `35B-A3B`) Across All 10 Cells (`k=8`)
 
-Holdout suites: **Track L** (`N=225`: `arXivLean 2026` + `FormalMATH-Lite` holdout) and **Track M** (`N=194`: `SMT 2025`, `HMMT Feb 2025`, `APEX 2025`, `arXivMath 2026`), plus external longitudinal transfer (`MiniF2F-test`, `ProofNet-test`, `2025` 4-Contest Math).
+Holdout suites: **Track L** (`N=225`: `arXivLean 2026` + `FormalMATH-Lite`) and **Track M** (`N=194`: `SMT 2025`, `HMMT Feb 2025`, `APEX 2025`, `arXivMath 2026`), plus external longitudinal transfer (`MiniF2F-test` `N=244`, `ProofNet-test` `N=163`, `2025` 4-Contest Math `N=200`). Fixed-checkpoint evaluations (`claim_scope = fixed_checkpoint`).
 
-| Model (`Total / Active`) | Track | Search Winner (`B_0 -> Winner avg@8`) | `Confirm_V3` Verdict | Sealed `Holdout_V3` (`B_0 -> Promoted avg@8` / `pass@8`) | External Longitudinal Highlight (`B_0 -> V3`) |
+| Model (`Total / Active`) | Track | Search `B_0 -> Winner` `avg@8` (`Recipe`) | `Confirm_V3` Verdict (`K <= 2`) | Sealed `Holdout_V3` `avg@8` (`pass@8`) | External Longitudinal (`B_0 -> Winner avg@8`) |
 | :--- | :---: | :--- | :---: | :---: | :--- |
-| **`Qwen3.5-4B` (`4B / 4B`)** | **Lean** | `Dr.GRPO+CISPO`: `30.45% -> 36.96%` (`+6.52 pp`) | Hold V1 `A*` *(IUT)* | **`15.28% -> 19.39%` (`+4.11 pp`)** / `24.00% -> 27.56%` | `MiniF2F`: `28.33% -> 29.30%`; `ProofNet`: `1.84% -> 2.38%` |
-| **`Qwen3.5-9B` (`9B / 9B`)** | **Lean** | `Dr.GRPO+CISPO`: `33.57% -> 39.55%` (`+5.98 pp`) | **`PROMOTE`** | **`16.22% -> 19.28%` (`+3.06 pp`)** / `24.44% -> 27.11%` | **`ProofNet`: `2.15% -> 5.29%` (`2.46x`!)**; `MiniF2F`: `30.28% -> 33.61%` |
-| **`Qwen3.8-27B` (`27B / 27B` FSDP)** | **Lean** | `DAPO (pct50)`: `33.48% -> 42.77%` (`+9.29 pp`) | **`PROMOTE`** | **`16.89% -> 22.06%` (`+5.17 pp`)** / **`26.22% -> 31.56%`** | **`MiniF2F pass@8`: `48.36% -> 51.64%`**; `ProofNet stop`: `29.8% -> 88.8%` |
-| **`Qwen3.8-35B-A3B` (`35B / 3B` MoE)** | **Lean** | **`GSPO+LUFFY`: `31.25% -> 42.95%` (`+11.70 pp`)** | *In progress* | *In progress* | Matches tuned `27B` Search (`42.95%` vs `42.77%`) at `9x` lower active FLOPs |
-| **`Qwen3.5-4B` (`4B / 4B`)** | **Math** | `GSPO+LUFFY`: `64.92% -> 76.02%` (`+11.10 pp`) | Hold V2 `A*` *(IUT)* | **`24.16% -> 29.38%` (`+5.22 pp`)** / `48.97% -> 52.06%` | `2025` 4-Contest (`N=200`): **`36.25% -> 43.69%` (`+7.44 pp`)** |
-| **`Qwen3.5-9B` (`9B / 9B`)** | **Math** | **`GSPO+LUFFY`: `66.25% -> 80.39%` (`+14.14 pp`)** | **`PROMOTE` (vs `B_0` & V2)** | **`23.90% -> 36.08%` (`+12.18 pp` vs `9B B_0`)** / `48.97% -> 56.70%` | `2025` 4-Contest (`N=200`): **`38.00% -> 49.50%` (`+11.50 pp`)** |
-| **`Qwen3.8-27B` (`27B / 27B` FSDP)** | **Math** | `GSPO+LUFFY (pct50)`: `79.30% -> 82.58%` (`+3.28 pp`) | Hold `B_0` *(`95% pass@8` ceiling)* | `40.40% avg@8` (`45.88% maj@8`, `59.79% pass@8` zero-shot `B_0`) | `2025` 4-Contest: `57.25%` (`CMIMC`: `49.69% -> 53.75%`) |
-| **`Qwen3.8-35B-A3B` (`35B / 3B` MoE)** | **Math** | **`DAPO`: `58.59% -> 79.77%` (`+21.18 pp` so far)** | *In progress* | *In progress* | RLVR lifts `stop_rate` **`65.62% -> 93.36%` (`+27.74 pp`)** vs `2-SFT` `67.97%` |
+| **`Qwen3.5-4B` (`4B / 4B`)** | **Lean** | `30.45% -> 36.96%` (`2-SFT + CISPO`) | Hold V1 `A*` *(IUT `< +1.5 pp`)* | **`15.28% -> 19.39%` (`+4.11 pp`)** (`27.56%`) | `MiniF2F`: `28.33% -> 29.30%`; `ProofNet`: `1.84% -> 2.38%` |
+| **`Qwen3.5-9B` (`9B / 9B`)** | **Lean** | `33.57% -> 39.55%` (`2-SFT + CISPO`) | **`PROMOTE`** (`+6.81 pp`) | **`16.22% -> 19.28%` (`+3.06 pp`)** (`27.11%`) | **`ProofNet`: `2.15% -> 5.29%` (`2.46x`)**; `MiniF2F`: `30.28% -> 33.61%` |
+| **`Qwen3.8-27B` (`27B / 27B` FSDP)** | **Lean** | `33.48% -> 42.77%` (`2-SFT + DAPO`) | **`PROMOTE`** (`+7.50 pp`) | **`16.89% -> 22.06%` (`+5.17 pp`)** (**`31.56%`**) | **`MiniF2F pass@8`: `48.36% -> 51.64%`**; `ProofNet`: `2.68% -> 3.45%` |
+| **`Qwen3-30B-A3B` (`30B / 3B` MoE)** | **Lean** | **`4.64% -> 24.91%` (`5.37x`, `S1 + CISPO`)** | **`PROMOTE`** (`+16.11 pp`, `5.00x`) | **`1.00% -> 11.33%` (`+10.33 pp`, `11.33x`)** (`19.11%`) | **`MiniF2F`: `1.02% -> 15.47%` (`15.17x`, `29.51% pass@8`)** |
+| **`Qwen3.5-35B-A3B` (`35B / 3B` MoE)** | **Lean** | **`30.54% -> 40.71%` (`S1 + CISPO400`)** | Hold `B_0` *(`+5.28 pp` L2, LCB `+1.11 pp`)* | `17.89%` *(zero-shot `B_0`, `26.67% pass@8`; `0` cand touches)* | **`MiniF2F`: `35.25% -> 37.65%` (`52.46% pass@8`)**; `ProofNet`: `3.60% -> 4.68%` |
+| *`Goedel-Prover-V2-8B` (`8B` Ref)* | *Lean* | *Zero-shot `2,048`-tok budget ref* | — | *`17.61%` (`21.78% pass@8`, `20.22% stop_rate`)* | *Truncates `79.78%` under shared `2,048`-token cap* |
+| **`Qwen3.5-4B` (`4B / 4B`)** | **Math** | `64.92% -> 76.02%` (`2-SFT + GSPO+LUFFY`) | Hold V2 `A*` *(IUT `< +1.5 pp`)* | **`24.16% -> 29.38%` (`+5.22 pp`)** (`52.06%`) | `2025` 4-Contest (`N=200`): **`36.25% -> 43.69%` (`+7.44 pp`)** |
+| **`Qwen3.5-9B` (`9B / 9B`)** | **Math** | **`66.25% -> 80.39%` (`2-SFT + GSPO+LUFFY`)** | **`PROMOTE` (vs `B_0` & V2)** | **`23.90% -> 36.08%` (`+12.18 pp` vs `9B B_0`)** (`56.70%`) | `2025` 4-Contest (`N=200`): **`38.00% -> 49.50%` (`+11.50 pp`)** |
+| **`Qwen3.8-27B` (`27B / 27B` FSDP)** | **Math** | `79.30% -> 82.58%` (`2-SFT + GSPO+LUFFY`) | Hold `B_0` *(`95% pass@8` ceiling)* | `40.40%` *(zero-shot `B_0`, `59.79% pass@8`; `0` cand touches)* | `2025` 4-Contest (`N=200`): `57.25%` (`B_0` retained) |
+| **`Qwen3-30B-A3B` (`30B / 3B` MoE)** | **Math** | `57.42% -> 62.11%` (R2) / `59.14%` (`Pure-B0 CISPO`) | Hold `B_0` *(L1 stop guard; L2 `+2.79 pp`, LCB `+0.58 pp`)* | `16.37%` *(zero-shot `B_0`, `32.99% pass@8`; `0` cand touches)* | `stop_rate` guard (`99.8% -> 96.7%`) prevented contest truncation |
+| **`Qwen3.5-35B-A3B` (`35B / 3B` MoE)** | **Math** | **`56.87% -> 78.98%` (`+22.11 pp`, `Pure-B0 DAPO`)** | **`PROMOTE`** (`+21.50 pp`: `61.46% -> 82.96%`) | **`20.43% -> 40.34%` (`+19.91 pp`)** (**`59.28%`**) | **`2025` 4-Contest: `27.63% -> 57.00%` (`+29.37 pp`, `0/200` forgotten)** |
+
+**Key Cross-Architecture Takeaways (Detailed in [`reports/03_phase_v3_data_scaling_rl_and_27b_results.md`](reports/03_phase_v3_data_scaling_rl_and_27b_results.md)):**
+- **Breadth vs. Termination-Depth Diagnostic:** When `B_0` already possesses high latent breadth (`pass@8 = 82.50%`) but suffers long-CoT non-termination (`stop_rate = 62.89%` on `Qwen3.5-35B-A3B` Math), `2-SFT` stagnates (`56.87%`) whereas **Zero-SFT On-Policy `DAPO + Overlong`** unlocks **`+19.91 pp` on Single-Touch `Holdout_V3` (`40.34%`)** — descriptively matching zero-shot `Qwen3.8-27B` Dense (`40.40%`) at `9x` fewer active parameters (`3B` vs `27B`). Conversely, when `B_0` is breadth-bottlenecked (`Qwen3-30B-A3B` Lean `1.00%` Holdout, or `Qwen3.5-35B-A3B` Lean where `Pure-B0 RL` hits `35.36%` vs `40.71%` with Breadth SFT), **Verified Breadth SFT + `Dr.GRPO + CISPO`** is essential (`11.33x` Holdout & `15.17x` `MiniF2F` on `30B-A3B` updating only `0.17%` `self_attn` weights).
+- **Fail-Closed Horizon & Multiplicity Discipline:** Supervising concise non-thinking `Qwen3-30B-A3B` (`99.83% stop_rate`) on `10K` long-CoTs gained `+3.38 pp` on `Confirm_V3` Look 1 (`60.54% -> 63.92%`) but tripped the `2.50 pp` `stop_rate` degradation guard (`-3.13 pp`), automatically blocking a checkpoint that truncated on external contests; native-horizon `Pure-B0 + CISPO` restored `99.92% stop_rate` (`+2.79 pp`, `INCONCLUSIVE_RETEST` at Bonferroni `alpha/2 = 0.0125`), keeping `Holdout_V3` untouched.
 
 ### 2. Olympiad & 2025 Contest Mathematics — Phase V2 (`N=200`, `k=8`, Zero Teacher Traces)
 
@@ -58,19 +65,21 @@ Benchmarks: `BeyondAIME` (`100`), `CMIMC 2025` (`40`), `BRUMO 2025` (`30`), `HMM
 
 - **[`reports/01_post_training_methodology_and_data_scaling.md`](reports/01_post_training_methodology_and_data_scaling.md)** — Data-hygiene preconditions, Breadth (`SFT`) vs. Depth (`RLVR`) capability-curve dynamics (`Δpass@8 - Δpass@1`), RLVR algorithm comparisons (`DAPO`, `Dr.GRPO + CISPO`, `GSPO + LUFFY`), and `Axion 1.0`-style `2 SFT + RL` data scaling.
 - **[`reports/02_phase_v1_v2_slm_results.md`](reports/02_phase_v1_v2_slm_results.md)** — Full Phase V1 & V2 Search/Confirm/Holdout tables, 3-arm recursion and 4-way compiler-repair causal isolations, and statistical audit notes.
-- **[`reports/03_phase_v3_data_scaling_rl_and_27b_results.md`](reports/03_phase_v3_data_scaling_rl_and_27b_results.md)** — Phase V3 horizon-alignment study, 3-proposal RLVR tournament across `4B`/`9B`/`27B` Dense (`FSDP`) and `35B-A3B` Sparse MoE (`FSDP`), IUT Confirmation & Single-Touch Holdout seals, and 6-benchmark longitudinal transfer.
+- **[`reports/03_phase_v3_data_scaling_rl_and_27b_results.md`](reports/03_phase_v3_data_scaling_rl_and_27b_results.md)** — Complete 10-cell Phase V3 + Sparse MoE study (`4B`, `9B`, `27B` Dense + `30B-A3B`, `35B-A3B` MoE), Round-2/Round-3 crossovers, `equal_stratum` sensitivity analysis, Single-Touch Holdout seals, and 6-benchmark longitudinal transfer.
 
 ---
 
 ## Repository Layout & Verification
 
-- `IMMUTABLE_MANIFEST.json`, `IMMUTABLE_MANIFEST_V2.json`, `IMMUTABLE_MANIFEST_V3.json`: Cryptographic split, scorer, and rule manifests.
-- `eval/`, `eval_v2/`, `eval_v3/`: Out-of-process Lean 4.24 (`#print axioms`) and symbolic math verifiers + `governed_loop_guard` (`v3.7`).
-- `code/`, `code/v2/`, `code/v3/`: Training (`ReST^EM`, `DDP` & 8-GPU `FSDP FULL_SHARD` `2-SFT`, Checkpointed-Chunk `12K` RLVR across `DAPO`, `Dr.GRPO+CISPO`, `GSPO+LUFFY`), multi-GPU `vLLM` evaluation, and report compilers.
-- `results/`, `results_v2/`, `results_v3/`: Verified hash-chained ledgers, `HOLDOUT_SEAL` records, and Holdout SHA-256 receipts.
+- `IMMUTABLE_MANIFEST.json`, `IMMUTABLE_MANIFEST_V2.json`, `IMMUTABLE_MANIFEST_V3.json`, `IMMUTABLE_MANIFEST_V3_MOE.json`: Cryptographic split, scorer, and rule manifests.
+- `eval/`, `eval_v2/`, `eval_v3/`: Out-of-process Lean 4.24 (`#print axioms`) and timeout-isolated symbolic math verifiers + `governed_loop_guard` (`v3.7`).
+- `code/`, `code/v2/`, `code/v3/`: Training (`ReST^EM`, `DDP` & 8-GPU `FSDP FULL_SHARD` `2-SFT`, Checkpointed-Chunk `12K` RLVR across `DAPO`, `Dr.GRPO+CISPO`, `GSPO+LUFFY`, and frozen-router Sparse MoE shared-projection LoRA), multi-GPU `vLLM` evaluation, and report compilers.
+- `results/`, `results_v2/`, `results_v3/`: Verified hash-chained ledgers, `HOLDOUT_SEAL` records, item-level MoE Confirm/Holdout scores, and consolidated report bundles.
 
 ```bash
 python -I -B eval/governed_loop_guard.py verify-manifest --manifest IMMUTABLE_MANIFEST.json --root .
 python -I -B code/v2/governed_loop_guard_v3.py verify-manifest --manifest IMMUTABLE_MANIFEST_V2.json --root . --expected-root-sha256 f79f2fcf32262a0455ba85256ea2c4a8ab72b3eef94c76f0399190932e74ccf2
-python -I -B code/v2/build_v2_report_bundle.py .
+python -I -B eval_v3/governed_loop_guard_v37.py verify-manifest --manifest IMMUTABLE_MANIFEST_V3.json --root . --expected-root-sha256 7940ee090af186cace0dd32518866315716c7ff0d6859e3603ff2f3e52dfaa94
+python -I -B eval_v3/governed_loop_guard_v37.py verify-manifest --manifest IMMUTABLE_MANIFEST_V3_MOE.json --root . --expected-root-sha256 da03dc170a7062e7b50e8359e9158b61f31664cbd23a7244b27a3da730ebad81
+python -I -B code/v3/build_v3_report_bundle.py .
 ```

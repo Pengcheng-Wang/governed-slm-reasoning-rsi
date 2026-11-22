@@ -1,0 +1,384 @@
+{
+  "candidate_id": "r2_s3_math_qwen38_35b_a3b_dapo_asymclip_pct100",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "expected_k": 8,
+  "items": [
+    {
+      "cluster_id": "v2_hmmt_nov2025:1",
+      "id": "v2_hmmt_nov2025:1",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:10",
+      "id": "v2_hmmt_nov2025:10",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:11",
+      "id": "v2_hmmt_nov2025:11",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:12",
+      "id": "v2_hmmt_nov2025:12",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:13",
+      "id": "v2_hmmt_nov2025:13",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:14",
+      "id": "v2_hmmt_nov2025:14",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:15",
+      "id": "v2_hmmt_nov2025:15",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:16",
+      "id": "v2_hmmt_nov2025:16",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:17",
+      "id": "v2_hmmt_nov2025:17",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:18",
+      "id": "v2_hmmt_nov2025:18",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:19",
+      "id": "v2_hmmt_nov2025:19",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:2",
+      "id": "v2_hmmt_nov2025:2",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:20",
+      "id": "v2_hmmt_nov2025:20",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:21",
+      "id": "v2_hmmt_nov2025:21",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:22",
+      "id": "v2_hmmt_nov2025:22",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:23",
+      "id": "v2_hmmt_nov2025:23",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:24",
+      "id": "v2_hmmt_nov2025:24",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:25",
+      "id": "v2_hmmt_nov2025:25",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:26",
+      "id": "v2_hmmt_nov2025:26",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:27",
+      "id": "v2_hmmt_nov2025:27",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:28",
+      "id": "v2_hmmt_nov2025:28",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:29",
+      "id": "v2_hmmt_nov2025:29",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:3",
+      "id": "v2_hmmt_nov2025:3",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:30",
+      "id": "v2_hmmt_nov2025:30",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:4",
+      "id": "v2_hmmt_nov2025:4",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:5",
+      "id": "v2_hmmt_nov2025:5",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:6",
+      "id": "v2_hmmt_nov2025:6",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:7",
+      "id": "v2_hmmt_nov2025:7",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:8",
+      "id": "v2_hmmt_nov2025:8",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_hmmt_nov2025:9",
+      "id": "v2_hmmt_nov2025:9",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "hmmt_nov2025",
+      "stratum_id": "hmmt_nov2025",
+      "value": 1.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.6291666666666667,
+    "capability_slope_8_1": 0.23750000000000004,
+    "distinct_answers_at_8": 1.7,
+    "forgotten_rate": 0.0,
+    "interior_sharpening_delta": 0.38235294117647056,
+    "learnable_fraction": 0.5333333333333333,
+    "math_avg_at_8": 0.6291666666666667,
+    "math_equal_stratum_avg_at_8": 0.6291666666666667,
+    "math_maj_at_8": 0.8333333333333334,
+    "math_pass_at_1": 0.6291666666666667,
+    "math_pass_at_2": 0.7476190476190475,
+    "math_pass_at_4": 0.8280952380952381,
+    "math_pass_at_8": 0.8666666666666667,
+    "math_strict_avg_at_8": 0.6291666666666667,
+    "mean_correct_tokens": 6218.337748344371,
+    "mean_incorrect_tokens": 11378.595505617977,
+    "mean_tokens": 8131.933333333333,
+    "median_tokens": 8939.5,
+    "natural_stop_parse_failure_rate": 0.0,
+    "net_frontier_expansion": 0.26666666666666666,
+    "newly_solved_rate": 0.26666666666666666,
+    "overall_parse_failure_rate": 0.0,
+    "p95_tokens": 12288.0,
+    "p99_tokens": 12288.0,
+    "solved_problem_count": 26.0,
+    "stop_rate": 0.775,
+    "stratum_hmmt_nov2025_avg_at_8": 0.6291666666666667,
+    "tokens_per_correct": 12924.927152317881,
+    "total_correct_rollouts": 151.0,
+    "truncation_rate": 0.225
+  },
+  "n_problems": 30,
+  "paired_transitions": {
+    "baseline_id": "b0_qwen38_35b_a3b",
+    "both_solved_count": 18,
+    "both_unsolved_count": 4,
+    "candidate_id": "r2_s3_math_qwen38_35b_a3b_dapo_asymclip_pct100",
+    "ci95_delta_avg_at_k": [
+      0.2625,
+      0.4708333333333333
+    ],
+    "ci95_delta_capability_slope_8_1": [
+      -0.25,
+      0.05416666666666667
+    ],
+    "ci95_delta_maj_at_8": [
+      0.13333333333333333,
+      0.43333333333333335
+    ],
+    "ci95_delta_pass_at_8": [
+      0.1,
+      0.43333333333333335
+    ],
+    "delta_capability_slope_8_1": -0.09999999999999992,
+    "delta_maj_at_8": 0.26666666666666666,
+    "delta_pass_at_1": 0.36666666666666664,
+    "delta_pass_at_2": 0.3690476190476189,
+    "delta_pass_at_4": 0.32619047619047625,
+    "delta_pass_at_8": 0.2666666666666667,
+    "expected_k": 8,
+    "forgotten_count": 0,
+    "forgotten_of_solved": 0.0,
+    "forgotten_rate": 0.0,
+    "full_mastery_delta": 0.3,
+    "interior_item_count": 17,
+    "interior_sharpening_delta": 0.38235294117647056,
+    "n_problems": 30,
+    "net_frontier_expansion": 0.26666666666666666,
+    "newly_solved_count": 8,
+    "newly_solved_of_unsolved": 0.6666666666666666,
+    "newly_solved_rate": 0.26666666666666666
+  },
+  "protocol_id": "longitudinal_hmmt_nov2025_30_k8",
+  "schema_version": "3.0",
+  "scored_at_utc": "2026-11-22T17:48:41.985772+00:00",
+  "track": "math"
+}

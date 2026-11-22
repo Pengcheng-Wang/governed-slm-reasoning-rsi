@@ -1,0 +1,100 @@
+{
+  "candidate_id": "s3_lean_qwen38_35b_a3b_dapo_asymclip_pct50",
+  "candidates_evaluated": 8,
+  "consecutive_rollbacks": 0,
+  "decision": "PROVISIONAL_KEEP",
+  "decision_stage": "search",
+  "eligible_count": 8,
+  "entry_sha256": "db1cea2e27083ef2dda2320ee93e55f372a27b8e959d8686f420ebef5fd52c33",
+  "leaderboard": [
+    {
+      "candidate_id": "s3_lean_qwen38_35b_a3b_dapo_asymclip_pct50",
+      "lcb_one_sided": 0.06071428571428572,
+      "passed_search": true,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s3_lean_qwen38_35b_a3b_dapo_asymclip_pct50_search.json",
+      "rank_score": 0.06071428571428572,
+      "signed_gain": 0.09999999999999998,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "s1_lean_qwen38_35b_a3b_breadth_sft",
+      "lcb_one_sided": 0.05178571428571427,
+      "passed_search": true,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s1_lean_qwen38_35b_a3b_breadth_sft_search.json",
+      "rank_score": 0.05178571428571427,
+      "signed_gain": 0.0928571428571428,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "s3_lean_qwen38_35b_a3b_drgrpo_cispo_pct50",
+      "lcb_one_sided": 0.04999999999999999,
+      "passed_search": true,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s3_lean_qwen38_35b_a3b_drgrpo_cispo_pct50_search.json",
+      "rank_score": 0.04999999999999999,
+      "signed_gain": 0.09107142857142853,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "s3_lean_qwen38_35b_a3b_gspo_luffy_pct50",
+      "lcb_one_sided": 0.04732142857142857,
+      "passed_search": true,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s3_lean_qwen38_35b_a3b_gspo_luffy_pct50_search.json",
+      "rank_score": 0.04732142857142857,
+      "signed_gain": 0.08571428571428569,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "s3_lean_qwen38_35b_a3b_gspo_luffy_pct100",
+      "lcb_one_sided": 0.04464285714285715,
+      "passed_search": true,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s3_lean_qwen38_35b_a3b_gspo_luffy_pct100_search.json",
+      "rank_score": 0.04464285714285715,
+      "signed_gain": 0.08571428571428569,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "s3_lean_qwen38_35b_a3b_drgrpo_cispo_pct100",
+      "lcb_one_sided": 0.04375000000000001,
+      "passed_search": true,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s3_lean_qwen38_35b_a3b_drgrpo_cispo_pct100_search.json",
+      "rank_score": 0.04375000000000001,
+      "signed_gain": 0.08482142857142855,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "s3_lean_qwen38_35b_a3b_dapo_asymclip_pct100",
+      "lcb_one_sided": 0.04375000000000001,
+      "passed_search": true,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s3_lean_qwen38_35b_a3b_dapo_asymclip_pct100_search.json",
+      "rank_score": 0.04375000000000001,
+      "signed_gain": 0.08482142857142855,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "s2_lean_qwen38_35b_a3b_zpd_sft",
+      "lcb_one_sided": 0.03303571428571428,
+      "passed_search": true,
+      "path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s2_lean_qwen38_35b_a3b_zpd_sft_search.json",
+      "rank_score": 0.03303571428571428,
+      "signed_gain": 0.07678571428571423,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    }
+  ],
+  "prev_entry_sha256": "52dda5c49da53ad93208169e17f1b5a917df692df093155c5352f100494f294d",
+  "selected_candidate_id": "s3_lean_qwen38_35b_a3b_dapo_asymclip_pct50",
+  "selected_for_confirm_ckpt": "/scratch/governed_slm_rsi_v3/checkpoints_v3/lean_qwen38_35b_a3b/s3_lean_qwen38_35b_a3b_dapo_asymclip_milestones/pct50",
+  "selected_for_confirm_id": "s3_lean_qwen38_35b_a3b_dapo_asymclip_pct50",
+  "selected_path": "/scratch/governed_slm_rsi_v3/results_v3/plane2/lean_qwen38_35b_a3b/s3_lean_qwen38_35b_a3b_dapo_asymclip_pct50_search.json",
+  "selection_protocol": "batch_order_invariant",
+  "timestamp_utc": "2026-11-22T14:18:39.759073+00:00",
+  "trial_id": "round_final_tournament_lean_qwen38_35b_a3b",
+  "unresolved_rollbacks_since_promote": 0
+}

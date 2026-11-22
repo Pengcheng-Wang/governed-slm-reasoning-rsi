@@ -1,0 +1,1040 @@
+{
+  "candidate_id": "b0_qwen38_35b_a3b",
+  "env_fingerprint": "a100_80gb_bf16_vllm029",
+  "expected_k": 8,
+  "items": [
+    {
+      "cluster_id": "v2_beyondaime:0",
+      "id": "v2_beyondaime:0",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:1",
+      "id": "v2_beyondaime:1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:10",
+      "id": "v2_beyondaime:10",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:11",
+      "id": "v2_beyondaime:11",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:12",
+      "id": "v2_beyondaime:12",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:13",
+      "id": "v2_beyondaime:13",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:14",
+      "id": "v2_beyondaime:14",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:15",
+      "id": "v2_beyondaime:15",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:16",
+      "id": "v2_beyondaime:16",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:17",
+      "id": "v2_beyondaime:17",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:18",
+      "id": "v2_beyondaime:18",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:19",
+      "id": "v2_beyondaime:19",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_beyondaime:2",
+      "id": "v2_beyondaime:2",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:20",
+      "id": "v2_beyondaime:20",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:21",
+      "id": "v2_beyondaime:21",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:22",
+      "id": "v2_beyondaime:22",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:23",
+      "id": "v2_beyondaime:23",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:24",
+      "id": "v2_beyondaime:24",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:25",
+      "id": "v2_beyondaime:25",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:26",
+      "id": "v2_beyondaime:26",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:27",
+      "id": "v2_beyondaime:27",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:28",
+      "id": "v2_beyondaime:28",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:29",
+      "id": "v2_beyondaime:29",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:3",
+      "id": "v2_beyondaime:3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:30",
+      "id": "v2_beyondaime:30",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:31",
+      "id": "v2_beyondaime:31",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:32",
+      "id": "v2_beyondaime:32",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:33",
+      "id": "v2_beyondaime:33",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:34",
+      "id": "v2_beyondaime:34",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:35",
+      "id": "v2_beyondaime:35",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:36",
+      "id": "v2_beyondaime:36",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:37",
+      "id": "v2_beyondaime:37",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:38",
+      "id": "v2_beyondaime:38",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:39",
+      "id": "v2_beyondaime:39",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:4",
+      "id": "v2_beyondaime:4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:40",
+      "id": "v2_beyondaime:40",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_beyondaime:41",
+      "id": "v2_beyondaime:41",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:42",
+      "id": "v2_beyondaime:42",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:43",
+      "id": "v2_beyondaime:43",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:44",
+      "id": "v2_beyondaime:44",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:45",
+      "id": "v2_beyondaime:45",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:46",
+      "id": "v2_beyondaime:46",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:47",
+      "id": "v2_beyondaime:47",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:48",
+      "id": "v2_beyondaime:48",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:49",
+      "id": "v2_beyondaime:49",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:5",
+      "id": "v2_beyondaime:5",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:50",
+      "id": "v2_beyondaime:50",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_beyondaime:51",
+      "id": "v2_beyondaime:51",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:52",
+      "id": "v2_beyondaime:52",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:53",
+      "id": "v2_beyondaime:53",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:54",
+      "id": "v2_beyondaime:54",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.625
+    },
+    {
+      "cluster_id": "v2_beyondaime:55",
+      "id": "v2_beyondaime:55",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:56",
+      "id": "v2_beyondaime:56",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.875
+    },
+    {
+      "cluster_id": "v2_beyondaime:57",
+      "id": "v2_beyondaime:57",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:58",
+      "id": "v2_beyondaime:58",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:59",
+      "id": "v2_beyondaime:59",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:6",
+      "id": "v2_beyondaime:6",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:60",
+      "id": "v2_beyondaime:60",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:61",
+      "id": "v2_beyondaime:61",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:62",
+      "id": "v2_beyondaime:62",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:63",
+      "id": "v2_beyondaime:63",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:64",
+      "id": "v2_beyondaime:64",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:65",
+      "id": "v2_beyondaime:65",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:66",
+      "id": "v2_beyondaime:66",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:67",
+      "id": "v2_beyondaime:67",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:68",
+      "id": "v2_beyondaime:68",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:69",
+      "id": "v2_beyondaime:69",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_beyondaime:7",
+      "id": "v2_beyondaime:7",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:70",
+      "id": "v2_beyondaime:70",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:71",
+      "id": "v2_beyondaime:71",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:72",
+      "id": "v2_beyondaime:72",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:73",
+      "id": "v2_beyondaime:73",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:74",
+      "id": "v2_beyondaime:74",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:75",
+      "id": "v2_beyondaime:75",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:76",
+      "id": "v2_beyondaime:76",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:77",
+      "id": "v2_beyondaime:77",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:78",
+      "id": "v2_beyondaime:78",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:79",
+      "id": "v2_beyondaime:79",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:8",
+      "id": "v2_beyondaime:8",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:80",
+      "id": "v2_beyondaime:80",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:81",
+      "id": "v2_beyondaime:81",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:82",
+      "id": "v2_beyondaime:82",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.375
+    },
+    {
+      "cluster_id": "v2_beyondaime:83",
+      "id": "v2_beyondaime:83",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:84",
+      "id": "v2_beyondaime:84",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:85",
+      "id": "v2_beyondaime:85",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:86",
+      "id": "v2_beyondaime:86",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:87",
+      "id": "v2_beyondaime:87",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:88",
+      "id": "v2_beyondaime:88",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:89",
+      "id": "v2_beyondaime:89",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:9",
+      "id": "v2_beyondaime:9",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:90",
+      "id": "v2_beyondaime:90",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.25
+    },
+    {
+      "cluster_id": "v2_beyondaime:91",
+      "id": "v2_beyondaime:91",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:92",
+      "id": "v2_beyondaime:92",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:93",
+      "id": "v2_beyondaime:93",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:94",
+      "id": "v2_beyondaime:94",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.125
+    },
+    {
+      "cluster_id": "v2_beyondaime:95",
+      "id": "v2_beyondaime:95",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.5
+    },
+    {
+      "cluster_id": "v2_beyondaime:96",
+      "id": "v2_beyondaime:96",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.75
+    },
+    {
+      "cluster_id": "v2_beyondaime:97",
+      "id": "v2_beyondaime:97",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:98",
+      "id": "v2_beyondaime:98",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 1.0
+    },
+    {
+      "cluster_id": "v2_beyondaime:99",
+      "id": "v2_beyondaime:99",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stratum": "beyondaime",
+      "stratum_id": "beyondaime",
+      "value": 0.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.225,
+    "capability_slope_8_1": 0.29500000000000004,
+    "distinct_answers_at_8": 0.83,
+    "learnable_fraction": 0.45,
+    "math_avg_at_8": 0.225,
+    "math_equal_stratum_avg_at_8": 0.225,
+    "math_maj_at_8": 0.52,
+    "math_pass_at_1": 0.225,
+    "math_pass_at_2": 0.3175,
+    "math_pass_at_4": 0.42114285714285715,
+    "math_pass_at_8": 0.52,
+    "math_strict_avg_at_8": 0.225,
+    "mean_correct_tokens": 4999.466666666666,
+    "mean_incorrect_tokens": 11978.856451612903,
+    "mean_tokens": 10408.49375,
+    "median_tokens": 12288.0,
+    "natural_stop_parse_failure_rate": 0.0,
+    "overall_parse_failure_rate": 0.0,
+    "p95_tokens": 12288.0,
+    "p99_tokens": 12288.0,
+    "solved_problem_count": 52.0,
+    "stop_rate": 0.28,
+    "stratum_beyondaime_avg_at_8": 0.225,
+    "tokens_per_correct": 46259.97222222222,
+    "total_correct_rollouts": 180.0,
+    "truncation_rate": 0.72
+  },
+  "n_problems": 100,
+  "protocol_id": "longitudinal_beyondaime_100_k8",
+  "schema_version": "3.0",
+  "scored_at_utc": "2026-11-22T16:40:48.997250+00:00",
+  "track": "math"
+}

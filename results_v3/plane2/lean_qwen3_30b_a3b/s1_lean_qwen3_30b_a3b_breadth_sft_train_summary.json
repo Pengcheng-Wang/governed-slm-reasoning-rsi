@@ -1,0 +1,34 @@
+{
+  "adapted_linear_modules": 192,
+  "applied_prior_fp32_deltas": 0,
+  "data_audit": {
+    "dropped_overlong_rows": 87,
+    "seq_len_max": 2021,
+    "seq_len_p50": 750,
+    "seq_len_p95": 1542,
+    "sup_eos_id": 151645,
+    "supervised_tokens_total": 1190091,
+    "total_traces": 2017,
+    "unique_problems": 2017
+  },
+  "dist_strategy": "fsdp_full_shard",
+  "epochs": 2,
+  "final_loss": 0.03627423942089081,
+  "initial_loss": 0.7123948943516909,
+  "lr": 6e-05,
+  "lr_schedule": "constant_with_warmup",
+  "max_grad_norm": 1.8671875,
+  "merge_parity": {
+    "max_abs_logit_diff": 5.1875,
+    "mean_abs_logit_diff": 0.15387403592467308,
+    "merged_linear_tensors": 192,
+    "top1_token_agreement": 0.9921875
+  },
+  "model_key": "qwen3_30b_a3b",
+  "peak_hbm_gb_rank0": 20.855,
+  "status": "TRAINED_AND_MERGED_V3",
+  "steps_executed": 128,
+  "trainable_params": 53477376,
+  "wall_seconds": 1544.08,
+  "world_size": 8
+}
