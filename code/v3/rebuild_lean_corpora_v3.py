@@ -10,6 +10,7 @@ from __future__ import annotations
 import ast
 import concurrent.futures
 import json
+import os
 import re
 import subprocess
 import sys
@@ -65,50 +66,64 @@ def main() -> int:
     existing_s1 = _read_jsonl(corpora_dir / "v3_lean_stage1_sft.jsonl")
     seen_shas = {_norm_lean_stmt_sha(str(r.get("formal_statement", ""))) for r in existing_s1 if r.get("formal_statement")}
 
-    # 1. Sample 4,200 diverse candidates from `Goedel-LM/SFT_dataset_v2`, extracting ONLY the LAST ```lean4 block!
+    # 1. Sample diverse candidates from `Goedel-LM/SFT_dataset_v2`, extracting ONLY the LAST ```lean4 block!
     sft_goedel = load_dataset("Goedel-LM/SFT_dataset_v2", split="train")
-    tasks: list[tuple[str, str, str, str, str]] = []
     stride = max(1, len(sft_goedel) // 9000)
-    for idx in range(0, len(sft_goedel), stride):
-        if len(tasks) >= 4200:
-            break
-        msgs = sft_goedel[idx]["messages"]
-        if isinstance(msgs, str):
+    workers = min(72, os.cpu_count() or 32)
+
+    def _collect_goedel_wave(start_offset: int, max_tasks: int, cache_fn: str) -> list[dict[str, Any]]:
+        cache_p = corpora_dir / cache_fn
+        if cache_p.exists():
+            cached_rows = _read_jsonl(cache_p)
+            for cr in cached_rows:
+                seen_shas.add(_norm_lean_stmt_sha(str(cr.get("formal_statement", ""))))
+            print(f"Loaded {len(cached_rows)} cached verified proofs from {cache_p}", flush=True)
+            return cached_rows
+        wave_tasks: list[tuple[str, str, str, str, str]] = []
+        for idx in range(start_offset, len(sft_goedel), stride):
+            if len(wave_tasks) >= max_tasks:
+                break
+            msgs = sft_goedel[idx]["messages"]
+            if isinstance(msgs, str):
+                try:
+                    msgs = ast.literal_eval(msgs)
+                except Exception:
+                    continue
+            if not msgs or len(msgs) < 2:
+                continue
+            u_txt = str(msgs[0].get("content", ""))
+            a_txt = str(msgs[-1].get("content", ""))
+            u_blocks = re.findall(r"```(?:lean4|lean)?\s*\n(.*?)```", u_txt, flags=re.DOTALL)
+            a_blocks = re.findall(r"```(?:lean4|lean)?\s*\n(.*?)```", a_txt, flags=re.DOTALL)
+            if not u_blocks or not a_blocks:
+                continue
+            hdr, decl = _split_lean_hdr_and_decl(u_blocks[-1])
             try:
-                msgs = ast.literal_eval(msgs)
+                _, decl_prefix = split_frozen_statement(decl)
             except Exception:
                 continue
-        if not msgs or len(msgs) < 2:
-            continue
-        u_txt = str(msgs[0].get("content", ""))
-        a_txt = str(msgs[-1].get("content", ""))
-        u_blocks = re.findall(r"```(?:lean4|lean)?\s*\n(.*?)```", u_txt, flags=re.DOTALL)
-        a_blocks = re.findall(r"```(?:lean4|lean)?\s*\n(.*?)```", a_txt, flags=re.DOTALL)
-        if not u_blocks or not a_blocks:
-            continue
-        hdr, decl = _split_lean_hdr_and_decl(u_blocks[-1])
-        try:
-            _, decl_prefix = split_frozen_statement(decl)
-        except Exception:
-            continue
-        stmt = decl_prefix.strip() + " := by"
-        if decon.is_lean_contaminated(stmt):
-            continue
-        lsha = _norm_lean_stmt_sha(stmt)
-        if lsha in seen_shas:
-            continue
-        final_code_block = a_blocks[-1].strip()
-        if "sorry" in final_code_block or len(final_code_block) > 4500:
-            continue
-        seen_shas.add(lsha)
-        wrapped_single = f"```lean4\n{final_code_block}\n```"
-        tasks.append((f"goedel_sft_v2:{idx}", hdr, stmt, wrapped_single, "goedel_sft_v2"))
+            stmt = decl_prefix.strip() + " := by"
+            if decon.is_lean_contaminated(stmt):
+                continue
+            lsha = _norm_lean_stmt_sha(stmt)
+            if lsha in seen_shas:
+                continue
+            final_code_block = a_blocks[-1].strip()
+            if "sorry" in final_code_block or len(final_code_block) > 4500:
+                continue
+            seen_shas.add(lsha)
+            wrapped_single = f"```lean4\n{final_code_block}\n```"
+            wave_tasks.append((f"goedel_sft_v2:{idx}", hdr, stmt, wrapped_single, "goedel_sft_v2"))
 
-    print(f"Verifying {len(tasks)} single-block Goedel-SFT-v2 proofs via Lean 4.24 `#print axioms`...", flush=True)
-    with concurrent.futures.ProcessPoolExecutor(max_workers=32) as ex:
-        res_list = list(ex.map(_verify_one_goedel_or_mathlib_sft, tasks, chunksize=8))
-    verified_goedel = [x for x in res_list if x is not None]
-    print(f"Verified single-block Goedel-SFT-v2 proofs: {len(verified_goedel)} / {len(tasks)}", flush=True)
+        print(f"Verifying {len(wave_tasks)} single-block Goedel-SFT-v2 proofs (offset={start_offset}, workers={workers}) via Lean 4.24 `#print axioms`...", flush=True)
+        with concurrent.futures.ProcessPoolExecutor(max_workers=workers) as ex:
+            res_list = list(ex.map(_verify_one_goedel_or_mathlib_sft, wave_tasks, chunksize=8))
+        verified = [x for x in res_list if x is not None]
+        _write_jsonl(cache_p, verified)
+        print(f"Verified single-block Goedel-SFT-v2 proofs (offset={start_offset}): {len(verified)} / {len(wave_tasks)}", flush=True)
+        return verified
+
+    verified_goedel = _collect_goedel_wave(0, 4200, ".cached_goedel_verified_w1.jsonl")
 
     # 2. Also gather already-#print-axioms-verified decontaminated proofs from V1/V2 banks
     verified_wb: list[dict[str, Any]] = []
@@ -149,6 +164,10 @@ def main() -> int:
             )
 
     all_clean_lean = verified_goedel + verified_wb
+    if len(all_clean_lean) < 3400:
+        # Clean-cluster standalone fallback when optional V1/V2 banks are absent: verify a second disjoint Goedel-SFT-v2 wave
+        w2 = _collect_goedel_wave(max(1, stride // 2), 4400, ".cached_goedel_verified_w2.jsonl")
+        all_clean_lean = verified_goedel + verified_wb + w2
     all_clean_lean.sort(key=lambda x: _det_hash("v3_lean_all:" + x["id"]))
     print(f"Total combined `#print axioms`-verified disjoint Lean proofs: {len(all_clean_lean) + len(existing_s1)}", flush=True)
     if len(all_clean_lean) < 1800:

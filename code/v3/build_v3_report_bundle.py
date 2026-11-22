@@ -107,7 +107,12 @@ def main() -> int:
     if not guard_py.exists():
         guard_py = EVAL_V3_DIR / "governed_loop_guard_v37.py"
 
-    expected = TRUST_PIN.read_text(encoding="utf-8").strip() if TRUST_PIN.exists() else EXPECTED_V3_MANIFEST_SHA256
+    local_pin = v3_root / "IMMUTABLE_MANIFEST_V3.root.sha256"
+    expected = (
+        TRUST_PIN.read_text(encoding="utf-8").strip()
+        if TRUST_PIN.exists()
+        else (local_pin.read_text(encoding="utf-8").strip() if local_pin.exists() else EXPECTED_V3_MANIFEST_SHA256)
+    )
     r_man = subprocess.run(
         [
             sys.executable, "-I", "-B", str(guard_py), "verify-manifest",
@@ -126,7 +131,12 @@ def main() -> int:
     if not moe_man_path.exists():
         moe_man_path = v3_root / "configs_v3_moe/IMMUTABLE_MANIFEST_V3_MOE.json"
     if moe_man_path.exists():
-        moe_expected = MOE_TRUST_PIN.read_text(encoding="utf-8").strip() if MOE_TRUST_PIN.exists() else EXPECTED_V3_MOE_MANIFEST_SHA256
+        local_moe_pin = v3_root / "IMMUTABLE_MANIFEST_V3_MOE.root.sha256"
+        moe_expected = (
+            MOE_TRUST_PIN.read_text(encoding="utf-8").strip()
+            if MOE_TRUST_PIN.exists()
+            else (local_moe_pin.read_text(encoding="utf-8").strip() if local_moe_pin.exists() else EXPECTED_V3_MOE_MANIFEST_SHA256)
+        )
         r_moe = subprocess.run(
             [
                 sys.executable, "-I", "-B", str(guard_py), "verify-manifest",
@@ -161,9 +171,10 @@ def main() -> int:
         "longitudinal": {},
     }
 
+    ALL_MODELS = ("qwen35_4b", "qwen35_9b", "qwen38_27b", "qwen38_35b_a3b", "qwen3_30b_a3b")
     for track in ("math", "lean"):
         hold_truth = v3_root / "eval_v3/sealed_holdout" / f"v3_{track}_holdout.jsonl"
-        for mkey in ("qwen35_4b", "qwen35_9b", "qwen38_27b", "qwen38_35b_a3b"):
+        for mkey in ALL_MODELS:
             key = f"{track}_{mkey}"
             p1_dir = v3_root / "results_v3/plane1" / mkey
             p2_dir = v3_root / "results_v3/plane2" / key
@@ -208,7 +219,7 @@ def main() -> int:
                     ch_entry["holdout_seal"] = json.loads(sf.read_text(encoding="utf-8"))
                 bundle["confirm_and_holdout"][key] = ch_entry
 
-    for mkey in ("qwen35_4b", "qwen35_9b", "qwen38_27b", "qwen38_35b_a3b"):
+    for mkey in ALL_MODELS:
         ldir = v3_root / "results_v3/longitudinal" / mkey
         if ldir.exists():
             bundle["longitudinal"][mkey] = [

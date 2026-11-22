@@ -21,6 +21,7 @@ import gzip
 import hashlib
 import json
 import os
+import random
 import shutil
 import subprocess
 import sys
@@ -95,6 +96,16 @@ STAGE_HP: dict[tuple[str, str], dict[str, Any]] = {
         "rl_pool_n": 192, "rl_lr": 9.0e-6, "rl_max_steps": 28,
     },
     ("lean", "qwen38_35b_a3b"): {
+        "s1_lr": 6.0e-5, "s1_epochs": 2, "s1_max_steps": 140,
+        "s2_lr": 3.0e-5, "s2_epochs": 2, "s2_max_steps": 72,
+        "rl_pool_n": 240, "rl_lr": 1.0e-5, "rl_max_steps": 28,
+    },
+    ("math", "qwen3_30b_a3b"): {
+        "s1_lr": 2.2e-5, "s1_epochs": 2, "s1_max_steps": 100,
+        "s2_lr": 1.1e-5, "s2_epochs": 2, "s2_max_steps": 48,
+        "rl_pool_n": 192, "rl_lr": 9.0e-6, "rl_max_steps": 28,
+    },
+    ("lean", "qwen3_30b_a3b"): {
         "s1_lr": 6.0e-5, "s1_epochs": 2, "s1_max_steps": 140,
         "s2_lr": 3.0e-5, "s2_epochs": 2, "s2_max_steps": 72,
         "rl_pool_n": 240, "rl_lr": 1.0e-5, "rl_max_steps": 28,
@@ -533,7 +544,7 @@ def run_plane2_track(args: argparse.Namespace, track: str) -> int:
     if not s1_sum.exists():
         _run_checked(
             [
-                "torchrun", f"--nproc_per_node={nproc}", str(SFT_PY),
+                "torchrun", "--master_port", str(random.randint(21000, 28999)), f"--nproc_per_node={nproc}", str(SFT_PY),
                 "--model-key", model_key,
                 "--train-file", str(V3_ROOT / "data/corpora_v3" / f"v3_{track}_stage1_sft.jsonl"),
                 "--output-dir", str(s1_dir),
@@ -592,7 +603,7 @@ def run_plane2_track(args: argparse.Namespace, track: str) -> int:
     if not s2_sum.exists():
         _run_checked(
             [
-                "torchrun", f"--nproc_per_node={nproc}", str(SFT_PY),
+                "torchrun", "--master_port", str(random.randint(21000, 28999)), f"--nproc_per_node={nproc}", str(SFT_PY),
                 "--model-key", model_key,
                 "--prior-fp32-deltas", str(s1_factors),
                 "--train-file", str(s2_data),
@@ -688,7 +699,7 @@ def run_plane2_track(args: argparse.Namespace, track: str) -> int:
         if not rl_sum.exists():
             _run_checked(
                 [
-                    "torchrun", f"--nproc_per_node={nproc}", str(RLVR_PY),
+                    "torchrun", "--master_port", str(random.randint(21000, 28999)), f"--nproc_per_node={nproc}", str(RLVR_PY),
                     "--algo", algo,
                     "--model-key", model_key,
                     "--prior-fp32-deltas", sft_prior_factors,
@@ -940,7 +951,7 @@ def run_confirm_and_holdout_track(args: argparse.Namespace, track: str) -> int:
             comp_hold_jsons[comp_id] = ch_out
 
     # On `node-0` Lean, also evaluate external `Goedel-Prover-V2-8B` zero-shot reference on `Holdout_V3`
-    if track == "lean" and model_key == "qwen38_27b":
+    if track == "lean" and model_key in ("qwen38_27b", "qwen3_30b_a3b"):
         g_spec = MODEL_REGISTRY_V3["goedel_prover_v2_8b"]
         if Path(g_spec.local_path).exists():
             eval_and_score_model(
@@ -1164,7 +1175,7 @@ def run_longitudinal(args: argparse.Namespace) -> int:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Phase V3 Per-Node Governed End-to-End Worker")
     ap.add_argument("--phase", required=True, choices=["plane1", "plane2", "confirm-and-holdout", "longitudinal", "full-post-freeze"])
-    ap.add_argument("--model-key", required=True, choices=["qwen35_4b", "qwen35_9b", "qwen38_27b", "qwen38_35b_a3b"])
+    ap.add_argument("--model-key", required=True, choices=["qwen35_4b", "qwen35_9b", "qwen38_27b", "qwen38_35b_a3b", "qwen3_30b_a3b"])
     ap.add_argument("--tracks", default="lean,math", help="Comma-separated tracks (`lean,math`)")
     ap.add_argument("--gpus", default="0,1,2,3,4,5,6,7")
     args = ap.parse_args()

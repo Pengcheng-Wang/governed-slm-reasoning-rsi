@@ -110,6 +110,17 @@ R2_HYPERPARAMS: dict[str, dict[str, Any]] = {
         "rl_max_steps": 28,
         "rl_subset_n": 128,
     },
+    "qwen3_30b_a3b": {
+        "s1_lr": 2.2e-5,
+        "s1_epochs": 2,
+        "s1_max_steps": 100,
+        "s2_lr": 1.1e-5,
+        "s2_epochs": 2,
+        "s2_max_steps": 48,
+        "rl_lr": 9.0e-6,
+        "rl_max_steps": 28,
+        "rl_subset_n": 128,
+    },
 }
 
 
@@ -410,7 +421,7 @@ def build_horizon_aligned_corpora_for_model(
     # 2. Build Stage-II ZPD + `0/4` Rescues + Cross-Family `Axion` Strengthened (`4B`/`9B` ONLY; `27B` & `35B-A3B` excluded!) + 20% Stage-I Replay
     s2_core = list(zpd_frontier_rows) + list(offpolicy_rescues)
     n_axion_str = 0
-    if model_key not in ("qwen38_27b", "qwen38_35b_a3b") and axion_full_path.exists():
+    if model_key not in ("qwen38_27b", "qwen38_35b_a3b", "qwen3_30b_a3b") and axion_full_path.exists():
         ax_rows = _read_jsonl(axion_full_path)
         for ar in ax_rows:
             if not decon.is_math_contaminated(str(ar.get("problem", ""))):
@@ -572,7 +583,7 @@ def build_shared_longcot_caches(decon: FourLayerDecontaminator) -> None:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Phase V3 Track-M Horizon-Aligned Round-2 Driver")
-    ap.add_argument("--model-key", default="qwen35_4b", choices=["qwen35_4b", "qwen35_9b", "qwen38_27b", "qwen38_35b_a3b"])
+    ap.add_argument("--model-key", default="qwen35_4b", choices=["qwen35_4b", "qwen35_9b", "qwen38_27b", "qwen38_35b_a3b", "qwen3_30b_a3b"])
     ap.add_argument("--gpus", default="0,1,2,3,4,5,6,7")
     ap.add_argument("--build-shared-cache", action="store_true")
     ap.add_argument("--prepare-only", action="store_true")
@@ -650,7 +661,7 @@ def main() -> int:
     if not s1_sum.exists():
         _run_checked(
             [
-                "torchrun", f"--nproc_per_node={nproc}", str(SFT_PY),
+                "torchrun", "--master_port", str(random.randint(21000, 28999)), f"--nproc_per_node={nproc}", str(SFT_PY),
                 "--model-key", model_key,
                 "--train-file", str(s1_data),
                 "--output-dir", str(s1_dir),
@@ -693,7 +704,7 @@ def main() -> int:
     if not s2_sum.exists():
         _run_checked(
             [
-                "torchrun", f"--nproc_per_node={nproc}", str(SFT_PY),
+                "torchrun", "--master_port", str(random.randint(21000, 28999)), f"--nproc_per_node={nproc}", str(SFT_PY),
                 "--model-key", model_key,
                 "--prior-fp32-deltas", str(s1_factors),
                 "--train-file", str(s2_data),
@@ -789,7 +800,7 @@ def main() -> int:
         rl_sum = p2_dir / f"{rl_base}_train_summary.json"
         if not rl_sum.exists():
             rl_cmd = [
-                "torchrun", f"--nproc_per_node={nproc}", str(RLVR_PY),
+                "torchrun", "--master_port", str(random.randint(21000, 28999)), f"--nproc_per_node={nproc}", str(RLVR_PY),
                 "--algo", algo,
                 "--model-key", model_key,
                 "--rollouts-file", str(shared_rollouts),

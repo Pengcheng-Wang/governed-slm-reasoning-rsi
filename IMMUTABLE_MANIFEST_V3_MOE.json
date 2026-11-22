@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-11-22T09:04:58.312977+00:00",
+  "entries": {
+    "configs_v3_moe/gate_rules_v3_lean_confirm_qwen38_35b_a3b.json": {
+      "exec": false,
+      "sha256": "d69138698f0a89a535185392f7d343f63c38ece0e9076e97950ac1b39af0a9e5",
+      "size": 681,
+      "type": "file"
+    },
+    "configs_v3_moe/gate_rules_v3_lean_confirm_qwen3_30b_a3b.json": {
+      "exec": false,
+      "sha256": "0600a7dc7c1d677c00d9a69150a83cc6bd5d801a1bdf2f18527cef607882b947",
+      "size": 679,
+      "type": "file"
+    },
+    "configs_v3_moe/gate_rules_v3_math_confirm_qwen38_35b_a3b.json": {
+      "exec": false,
+      "sha256": "85631de9105fb31d7c012ddc6d6a0464b8cc8d2f13f6ec462f1c7c26a0eaf21d",
+      "size": 768,
+      "type": "file"
+    },
+    "configs_v3_moe/gate_rules_v3_math_confirm_qwen3_30b_a3b.json": {
+      "exec": false,
+      "sha256": "06c17dad26d006236269c48b79ac5781ed9b732ceade3966edbf3ad394efc9ef",
+      "size": 766,
+      "type": "file"
+    }
+  },
+  "entry_count": 4,
+  "manifest_root_sha256": "da03dc170a7062e7b50e8359e9158b61f31664cbd23a7244b27a3da730ebad81",
+  "protected_roots": [
+    "configs_v3_moe"
+  ],
+  "root": "/scratch/governed_slm_rsi_v3",
+  "schema_version": "3.0"
+}

@@ -27,6 +27,10 @@ HYBRID_QWEN35_MOE_LORA_REGEX = (
     r"mlp\.shared_expert\.(?:gate_proj|up_proj|down_proj))$"
 )
 
+PURE_QWEN3_MOE_LORA_REGEX = (
+    r"^model\.layers\.\d+\.self_attn\.(?:q_proj|k_proj|v_proj|o_proj)$"
+)
+
 DENSE_CAUSAL_LORA_REGEX = (
     r"^model\.layers\.\d+\.(?:"
     r"self_attn\.(?:q_proj|k_proj|v_proj|o_proj)|"
@@ -147,6 +151,28 @@ MODEL_REGISTRY_V3: dict[str, ModelSpecV3] = {
         expected_min_lora_modules=300,  # 40 MoE layers -> 310 unconditionally active attention + shared-expert Linear projections
         tp_eval=4,
     ),
+    "qwen3_30b_a3b": ModelSpecV3(
+        key="qwen3_30b_a3b",
+        hf_repo="Qwen/Qwen3-30B-A3B",
+        local_path=os.environ.get("SLM_RSI_MOE30_PATH", "/scratch/governed_slm_rsi_v3/models/qwen3_30b_a3b"),
+        family="Qwen3-MoE-30B-A3B",
+        params_b=30.0,
+        loader_kind="causal_lm",
+        dist_strategy="fsdp",
+        vllm_lm_only=False,
+        supports_enable_thinking_kwarg=True,
+        lean_thinking=False,
+        lean_max_tokens=2048,
+        math_thinking=False,
+        math_max_tokens=12288,
+        stop_token_ids=[151643, 151645],
+        sup_eos_id=151645,
+        lora_regex=PURE_QWEN3_MOE_LORA_REGEX,
+        lora_r=64,
+        lora_alpha=128,
+        expected_min_lora_modules=190,  # 48 MoE layers -> 192 unconditionally active self-attention Linear projections
+        tp_eval=4,
+    ),
     "goedel_prover_v2_8b": ModelSpecV3(
         key="goedel_prover_v2_8b",
         hf_repo="Goedel-LM/Goedel-Prover-V2-8B",
@@ -157,8 +183,8 @@ MODEL_REGISTRY_V3: dict[str, ModelSpecV3] = {
         dist_strategy="ddp",
         vllm_lm_only=False,
         supports_enable_thinking_kwarg=False,
-        lean_thinking=True,
-        lean_max_tokens=8192,
+        lean_thinking=False,
+        lean_max_tokens=2048,
         math_thinking=False,
         math_max_tokens=4096,
         stop_token_ids=[151643, 151645],
