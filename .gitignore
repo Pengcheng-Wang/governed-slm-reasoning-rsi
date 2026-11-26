@@ -32,6 +32,14 @@ results_v3/plane2/**/*bank*.jsonl
 results_v3/plane2/**/*_rl_pool_*.jsonl
 results_v3/plane2/**/*_rl400_*.jsonl
 results_v3/plane2/lean_qwen38_35b_a3b_r2p4/
+phase_v4/results_v4/**/*.raw_gen.jsonl.gz
+phase_v4/results_v4/**/*.gen.jsonl.gz
+phase_v4/results_v4/plane1/**/.*_probe_prompts.jsonl
+phase_v4/results_v4/plane2/**/*rollouts*.jsonl
+phase_v4/results_v4/plane2/**/*sft*.jsonl
+phase_v4/results_v4_1/**/*.gen.jsonl.gz
+phase_v4/results_v4_1/**/*rollouts*.jsonl
+phase_v4/results_v4_1/**/*sft*.jsonl
 checkpoints/
 worktrees/
 cache/

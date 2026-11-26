@@ -1,0 +1,88 @@
+{
+  "cell_name": "lean_inkling2_mini",
+  "winner_id": "inkling_lean_sft_effort_matched",
+  "confirm_decision": "ROLLBACK",
+  "confirm_verdict": {
+    "guard_version": "3.9.0",
+    "trial_prefix": "confirm_lean_inkling2_mini",
+    "decision_stage": "confirm",
+    "effective_alpha_one_sided": 0.025,
+    "n_perm": 8000,
+    "p_floor": 0.00012498437695288088,
+    "confirm_looks_used": 1,
+    "alpha_spent": 0.025,
+    "alpha_budget": 0.025,
+    "look_accounting": "ledger",
+    "candidate_id": "inkling_lean_sft_effort_matched",
+    "protocol_id": "v4_1_lean_confirm150_k8",
+    "candidate_artifact_sha256": "e199bc06656d822850b8dbce29362143357c68cad7bec39cc826ea263dcc04da",
+    "artifact_semantic_sha256": "697a525493fbea832257deeb0c2983c0afe8744501b4fdd0104eb0d5a1c3129c",
+    "timestamp_utc": "2026-11-26T08:30:59.070251+00:00",
+    "rules_sha256": "5369c8f9f9b3d7dc407916da91924c142b88bc377fee66ed74a6aef94c9f8826",
+    "item_cluster_key": null,
+    "hypothesis": "lean_inkling2_mini: inkling_lean_sft_effort_matched beats B0 with clean channel/precision hygiene",
+    "confirm_policy_sha256": "665d5022567982e32e34fb5aadef55c7fe94bce6ce83bc557d77ff2c36b2e100",
+    "registered_retest": false,
+    "evidence_block_sha256": null,
+    "comparator_ids": [
+      "b0_base"
+    ],
+    "paired_aux_noninferiority": {
+      "stop_rate": 0.05,
+      "lean_pass_at_8": 0.02
+    },
+    "status": "OK",
+    "iut_decision": "ROLLBACK",
+    "halt_recommended": true,
+    "comparators_tested": 1,
+    "comparators_promoted": 0,
+    "failed_comparators": [
+      "b0_base"
+    ],
+    "results_by_comparator": {
+      "b0_base": {
+        "decision": "ROLLBACK",
+        "signed_improvement": -0.007500000000000007,
+        "lcb_one_sided_vs_incumbent": -0.028333333333333377,
+        "margin_excess_lcb_one_sided": -0.03833333333333338,
+        "tripwires": [
+          "paired_aux_noninferiority_failed:stop_rate:lcb=-0.176667<=-0.050000",
+          "paired_aux_noninferiority_failed:lean_pass_at_8:lcb=-0.086667<=-0.020000"
+        ],
+        "df_satterthwaite": null,
+        "nonpositive_crossed_variance_fallback": null
+      }
+    }
+  },
+  "paired_contrasts": {
+    "confirm_inkling_lean_sft_effort_matched_vs_inkling_lean_sft_stripped": {
+      "cand_id": "inkling_lean_sft_effort_matched",
+      "ref_id": "inkling_lean_sft_stripped",
+      "n_problems": 150,
+      "delta_avg_at_8": 0.0575,
+      "lcb95_one_sided_avg_at_8": 0.03666666666666667,
+      "ci95_two_sided_avg_at_8": [
+        0.03333333333333333,
+        0.085
+      ],
+      "delta_stop_rate": 0.16666666666666666,
+      "lcb95_one_sided_stop_rate": 0.13833333333333334,
+      "delta_has_thinking_rate": -0.02666666666666667
+    },
+    "confirm_inkling_lean_sft_effort_matched_vs_b0": {
+      "cand_id": "inkling_lean_sft_effort_matched",
+      "ref_id": "b0_base",
+      "n_problems": 150,
+      "delta_avg_at_8": -0.0075,
+      "lcb95_one_sided_avg_at_8": -0.025,
+      "ci95_two_sided_avg_at_8": [
+        -0.028333333333333332,
+        0.014166666666666666
+      ],
+      "delta_stop_rate": -0.13666666666666666,
+      "lcb95_one_sided_stop_rate": -0.16583333333333333,
+      "delta_has_thinking_rate": -0.028333333333333332
+    }
+  },
+  "holdout_touched": false
+}

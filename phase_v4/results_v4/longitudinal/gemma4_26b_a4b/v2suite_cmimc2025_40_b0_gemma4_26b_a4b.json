@@ -1,0 +1,681 @@
+{
+  "candidate_id": "b0_gemma4_26b_a4b",
+  "channel_family": "gemma4",
+  "env_fingerprint": "a100_80gb_bf16_v4",
+  "expected_k": 8,
+  "items": [
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:1",
+      "id": "v2_cmimc2025:1",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "v2_cmimc2025:10",
+      "id": "v2_cmimc2025:10",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:11",
+      "id": "v2_cmimc2025:11",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:12",
+      "id": "v2_cmimc2025:12",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:13",
+      "id": "v2_cmimc2025:13",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:14",
+      "id": "v2_cmimc2025:14",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "v2_cmimc2025:15",
+      "id": "v2_cmimc2025:15",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.5,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "v2_cmimc2025:16",
+      "id": "v2_cmimc2025:16",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:17",
+      "id": "v2_cmimc2025:17",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "v2_cmimc2025:18",
+      "id": "v2_cmimc2025:18",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "v2_cmimc2025:19",
+      "id": "v2_cmimc2025:19",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:2",
+      "id": "v2_cmimc2025:2",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "v2_cmimc2025:20",
+      "id": "v2_cmimc2025:20",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.125,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "v2_cmimc2025:21",
+      "id": "v2_cmimc2025:21",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:22",
+      "id": "v2_cmimc2025:22",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:23",
+      "id": "v2_cmimc2025:23",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "v2_cmimc2025:24",
+      "id": "v2_cmimc2025:24",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "v2_cmimc2025:25",
+      "id": "v2_cmimc2025:25",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.625,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "v2_cmimc2025:26",
+      "id": "v2_cmimc2025:26",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "v2_cmimc2025:27",
+      "id": "v2_cmimc2025:27",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "v2_cmimc2025:28",
+      "id": "v2_cmimc2025:28",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:29",
+      "id": "v2_cmimc2025:29",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:3",
+      "id": "v2_cmimc2025:3",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:30",
+      "id": "v2_cmimc2025:30",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:31",
+      "id": "v2_cmimc2025:31",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "v2_cmimc2025:32",
+      "id": "v2_cmimc2025:32",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "v2_cmimc2025:33",
+      "id": "v2_cmimc2025:33",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "v2_cmimc2025:34",
+      "id": "v2_cmimc2025:34",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:35",
+      "id": "v2_cmimc2025:35",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:36",
+      "id": "v2_cmimc2025:36",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "v2_cmimc2025:37",
+      "id": "v2_cmimc2025:37",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "v2_cmimc2025:38",
+      "id": "v2_cmimc2025:38",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.125,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "v2_cmimc2025:39",
+      "id": "v2_cmimc2025:39",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:4",
+      "id": "v2_cmimc2025:4",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v2_cmimc2025:40",
+      "id": "v2_cmimc2025:40",
+      "maj_ok": 0.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "v2_cmimc2025:5",
+      "id": "v2_cmimc2025:5",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "v2_cmimc2025:6",
+      "id": "v2_cmimc2025:6",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "v2_cmimc2025:7",
+      "id": "v2_cmimc2025:7",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "v2_cmimc2025:8",
+      "id": "v2_cmimc2025:8",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "v2_cmimc2025:9",
+      "id": "v2_cmimc2025:9",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.375,
+      "stratum": "cmimc2025",
+      "stratum_id": "cmimc2025",
+      "value": 0.375
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.540625,
+    "capability_slope_8_1": 0.15937499999999993,
+    "distinct_answers_at_8": 1.475,
+    "learnable_fraction": 0.375,
+    "math_avg_at_8": 0.540625,
+    "math_equal_stratum_avg_at_8": 0.540625,
+    "math_maj_at_8": 0.625,
+    "math_pass_at_1": 0.540625,
+    "math_pass_at_2": 0.60625,
+    "math_pass_at_4": 0.6535714285714286,
+    "math_pass_at_8": 0.7,
+    "math_strict_avg_at_8": 0.540625,
+    "mean_correct_tokens": 2861.0462427745665,
+    "mean_incorrect_tokens": 9009.979591836734,
+    "mean_tokens": 5685.7125,
+    "median_tokens": 3341.0,
+    "natural_stop_parse_failure_rate": 0.0,
+    "overall_parse_failure_rate": 0.0,
+    "p95_tokens": 12288.0,
+    "p99_tokens": 12288.0,
+    "solved_problem_count": 28.0,
+    "stop_rate": 0.715625,
+    "stratum_cmimc2025_avg_at_8": 0.540625,
+    "tokens_per_correct": 10516.92485549133,
+    "total_correct_rollouts": 173.0,
+    "truncation_rate": 0.284375
+  },
+  "n_problems": 40,
+  "protocol_id": "longitudinal_cmimc2025_40_k8",
+  "schema_version": "4.0",
+  "scored_at_utc": "2026-11-23T20:52:01.171287+00:00",
+  "track": "math"
+}

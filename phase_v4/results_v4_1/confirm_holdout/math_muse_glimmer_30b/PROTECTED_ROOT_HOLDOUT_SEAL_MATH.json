@@ -1,0 +1,25 @@
+{
+  "artifact_semantic_sha256": "f0b93876a66fbf71d86caf2b9ddfb99eedc96865237eb059b08d12a4b9f8b9c6",
+  "baseline_id": "b0_base",
+  "candidate_artifact_sha256": "69d5e8f098cdadcf6ecfbf212bc037129cb1e4eb029d496ecd916741bc600507",
+  "candidate_id": "muse_math_gspo_faithful_luffy",
+  "item_cluster_key": null,
+  "ledger_file": "/scratch/governed_crossfamily_v4/results_v4_1/confirm_holdout/math_muse_glimmer_30b/trial_ledger_v4_1.jsonl",
+  "ledger_head_at_reserve_sha256": "165e95697f0641650c4a8524ea4b8a550320bb264a0a6ae86a9bd93112cc8f10",
+  "manifest_root_sha256": "f30b202047ccd475c9253057561151ab170c3849e38642e235d1e38d5f01395b",
+  "paired_aux_noninferiority": {
+    "math_pass_at_8": 0.02,
+    "stop_rate": 0.05
+  },
+  "reference_ids": {
+    "b0_base": "b0_base"
+  },
+  "required_comparators_verified": [
+    "b0_base"
+  ],
+  "reserved_at_utc": "2026-11-25T09:55:05.381149+00:00",
+  "rules_sha256": "d5f3ef352827d221fa8e5e9263ac73c10f0009564e3f193fb5b96dcaeb8e6fcc",
+  "schema_version": "3.9.0",
+  "seal_file": "/scratch/governed_crossfamily_v4/results_v4_1/confirm_holdout/math_muse_glimmer_30b/HOLDOUT_SEAL_RECEIPT.json",
+  "status": "RESERVED"
+}

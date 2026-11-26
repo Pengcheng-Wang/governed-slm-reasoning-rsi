@@ -1,0 +1,114 @@
+{
+  "adapted_linear_modules": 205,
+  "applied_prior_factor_tensors": 0,
+  "chat_kwargs": {
+    "enable_thinking": false
+  },
+  "data_audit": {
+    "dropped_overlong_rows": 2,
+    "seq_len_max": 7819,
+    "seq_len_p50": 1582,
+    "seq_len_p95": 3623,
+    "sft_suffix": "<turn|>",
+    "supervised_tokens_total": 3810953,
+    "total_traces": 2226,
+    "unique_problems": 1227
+  },
+  "dist_strategy": "fsdp",
+  "final_logit_softcapping": 30.0,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "grad_norm": 1.53125,
+      "loss": 0.5030336976051331,
+      "lr": 3.1428571428571425e-06,
+      "step": 1
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.423828125,
+      "loss": 0.37565410137176514,
+      "lr": 2.2e-05,
+      "step": 10
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.27734375,
+      "loss": 0.36610448360443115,
+      "lr": 2.2e-05,
+      "step": 20
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 1.65625,
+      "loss": 0.3700111508369446,
+      "lr": 2.2e-05,
+      "step": 30
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.15625,
+      "loss": 0.2710193693637848,
+      "lr": 2.2e-05,
+      "step": 40
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.22265625,
+      "loss": 0.28921565413475037,
+      "lr": 2.2e-05,
+      "step": 50
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.11962890625,
+      "loss": 0.2619454264640808,
+      "lr": 2.2e-05,
+      "step": 60
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.1298828125,
+      "loss": 0.257177472114563,
+      "lr": 2.2e-05,
+      "step": 70
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.10986328125,
+      "loss": 0.21789422631263733,
+      "lr": 2.2e-05,
+      "step": 80
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 8.5,
+      "loss": 0.3282677233219147,
+      "lr": 2.2e-05,
+      "step": 90
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.2080078125,
+      "loss": 0.26516708731651306,
+      "lr": 2.2e-05,
+      "step": 92
+    }
+  ],
+  "lr": 2.2e-05,
+  "lr_schedule": "constant_with_warmup",
+  "merge_parity": {
+    "max_abs_logit_diff": 4.189894199371338,
+    "mean_abs_logit_diff": 0.21084468066692352,
+    "merged_linear_tensors": 205,
+    "top1_token_agreement": 0.9921875
+  },
+  "model_key": "gemma4_26b_a4b",
+  "output_multiplier": null,
+  "peak_vram_gb_rank0": 22.693931102752686,
+  "status": "TRAINED_AND_CONSOLIDATED",
+  "steps_completed": 92,
+  "track": "math",
+  "train_wall_seconds": 1287.1762208649889,
+  "world_size": 8
+}

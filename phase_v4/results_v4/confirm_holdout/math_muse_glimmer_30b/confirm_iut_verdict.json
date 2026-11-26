@@ -1,0 +1,17 @@
+{
+  "status": "OK",
+  "trial_prefix": "confirm_armA_pureb0_math_muse_glimmer_30b_drgrpo_cispo_pct100",
+  "iut_decision": "PROMOTE",
+  "comparators_tested": 1,
+  "comparators_promoted": 1,
+  "failed_comparators": [],
+  "results_by_comparator": {
+    "b0_muse_glimmer_30b": {
+      "decision": "PROMOTE",
+      "signed_improvement": 0.10208333333333336,
+      "lcb_one_sided_vs_incumbent": 0.0756084996737375,
+      "margin_excess_lcb_one_sided": 0.060608499673737506,
+      "tripwires": []
+    }
+  }
+}

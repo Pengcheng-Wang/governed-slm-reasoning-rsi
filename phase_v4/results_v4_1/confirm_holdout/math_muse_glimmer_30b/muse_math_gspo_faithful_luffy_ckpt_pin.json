@@ -1,0 +1,19 @@
+{
+  "candidate_id": "muse_math_gspo_faithful_luffy",
+  "checkpoint_dir": "/scratch/governed_crossfamily_v4/checkpoints_v4_1/muse_math/muse_math_gspo_faithful_luffy",
+  "index_sha256": "79f6028c3b5544f6be46607b8580d7376bf68bdc66647480fd3bfa520ad9efa3",
+  "model_key": "muse_glimmer_30b",
+  "shards": [
+    {
+      "head_tail_sha256": "ef5e34a91a29ea06bc5d2822c0b2738362826841439962f86690fe4365edc922",
+      "name": "model-00001-of-00002.safetensors",
+      "size": 49902303112
+    },
+    {
+      "head_tail_sha256": "303cc39428463b49d05bbbb8b5fbb514f29e6106904139cf65bf0f288628b89e",
+      "name": "model-00002-of-00002.safetensors",
+      "size": 9651130624
+    }
+  ],
+  "track": "math"
+}

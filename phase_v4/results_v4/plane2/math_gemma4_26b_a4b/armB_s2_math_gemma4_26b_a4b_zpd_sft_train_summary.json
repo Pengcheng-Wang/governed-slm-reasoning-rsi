@@ -1,0 +1,58 @@
+{
+  "adapted_linear_modules": 205,
+  "applied_prior_factor_tensors": 205,
+  "chat_kwargs": {
+    "enable_thinking": false
+  },
+  "data_audit": {
+    "dropped_overlong_rows": 1,
+    "seq_len_max": 6644,
+    "seq_len_p50": 1711,
+    "seq_len_p95": 3693,
+    "sft_suffix": "<turn|>",
+    "supervised_tokens_total": 521925,
+    "total_traces": 284,
+    "unique_problems": 247
+  },
+  "dist_strategy": "fsdp",
+  "final_logit_softcapping": 30.0,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "grad_norm": 0.3046875,
+      "loss": 0.3827023506164551,
+      "lr": 1e-05,
+      "step": 1
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.38671875,
+      "loss": 0.4559973180294037,
+      "lr": 4.53865820268349e-06,
+      "step": 10
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.25,
+      "loss": 0.44435155391693115,
+      "lr": 0.0,
+      "step": 18
+    }
+  ],
+  "lr": 1e-05,
+  "lr_schedule": "cosine",
+  "merge_parity": {
+    "max_abs_logit_diff": 4.723031997680664,
+    "mean_abs_logit_diff": 0.231033306568861,
+    "merged_linear_tensors": 205,
+    "top1_token_agreement": 1.0
+  },
+  "model_key": "gemma4_26b_a4b",
+  "output_multiplier": null,
+  "peak_vram_gb_rank0": 22.497614860534668,
+  "status": "TRAINED_AND_CONSOLIDATED",
+  "steps_completed": 18,
+  "track": "math",
+  "train_wall_seconds": 287.02270325890277,
+  "world_size": 8
+}

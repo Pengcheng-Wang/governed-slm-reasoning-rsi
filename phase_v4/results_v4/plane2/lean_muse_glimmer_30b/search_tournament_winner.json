@@ -1,0 +1,116 @@
+{
+  "arm_a_pure_b0_rlvr_best": {
+    "candidate_id": "armA_pureb0_lean_muse_glimmer_30b_drgrpo_cispo_pct100",
+    "equal_stratum_avg_at_8": 0.09795968534906589,
+    "stop_rate": 0.9303571428571429
+  },
+  "arm_b_2sft_rlvr_best": {
+    "candidate_id": "armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct50",
+    "equal_stratum_avg_at_8": 0.14509587020648967,
+    "stop_rate": 0.9133928571428571
+  },
+  "candidate_id": "armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct50",
+  "candidates_evaluated": 8,
+  "consecutive_rollbacks": 0,
+  "decision": "PROVISIONAL_KEEP",
+  "decision_stage": "search",
+  "eligible_count": 4,
+  "entry_sha256": "1ae4091dc9d733bcce5a8ea1d9cefec114158f138d24691708694bf3dcbd6e58",
+  "leaderboard": [
+    {
+      "candidate_id": "armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct50",
+      "lcb_one_sided": 0.04806385332701123,
+      "passed_search": true,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/lean_muse_glimmer_30b/armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct50_search.json",
+      "rank_score": 0.04806385332701123,
+      "signed_gain": 0.07245575221238938,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armB_s3_lean_muse_glimmer_30b_drgrpo_cispo_pct100",
+      "lcb_one_sided": 0.04603982069578401,
+      "passed_search": true,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/lean_muse_glimmer_30b/armB_s3_lean_muse_glimmer_30b_drgrpo_cispo_pct100_search.json",
+      "rank_score": 0.04603982069578401,
+      "signed_gain": 0.06383153064568996,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct100",
+      "lcb_one_sided": 0.040902140672782875,
+      "passed_search": true,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/lean_muse_glimmer_30b/armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct100_search.json",
+      "rank_score": 0.040902140672782875,
+      "signed_gain": 0.05883316945263849,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armA_pureb0_lean_muse_glimmer_30b_drgrpo_cispo_pct100",
+      "lcb_one_sided": 0.006521739130434773,
+      "passed_search": true,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/lean_muse_glimmer_30b/armA_pureb0_lean_muse_glimmer_30b_drgrpo_cispo_pct100_search.json",
+      "rank_score": 0.006521739130434773,
+      "signed_gain": 0.0253195673549656,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armA_pureb0_lean_muse_glimmer_30b_dapo_asymclip_pct100",
+      "lcb_one_sided": 0.0032894736842105227,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/lean_muse_glimmer_30b/armA_pureb0_lean_muse_glimmer_30b_dapo_asymclip_pct100_search.json",
+      "rank_score": 0.0032894736842105227,
+      "signed_gain": 0.009218289085545728,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armB_s2_lean_muse_glimmer_30b_zpd_sft",
+      "lcb_one_sided": 0.0,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/lean_muse_glimmer_30b/armB_s2_lean_muse_glimmer_30b_zpd_sft_search.json",
+      "rank_score": 0.0,
+      "signed_gain": 0.0,
+      "tripwires": [
+        "baseline_degradation_exceeded:stop_rate_degradation=0.117857>0.035"
+      ],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armB_s3_lean_muse_glimmer_30b_gspo_luffy_pct100",
+      "lcb_one_sided": 0.0,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/lean_muse_glimmer_30b/armB_s3_lean_muse_glimmer_30b_gspo_luffy_pct100_search.json",
+      "rank_score": 0.0,
+      "signed_gain": 0.0,
+      "tripwires": [
+        "baseline_degradation_exceeded:stop_rate_degradation=0.070536>0.035"
+      ],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armB_s1_lean_muse_glimmer_30b_breadth_sft",
+      "lcb_one_sided": 0.0,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/lean_muse_glimmer_30b/armB_s1_lean_muse_glimmer_30b_breadth_sft_search.json",
+      "rank_score": 0.0,
+      "signed_gain": 0.0,
+      "tripwires": [
+        "baseline_degradation_exceeded:stop_rate_degradation=0.094643>0.035"
+      ],
+      "wall_clock_sec": 1000000000.0
+    }
+  ],
+  "prev_entry_sha256": "GENESIS",
+  "selected_candidate_id": "armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct50",
+  "selected_for_confirm_ckpt": "/scratch/governed_crossfamily_v4/checkpoints_v4/lean_muse_glimmer_30b/armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct50",
+  "selected_for_confirm_id": "armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct50",
+  "selected_path": "/scratch/governed_crossfamily_v4/results_v4/plane2/lean_muse_glimmer_30b/armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct50_search.json",
+  "selection_protocol": "batch_order_invariant",
+  "timestamp_utc": "2026-11-24T15:05:09.064590+00:00",
+  "trial_id": "round_v4_crossover_lean_muse_glimmer_30b",
+  "unresolved_rollbacks_since_promote": 0
+}

@@ -1,0 +1,55 @@
+{
+  "artifacts": {
+    "chat_template.jinja": {
+      "bytes": 6868,
+      "sha256": "53a9035f3255945704b5857657cfb00c1165090c0641c4f782a0cbf268cc16dc"
+    },
+    "config.json": {
+      "bytes": 3891,
+      "sha256": "4499c467b3787a935ed15ceb673f7abc92378bb2e07f204999be9cd623e60db2"
+    },
+    "eval_engine_v4.py": {
+      "bytes": 36401,
+      "sha256": "d32b329811635a4eab3c3cce49fa802891aac33f21ad01b25d6f316faac73269"
+    },
+    "generation_config.json": {
+      "bytes": 98,
+      "sha256": "a08737c07a65a8fdf69f7cf086576210e5aad4b241437090b26d7b0c4f7905f7"
+    },
+    "model-00001-of-00002.safetensors": {
+      "bytes": 48676607320,
+      "sha256": "4de25d6d64032cddc8cb6957c13a0d85cda217d5d7e07de29c570dfbc902c659"
+    },
+    "model-00002-of-00002.safetensors": {
+      "bytes": 4144972592,
+      "sha256": "7ba8d5de79228a636c7276fafb4d12c673f381fb9e331e04629315e3040f3327"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 97005,
+      "sha256": "bb3967f972ccb97e825a2a9aabaef7158e262e00f148b7d559d76ee18350489c"
+    },
+    "model_registry_v4.py": {
+      "bytes": 9443,
+      "sha256": "d923cf15a42f9c345230077009c5ef1c0bf8d274e3f584550c2d839ea7d3614b"
+    },
+    "processor_config.json": {
+      "bytes": 461,
+      "sha256": "d7350adce18c8be4b607f261c8f0f7eabbf720bb7aaf648a43d4f8372bbacc2d"
+    },
+    "special_tokens_map.json": {
+      "bytes": 529,
+      "sha256": "c16f44b3594563d82743ddb0417a2be1bfe3e2000dfad2da4b8f32554593e1a0"
+    },
+    "tokenizer.json": {
+      "bytes": 26178678,
+      "sha256": "7f332727f9a3f093dd452a39cc978e6757627e5dad1b0673aa4e75174f236dd6"
+    },
+    "tokenizer_config.json": {
+      "bytes": 13235,
+      "sha256": "bf09342d285139fd37ce10c70878af1d52cb390e9901e10248654293a80ee636"
+    }
+  },
+  "candidate_id": "armB_s3_math_inkling2_mini_dapo_asymclip_pct100",
+  "ckpt_dir": "/scratch/governed_crossfamily_v4/checkpoints_v4/math_inkling2_mini/armB_s3_math_inkling2_mini_dapo_asymclip_pct100",
+  "weights_merkle_sha256": "ce0aebdc933721c0c9bfe43d3c7e4fef6141a735c781276bdd1e56343f58f52f"
+}

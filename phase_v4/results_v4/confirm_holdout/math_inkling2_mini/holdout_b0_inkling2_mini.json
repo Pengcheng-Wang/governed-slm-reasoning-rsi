@@ -1,0 +1,3147 @@
+{
+  "candidate_id": "b0_inkling2_mini",
+  "channel_family": "inkling2",
+  "env_fingerprint": "a100_80gb_bf16_v4",
+  "expected_k": 8,
+  "items": [
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "apex_2025:1",
+      "id": "apex_2025:1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "apex_2025:11",
+      "id": "apex_2025:11",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "apex_2025:12",
+      "id": "apex_2025:12",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "apex_2025:2",
+      "id": "apex_2025:2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "apex_2025:4",
+      "id": "apex_2025:4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "apex_2025:5",
+      "id": "apex_2025:5",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "apex_2025:6",
+      "id": "apex_2025:6",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "apex_2025:7",
+      "id": "apex_2025:7",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "apex_2025:8",
+      "id": "apex_2025:8",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:10__occ1",
+      "id": "arxivmath_2026:10__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:10__occ2",
+      "id": "arxivmath_2026:10__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "arxivmath_2026:10__occ3",
+      "id": "arxivmath_2026:10__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.375,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:10__occ4",
+      "id": "arxivmath_2026:10__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:11__occ1",
+      "id": "arxivmath_2026:11__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:11__occ2",
+      "id": "arxivmath_2026:11__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:11__occ3",
+      "id": "arxivmath_2026:11__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:11__occ4",
+      "id": "arxivmath_2026:11__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:12__occ1",
+      "id": "arxivmath_2026:12__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:12__occ2",
+      "id": "arxivmath_2026:12__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:12__occ3",
+      "id": "arxivmath_2026:12__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "arxivmath_2026:12__occ4",
+      "id": "arxivmath_2026:12__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "arxivmath_2026:13__occ1",
+      "id": "arxivmath_2026:13__occ1",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:13__occ2",
+      "id": "arxivmath_2026:13__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:13__occ3",
+      "id": "arxivmath_2026:13__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:13__occ4",
+      "id": "arxivmath_2026:13__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "arxivmath_2026:14__occ1",
+      "id": "arxivmath_2026:14__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:14__occ2",
+      "id": "arxivmath_2026:14__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:14__occ3",
+      "id": "arxivmath_2026:14__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:14__occ4",
+      "id": "arxivmath_2026:14__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:15__occ1",
+      "id": "arxivmath_2026:15__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:15__occ2",
+      "id": "arxivmath_2026:15__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:15__occ3",
+      "id": "arxivmath_2026:15__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:15__occ4",
+      "id": "arxivmath_2026:15__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "arxivmath_2026:16__occ1",
+      "id": "arxivmath_2026:16__occ1",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.375,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "arxivmath_2026:16__occ2",
+      "id": "arxivmath_2026:16__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:16__occ3",
+      "id": "arxivmath_2026:16__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivmath_2026:16__occ4",
+      "id": "arxivmath_2026:16__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:17__occ1",
+      "id": "arxivmath_2026:17__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "arxivmath_2026:17__occ2",
+      "id": "arxivmath_2026:17__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:17__occ3",
+      "id": "arxivmath_2026:17__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:17__occ4",
+      "id": "arxivmath_2026:17__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:18__occ1",
+      "id": "arxivmath_2026:18__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:18__occ2",
+      "id": "arxivmath_2026:18__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:18__occ3",
+      "id": "arxivmath_2026:18__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:19__occ1",
+      "id": "arxivmath_2026:19__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "arxivmath_2026:19__occ2",
+      "id": "arxivmath_2026:19__occ2",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.625,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "arxivmath_2026:19__occ3",
+      "id": "arxivmath_2026:19__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:1__occ1",
+      "id": "arxivmath_2026:1__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:1__occ2",
+      "id": "arxivmath_2026:1__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "arxivmath_2026:1__occ3",
+      "id": "arxivmath_2026:1__occ3",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:1__occ4",
+      "id": "arxivmath_2026:1__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:20__occ1",
+      "id": "arxivmath_2026:20__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:20__occ2",
+      "id": "arxivmath_2026:20__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "arxivmath_2026:20__occ3",
+      "id": "arxivmath_2026:20__occ3",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.125,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "arxivmath_2026:21__occ1",
+      "id": "arxivmath_2026:21__occ1",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.125,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:21__occ2",
+      "id": "arxivmath_2026:21__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "arxivmath_2026:21__occ3",
+      "id": "arxivmath_2026:21__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.375,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:22__occ1",
+      "id": "arxivmath_2026:22__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "arxivmath_2026:22__occ2",
+      "id": "arxivmath_2026:22__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.5,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "arxivmath_2026:22__occ3",
+      "id": "arxivmath_2026:22__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:23__occ1",
+      "id": "arxivmath_2026:23__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "arxivmath_2026:23__occ2",
+      "id": "arxivmath_2026:23__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:23__occ3",
+      "id": "arxivmath_2026:23__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:24__occ1",
+      "id": "arxivmath_2026:24__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:24__occ2",
+      "id": "arxivmath_2026:24__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "arxivmath_2026:25__occ1",
+      "id": "arxivmath_2026:25__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:25__occ2",
+      "id": "arxivmath_2026:25__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "arxivmath_2026:26__occ1",
+      "id": "arxivmath_2026:26__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.375,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "arxivmath_2026:26__occ2",
+      "id": "arxivmath_2026:26__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivmath_2026:27__occ1",
+      "id": "arxivmath_2026:27__occ1",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivmath_2026:27__occ2",
+      "id": "arxivmath_2026:27__occ2",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:28__occ1",
+      "id": "arxivmath_2026:28__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivmath_2026:28__occ2",
+      "id": "arxivmath_2026:28__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:29__occ1",
+      "id": "arxivmath_2026:29__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "arxivmath_2026:29__occ2",
+      "id": "arxivmath_2026:29__occ2",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.625,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:2__occ1",
+      "id": "arxivmath_2026:2__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "arxivmath_2026:2__occ2",
+      "id": "arxivmath_2026:2__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivmath_2026:2__occ3",
+      "id": "arxivmath_2026:2__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "arxivmath_2026:2__occ4",
+      "id": "arxivmath_2026:2__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.375,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:30__occ1",
+      "id": "arxivmath_2026:30__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "arxivmath_2026:30__occ2",
+      "id": "arxivmath_2026:30__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:31__occ1",
+      "id": "arxivmath_2026:31__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "arxivmath_2026:31__occ2",
+      "id": "arxivmath_2026:31__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.375,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:32",
+      "id": "arxivmath_2026:32",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:3__occ1",
+      "id": "arxivmath_2026:3__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "arxivmath_2026:3__occ2",
+      "id": "arxivmath_2026:3__occ2",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.125,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:3__occ3",
+      "id": "arxivmath_2026:3__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:3__occ4",
+      "id": "arxivmath_2026:3__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "arxivmath_2026:4__occ1",
+      "id": "arxivmath_2026:4__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:4__occ2",
+      "id": "arxivmath_2026:4__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "arxivmath_2026:4__occ3",
+      "id": "arxivmath_2026:4__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "arxivmath_2026:4__occ4",
+      "id": "arxivmath_2026:4__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "arxivmath_2026:5__occ1",
+      "id": "arxivmath_2026:5__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.375,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:5__occ2",
+      "id": "arxivmath_2026:5__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivmath_2026:5__occ3",
+      "id": "arxivmath_2026:5__occ3",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "arxivmath_2026:5__occ4",
+      "id": "arxivmath_2026:5__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:6__occ1",
+      "id": "arxivmath_2026:6__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:6__occ2",
+      "id": "arxivmath_2026:6__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:6__occ3",
+      "id": "arxivmath_2026:6__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:6__occ4",
+      "id": "arxivmath_2026:6__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "arxivmath_2026:7__occ1",
+      "id": "arxivmath_2026:7__occ1",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:7__occ2",
+      "id": "arxivmath_2026:7__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "arxivmath_2026:7__occ3",
+      "id": "arxivmath_2026:7__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.625,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:7__occ4",
+      "id": "arxivmath_2026:7__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:8__occ1",
+      "id": "arxivmath_2026:8__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:8__occ2",
+      "id": "arxivmath_2026:8__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "arxivmath_2026:8__occ3",
+      "id": "arxivmath_2026:8__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "arxivmath_2026:8__occ4",
+      "id": "arxivmath_2026:8__occ4",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:9__occ1",
+      "id": "arxivmath_2026:9__occ1",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:9__occ2",
+      "id": "arxivmath_2026:9__occ2",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "arxivmath_2026:9__occ3",
+      "id": "arxivmath_2026:9__occ3",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "arxivmath_2026",
+      "stratum_id": "arxivmath_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "hmmt_feb_2025:1",
+      "id": "hmmt_feb_2025:1",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "hmmt_feb_2025:10",
+      "id": "hmmt_feb_2025:10",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "hmmt_feb_2025:11",
+      "id": "hmmt_feb_2025:11",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "hmmt_feb_2025:12",
+      "id": "hmmt_feb_2025:12",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "hmmt_feb_2025:13",
+      "id": "hmmt_feb_2025:13",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.375,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "hmmt_feb_2025:14",
+      "id": "hmmt_feb_2025:14",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "hmmt_feb_2025:15",
+      "id": "hmmt_feb_2025:15",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "hmmt_feb_2025:16",
+      "id": "hmmt_feb_2025:16",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "hmmt_feb_2025:17",
+      "id": "hmmt_feb_2025:17",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "hmmt_feb_2025:18",
+      "id": "hmmt_feb_2025:18",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "hmmt_feb_2025:19",
+      "id": "hmmt_feb_2025:19",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "hmmt_feb_2025:2",
+      "id": "hmmt_feb_2025:2",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "hmmt_feb_2025:20",
+      "id": "hmmt_feb_2025:20",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "hmmt_feb_2025:21",
+      "id": "hmmt_feb_2025:21",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "hmmt_feb_2025:22",
+      "id": "hmmt_feb_2025:22",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "hmmt_feb_2025:23",
+      "id": "hmmt_feb_2025:23",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "hmmt_feb_2025:24",
+      "id": "hmmt_feb_2025:24",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "hmmt_feb_2025:25",
+      "id": "hmmt_feb_2025:25",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.5,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "hmmt_feb_2025:26",
+      "id": "hmmt_feb_2025:26",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "hmmt_feb_2025:27",
+      "id": "hmmt_feb_2025:27",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "hmmt_feb_2025:28",
+      "id": "hmmt_feb_2025:28",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "hmmt_feb_2025:29",
+      "id": "hmmt_feb_2025:29",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.125,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "hmmt_feb_2025:3",
+      "id": "hmmt_feb_2025:3",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "hmmt_feb_2025:30",
+      "id": "hmmt_feb_2025:30",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "hmmt_feb_2025:4",
+      "id": "hmmt_feb_2025:4",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "hmmt_feb_2025:5",
+      "id": "hmmt_feb_2025:5",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "hmmt_feb_2025:6",
+      "id": "hmmt_feb_2025:6",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "hmmt_feb_2025:7",
+      "id": "hmmt_feb_2025:7",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.5,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "hmmt_feb_2025:8",
+      "id": "hmmt_feb_2025:8",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "hmmt_feb_2025:9",
+      "id": "hmmt_feb_2025:9",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "elite_contest_2025",
+      "stratum_id": "elite_contest_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:1",
+      "id": "smt_2025:1",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:10",
+      "id": "smt_2025:10",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:11",
+      "id": "smt_2025:11",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:12",
+      "id": "smt_2025:12",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "smt_2025:13",
+      "id": "smt_2025:13",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:14",
+      "id": "smt_2025:14",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:15",
+      "id": "smt_2025:15",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:16",
+      "id": "smt_2025:16",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "smt_2025:17",
+      "id": "smt_2025:17",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.125,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "smt_2025:18",
+      "id": "smt_2025:18",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.125,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "smt_2025:19",
+      "id": "smt_2025:19",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:2",
+      "id": "smt_2025:2",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "smt_2025:20",
+      "id": "smt_2025:20",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:21",
+      "id": "smt_2025:21",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "smt_2025:22",
+      "id": "smt_2025:22",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:23",
+      "id": "smt_2025:23",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "smt_2025:24",
+      "id": "smt_2025:24",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:25",
+      "id": "smt_2025:25",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:26",
+      "id": "smt_2025:26",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "smt_2025:27",
+      "id": "smt_2025:27",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:28",
+      "id": "smt_2025:28",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "smt_2025:29",
+      "id": "smt_2025:29",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.625,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:3",
+      "id": "smt_2025:3",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "smt_2025:30",
+      "id": "smt_2025:30",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:31",
+      "id": "smt_2025:31",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:32",
+      "id": "smt_2025:32",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "smt_2025:33",
+      "id": "smt_2025:33",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "smt_2025:34",
+      "id": "smt_2025:34",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.5,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:35",
+      "id": "smt_2025:35",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:36",
+      "id": "smt_2025:36",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "smt_2025:37",
+      "id": "smt_2025:37",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.375,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "smt_2025:38",
+      "id": "smt_2025:38",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.375,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "smt_2025:39",
+      "id": "smt_2025:39",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:4",
+      "id": "smt_2025:4",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "smt_2025:40",
+      "id": "smt_2025:40",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "smt_2025:41",
+      "id": "smt_2025:41",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "smt_2025:42",
+      "id": "smt_2025:42",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "smt_2025:43",
+      "id": "smt_2025:43",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:44",
+      "id": "smt_2025:44",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:45",
+      "id": "smt_2025:45",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "smt_2025:46",
+      "id": "smt_2025:46",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:47",
+      "id": "smt_2025:47",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:48",
+      "id": "smt_2025:48",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:49",
+      "id": "smt_2025:49",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:5",
+      "id": "smt_2025:5",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:50",
+      "id": "smt_2025:50",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "smt_2025:51",
+      "id": "smt_2025:51",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.625,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "smt_2025:52",
+      "id": "smt_2025:52",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "smt_2025:53",
+      "id": "smt_2025:53",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:6",
+      "id": "smt_2025:6",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:7",
+      "id": "smt_2025:7",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "smt_2025:8",
+      "id": "smt_2025:8",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "smt_2025:9",
+      "id": "smt_2025:9",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "smt_2025",
+      "stratum_id": "smt_2025",
+      "value": 1.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.3086340206185567,
+    "capability_slope_8_1": 0.1140463917525773,
+    "distinct_answers_at_8": 0.8092783505154639,
+    "learnable_fraction": 0.21649484536082475,
+    "math_avg_at_8": 0.3086340206185567,
+    "math_equal_stratum_avg_at_8": 0.39531456027016515,
+    "math_maj_at_8": 0.41237113402061853,
+    "math_pass_at_1": 0.3086340206185567,
+    "math_pass_at_2": 0.34996318114874814,
+    "math_pass_at_4": 0.38924889543446245,
+    "math_pass_at_8": 0.422680412371134,
+    "math_strict_avg_at_8": 0.3086340206185567,
+    "mean_correct_tokens": 3660.8622129436326,
+    "mean_incorrect_tokens": 7814.383970177074,
+    "mean_tokens": 6532.465850515464,
+    "median_tokens": 8192.0,
+    "natural_stop_parse_failure_rate": 0.0,
+    "overall_parse_failure_rate": 0.0,
+    "p95_tokens": 8192.0,
+    "p99_tokens": 8192.0,
+    "solved_problem_count": 82.0,
+    "stop_rate": 0.37757731958762886,
+    "stratum_arxivmath_2026_avg_at_8": 0.06372549019607843,
+    "stratum_elite_contest_2025_avg_at_8": 0.4358974358974359,
+    "stratum_smt_2025_avg_at_8": 0.6863207547169812,
+    "tokens_per_correct": 21165.734864300626,
+    "total_correct_rollouts": 479.0,
+    "truncation_rate": 0.6224226804123711
+  },
+  "n_problems": 194,
+  "protocol_id": "v4_math_holdout_k8",
+  "schema_version": "4.0",
+  "scored_at_utc": "2026-11-26T03:25:28.036733+00:00",
+  "track": "math"
+}

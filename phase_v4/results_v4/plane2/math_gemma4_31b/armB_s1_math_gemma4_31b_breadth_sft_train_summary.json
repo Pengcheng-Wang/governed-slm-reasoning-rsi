@@ -1,0 +1,107 @@
+{
+  "adapted_linear_modules": 410,
+  "applied_prior_factor_tensors": 0,
+  "chat_kwargs": {
+    "enable_thinking": false
+  },
+  "data_audit": {
+    "dropped_overlong_rows": 2,
+    "seq_len_max": 7819,
+    "seq_len_p50": 1582,
+    "seq_len_p95": 3623,
+    "sft_suffix": "<turn|>",
+    "supervised_tokens_total": 3810953,
+    "total_traces": 2226,
+    "unique_problems": 1227
+  },
+  "dist_strategy": "fsdp",
+  "final_logit_softcapping": 30.0,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "grad_norm": 1.1328125,
+      "loss": 0.553554892539978,
+      "lr": 2.571428571428571e-06,
+      "step": 1
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.43359375,
+      "loss": 0.48153039813041687,
+      "lr": 1.8e-05,
+      "step": 10
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.318359375,
+      "loss": 0.394709974527359,
+      "lr": 1.8e-05,
+      "step": 20
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.2158203125,
+      "loss": 0.3821778893470764,
+      "lr": 1.8e-05,
+      "step": 30
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.84375,
+      "loss": 0.2861887216567993,
+      "lr": 1.8e-05,
+      "step": 40
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.1767578125,
+      "loss": 0.2991287112236023,
+      "lr": 1.8e-05,
+      "step": 50
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.10302734375,
+      "loss": 0.2685784697532654,
+      "lr": 1.8e-05,
+      "step": 60
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.228515625,
+      "loss": 0.2598564624786377,
+      "lr": 1.8e-05,
+      "step": 70
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.076171875,
+      "loss": 0.21960505843162537,
+      "lr": 1.8e-05,
+      "step": 80
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.30859375,
+      "loss": 0.3406853973865509,
+      "lr": 1.8e-05,
+      "step": 88
+    }
+  ],
+  "lr": 1.8e-05,
+  "lr_schedule": "constant_with_warmup",
+  "merge_parity": {
+    "max_abs_logit_diff": 2.6635031700134277,
+    "mean_abs_logit_diff": 0.36053574085235596,
+    "merged_linear_tensors": 410,
+    "top1_token_agreement": 1.0
+  },
+  "model_key": "gemma4_31b",
+  "output_multiplier": null,
+  "peak_vram_gb_rank0": 27.126036643981934,
+  "status": "TRAINED_AND_CONSOLIDATED",
+  "steps_completed": 88,
+  "track": "math",
+  "train_wall_seconds": 3245.0794866279466,
+  "world_size": 8
+}

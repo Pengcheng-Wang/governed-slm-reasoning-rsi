@@ -1,0 +1,59 @@
+{
+  "adapted_linear_modules": 416,
+  "applied_prior_factor_tensors": 416,
+  "chat_kwargs": {
+    "current_date": "2026-11-22",
+    "reasoning_strength": "low"
+  },
+  "data_audit": {
+    "dropped_overlong_rows": 22,
+    "seq_len_max": 1863,
+    "seq_len_p50": 776,
+    "seq_len_p95": 1573,
+    "sft_suffix": "<|eot|>",
+    "supervised_tokens_total": 270797,
+    "total_traces": 472,
+    "unique_problems": 472
+  },
+  "dist_strategy": "fsdp",
+  "final_logit_softcapping": 20.0,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "grad_norm": 0.22265625,
+      "loss": 0.1324475258588791,
+      "lr": 1.2e-05,
+      "step": 1
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.2138671875,
+      "loss": 0.1334407478570938,
+      "lr": 3.396697565294652e-06,
+      "step": 10
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.265625,
+      "loss": 0.11767791956663132,
+      "lr": 0.0,
+      "step": 15
+    }
+  ],
+  "lr": 1.2e-05,
+  "lr_schedule": "cosine",
+  "merge_parity": {
+    "max_abs_logit_diff": 3.230283737182617,
+    "mean_abs_logit_diff": 0.21247568726539612,
+    "merged_linear_tensors": 416,
+    "top1_token_agreement": 1.0
+  },
+  "model_key": "muse_glimmer_30b",
+  "output_multiplier": 0.19611613513818404,
+  "peak_vram_gb_rank0": 22.45759153366089,
+  "status": "TRAINED_AND_CONSOLIDATED",
+  "steps_completed": 15,
+  "track": "lean",
+  "train_wall_seconds": 439.4777923360234,
+  "world_size": 8
+}

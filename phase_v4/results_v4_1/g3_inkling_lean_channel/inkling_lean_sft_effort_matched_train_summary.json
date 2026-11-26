@@ -1,0 +1,92 @@
+{
+  "status": "TRAINED_AND_CONSOLIDATED_V4_1",
+  "model_key": "inkling2_mini",
+  "track": "lean",
+  "channel_mode": "effort_matched_wrapper",
+  "adapted_lora_modules": 192,
+  "trainable_numel": 52924416,
+  "steps_completed": 74,
+  "lr": 2e-05,
+  "lr_schedule": "cosine",
+  "seed": 20261124,
+  "train_wall_sec": 1496.923856679001,
+  "peak_vram_gb": 68.72150993347168,
+  "data_audit": {
+    "channel_mode": "effort_matched_wrapper",
+    "total_traces": 1164,
+    "dropped_overlong_rows": 92,
+    "unique_problems": 1164,
+    "seq_len_p50": 831,
+    "seq_len_p95": 1572,
+    "seq_len_max": 1997,
+    "supervised_tokens_total": 736175
+  },
+  "parity": {
+    "merged_linear_tensors": 192,
+    "stochastic_bf16_rounding": true,
+    "total_merged_entries": 638337024,
+    "changed_entry_fraction": 0.49743738505131735,
+    "fp32_delta_rms": 5.362001760278953e-05,
+    "delta_energy_retention_ratio": 1.5693524548100803,
+    "inner_product_retention_ratio": 0.999965205569612,
+    "max_abs_logit_diff": 7.9130144119262695,
+    "mean_abs_logit_diff": 0.3423536792397499,
+    "top1_token_agreement": 0.9921875
+  },
+  "loss_history": [
+    {
+      "step": 1,
+      "loss": 0.3416401743888855,
+      "grad_norm": 0.453125,
+      "lr": 3.3333333333333333e-06
+    },
+    {
+      "step": 10,
+      "loss": 0.3358725309371948,
+      "grad_norm": 0.37890625,
+      "lr": 1.982973099683902e-05
+    },
+    {
+      "step": 20,
+      "loss": 0.26035046577453613,
+      "grad_norm": 0.166015625,
+      "lr": 1.7980172272802398e-05
+    },
+    {
+      "step": 30,
+      "loss": 0.23014028370380402,
+      "grad_norm": 0.162109375,
+      "lr": 1.4457383557765385e-05
+    },
+    {
+      "step": 40,
+      "loss": 0.2288474291563034,
+      "grad_norm": 0.2021484375,
+      "lr": 1e-05
+    },
+    {
+      "step": 50,
+      "loss": 0.2947046160697937,
+      "grad_norm": 0.1572265625,
+      "lr": 5.542616442234618e-06
+    },
+    {
+      "step": 60,
+      "loss": 0.19730244576931,
+      "grad_norm": 0.275390625,
+      "lr": 2.019827727197605e-06
+    },
+    {
+      "step": 70,
+      "loss": 0.21816228330135345,
+      "grad_norm": 0.1943359375,
+      "lr": 1.7026900316098217e-07
+    },
+    {
+      "step": 74,
+      "loss": 0.18534542620182037,
+      "grad_norm": 0.1552734375,
+      "lr": 0.0
+    }
+  ]
+}

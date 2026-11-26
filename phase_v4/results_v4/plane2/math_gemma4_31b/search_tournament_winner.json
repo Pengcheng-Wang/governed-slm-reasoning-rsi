@@ -1,0 +1,122 @@
+{
+  "arm_a_pure_b0_rlvr_best": {
+    "candidate_id": "armA_pureb0_math_gemma4_31b_dapo_asymclip_pct100",
+    "equal_stratum_avg_at_8": 0.7804262504563709,
+    "stop_rate": 0.9875
+  },
+  "arm_b_2sft_rlvr_best": {
+    "candidate_id": "armB_s3_math_gemma4_31b_gspo_luffy_pct100",
+    "equal_stratum_avg_at_8": 0.7064804673238408,
+    "stop_rate": 0.78671875
+  },
+  "candidate_id": "NONE",
+  "candidates_evaluated": 8,
+  "consecutive_rollbacks": 1,
+  "decision": "ROLLBACK",
+  "decision_stage": "search",
+  "eligible_count": 0,
+  "entry_sha256": "22612f7d87f1077108864d37120164f00eb9e55139e629683114276f167afc87",
+  "leaderboard": [
+    {
+      "candidate_id": "armB_s3_math_gemma4_31b_dapo_asymclip_pct100",
+      "lcb_one_sided": 0.0,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/math_gemma4_31b/armB_s3_math_gemma4_31b_dapo_asymclip_pct100_search.json",
+      "rank_score": 0.0,
+      "signed_gain": 0.0,
+      "tripwires": [
+        "baseline_degradation_exceeded:stop_rate_degradation=0.241406>0.03"
+      ],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armB_s3_math_gemma4_31b_dapo_asymclip_pct50",
+      "lcb_one_sided": 0.0,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/math_gemma4_31b/armB_s3_math_gemma4_31b_dapo_asymclip_pct50_search.json",
+      "rank_score": 0.0,
+      "signed_gain": 0.0,
+      "tripwires": [
+        "baseline_degradation_exceeded:stop_rate_degradation=0.253906>0.03"
+      ],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armB_s3_math_gemma4_31b_gspo_luffy_pct100",
+      "lcb_one_sided": 0.0,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/math_gemma4_31b/armB_s3_math_gemma4_31b_gspo_luffy_pct100_search.json",
+      "rank_score": 0.0,
+      "signed_gain": 0.0,
+      "tripwires": [
+        "baseline_degradation_exceeded:stop_rate_degradation=0.203906>0.03"
+      ],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armB_s1_math_gemma4_31b_breadth_sft",
+      "lcb_one_sided": 0.0,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/math_gemma4_31b/armB_s1_math_gemma4_31b_breadth_sft_search.json",
+      "rank_score": 0.0,
+      "signed_gain": 0.0,
+      "tripwires": [
+        "baseline_degradation_exceeded:stop_rate_degradation=0.258594>0.03"
+      ],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armB_s2_math_gemma4_31b_zpd_sft",
+      "lcb_one_sided": 0.0,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/math_gemma4_31b/armB_s2_math_gemma4_31b_zpd_sft_search.json",
+      "rank_score": 0.0,
+      "signed_gain": 0.0,
+      "tripwires": [
+        "baseline_degradation_exceeded:stop_rate_degradation=0.316406>0.03"
+      ],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armB_s3_math_gemma4_31b_drgrpo_cispo_pct100",
+      "lcb_one_sided": 0.0,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/math_gemma4_31b/armB_s3_math_gemma4_31b_drgrpo_cispo_pct100_search.json",
+      "rank_score": 0.0,
+      "signed_gain": 0.0,
+      "tripwires": [
+        "baseline_degradation_exceeded:stop_rate_degradation=0.250000>0.03"
+      ],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armA_pureb0_math_gemma4_31b_dapo_asymclip_pct100",
+      "lcb_one_sided": -0.004935870479394366,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/math_gemma4_31b/armA_pureb0_math_gemma4_31b_dapo_asymclip_pct100_search.json",
+      "rank_score": -0.004935870479394366,
+      "signed_gain": 0.005417123037604887,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    },
+    {
+      "candidate_id": "armA_pureb0_math_gemma4_31b_drgrpo_cispo_pct100",
+      "lcb_one_sided": -0.03440915877845385,
+      "passed_search": false,
+      "path": "/scratch/governed_crossfamily_v4/results_v4/plane2/math_gemma4_31b/armA_pureb0_math_gemma4_31b_drgrpo_cispo_pct100_search.json",
+      "rank_score": -0.03440915877845385,
+      "signed_gain": -0.01412924424972628,
+      "tripwires": [],
+      "wall_clock_sec": 1000000000.0
+    }
+  ],
+  "prev_entry_sha256": "GENESIS",
+  "selected_candidate_id": null,
+  "selected_for_confirm_ckpt": null,
+  "selected_for_confirm_id": null,
+  "selected_path": null,
+  "selection_protocol": "batch_order_invariant",
+  "timestamp_utc": "2026-11-24T09:27:15.198915+00:00",
+  "trial_id": "round_v4_crossover_math_gemma4_31b",
+  "unresolved_rollbacks_since_promote": 1
+}

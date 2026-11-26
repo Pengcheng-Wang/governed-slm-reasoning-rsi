@@ -1,0 +1,19 @@
+{
+  "candidate_id": "muse_lean_sft_matched_plus_gspo",
+  "checkpoint_dir": "/scratch/governed_crossfamily_v4/checkpoints_v4_1/muse_lean/muse_lean_sft_matched_plus_gspo",
+  "index_sha256": "79f6028c3b5544f6be46607b8580d7376bf68bdc66647480fd3bfa520ad9efa3",
+  "model_key": "muse_glimmer_30b",
+  "shards": [
+    {
+      "head_tail_sha256": "1c175397c4edc9fab9f910c5968d1ea3fed0802132c32f71f48f851682cc4316",
+      "name": "model-00001-of-00002.safetensors",
+      "size": 49902303112
+    },
+    {
+      "head_tail_sha256": "b64f72d446ce4a0a5ca20aa16faf65193f3c637121d0ae2b8053ac98919fed78",
+      "name": "model-00002-of-00002.safetensors",
+      "size": 9651130624
+    }
+  ],
+  "track": "lean"
+}

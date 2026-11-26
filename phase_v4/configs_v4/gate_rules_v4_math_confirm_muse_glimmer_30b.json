@@ -1,0 +1,31 @@
+{
+  "aggregation_weighting": "equal_stratum",
+  "alpha_one_sided": 0.025,
+  "claim_scope": "fixed_checkpoint",
+  "current_incumbent_id": "b0_muse_glimmer_30b",
+  "decision_stage": "confirm",
+  "direction": "maximize",
+  "hard_ceilings": {
+    "natural_stop_parse_failure_rate": 0.04
+  },
+  "hard_floors": {
+    "stop_rate": 0.6
+  },
+  "max_confirm_looks": 2,
+  "max_degradation_vs_baseline": {
+    "math_pass_at_8": 0.035,
+    "stop_rate": 0.025
+  },
+  "metric_directions": {
+    "math_pass_at_8": "maximize",
+    "natural_stop_parse_failure_rate": "minimize",
+    "stop_rate": "maximize"
+  },
+  "min_improvement": 0.015,
+  "multiplicity_k": 2,
+  "primary_metric": "math_equal_stratum_avg_at_8",
+  "require_env_fingerprint_match": true,
+  "required_comparators": [
+    "b0_muse_glimmer_30b"
+  ]
+}

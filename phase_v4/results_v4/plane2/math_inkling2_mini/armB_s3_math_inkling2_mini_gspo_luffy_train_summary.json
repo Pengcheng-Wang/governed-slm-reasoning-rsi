@@ -1,0 +1,84 @@
+{
+  "adapted_linear_modules": 192,
+  "algo": "gspo_luffy",
+  "applied_prior_factor_tensors": 192,
+  "chat_kwargs": {
+    "reasoning_effort": "medium"
+  },
+  "group_stats": {
+    "active_groups_total": 74,
+    "algo": "gspo_luffy",
+    "luffy_offpolicy_groups_included": 12,
+    "mean_comp_tokens": 3315.639053254438,
+    "mixed_onpolicy_groups": 62,
+    "raw_groups_total": 128,
+    "skipped_saturated_groups": 45,
+    "skipped_zero_groups": 1
+  },
+  "lr": 8.5e-06,
+  "merge_parity_pct100": {
+    "max_abs_logit_diff": 5.325268268585205,
+    "mean_abs_logit_diff": 0.23356108739972115,
+    "merged_linear_tensors": 192,
+    "top1_token_agreement": 0.9921875
+  },
+  "milestone_checkpoints": {
+    "pct100": "/scratch/governed_crossfamily_v4/checkpoints_v4/math_inkling2_mini/armB_s3_math_inkling2_mini_gspo_luffy_pct100"
+  },
+  "model_key": "inkling2_mini",
+  "peak_vram_gb_rank0": 76.00590991973877,
+  "status": "RLVR_TRAINED_AND_CONSOLIDATED",
+  "step_logs": [
+    {
+      "clipped_frac_rank0": 0.25,
+      "grad_norm": 0.038330078125,
+      "loss": 5.017220973968506e-05,
+      "mean_ratio_rank0": 0.9998623728752136,
+      "ppo_epoch": 1,
+      "step": 1
+    },
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.041748046875,
+      "loss": 0.005886383354663849,
+      "mean_ratio_rank0": 0.9645116031169891,
+      "ppo_epoch": 1,
+      "step": 4
+    },
+    {
+      "clipped_frac_rank0": 0.25,
+      "grad_norm": 0.0289306640625,
+      "loss": 4.1507184505462646e-05,
+      "mean_ratio_rank0": 0.9997828900814056,
+      "ppo_epoch": 1,
+      "step": 8
+    },
+    {
+      "clipped_frac_rank0": 0.5,
+      "grad_norm": 0.034423828125,
+      "loss": 5.3194351494312286e-05,
+      "mean_ratio_rank0": 1.000439167022705,
+      "ppo_epoch": 1,
+      "step": 12
+    },
+    {
+      "clipped_frac_rank0": 0.25,
+      "grad_norm": 0.0380859375,
+      "loss": 0.00019337795674800873,
+      "mean_ratio_rank0": 0.9992639720439911,
+      "ppo_epoch": 1,
+      "step": 16
+    },
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.08740234375,
+      "loss": 0.01704874262213707,
+      "mean_ratio_rank0": 0.9232324659824371,
+      "ppo_epoch": 1,
+      "step": 19
+    }
+  ],
+  "steps_completed": 19,
+  "track": "math",
+  "train_wall_seconds": 1965.4665809990838
+}

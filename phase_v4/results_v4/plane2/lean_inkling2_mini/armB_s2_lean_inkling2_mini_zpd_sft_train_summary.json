@@ -1,0 +1,58 @@
+{
+  "adapted_linear_modules": 192,
+  "applied_prior_factor_tensors": 192,
+  "chat_kwargs": {
+    "reasoning_effort": "low"
+  },
+  "data_audit": {
+    "dropped_overlong_rows": 35,
+    "seq_len_max": 1967,
+    "seq_len_p50": 875,
+    "seq_len_p95": 1675,
+    "sft_suffix": "<|end_message|><|content_model_end_sampling|>",
+    "supervised_tokens_total": 251859,
+    "total_traces": 365,
+    "unique_problems": 365
+  },
+  "dist_strategy": "fsdp",
+  "final_logit_softcapping": 30.0,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "grad_norm": 0.107421875,
+      "loss": 0.24964749813079834,
+      "lr": 1.5e-05,
+      "step": 1
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.1591796875,
+      "loss": 0.17227043211460114,
+      "lr": 1.19059850376614e-06,
+      "step": 10
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.2275390625,
+      "loss": 0.22875630855560303,
+      "lr": 0.0,
+      "step": 12
+    }
+  ],
+  "lr": 1.5e-05,
+  "lr_schedule": "cosine",
+  "merge_parity": {
+    "max_abs_logit_diff": 8.334424018859863,
+    "mean_abs_logit_diff": 0.35838399827480316,
+    "merged_linear_tensors": 192,
+    "top1_token_agreement": 1.0
+  },
+  "model_key": "inkling2_mini",
+  "output_multiplier": null,
+  "peak_vram_gb_rank0": 68.53987121582031,
+  "status": "TRAINED_AND_CONSOLIDATED",
+  "steps_completed": 12,
+  "track": "lean",
+  "train_wall_seconds": 481.72545295907184,
+  "world_size": 8
+}

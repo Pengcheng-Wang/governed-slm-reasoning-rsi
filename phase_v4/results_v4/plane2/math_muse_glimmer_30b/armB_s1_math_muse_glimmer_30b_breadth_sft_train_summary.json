@@ -1,0 +1,108 @@
+{
+  "adapted_linear_modules": 416,
+  "applied_prior_factor_tensors": 0,
+  "chat_kwargs": {
+    "current_date": "2026-11-22",
+    "reasoning_strength": "medium"
+  },
+  "data_audit": {
+    "dropped_overlong_rows": 1,
+    "seq_len_max": 7753,
+    "seq_len_p50": 1507,
+    "seq_len_p95": 3362,
+    "sft_suffix": "<|eot|>",
+    "supervised_tokens_total": 3522181,
+    "total_traces": 2227,
+    "unique_problems": 1228
+  },
+  "dist_strategy": "fsdp",
+  "final_logit_softcapping": 20.0,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "grad_norm": 1.0546875,
+      "loss": 0.4873960018157959,
+      "lr": 2.571428571428571e-06,
+      "step": 1
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.44140625,
+      "loss": 0.38659971952438354,
+      "lr": 1.8e-05,
+      "step": 10
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.30859375,
+      "loss": 0.3978736102581024,
+      "lr": 1.8e-05,
+      "step": 20
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.4765625,
+      "loss": 0.3941589295864105,
+      "lr": 1.8e-05,
+      "step": 30
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.3515625,
+      "loss": 0.3063656985759735,
+      "lr": 1.8e-05,
+      "step": 40
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.259765625,
+      "loss": 0.3071281611919403,
+      "lr": 1.8e-05,
+      "step": 50
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.2138671875,
+      "loss": 0.2902251183986664,
+      "lr": 1.8e-05,
+      "step": 60
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.310546875,
+      "loss": 0.3190397620201111,
+      "lr": 1.8e-05,
+      "step": 70
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.259765625,
+      "loss": 0.22820764780044556,
+      "lr": 1.8e-05,
+      "step": 80
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.212890625,
+      "loss": 0.312959760427475,
+      "lr": 1.8e-05,
+      "step": 88
+    }
+  ],
+  "lr": 1.8e-05,
+  "lr_schedule": "constant_with_warmup",
+  "merge_parity": {
+    "max_abs_logit_diff": 1.812525749206543,
+    "mean_abs_logit_diff": 0.0538310706615448,
+    "merged_linear_tensors": 416,
+    "top1_token_agreement": 1.0
+  },
+  "model_key": "muse_glimmer_30b",
+  "output_multiplier": 0.19611613513818404,
+  "peak_vram_gb_rank0": 26.41106081008911,
+  "status": "TRAINED_AND_CONSOLIDATED",
+  "steps_completed": 88,
+  "track": "math",
+  "train_wall_seconds": 1888.6178624329623,
+  "world_size": 8
+}

@@ -1,0 +1,2043 @@
+{
+  "candidate_id": "b0_muse_glimmer_30b_aa_seed2",
+  "channel_family": "muse_glimmer",
+  "env_fingerprint": "a100_80gb_bf16_v4",
+  "expected_k": 8,
+  "items": [
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:100",
+      "id": "formalmath:100",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "formalmath:101",
+      "id": "formalmath:101",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:116",
+      "id": "formalmath:116",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:122",
+      "id": "formalmath:122",
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:138",
+      "id": "formalmath:138",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:142",
+      "id": "formalmath:142",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:145",
+      "id": "formalmath:145",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:156",
+      "id": "formalmath:156",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:17",
+      "id": "formalmath:17",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:2",
+      "id": "formalmath:2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:20",
+      "id": "formalmath:20",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:207",
+      "id": "formalmath:207",
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:208",
+      "id": "formalmath:208",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "formalmath:213",
+      "id": "formalmath:213",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:231",
+      "id": "formalmath:231",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "analysis_calculus",
+      "stratum_id": "analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "formalmath:250",
+      "id": "formalmath:250",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "analysis_calculus",
+      "stratum_id": "analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:254",
+      "id": "formalmath:254",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:268",
+      "id": "formalmath:268",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:275",
+      "id": "formalmath:275",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:284",
+      "id": "formalmath:284",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:297",
+      "id": "formalmath:297",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:299",
+      "id": "formalmath:299",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:3",
+      "id": "formalmath:3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:311",
+      "id": "formalmath:311",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:315",
+      "id": "formalmath:315",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:321",
+      "id": "formalmath:321",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:322",
+      "id": "formalmath:322",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:328",
+      "id": "formalmath:328",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:334",
+      "id": "formalmath:334",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:344",
+      "id": "formalmath:344",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:350",
+      "id": "formalmath:350",
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:358",
+      "id": "formalmath:358",
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:359",
+      "id": "formalmath:359",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:364",
+      "id": "formalmath:364",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:37",
+      "id": "formalmath:37",
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:377",
+      "id": "formalmath:377",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:386",
+      "id": "formalmath:386",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:390",
+      "id": "formalmath:390",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:391",
+      "id": "formalmath:391",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "analysis_calculus",
+      "stratum_id": "analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:396",
+      "id": "formalmath:396",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:401",
+      "id": "formalmath:401",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:402",
+      "id": "formalmath:402",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:403",
+      "id": "formalmath:403",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:406",
+      "id": "formalmath:406",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:409",
+      "id": "formalmath:409",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "analysis_calculus",
+      "stratum_id": "analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:415",
+      "id": "formalmath:415",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "analysis_calculus",
+      "stratum_id": "analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:417",
+      "id": "formalmath:417",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:43",
+      "id": "formalmath:43",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "analysis_calculus",
+      "stratum_id": "analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:44",
+      "id": "formalmath:44",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:45",
+      "id": "formalmath:45",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "analysis_calculus",
+      "stratum_id": "analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "formalmath:54",
+      "id": "formalmath:54",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:57",
+      "id": "formalmath:57",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:58",
+      "id": "formalmath:58",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:59",
+      "id": "formalmath:59",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:73",
+      "id": "formalmath:73",
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:76",
+      "id": "formalmath:76",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "analysis_calculus",
+      "stratum_id": "analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:84",
+      "id": "formalmath:84",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:85",
+      "id": "formalmath:85",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:89",
+      "id": "formalmath:89",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-10088",
+      "id": "goedel_pset_search:Goedel-Pset-10088",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-10282",
+      "id": "goedel_pset_search:Goedel-Pset-10282",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-10379",
+      "id": "goedel_pset_search:Goedel-Pset-10379",
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-10476",
+      "id": "goedel_pset_search:Goedel-Pset-10476",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-10573",
+      "id": "goedel_pset_search:Goedel-Pset-10573",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-1067",
+      "id": "goedel_pset_search:Goedel-Pset-1067",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-10767",
+      "id": "goedel_pset_search:Goedel-Pset-10767",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-10864",
+      "id": "goedel_pset_search:Goedel-Pset-10864",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-10961",
+      "id": "goedel_pset_search:Goedel-Pset-10961",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-11058",
+      "id": "goedel_pset_search:Goedel-Pset-11058",
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-11252",
+      "id": "goedel_pset_search:Goedel-Pset-11252",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-11349",
+      "id": "goedel_pset_search:Goedel-Pset-11349",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-11446",
+      "id": "goedel_pset_search:Goedel-Pset-11446",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-11640",
+      "id": "goedel_pset_search:Goedel-Pset-11640",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-1261",
+      "id": "goedel_pset_search:Goedel-Pset-1261",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-1455",
+      "id": "goedel_pset_search:Goedel-Pset-1455",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-1649",
+      "id": "goedel_pset_search:Goedel-Pset-1649",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-1746",
+      "id": "goedel_pset_search:Goedel-Pset-1746",
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-194",
+      "id": "goedel_pset_search:Goedel-Pset-194",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-2328",
+      "id": "goedel_pset_search:Goedel-Pset-2328",
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-2425",
+      "id": "goedel_pset_search:Goedel-Pset-2425",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.375,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-2522",
+      "id": "goedel_pset_search:Goedel-Pset-2522",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-2716",
+      "id": "goedel_pset_search:Goedel-Pset-2716",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-291",
+      "id": "goedel_pset_search:Goedel-Pset-291",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-3007",
+      "id": "goedel_pset_search:Goedel-Pset-3007",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-3104",
+      "id": "goedel_pset_search:Goedel-Pset-3104",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "analysis_calculus",
+      "stratum_id": "analysis_calculus",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-3201",
+      "id": "goedel_pset_search:Goedel-Pset-3201",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-3298",
+      "id": "goedel_pset_search:Goedel-Pset-3298",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-3492",
+      "id": "goedel_pset_search:Goedel-Pset-3492",
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-3589",
+      "id": "goedel_pset_search:Goedel-Pset-3589",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-3686",
+      "id": "goedel_pset_search:Goedel-Pset-3686",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-3783",
+      "id": "goedel_pset_search:Goedel-Pset-3783",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-388",
+      "id": "goedel_pset_search:Goedel-Pset-388",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-3880",
+      "id": "goedel_pset_search:Goedel-Pset-3880",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-4171",
+      "id": "goedel_pset_search:Goedel-Pset-4171",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-4462",
+      "id": "goedel_pset_search:Goedel-Pset-4462",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-4559",
+      "id": "goedel_pset_search:Goedel-Pset-4559",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-485",
+      "id": "goedel_pset_search:Goedel-Pset-485",
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-4850",
+      "id": "goedel_pset_search:Goedel-Pset-4850",
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-4947",
+      "id": "goedel_pset_search:Goedel-Pset-4947",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-5044",
+      "id": "goedel_pset_search:Goedel-Pset-5044",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-5141",
+      "id": "goedel_pset_search:Goedel-Pset-5141",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-5238",
+      "id": "goedel_pset_search:Goedel-Pset-5238",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-5335",
+      "id": "goedel_pset_search:Goedel-Pset-5335",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-5432",
+      "id": "goedel_pset_search:Goedel-Pset-5432",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-5529",
+      "id": "goedel_pset_search:Goedel-Pset-5529",
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-5626",
+      "id": "goedel_pset_search:Goedel-Pset-5626",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-5723",
+      "id": "goedel_pset_search:Goedel-Pset-5723",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-582",
+      "id": "goedel_pset_search:Goedel-Pset-582",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-5820",
+      "id": "goedel_pset_search:Goedel-Pset-5820",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-6014",
+      "id": "goedel_pset_search:Goedel-Pset-6014",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-6111",
+      "id": "goedel_pset_search:Goedel-Pset-6111",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-6208",
+      "id": "goedel_pset_search:Goedel-Pset-6208",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-6305",
+      "id": "goedel_pset_search:Goedel-Pset-6305",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-6499",
+      "id": "goedel_pset_search:Goedel-Pset-6499",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-6596",
+      "id": "goedel_pset_search:Goedel-Pset-6596",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-6790",
+      "id": "goedel_pset_search:Goedel-Pset-6790",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-7178",
+      "id": "goedel_pset_search:Goedel-Pset-7178",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-7275",
+      "id": "goedel_pset_search:Goedel-Pset-7275",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-7372",
+      "id": "goedel_pset_search:Goedel-Pset-7372",
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-7469",
+      "id": "goedel_pset_search:Goedel-Pset-7469",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-776",
+      "id": "goedel_pset_search:Goedel-Pset-776",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-7760",
+      "id": "goedel_pset_search:Goedel-Pset-7760",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-8148",
+      "id": "goedel_pset_search:Goedel-Pset-8148",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-8245",
+      "id": "goedel_pset_search:Goedel-Pset-8245",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-8342",
+      "id": "goedel_pset_search:Goedel-Pset-8342",
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-873",
+      "id": "goedel_pset_search:Goedel-Pset-873",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-8730",
+      "id": "goedel_pset_search:Goedel-Pset-8730",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-8827",
+      "id": "goedel_pset_search:Goedel-Pset-8827",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-8924",
+      "id": "goedel_pset_search:Goedel-Pset-8924",
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-9118",
+      "id": "goedel_pset_search:Goedel-Pset-9118",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-9215",
+      "id": "goedel_pset_search:Goedel-Pset-9215",
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-9312",
+      "id": "goedel_pset_search:Goedel-Pset-9312",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-9409",
+      "id": "goedel_pset_search:Goedel-Pset-9409",
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-9506",
+      "id": "goedel_pset_search:Goedel-Pset-9506",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-9603",
+      "id": "goedel_pset_search:Goedel-Pset-9603",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-97",
+      "id": "goedel_pset_search:Goedel-Pset-97",
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-970",
+      "id": "goedel_pset_search:Goedel-Pset-970",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-9700",
+      "id": "goedel_pset_search:Goedel-Pset-9700",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-9894",
+      "id": "goedel_pset_search:Goedel-Pset-9894",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics_geom",
+      "stratum_id": "nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_pset_search:Goedel-Pset-9991",
+      "id": "goedel_pset_search:Goedel-Pset-9991",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra",
+      "stratum_id": "algebra",
+      "value": 0.125
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.18035714285714285,
+    "axiom_audit_clean_rate": 1.0,
+    "capability_slope_8_1": 0.15535714285714283,
+    "forgotten_rate": 0.05,
+    "interior_sharpening_delta": 0.0,
+    "lean_avg_at_8": 0.18035714285714285,
+    "lean_equal_stratum_avg_at_8": 0.07874467387741725,
+    "lean_pass_at_1": 0.18035714285714285,
+    "lean_pass_at_2": 0.22933673469387753,
+    "lean_pass_at_4": 0.2776530612244898,
+    "lean_pass_at_8": 0.3357142857142857,
+    "lean_strict_avg_at_8": 0.18035714285714285,
+    "learnable_fraction": 0.2714285714285714,
+    "mean_correct_tokens": 448.26732673267327,
+    "mean_incorrect_tokens": 1356.2156862745098,
+    "mean_tokens": 1192.4607142857142,
+    "median_tokens": 976.5,
+    "net_frontier_expansion": 0.007142857142857138,
+    "newly_solved_rate": 0.05714285714285714,
+    "p95_tokens": 3072.0,
+    "p99_tokens": 3072.0,
+    "solved_problem_count": 47.0,
+    "stop_rate": 0.9366071428571429,
+    "stratum_algebra_avg_at_8": 0.22234513274336284,
+    "stratum_analysis_calculus_avg_at_8": 0.013888888888888888,
+    "stratum_nt_combinatorics_geom_avg_at_8": 0.0,
+    "tokens_per_correct": 6611.663366336634,
+    "total_correct_rollouts": 202.0,
+    "truncation_rate": 0.06339285714285714
+  },
+  "n_problems": 140,
+  "paired_transitions": {
+    "baseline_id": "b0_muse_glimmer_30b",
+    "both_solved_count": 39,
+    "both_unsolved_count": 86,
+    "candidate_id": "b0_muse_glimmer_30b_aa_seed2",
+    "ci95_delta_avg_at_k": [
+      -0.015178571428571428,
+      0.023214285714285715
+    ],
+    "ci95_delta_capability_slope_8_1": [
+      -0.04732142857142857,
+      0.05267857142857143
+    ],
+    "ci95_delta_equal_stratum_avg_at_k": [
+      -0.004793510324483776,
+      0.018477548344804983
+    ],
+    "ci95_delta_pass_at_8": [
+      -0.049999999999999996,
+      0.06428571428571428
+    ],
+    "delta_capability_slope_8_1": 0.002678571428571419,
+    "delta_pass_at_1": 0.004464285714285698,
+    "delta_pass_at_2": 0.00433673469387752,
+    "delta_pass_at_4": 0.003979591836734686,
+    "delta_pass_at_8": 0.0071428571428571175,
+    "expected_k": 8,
+    "forgotten_count": 7,
+    "forgotten_of_solved": 0.15217391304347827,
+    "forgotten_rate": 0.05,
+    "full_mastery_delta": -0.014285714285714285,
+    "interior_item_count": 35,
+    "interior_sharpening_delta": 0.0,
+    "n_problems": 140,
+    "net_frontier_expansion": 0.007142857142857138,
+    "newly_solved_count": 8,
+    "newly_solved_of_unsolved": 0.0851063829787234,
+    "newly_solved_rate": 0.05714285714285714
+  },
+  "protocol_id": "v4_lean_search140_k8",
+  "schema_version": "4.0",
+  "scored_at_utc": "2026-11-23T05:57:01.609000+00:00",
+  "track": "lean"
+}

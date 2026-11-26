@@ -1,0 +1,84 @@
+{
+  "adapted_linear_modules": 205,
+  "algo": "gspo_luffy",
+  "applied_prior_factor_tensors": 205,
+  "chat_kwargs": {
+    "enable_thinking": false
+  },
+  "group_stats": {
+    "active_groups_total": 72,
+    "algo": "gspo_luffy",
+    "luffy_offpolicy_groups_included": 12,
+    "mean_comp_tokens": 5438.588495575221,
+    "mixed_onpolicy_groups": 60,
+    "raw_groups_total": 144,
+    "skipped_saturated_groups": 61,
+    "skipped_zero_groups": 1
+  },
+  "lr": 8e-06,
+  "merge_parity_pct100": {
+    "max_abs_logit_diff": 9.504438400268555,
+    "mean_abs_logit_diff": 0.20816512778401375,
+    "merged_linear_tensors": 205,
+    "top1_token_agreement": 1.0
+  },
+  "milestone_checkpoints": {
+    "pct100": "/scratch/governed_crossfamily_v4/checkpoints_v4/math_gemma4_26b_a4b/armB_s3_math_gemma4_26b_a4b_gspo_luffy_pct100"
+  },
+  "model_key": "gemma4_26b_a4b",
+  "peak_vram_gb_rank0": 26.181971073150635,
+  "status": "RLVR_TRAINED_AND_CONSOLIDATED",
+  "step_logs": [
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.06103515625,
+      "loss": 0.008970880880951881,
+      "mean_ratio_rank0": 0.9590864181518555,
+      "ppo_epoch": 1,
+      "step": 1
+    },
+    {
+      "clipped_frac_rank0": 0.25,
+      "grad_norm": 0.240234375,
+      "loss": -6.1318278312683105e-06,
+      "mean_ratio_rank0": 1.000468909740448,
+      "ppo_epoch": 1,
+      "step": 4
+    },
+    {
+      "clipped_frac_rank0": 0.5,
+      "grad_norm": 0.034423828125,
+      "loss": -0.00010525807738304138,
+      "mean_ratio_rank0": 0.999873012304306,
+      "ppo_epoch": 1,
+      "step": 8
+    },
+    {
+      "clipped_frac_rank0": 0.75,
+      "grad_norm": 0.06103515625,
+      "loss": -5.3554773330688477e-05,
+      "mean_ratio_rank0": 1.000625342130661,
+      "ppo_epoch": 1,
+      "step": 12
+    },
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.275390625,
+      "loss": 0.022526584565639496,
+      "mean_ratio_rank0": 0.9230426152547201,
+      "ppo_epoch": 1,
+      "step": 16
+    },
+    {
+      "clipped_frac_rank0": 0.6666666666666666,
+      "grad_norm": 0.07470703125,
+      "loss": 0.02640102431178093,
+      "mean_ratio_rank0": 0.9367108941078186,
+      "ppo_epoch": 1,
+      "step": 18
+    }
+  ],
+  "steps_completed": 18,
+  "track": "math",
+  "train_wall_seconds": 817.3583312049741
+}

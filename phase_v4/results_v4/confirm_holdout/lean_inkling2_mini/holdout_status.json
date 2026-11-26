@@ -1,0 +1,6 @@
+{
+  "status": "SEARCH_ROLLBACK_NO_CONFIRM_OR_HOLDOUT_TOUCH",
+  "track": "lean",
+  "model_key": "inkling2_mini",
+  "search_decision": "ROLLBACK"
+}

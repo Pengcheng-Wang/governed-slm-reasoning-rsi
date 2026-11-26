@@ -1,0 +1,35 @@
+{
+  "status": "FINALIZED",
+  "seal_file": "/scratch/governed_crossfamily_v4/results_v4/confirm_holdout/math_muse_glimmer_30b/HOLDOUT_SEAL_v4_math_muse_glimmer_30b.json",
+  "holdout_seal_sha256": "7f41d9649fe8be52223ad59cce88da010061d47d93ae0a93de97d244e27e8eff",
+  "ledger_entry_sha256": "f1d26119c5c771222086d6476c710cbad87ed2a2f4a73b6f0db3cbabaf5bf6d3",
+  "holdout_guardrails_passed": true,
+  "holdout_tripwires": [],
+  "comparisons": {
+    "b0_muse_glimmer_30b": {
+      "n_items": 194,
+      "n_clusters": 194,
+      "n_seeds": 0,
+      "n_strata": 3,
+      "bootstrap_mode": "cluster_1d",
+      "weighting": "equal_stratum",
+      "statistic": "mean",
+      "margin_mode": "additive",
+      "effective_null_margin": 0.015,
+      "obs_candidate": 0.4552040942163029,
+      "obs_reference": 0.45301042526347746,
+      "signed_gain": 0.002193668952825467,
+      "se": 0.01228632277230027,
+      "lcb_one_sided": -0.021827032417056524,
+      "margin_excess_lcb_one_sided": -0.036827032417056524,
+      "ci95_low": -0.021827032417056524,
+      "ci95_high": 0.026116496225191854,
+      "distinct_cluster_deltas": 9,
+      "n_positive_clusters": 39,
+      "signflip_p_one_sided": 1.0,
+      "signflip_method": "none",
+      "insufficient_replication": false,
+      "low_cluster_warning": false
+    }
+  }
+}

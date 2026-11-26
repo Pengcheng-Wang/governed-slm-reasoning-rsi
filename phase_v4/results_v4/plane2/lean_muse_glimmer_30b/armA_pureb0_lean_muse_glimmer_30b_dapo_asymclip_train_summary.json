@@ -1,0 +1,61 @@
+{
+  "adapted_linear_modules": 416,
+  "algo": "dapo_asymclip",
+  "applied_prior_factor_tensors": 0,
+  "chat_kwargs": {
+    "current_date": "2026-11-22",
+    "reasoning_strength": "low"
+  },
+  "group_stats": {
+    "active_groups_total": 32,
+    "algo": "dapo_asymclip",
+    "luffy_offpolicy_groups_included": 0,
+    "mean_comp_tokens": 785.90234375,
+    "mixed_onpolicy_groups": 32,
+    "raw_groups_total": 240,
+    "skipped_saturated_groups": 1,
+    "skipped_zero_groups": 207
+  },
+  "lr": 5.5e-06,
+  "merge_parity_pct100": {
+    "max_abs_logit_diff": 1.177713394165039,
+    "mean_abs_logit_diff": 0.019321924541145563,
+    "merged_linear_tensors": 416,
+    "top1_token_agreement": 1.0
+  },
+  "milestone_checkpoints": {
+    "pct100": "/scratch/governed_crossfamily_v4/checkpoints_v4/lean_muse_glimmer_30b/armA_pureb0_lean_muse_glimmer_30b_dapo_asymclip_pct100"
+  },
+  "model_key": "muse_glimmer_30b",
+  "peak_vram_gb_rank0": 23.258801460266113,
+  "status": "RLVR_TRAINED_AND_CONSOLIDATED",
+  "step_logs": [
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.458984375,
+      "loss": 0.0786380022764206,
+      "mean_ratio_rank0": 1.0,
+      "ppo_epoch": 1,
+      "step": 1
+    },
+    {
+      "clipped_frac_rank0": 0.001675378883654936,
+      "grad_norm": 0.58984375,
+      "loss": -0.0348578542470932,
+      "mean_ratio_rank0": 1.0007089770223507,
+      "ppo_epoch": 1,
+      "step": 4
+    },
+    {
+      "clipped_frac_rank0": 0.0037820142040807785,
+      "grad_norm": 0.6015625,
+      "loss": 0.017933711409568787,
+      "mean_ratio_rank0": 1.0012948741819925,
+      "ppo_epoch": 1,
+      "step": 8
+    }
+  ],
+  "steps_completed": 8,
+  "track": "lean",
+  "train_wall_seconds": 131.6226808350766
+}

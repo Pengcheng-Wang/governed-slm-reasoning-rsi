@@ -1,6 +1,6 @@
-# Governed Reasoning Post-Training & Self-Improvement (`3.8B` Dense to `35B-A3B` Sparse MoE)
+# Governed Reasoning Post-Training & Self-Improvement Across Model Families (`3.8B` Dense to `35B-A3B` & `48`-Visit Looped MoE)
 
-Systematic post-training and verifier-gated self-improvement across **Dense models (`3.8B`–`27B`)** and **`3B`-Active Sparse Mixture-of-Experts (`30B-A3B`, `35B-A3B`)** on **Competition / 2026 Research Mathematics** and **Formal Lean 4.24 Theorem Proving**.
+Systematic post-training and verifier-gated self-improvement across **five non-Qwen open-weight models (`Gemma-4-31B`, `Gemma-4-26B-A4B`, `Inkling-2-Mini` looped MoE, `Muse-Glimmer-30B`, `Gemma-4-E4B`)** and **five Qwen models (`4B`–`27B` Dense, `30B-A3B` & `35B-A3B` Sparse MoE)** on **Competition / 2026 Research Mathematics** and **Formal Lean 4.24 Theorem Proving**.
 
 ## Overview
 
@@ -14,6 +14,30 @@ We combine **model-aware verifiable data construction** (`2 SFT + RL` and zero-S
 ---
 
 ## Headline Results
+
+### 0. Phase V4 (`V4.0` & `V4.1`) — Cross-Family Base Priors, Reasoning-Channel Alignment & Off-Policy `LUFFY` (`k=8`)
+
+Full formal paper report: **[`reports/04_phase_v4_cross_family_post_training_paper.md`](reports/04_phase_v4_cross_family_post_training_paper.md)**. Fixed-checkpoint evaluations (`single-seed = 20261124`).
+
+#### Cross-Family Base (`B_0`) vs. Governed Post-Training (`A*`) on Shared `Holdout_V3` & `2025` Suites (`pooled avg@8`)
+
+| Model (`Total / Active`) | Math `Holdout_V3` (`N=194`) **Raw `B_0`** | Math **Post-Trained `A*`** | Lean `Holdout_V3` (`N=225`) **Raw `B_0`** | Lean **Post-Trained `A*`** | `2025` 4-Contest Math (`N=200`) | `MiniF2F-test` (`N=244`) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **`Gemma-4-31B-it`** (`30.7B / 30.7B` Dense) | **`42.91%`** | *Held `B_0`* | `7.00%` | *Held `B_0`* | **`61.19%`** *(raw `B_0`)* | `13.47%` (`20.49% pass@8`) |
+| **`Gemma-4-26B-A4B-it`** (`25.2B / 3.8B` MoE) | `38.66%` | *Held `B_0`* | `5.94%` | *Held `B_0`* | `53.94%` *(raw `B_0`)* | `7.38%` (`13.52% pass@8`) |
+| **`Inkling-2-Mini`** (`26.4B / 3.4B` phys., `48`-visit Looped MoE) | `30.86%` | *Held `B_0`* (`+11.88 pp` `Confirm_V4`, stop-held) | **`17.06%`** | *Held `B_0`* | `44.38%` *(raw `B_0`)* | **`33.81%`** (`48.77% pass@8`) |
+| **`Muse-Glimmer-30B`** (`29.6B / 29.6B` Dense) | `37.63%` | `38.47%` *(V4.0 n.s.; **`73.33%`** `+30.58 pp` on `Holdout_V4_1` below)* | `10.00%` | *Held `B_0`* | `59.88% -> 59.25%` | `18.55%` (`32.38% pass@8`) |
+| `Gemma-4-E4B-it` (`8.0B / 4.5B` Dense, `67.5%` unboxed) | `5.54%` | *Held `B_0`* | `0.67%` | *Held `B_0`* | `3.38%` *(raw `B_0`)* | `0.31%` (`2.05% pass@8`) |
+
+#### Wave-2 (`V4.1`) Unexposed `Confirm_V4_1` (`N=150`) & Single-Touch `Holdout_V4_1` (`N=150`) Causal Results
+
+| Experiment / Hypothesis (`50/50/50` Balanced Strata) | Key Controlled Comparison (`Search_V3` -> `Confirm_V4_1` -> `Holdout_V4_1`) | Outcome & Empirical Takeaway |
+| :--- | :--- | :--- |
+| **`Gate G2` — Protocol Equalization** (`{think off, on} x {2048, 3072}`) | `Inkling-2-Mini` Lean `33.39%` (`effort=none`) / `35.80%` (`effort=low`) vs. `Gemma-4-26B-A4B` `4.73%–4.91%` & `Gemma-4-31B` `8.04%–10.54%` | Confirms **`3.4x–7.4x` Lean pretraining advantage** for `Inkling` & `Qwen3.5/3.8` (`Inkling` costs `4.57x` training time/token due to `3`-pass recurrence; `Gemma-4` `think=on` truncates `84.5%–94.0%` at `3,072` tokens). |
+| **`Gate G3` — Reasoning-Channel Alignment in Lean SFT** (`736,175` identical target tokens) | `Inkling` `effort_matched` (`Thinking effort level: 0`) vs. `stripped_mismatch` (`0.2`): **`+4.20 pp` Search**, **`+5.75 pp avg@8` (`95%` CI `[+3.33, +8.50 pp]`) & `+16.67 pp stop_rate` on `Confirm_V4_1`** (`ROLLBACK` vs `B_0` on `-13.67 pp` residual stop gap) | Prompt-header matching partially recovers disjoint-channel `Inkling` SFT, whereas shared-prefix `Muse-30B` (`<\|start\|>assistant`) still drops `has_thinking_rate` `100% -> 0%` despite `+4.33 pp` `Confirm_V4_1` `avg@8`. |
+| **`Gate G4` — Common-Backbone `40`-Step `T=0.7` `GSPO` Off-Policy Shaping** (`Muse-30B` Math) | `Search_V3`: `B_0` `51.09%` (`68.75% pass@8`) -> `Pure GSPO` `67.03%` (`82.50%`) -> `Log-Shaped` $w=\gamma/(p+\gamma)$ `59.92%` (**`87.50% pass@8`**) -> **`Faithful LUFFY`** $\frac{df}{d\log p}=\frac{\gamma p}{(p+\gamma)^2}$ **`72.73%`** (`83.75%`) vs. `SFT->GSPO` `64.30%` (`77.19% stop`) | **`Faithful LUFFY` `PROMOTE` -> `FINALIZED` Single-Touch `Holdout_V4_1`:** **`42.75% -> 73.33% avg@8` (`+30.58 pp` vs `B_0`, guard `97.5%` LCB `+24.58 pp`, MC8000 `p <= 1.25e-4`; `+6.50 pp` vs `Pure GSPO` [`66.83%`], `95%` CI `[+4.00, +9.25 pp]`, `90.00% pass@8`, `98.25% stop_rate`)**. |
+
+---
 
 ### 1. Phase V3 — Dense (`4B`, `9B`, `27B`) & `3B`-Active Sparse MoE (`30B-A3B`, `35B-A3B`) Across All 10 Cells (`k=8`)
 
@@ -66,20 +90,25 @@ Benchmarks: `BeyondAIME` (`100`), `CMIMC 2025` (`40`), `BRUMO 2025` (`30`), `HMM
 - **[`reports/01_post_training_methodology_and_data_scaling.md`](reports/01_post_training_methodology_and_data_scaling.md)** — Data-hygiene preconditions, Breadth (`SFT`) vs. Depth (`RLVR`) capability-curve dynamics (`Δpass@8 - Δpass@1`), RLVR algorithm comparisons (`DAPO`, `Dr.GRPO + CISPO`, `GSPO + LUFFY`), and `Axion 1.0`-style `2 SFT + RL` data scaling.
 - **[`reports/02_phase_v1_v2_slm_results.md`](reports/02_phase_v1_v2_slm_results.md)** — Full Phase V1 & V2 Search/Confirm/Holdout tables, 3-arm recursion and 4-way compiler-repair causal isolations, and statistical audit notes.
 - **[`reports/03_phase_v3_data_scaling_rl_and_27b_results.md`](reports/03_phase_v3_data_scaling_rl_and_27b_results.md)** — Complete 10-cell Phase V3 + Sparse MoE study (`4B`, `9B`, `27B` Dense + `30B-A3B`, `35B-A3B` MoE), Round-2/Round-3 crossovers, `equal_stratum` sensitivity analysis, Single-Touch Holdout seals, and 6-benchmark longitudinal transfer.
+- **[`reports/04_phase_v4_cross_family_post_training_paper.md`](reports/04_phase_v4_cross_family_post_training_paper.md)** — Formal paper report for Phase V4 (`V4.0` & `V4.1`) across `Gemma-4-31B`, `Gemma-4-26B-A4B`, `Inkling-2-Mini`, `Muse-Glimmer-30B`, and `Gemma-4-E4B`: protocol-equalized base priors, `0.000%`-target-token-delta reasoning-channel SFT causal intervention, stochastic `FP32 -> BF16` LoRA consolidation, and common-backbone `GSPO` off-policy `LUFFY` vs. log-shaping vs. `Channel-Aligned SFT -> GSPO` (`+30.58 pp` Single-Touch `Holdout_V4_1`).
 
 ---
 
 ## Repository Layout & Verification
 
-- `IMMUTABLE_MANIFEST.json`, `IMMUTABLE_MANIFEST_V2.json`, `IMMUTABLE_MANIFEST_V3.json`, `IMMUTABLE_MANIFEST_V3_MOE.json`: Cryptographic split, scorer, and rule manifests.
-- `eval/`, `eval_v2/`, `eval_v3/`: Out-of-process Lean 4.24 (`#print axioms`) and timeout-isolated symbolic math verifiers + `governed_loop_guard` (`v3.7`).
-- `code/`, `code/v2/`, `code/v3/`: Training (`ReST^EM`, `DDP` & 8-GPU `FSDP FULL_SHARD` `2-SFT`, Checkpointed-Chunk `12K` RLVR across `DAPO`, `Dr.GRPO+CISPO`, `GSPO+LUFFY`, and frozen-router Sparse MoE shared-projection LoRA), multi-GPU `vLLM` evaluation, and report compilers.
-- `results/`, `results_v2/`, `results_v3/`: Verified hash-chained ledgers, `HOLDOUT_SEAL` records, item-level MoE Confirm/Holdout scores, and consolidated report bundles.
+- `IMMUTABLE_MANIFEST.json`, `IMMUTABLE_MANIFEST_V2.json`, `IMMUTABLE_MANIFEST_V3.json`, `IMMUTABLE_MANIFEST_V3_MOE.json`, and `phase_v4/IMMUTABLE_MANIFEST_V4*.json`: Cryptographic split, scorer, and rule manifests across Phases V1–V4.1.
+- `eval/`, `eval_v2/`, `eval_v3/`, `phase_v4/eval_v4*/`: Out-of-process Lean 4.24 (`#print axioms`) and timeout-isolated symbolic math verifiers + `governed_loop_guard` (`v3.7`–`v3.9.0`).
+- `code/`, `code/v2/`, `code/v3/`, `phase_v4/code/v4*/`: Training (`ReST^EM`, `DDP` & 8-GPU `FSDP FULL_SHARD` `2-SFT`, native reasoning-channel wrappers, stochastic `FP32 -> BF16` LoRA consolidation, Checkpointed-Chunk `12K` RLVR across `DAPO`, `Dr.GRPO+CISPO`, and common-backbone `GSPO` `Faithful LUFFY` / `Log-Shaped`), multi-GPU `vLLM` evaluation, and deterministic report compilers.
+- `results/`, `results_v2/`, `results_v3/`, `phase_v4/results_v4*/`: Verified hash-chained ledgers, `HOLDOUT_SEAL` records, item-level Confirm/Holdout scores, and consolidated report bundles.
 
 ```bash
 python -I -B eval/governed_loop_guard.py verify-manifest --manifest IMMUTABLE_MANIFEST.json --root .
 python -I -B code/v2/governed_loop_guard_v3.py verify-manifest --manifest IMMUTABLE_MANIFEST_V2.json --root . --expected-root-sha256 f79f2fcf32262a0455ba85256ea2c4a8ab72b3eef94c76f0399190932e74ccf2
 python -I -B eval_v3/governed_loop_guard_v37.py verify-manifest --manifest IMMUTABLE_MANIFEST_V3.json --root . --expected-root-sha256 7940ee090af186cace0dd32518866315716c7ff0d6859e3603ff2f3e52dfaa94
 python -I -B eval_v3/governed_loop_guard_v37.py verify-manifest --manifest IMMUTABLE_MANIFEST_V3_MOE.json --root . --expected-root-sha256 da03dc170a7062e7b50e8359e9158b61f31664cbd23a7244b27a3da730ebad81
+python -I -B phase_v4/eval_v4/governed_loop_guard_v38.py verify-manifest --manifest phase_v4/IMMUTABLE_MANIFEST_V4.json --root phase_v4 --expected-root-sha256 8f69efbd508ae4291fde22faa6edcc6a6cae759228d45dbcb147ea5f85e47c50
+python -I -B phase_v4/eval_v4_1/governed_loop_guard_v39.py verify-manifest --manifest phase_v4/IMMUTABLE_MANIFEST_V4_1.json --root phase_v4 --expected-root-sha256 b9c58dcb423892cbb461b1e14c77793494ed69a5d3501209a1e8ae991997a984
+python -I -B phase_v4/eval_v4_1/governed_loop_guard_v39.py verify-manifest --manifest phase_v4/IMMUTABLE_MANIFEST_V4_1_R2.json --root phase_v4 --expected-root-sha256 f30b202047ccd475c9253057561151ab170c3849e38642e235d1e38d5f01395b
 python -I -B code/v3/build_v3_report_bundle.py .
+python -I -B phase_v4/scripts_v4_1/build_formal_paper_report_v4_1.py phase_v4
 ```

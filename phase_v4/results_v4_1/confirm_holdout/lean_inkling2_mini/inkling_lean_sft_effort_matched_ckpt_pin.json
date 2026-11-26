@@ -1,0 +1,19 @@
+{
+  "candidate_id": "inkling_lean_sft_effort_matched",
+  "checkpoint_dir": "/scratch/governed_crossfamily_v4/checkpoints_v4_1/inkling_lean/inkling_lean_sft_effort_matched",
+  "index_sha256": "bb3967f972ccb97e825a2a9aabaef7158e262e00f148b7d559d76ee18350489c",
+  "model_key": "inkling2_mini",
+  "shards": [
+    {
+      "head_tail_sha256": "a155433117cc1f0d2893b94165a77ecc26999349720affeb3871218cc5374b6f",
+      "name": "model-00001-of-00002.safetensors",
+      "size": 48676607320
+    },
+    {
+      "head_tail_sha256": "b24c3e65483769e1f666b8868f5d9b1b0db87f7de119a96962d68cf28fb58c5c",
+      "name": "model-00002-of-00002.safetensors",
+      "size": 4144972592
+    }
+  ],
+  "track": "lean"
+}

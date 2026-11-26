@@ -1,0 +1,6 @@
+{
+  "status": "SEARCH_ROLLBACK_NO_CONFIRM_OR_HOLDOUT_TOUCH",
+  "track": "lean",
+  "model_key": "gemma4_31b",
+  "search_decision": "ROLLBACK"
+}

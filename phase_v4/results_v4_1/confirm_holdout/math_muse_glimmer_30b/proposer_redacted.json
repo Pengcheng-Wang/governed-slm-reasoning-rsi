@@ -1,0 +1,8 @@
+{
+  "trial_prefix": "confirm_math_muse_glimmer_30b",
+  "decision_stage": "confirm",
+  "iut_decision": "PROMOTE",
+  "comparators_tested": 1,
+  "comparators_promoted": 1,
+  "halt_recommended": true
+}

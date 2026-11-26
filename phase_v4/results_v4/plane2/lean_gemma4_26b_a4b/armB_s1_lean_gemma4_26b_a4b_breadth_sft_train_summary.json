@@ -1,0 +1,100 @@
+{
+  "adapted_linear_modules": 205,
+  "applied_prior_factor_tensors": 0,
+  "chat_kwargs": {
+    "enable_thinking": false
+  },
+  "data_audit": {
+    "dropped_overlong_rows": 69,
+    "seq_len_max": 2017,
+    "seq_len_p50": 793,
+    "seq_len_p95": 1561,
+    "sft_suffix": "<turn|>",
+    "supervised_tokens_total": 729756,
+    "total_traces": 1187,
+    "unique_problems": 1187
+  },
+  "dist_strategy": "fsdp",
+  "final_logit_softcapping": 30.0,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "grad_norm": 3.015625,
+      "loss": 0.8539417386054993,
+      "lr": 5.333333333333333e-06,
+      "step": 1
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 1.1015625,
+      "loss": 0.44206205010414124,
+      "lr": 3.2e-05,
+      "step": 10
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.58984375,
+      "loss": 0.3380202054977417,
+      "lr": 3.2e-05,
+      "step": 20
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.4140625,
+      "loss": 0.35307085514068604,
+      "lr": 3.2e-05,
+      "step": 30
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.2177734375,
+      "loss": 0.26102325320243835,
+      "lr": 3.2e-05,
+      "step": 40
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.1953125,
+      "loss": 0.26640453934669495,
+      "lr": 3.2e-05,
+      "step": 50
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.341796875,
+      "loss": 0.28451865911483765,
+      "lr": 3.2e-05,
+      "step": 60
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.181640625,
+      "loss": 0.25881269574165344,
+      "lr": 3.2e-05,
+      "step": 70
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.283203125,
+      "loss": 0.22743050754070282,
+      "lr": 3.2e-05,
+      "step": 76
+    }
+  ],
+  "lr": 3.2e-05,
+  "lr_schedule": "constant_with_warmup",
+  "merge_parity": {
+    "max_abs_logit_diff": 4.668460369110107,
+    "mean_abs_logit_diff": 0.27085938304662704,
+    "merged_linear_tensors": 205,
+    "top1_token_agreement": 0.9921875
+  },
+  "model_key": "gemma4_26b_a4b",
+  "output_multiplier": null,
+  "peak_vram_gb_rank0": 20.260865688323975,
+  "status": "TRAINED_AND_CONSOLIDATED",
+  "steps_completed": 76,
+  "track": "lean",
+  "train_wall_seconds": 678.1189492860576,
+  "world_size": 8
+}

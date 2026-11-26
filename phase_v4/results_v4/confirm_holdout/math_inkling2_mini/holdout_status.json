@@ -1,0 +1,27 @@
+{
+  "status": "CONFIRMED_ROLLBACK_NO_HOLDOUT_TOUCH",
+  "track": "math",
+  "model_key": "inkling2_mini",
+  "candidate_id": "armB_s3_math_inkling2_mini_dapo_asymclip_pct100",
+  "confirm_verdict": {
+    "status": "OK",
+    "trial_prefix": "confirm_armB_s3_math_inkling2_mini_dapo_asymclip_pct100",
+    "iut_decision": "ROLLBACK",
+    "comparators_tested": 1,
+    "comparators_promoted": 0,
+    "failed_comparators": [
+      "b0_inkling2_mini"
+    ],
+    "results_by_comparator": {
+      "b0_inkling2_mini": {
+        "decision": "ROLLBACK",
+        "signed_improvement": 0.11874999999999991,
+        "lcb_one_sided_vs_incumbent": 0.07482078853046592,
+        "margin_excess_lcb_one_sided": 0.05982078853046592,
+        "tripwires": [
+          "baseline_degradation_exceeded:stop_rate_degradation=0.042500>0.025"
+        ]
+      }
+    }
+  }
+}

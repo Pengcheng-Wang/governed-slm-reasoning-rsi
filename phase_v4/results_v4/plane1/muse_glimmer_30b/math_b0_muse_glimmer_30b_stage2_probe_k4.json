@@ -1,0 +1,3354 @@
+{
+  "candidate_id": "probe_muse_glimmer_30b",
+  "channel_family": "muse_glimmer",
+  "env_fingerprint": "a100_80gb_bf16_v4",
+  "expected_k": 4,
+  "items": [
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "axion_longcot_stage1-000243",
+      "id": "axion_longcot_stage1-000243",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "axion_stage1_longcot",
+      "stratum_id": "axion_stage1_longcot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "axion_longcot_stage1-000244",
+      "id": "axion_longcot_stage1-000244",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "axion_stage1_longcot",
+      "stratum_id": "axion_stage1_longcot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "axion_longcot_stage1-000245",
+      "id": "axion_longcot_stage1-000245",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "axion_stage1_longcot",
+      "stratum_id": "axion_stage1_longcot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "axion_longcot_stage1-000252",
+      "id": "axion_longcot_stage1-000252",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "axion_stage1_longcot",
+      "stratum_id": "axion_stage1_longcot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "axion_longcot_stage1-000257",
+      "id": "axion_longcot_stage1-000257",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "axion_stage1_longcot",
+      "stratum_id": "axion_stage1_longcot",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "axion_longcot_stage1-000259",
+      "id": "axion_longcot_stage1-000259",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "axion_stage1_longcot",
+      "stratum_id": "axion_stage1_longcot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "axion_longcot_stage1-000263",
+      "id": "axion_longcot_stage1-000263",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "axion_stage1_longcot",
+      "stratum_id": "axion_stage1_longcot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "axion_longcot_stage1-000269",
+      "id": "axion_longcot_stage1-000269",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "axion_stage1_longcot",
+      "stratum_id": "axion_stage1_longcot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "axion_longcot_stage1-000273",
+      "id": "axion_longcot_stage1-000273",
+      "maj_ok": 1.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.25,
+      "stratum": "axion_stage1_longcot",
+      "stratum_id": "axion_stage1_longcot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:10528",
+      "id": "v3_m_s2:10528",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:11315",
+      "id": "v3_m_s2:11315",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:11321",
+      "id": "v3_m_s2:11321",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:11922",
+      "id": "v3_m_s2:11922",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:12155",
+      "id": "v3_m_s2:12155",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:12281",
+      "id": "v3_m_s2:12281",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:13659",
+      "id": "v3_m_s2:13659",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:14036",
+      "id": "v3_m_s2:14036",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:14463",
+      "id": "v3_m_s2:14463",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:14563",
+      "id": "v3_m_s2:14563",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:14900",
+      "id": "v3_m_s2:14900",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:15593",
+      "id": "v3_m_s2:15593",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:16421",
+      "id": "v3_m_s2:16421",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:16639",
+      "id": "v3_m_s2:16639",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:17292",
+      "id": "v3_m_s2:17292",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:17332",
+      "id": "v3_m_s2:17332",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:17970",
+      "id": "v3_m_s2:17970",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:1811",
+      "id": "v3_m_s2:1811",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:18221",
+      "id": "v3_m_s2:18221",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:19287",
+      "id": "v3_m_s2:19287",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:19397",
+      "id": "v3_m_s2:19397",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:19604",
+      "id": "v3_m_s2:19604",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:20259",
+      "id": "v3_m_s2:20259",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:2033",
+      "id": "v3_m_s2:2033",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:20756",
+      "id": "v3_m_s2:20756",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "v3_m_s2:21004",
+      "id": "v3_m_s2:21004",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:21603",
+      "id": "v3_m_s2:21603",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:22134",
+      "id": "v3_m_s2:22134",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:22339",
+      "id": "v3_m_s2:22339",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:22380",
+      "id": "v3_m_s2:22380",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:22836",
+      "id": "v3_m_s2:22836",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:23371",
+      "id": "v3_m_s2:23371",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:23543",
+      "id": "v3_m_s2:23543",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "v3_m_s2:23801",
+      "id": "v3_m_s2:23801",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:23907",
+      "id": "v3_m_s2:23907",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:24312",
+      "id": "v3_m_s2:24312",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:24942",
+      "id": "v3_m_s2:24942",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:25278",
+      "id": "v3_m_s2:25278",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:25372",
+      "id": "v3_m_s2:25372",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:25490",
+      "id": "v3_m_s2:25490",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:25697",
+      "id": "v3_m_s2:25697",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:26138",
+      "id": "v3_m_s2:26138",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:26327",
+      "id": "v3_m_s2:26327",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "v3_m_s2:26974",
+      "id": "v3_m_s2:26974",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:28221",
+      "id": "v3_m_s2:28221",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:28540",
+      "id": "v3_m_s2:28540",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:29358",
+      "id": "v3_m_s2:29358",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:29392",
+      "id": "v3_m_s2:29392",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:29872",
+      "id": "v3_m_s2:29872",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:30094",
+      "id": "v3_m_s2:30094",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:30335",
+      "id": "v3_m_s2:30335",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:30511",
+      "id": "v3_m_s2:30511",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:3134",
+      "id": "v3_m_s2:3134",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:32002",
+      "id": "v3_m_s2:32002",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:32988",
+      "id": "v3_m_s2:32988",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:33499",
+      "id": "v3_m_s2:33499",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:3389",
+      "id": "v3_m_s2:3389",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "v3_m_s2:34429",
+      "id": "v3_m_s2:34429",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:34443",
+      "id": "v3_m_s2:34443",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:35144",
+      "id": "v3_m_s2:35144",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:36767",
+      "id": "v3_m_s2:36767",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:38279",
+      "id": "v3_m_s2:38279",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:38342",
+      "id": "v3_m_s2:38342",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:38661",
+      "id": "v3_m_s2:38661",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:39056",
+      "id": "v3_m_s2:39056",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:39459",
+      "id": "v3_m_s2:39459",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:39649",
+      "id": "v3_m_s2:39649",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:40722",
+      "id": "v3_m_s2:40722",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:41006",
+      "id": "v3_m_s2:41006",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:41152",
+      "id": "v3_m_s2:41152",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:41199",
+      "id": "v3_m_s2:41199",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:41280",
+      "id": "v3_m_s2:41280",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:41607",
+      "id": "v3_m_s2:41607",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:42416",
+      "id": "v3_m_s2:42416",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:42660",
+      "id": "v3_m_s2:42660",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:42889",
+      "id": "v3_m_s2:42889",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:43034",
+      "id": "v3_m_s2:43034",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:43062",
+      "id": "v3_m_s2:43062",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:43428",
+      "id": "v3_m_s2:43428",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:4344",
+      "id": "v3_m_s2:4344",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:43474",
+      "id": "v3_m_s2:43474",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:44028",
+      "id": "v3_m_s2:44028",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:44466",
+      "id": "v3_m_s2:44466",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:44859",
+      "id": "v3_m_s2:44859",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:4647",
+      "id": "v3_m_s2:4647",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:46536",
+      "id": "v3_m_s2:46536",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:46763",
+      "id": "v3_m_s2:46763",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:46907",
+      "id": "v3_m_s2:46907",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:47123",
+      "id": "v3_m_s2:47123",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:47128",
+      "id": "v3_m_s2:47128",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:47680",
+      "id": "v3_m_s2:47680",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:47782",
+      "id": "v3_m_s2:47782",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:48597",
+      "id": "v3_m_s2:48597",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:48619",
+      "id": "v3_m_s2:48619",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:49654",
+      "id": "v3_m_s2:49654",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:498",
+      "id": "v3_m_s2:498",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "v3_m_s2:50215",
+      "id": "v3_m_s2:50215",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "v3_m_s2:5036",
+      "id": "v3_m_s2:5036",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:50581",
+      "id": "v3_m_s2:50581",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:5073",
+      "id": "v3_m_s2:5073",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:51782",
+      "id": "v3_m_s2:51782",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:51819",
+      "id": "v3_m_s2:51819",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:52170",
+      "id": "v3_m_s2:52170",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:52217",
+      "id": "v3_m_s2:52217",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:52221",
+      "id": "v3_m_s2:52221",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:523",
+      "id": "v3_m_s2:523",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:52400",
+      "id": "v3_m_s2:52400",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:52536",
+      "id": "v3_m_s2:52536",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "v3_m_s2:52550",
+      "id": "v3_m_s2:52550",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.5,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:53186",
+      "id": "v3_m_s2:53186",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:53307",
+      "id": "v3_m_s2:53307",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:53463",
+      "id": "v3_m_s2:53463",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:53490",
+      "id": "v3_m_s2:53490",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:55282",
+      "id": "v3_m_s2:55282",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:55297",
+      "id": "v3_m_s2:55297",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:55879",
+      "id": "v3_m_s2:55879",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:55953",
+      "id": "v3_m_s2:55953",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:56349",
+      "id": "v3_m_s2:56349",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:56716",
+      "id": "v3_m_s2:56716",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:57263",
+      "id": "v3_m_s2:57263",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:57964",
+      "id": "v3_m_s2:57964",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:58127",
+      "id": "v3_m_s2:58127",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:58358",
+      "id": "v3_m_s2:58358",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:58366",
+      "id": "v3_m_s2:58366",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:58555",
+      "id": "v3_m_s2:58555",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:58909",
+      "id": "v3_m_s2:58909",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:59232",
+      "id": "v3_m_s2:59232",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:59377",
+      "id": "v3_m_s2:59377",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:59434",
+      "id": "v3_m_s2:59434",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:59550",
+      "id": "v3_m_s2:59550",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:60152",
+      "id": "v3_m_s2:60152",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:61500",
+      "id": "v3_m_s2:61500",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:62262",
+      "id": "v3_m_s2:62262",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:63172",
+      "id": "v3_m_s2:63172",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:63334",
+      "id": "v3_m_s2:63334",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:63574",
+      "id": "v3_m_s2:63574",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:63927",
+      "id": "v3_m_s2:63927",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:64408",
+      "id": "v3_m_s2:64408",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:65342",
+      "id": "v3_m_s2:65342",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:67781",
+      "id": "v3_m_s2:67781",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:68210",
+      "id": "v3_m_s2:68210",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:68585",
+      "id": "v3_m_s2:68585",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:68668",
+      "id": "v3_m_s2:68668",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:70009",
+      "id": "v3_m_s2:70009",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:70209",
+      "id": "v3_m_s2:70209",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:70280",
+      "id": "v3_m_s2:70280",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:70627",
+      "id": "v3_m_s2:70627",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:70699",
+      "id": "v3_m_s2:70699",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:7165",
+      "id": "v3_m_s2:7165",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:71875",
+      "id": "v3_m_s2:71875",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:71991",
+      "id": "v3_m_s2:71991",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:72335",
+      "id": "v3_m_s2:72335",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:72745",
+      "id": "v3_m_s2:72745",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:72920",
+      "id": "v3_m_s2:72920",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:73084",
+      "id": "v3_m_s2:73084",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:738",
+      "id": "v3_m_s2:738",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:75427",
+      "id": "v3_m_s2:75427",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:75567",
+      "id": "v3_m_s2:75567",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:76067",
+      "id": "v3_m_s2:76067",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:76522",
+      "id": "v3_m_s2:76522",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:76766",
+      "id": "v3_m_s2:76766",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:76810",
+      "id": "v3_m_s2:76810",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:78272",
+      "id": "v3_m_s2:78272",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:78704",
+      "id": "v3_m_s2:78704",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:79369",
+      "id": "v3_m_s2:79369",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:79812",
+      "id": "v3_m_s2:79812",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:80040",
+      "id": "v3_m_s2:80040",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "v3_m_s2:80110",
+      "id": "v3_m_s2:80110",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:8017",
+      "id": "v3_m_s2:8017",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:80404",
+      "id": "v3_m_s2:80404",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "v3_m_s2:80420",
+      "id": "v3_m_s2:80420",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "v3_m_s2:80928",
+      "id": "v3_m_s2:80928",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:80980",
+      "id": "v3_m_s2:80980",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:83452",
+      "id": "v3_m_s2:83452",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_0of4_longcot_rescue",
+      "stratum_id": "deepmath_0of4_longcot_rescue",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:84544",
+      "id": "v3_m_s2:84544",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:84975",
+      "id": "v3_m_s2:84975",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:85157",
+      "id": "v3_m_s2:85157",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:85393",
+      "id": "v3_m_s2:85393",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:86159",
+      "id": "v3_m_s2:86159",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:86580",
+      "id": "v3_m_s2:86580",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:87336",
+      "id": "v3_m_s2:87336",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:87572",
+      "id": "v3_m_s2:87572",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:88284",
+      "id": "v3_m_s2:88284",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "v3_m_s2:8913",
+      "id": "v3_m_s2:8913",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:89430",
+      "id": "v3_m_s2:89430",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:90029",
+      "id": "v3_m_s2:90029",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:9033",
+      "id": "v3_m_s2:9033",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:90339",
+      "id": "v3_m_s2:90339",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:91332",
+      "id": "v3_m_s2:91332",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:91414",
+      "id": "v3_m_s2:91414",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:91494",
+      "id": "v3_m_s2:91494",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:92553",
+      "id": "v3_m_s2:92553",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:93473",
+      "id": "v3_m_s2:93473",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 1.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:93987",
+      "id": "v3_m_s2:93987",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:94020",
+      "id": "v3_m_s2:94020",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "v3_m_s2:94378",
+      "id": "v3_m_s2:94378",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:94458",
+      "id": "v3_m_s2:94458",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_4": 0.0,
+        "math_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "v3_m_s2:9636",
+      "id": "v3_m_s2:9636",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "deepmath_model_verified_cot",
+      "stratum_id": "deepmath_model_verified_cot",
+      "value": 0.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.31521739130434784,
+    "capability_slope_4_1": 0.10748792270531399,
+    "distinct_answers_at_4": 2.758454106280193,
+    "learnable_fraction": 0.21739130434782608,
+    "math_avg_at_4": 0.31280193236714976,
+    "math_equal_stratum_avg_at_4": 0.2796296296296296,
+    "math_maj_at_4": 0.3188405797101449,
+    "math_pass_at_1": 0.31280193236714976,
+    "math_pass_at_2": 0.3703703703703704,
+    "math_pass_at_4": 0.42028985507246375,
+    "math_strict_avg_at_4": 0.31521739130434784,
+    "mean_correct_tokens": 3561.3629343629345,
+    "mean_incorrect_tokens": 3635.2829525483303,
+    "mean_tokens": 3612.1606280193237,
+    "median_tokens": 2824.0,
+    "natural_stop_parse_failure_rate": 0.02625,
+    "overall_parse_failure_rate": 0.025362318840579712,
+    "p95_tokens": 11127.8,
+    "p99_tokens": 12288.0,
+    "solved_problem_count": 87.0,
+    "stop_rate": 0.966183574879227,
+    "stratum_axion_stage1_longcot_avg_at_4": 0.25,
+    "stratum_deepmath_0of4_longcot_rescue_avg_at_4": 0.25555555555555554,
+    "stratum_deepmath_model_verified_cot_avg_at_4": 0.3333333333333333,
+    "tokens_per_correct": 11547.756756756757,
+    "total_correct_rollouts": 259.0,
+    "truncation_rate": 0.033816425120772944
+  },
+  "n_problems": 207,
+  "protocol_id": "v4_math_stage2_probe_k4",
+  "schema_version": "4.0",
+  "scored_at_utc": "2026-11-23T06:09:20.918006+00:00",
+  "track": "math"
+}

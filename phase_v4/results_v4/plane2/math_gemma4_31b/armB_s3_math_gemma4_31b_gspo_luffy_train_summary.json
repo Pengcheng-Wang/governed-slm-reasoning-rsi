@@ -1,0 +1,76 @@
+{
+  "adapted_linear_modules": 410,
+  "algo": "gspo_luffy",
+  "applied_prior_factor_tensors": 410,
+  "chat_kwargs": {
+    "enable_thinking": false
+  },
+  "group_stats": {
+    "active_groups_total": 54,
+    "algo": "gspo_luffy",
+    "luffy_offpolicy_groups_included": 9,
+    "mean_comp_tokens": 4870.42094017094,
+    "mixed_onpolicy_groups": 45,
+    "raw_groups_total": 128,
+    "skipped_saturated_groups": 70,
+    "skipped_zero_groups": 1
+  },
+  "lr": 7e-06,
+  "merge_parity_pct100": {
+    "max_abs_logit_diff": 2.2370479106903076,
+    "mean_abs_logit_diff": 0.08344669174402952,
+    "merged_linear_tensors": 410,
+    "top1_token_agreement": 1.0
+  },
+  "milestone_checkpoints": {
+    "pct100": "/scratch/governed_crossfamily_v4/checkpoints_v4/math_gemma4_31b/armB_s3_math_gemma4_31b_gspo_luffy_pct100"
+  },
+  "model_key": "gemma4_31b",
+  "peak_vram_gb_rank0": 32.23770475387573,
+  "status": "RLVR_TRAINED_AND_CONSOLIDATED",
+  "step_logs": [
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.5390625,
+      "loss": -7.450580596923828e-09,
+      "mean_ratio_rank0": 1.0,
+      "ppo_epoch": 1,
+      "step": 1
+    },
+    {
+      "clipped_frac_rank0": 0.25,
+      "grad_norm": 0.051513671875,
+      "loss": -8.240342140197754e-06,
+      "mean_ratio_rank0": 1.0002510845661163,
+      "ppo_epoch": 1,
+      "step": 4
+    },
+    {
+      "clipped_frac_rank0": 0.25,
+      "grad_norm": 0.10205078125,
+      "loss": -7.78883695602417e-05,
+      "mean_ratio_rank0": 1.0000561326742172,
+      "ppo_epoch": 1,
+      "step": 8
+    },
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.076171875,
+      "loss": 0.02344539575278759,
+      "mean_ratio_rank0": 0.9470187028249105,
+      "ppo_epoch": 1,
+      "step": 12
+    },
+    {
+      "clipped_frac_rank0": 0.5,
+      "grad_norm": 0.1533203125,
+      "loss": -0.00011321902275085449,
+      "mean_ratio_rank0": 1.0004004836082458,
+      "ppo_epoch": 1,
+      "step": 14
+    }
+  ],
+  "steps_completed": 14,
+  "track": "math",
+  "train_wall_seconds": 2064.71874507505
+}

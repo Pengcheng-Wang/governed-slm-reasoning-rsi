@@ -1,0 +1,6 @@
+{
+  "status": "SEARCH_ROLLBACK_NO_CONFIRM_OR_HOLDOUT_TOUCH",
+  "track": "math",
+  "model_key": "gemma4_26b_a4b",
+  "search_decision": "ROLLBACK"
+}

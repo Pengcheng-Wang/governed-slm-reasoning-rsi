@@ -1,0 +1,113 @@
+{
+  "created_at_utc": "2026-11-25T09:06:46.984589+00:00",
+  "entries": {
+    "configs_v4_1_r1/gate_rules_v4_1_lean_confirm.json": {
+      "exec": false,
+      "sha256": "5369c8f9f9b3d7dc407916da91924c142b88bc377fee66ed74a6aef94c9f8826",
+      "size": 565,
+      "type": "file"
+    },
+    "configs_v4_1_r1/gate_rules_v4_1_lean_search.json": {
+      "exec": false,
+      "sha256": "617195e7391b1d39c3ad2103ea943bfdfc1eb7d3929a159b317d701257325d3f",
+      "size": 327,
+      "type": "file"
+    },
+    "configs_v4_1_r1/gate_rules_v4_1_math_confirm.json": {
+      "exec": false,
+      "sha256": "d5f3ef352827d221fa8e5e9263ac73c10f0009564e3f193fb5b96dcaeb8e6fcc",
+      "size": 504,
+      "type": "file"
+    },
+    "configs_v4_1_r1/gate_rules_v4_1_math_search.json": {
+      "exec": false,
+      "sha256": "fc8d8b3bf8b4f9beb290f8bb4ea99e18d618a9d2758e04e375596f45d9178656",
+      "size": 327,
+      "type": "file"
+    },
+    "data/splits_v4_1/v4_1_lean_confirm150.jsonl": {
+      "exec": false,
+      "sha256": "ab26c06a00910343622485fed4333fd252b43428a2b522db9c132e16b63580a3",
+      "size": 346693,
+      "type": "file"
+    },
+    "data/splits_v4_1/v4_1_lean_holdout150.jsonl": {
+      "exec": false,
+      "sha256": "43753bfae92d33e2a30fac9d54713741bfee588f718485eb04c231f902bee103",
+      "size": 314250,
+      "type": "file"
+    },
+    "data/splits_v4_1/v4_1_math_confirm150.jsonl": {
+      "exec": false,
+      "sha256": "064c80d6e7878b044836027d0a40fb1d8a032155edd541e89ada97a9a4acddf5",
+      "size": 131160,
+      "type": "file"
+    },
+    "data/splits_v4_1/v4_1_math_holdout150.jsonl": {
+      "exec": false,
+      "sha256": "5f701150d424cd632f9023159e7ffc78a8986d79ae39ef66e2032f125b0c8d48",
+      "size": 127967,
+      "type": "file"
+    },
+    "data/splits_v4_1/v4_1_split_audit_manifest.json": {
+      "exec": false,
+      "sha256": "184f27f413dcda06c7a99c4dc24bab9772a6eb60c058724048e5078b4c9c057a",
+      "size": 4152,
+      "type": "file"
+    },
+    "eval_v4_1/governed_loop_guard_v39.py": {
+      "exec": false,
+      "sha256": "100f8a392ca9316e4d345493eb90766512b5c158a6027c5bdfb055675078ae53",
+      "size": 263472,
+      "type": "file"
+    },
+    "eval_v4_1/isolated_scorer_v4_1.py": {
+      "exec": false,
+      "sha256": "12e4752b739d566ae02d8e2f32df2de5bd35f18abd2663fe41e174655cd95855",
+      "size": 6194,
+      "type": "file"
+    },
+    "eval_v4_1/prepare_v4_1_splits.py": {
+      "exec": false,
+      "sha256": "f3abcd83ecbb7ccdfd2cb3a845fb7081c029124d05131b3c9b6eef9b225652b8",
+      "size": 18616,
+      "type": "file"
+    },
+    "eval_v4_1/run_v4_1_governed_orchestrator.py": {
+      "exec": false,
+      "sha256": "08f3f2cd021afa15f16115ab42f02bdc25e170f565696d244a3aed6bd40e89c5",
+      "size": 49704,
+      "type": "file"
+    },
+    "eval_v4_1_r2/run_v4_1_governed_orchestrator_r2.py": {
+      "exec": false,
+      "sha256": "8c932230e9269a4a82cbc47efe073ec750d6b21a586567b1ad262a92ca0831e4",
+      "size": 48844,
+      "type": "file"
+    },
+    "program_v4_1.md": {
+      "exec": false,
+      "sha256": "3e9ea9bd415016c65842df29bff091fdc4dc4cde89affc2ff2142a2f155a4947",
+      "size": 3523,
+      "type": "file"
+    },
+    "program_v4_1_r1.md": {
+      "exec": false,
+      "sha256": "1d3c1062a48342256828e3893ecd27abc5d405fd97350b74473a371fc5a1110b",
+      "size": 1474,
+      "type": "file"
+    }
+  },
+  "entry_count": 16,
+  "manifest_root_sha256": "f30b202047ccd475c9253057561151ab170c3849e38642e235d1e38d5f01395b",
+  "protected_roots": [
+    "configs_v4_1_r1",
+    "eval_v4_1",
+    "eval_v4_1_r2",
+    "data/splits_v4_1",
+    "program_v4_1.md",
+    "program_v4_1_r1.md"
+  ],
+  "root": "/scratch/governed_crossfamily_v4",
+  "schema_version": "3.0"
+}

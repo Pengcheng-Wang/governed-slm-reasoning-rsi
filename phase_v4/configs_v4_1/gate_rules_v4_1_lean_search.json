@@ -1,0 +1,13 @@
+{
+  "primary_metric": "lean_avg_at_8",
+  "aggregation_weighting": "equal_item",
+  "bootstrap_mode": "cluster",
+  "direction": "maximize",
+  "decision_stage": "search",
+  "alpha_one_sided": 0.05,
+  "min_improvement": 0.01,
+  "paired_aux_noninferiority": {
+    "stop_rate": 0.03,
+    "lean_pass_at_8": 0.02
+  }
+}

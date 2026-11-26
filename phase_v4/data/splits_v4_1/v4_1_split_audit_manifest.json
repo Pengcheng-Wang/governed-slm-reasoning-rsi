@@ -1,0 +1,155 @@
+{
+  "salt": "v4_1_salt_20261124",
+  "lean_confirm150": {
+    "path": "data/splits_v4_1/v4_1_lean_confirm150.jsonl",
+    "count": 150,
+    "sha256": "ab26c06a00910343622485fed4333fd252b43428a2b522db9c132e16b63580a3"
+  },
+  "lean_holdout150": {
+    "path": "data/splits_v4_1/v4_1_lean_holdout150.jsonl",
+    "count": 150,
+    "sha256": "43753bfae92d33e2a30fac9d54713741bfee588f718485eb04c231f902bee103"
+  },
+  "math_confirm150": {
+    "path": "data/splits_v4_1/v4_1_math_confirm150.jsonl",
+    "count": 150,
+    "sha256": "064c80d6e7878b044836027d0a40fb1d8a032155edd541e89ada97a9a4acddf5"
+  },
+  "math_holdout150": {
+    "path": "data/splits_v4_1/v4_1_math_holdout150.jsonl",
+    "count": 150,
+    "sha256": "5f701150d424cd632f9023159e7ffc78a8986d79ae39ef66e2032f125b0c8d48"
+  },
+  "guard_v39_audit_lean": {
+    "status": "CLEAN",
+    "splits_checked": [
+      "train",
+      "confirm",
+      "holdout"
+    ],
+    "disjoint_users_required": false,
+    "split_counts": {
+      "train": {
+        "n_rows": 140,
+        "n_users": 0,
+        "n_items": 140,
+        "rows_missing_user_id": 140,
+        "rows_missing_item_id": 0,
+        "item_to_user_ratio": null
+      },
+      "confirm": {
+        "n_rows": 150,
+        "n_users": 150,
+        "n_items": 150,
+        "rows_missing_user_id": 0,
+        "rows_missing_item_id": 0,
+        "item_to_user_ratio": 1.0
+      },
+      "holdout": {
+        "n_rows": 150,
+        "n_users": 150,
+        "n_items": 150,
+        "rows_missing_user_id": 0,
+        "rows_missing_item_id": 0,
+        "item_to_user_ratio": 1.0
+      }
+    },
+    "user_intersections": [
+      {
+        "splits": "train_vs_confirm",
+        "shared_users": 0,
+        "earlier_n_users": 0,
+        "later_n_users": 150,
+        "fraction_of_earlier_users": null,
+        "fraction_of_later_users": 0.0,
+        "complete_user_coverage": false
+      },
+      {
+        "splits": "train_vs_holdout",
+        "shared_users": 0,
+        "earlier_n_users": 0,
+        "later_n_users": 150,
+        "fraction_of_earlier_users": null,
+        "fraction_of_later_users": 0.0,
+        "complete_user_coverage": false
+      },
+      {
+        "splits": "confirm_vs_holdout",
+        "shared_users": 0,
+        "earlier_n_users": 150,
+        "later_n_users": 150,
+        "fraction_of_earlier_users": 0.0,
+        "fraction_of_later_users": 0.0,
+        "complete_user_coverage": true
+      }
+    ],
+    "blocking_findings": 0,
+    "findings": []
+  },
+  "guard_v39_audit_math": {
+    "status": "CLEAN",
+    "splits_checked": [
+      "train",
+      "confirm",
+      "holdout"
+    ],
+    "disjoint_users_required": false,
+    "split_counts": {
+      "train": {
+        "n_rows": 160,
+        "n_users": 0,
+        "n_items": 160,
+        "rows_missing_user_id": 160,
+        "rows_missing_item_id": 0,
+        "item_to_user_ratio": null
+      },
+      "confirm": {
+        "n_rows": 150,
+        "n_users": 150,
+        "n_items": 150,
+        "rows_missing_user_id": 0,
+        "rows_missing_item_id": 0,
+        "item_to_user_ratio": 1.0
+      },
+      "holdout": {
+        "n_rows": 150,
+        "n_users": 150,
+        "n_items": 150,
+        "rows_missing_user_id": 0,
+        "rows_missing_item_id": 0,
+        "item_to_user_ratio": 1.0
+      }
+    },
+    "user_intersections": [
+      {
+        "splits": "train_vs_confirm",
+        "shared_users": 0,
+        "earlier_n_users": 0,
+        "later_n_users": 150,
+        "fraction_of_earlier_users": null,
+        "fraction_of_later_users": 0.0,
+        "complete_user_coverage": false
+      },
+      {
+        "splits": "train_vs_holdout",
+        "shared_users": 0,
+        "earlier_n_users": 0,
+        "later_n_users": 150,
+        "fraction_of_earlier_users": null,
+        "fraction_of_later_users": 0.0,
+        "complete_user_coverage": false
+      },
+      {
+        "splits": "confirm_vs_holdout",
+        "shared_users": 0,
+        "earlier_n_users": 150,
+        "later_n_users": 150,
+        "fraction_of_earlier_users": 0.0,
+        "fraction_of_later_users": 0.0,
+        "complete_user_coverage": true
+      }
+    ],
+    "blocking_findings": 0,
+    "findings": []
+  }
+}

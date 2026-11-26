@@ -1,0 +1,65 @@
+{
+  "adapted_linear_modules": 192,
+  "applied_prior_factor_tensors": 192,
+  "chat_kwargs": {
+    "reasoning_effort": "medium"
+  },
+  "data_audit": {
+    "dropped_overlong_rows": 16,
+    "seq_len_max": 4327,
+    "seq_len_p50": 1958,
+    "seq_len_p95": 3709,
+    "sft_suffix": "<|end_message|><|content_model_end_sampling|>",
+    "supervised_tokens_total": 659592,
+    "total_traces": 337,
+    "unique_problems": 285
+  },
+  "dist_strategy": "fsdp",
+  "final_logit_softcapping": 30.0,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "grad_norm": 0.09375,
+      "loss": 0.2635575830936432,
+      "lr": 5.5e-06,
+      "step": 1
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.09130859375,
+      "loss": 0.30061012506484985,
+      "lr": 7.199593469062211e-06,
+      "step": 10
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.07470703125,
+      "loss": 0.27274101972579956,
+      "lr": 2.6918916037665555e-07,
+      "step": 20
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.08251953125,
+      "loss": 0.2871253192424774,
+      "lr": 0.0,
+      "step": 22
+    }
+  ],
+  "lr": 1.1e-05,
+  "lr_schedule": "cosine",
+  "merge_parity": {
+    "max_abs_logit_diff": 8.554078102111816,
+    "mean_abs_logit_diff": 0.17458777129650116,
+    "merged_linear_tensors": 192,
+    "top1_token_agreement": 0.9921875
+  },
+  "model_key": "inkling2_mini",
+  "output_multiplier": null,
+  "peak_vram_gb_rank0": 72.98319005966187,
+  "status": "TRAINED_AND_CONSOLIDATED",
+  "steps_completed": 22,
+  "track": "math",
+  "train_wall_seconds": 1633.1177404769696,
+  "world_size": 8
+}

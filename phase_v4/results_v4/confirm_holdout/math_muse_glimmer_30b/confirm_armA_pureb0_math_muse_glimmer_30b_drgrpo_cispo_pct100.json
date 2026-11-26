@@ -1,0 +1,4891 @@
+{
+  "candidate_id": "armA_pureb0_math_muse_glimmer_30b_drgrpo_cispo_pct100",
+  "channel_family": "muse_glimmer",
+  "env_fingerprint": "a100_80gb_bf16_v4",
+  "expected_k": 8,
+  "items": [
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:10057",
+      "id": "deepmath_eval:10057",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:1007",
+      "id": "deepmath_eval:1007",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:10198",
+      "id": "deepmath_eval:10198",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:10296",
+      "id": "deepmath_eval:10296",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:10436",
+      "id": "deepmath_eval:10436",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:10662",
+      "id": "deepmath_eval:10662",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:10736",
+      "id": "deepmath_eval:10736",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:10868",
+      "id": "deepmath_eval:10868",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:11078",
+      "id": "deepmath_eval:11078",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:11247",
+      "id": "deepmath_eval:11247",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:11688",
+      "id": "deepmath_eval:11688",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:11692",
+      "id": "deepmath_eval:11692",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:1355",
+      "id": "deepmath_eval:1355",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:13583",
+      "id": "deepmath_eval:13583",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:13785",
+      "id": "deepmath_eval:13785",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:13868",
+      "id": "deepmath_eval:13868",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:14034",
+      "id": "deepmath_eval:14034",
+      "maj_ok": 0.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:14072",
+      "id": "deepmath_eval:14072",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "deepmath_eval:15069",
+      "id": "deepmath_eval:15069",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:15469",
+      "id": "deepmath_eval:15469",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:15549",
+      "id": "deepmath_eval:15549",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:15558",
+      "id": "deepmath_eval:15558",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:16438",
+      "id": "deepmath_eval:16438",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:1647",
+      "id": "deepmath_eval:1647",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:16782",
+      "id": "deepmath_eval:16782",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:16795",
+      "id": "deepmath_eval:16795",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:16943",
+      "id": "deepmath_eval:16943",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:17446",
+      "id": "deepmath_eval:17446",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:18043",
+      "id": "deepmath_eval:18043",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:18102",
+      "id": "deepmath_eval:18102",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:18162",
+      "id": "deepmath_eval:18162",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:18379",
+      "id": "deepmath_eval:18379",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:18621",
+      "id": "deepmath_eval:18621",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:18797",
+      "id": "deepmath_eval:18797",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:19650",
+      "id": "deepmath_eval:19650",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:2000",
+      "id": "deepmath_eval:2000",
+      "maj_ok": 0.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:20052",
+      "id": "deepmath_eval:20052",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:20089",
+      "id": "deepmath_eval:20089",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:20348",
+      "id": "deepmath_eval:20348",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:20692",
+      "id": "deepmath_eval:20692",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:20722",
+      "id": "deepmath_eval:20722",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:20759",
+      "id": "deepmath_eval:20759",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:21774",
+      "id": "deepmath_eval:21774",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:21801",
+      "id": "deepmath_eval:21801",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:21942",
+      "id": "deepmath_eval:21942",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:23081",
+      "id": "deepmath_eval:23081",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:23091",
+      "id": "deepmath_eval:23091",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:23468",
+      "id": "deepmath_eval:23468",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "deepmath_eval:23479",
+      "id": "deepmath_eval:23479",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:24038",
+      "id": "deepmath_eval:24038",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:2421",
+      "id": "deepmath_eval:2421",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:24218",
+      "id": "deepmath_eval:24218",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:24386",
+      "id": "deepmath_eval:24386",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "deepmath_eval:24568",
+      "id": "deepmath_eval:24568",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.625,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:24573",
+      "id": "deepmath_eval:24573",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:24765",
+      "id": "deepmath_eval:24765",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "deepmath_eval:25101",
+      "id": "deepmath_eval:25101",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:25603",
+      "id": "deepmath_eval:25603",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:2622",
+      "id": "deepmath_eval:2622",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:27205",
+      "id": "deepmath_eval:27205",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:27206",
+      "id": "deepmath_eval:27206",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:27215",
+      "id": "deepmath_eval:27215",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:27525",
+      "id": "deepmath_eval:27525",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:28313",
+      "id": "deepmath_eval:28313",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:28738",
+      "id": "deepmath_eval:28738",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:293",
+      "id": "deepmath_eval:293",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:29853",
+      "id": "deepmath_eval:29853",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:29894",
+      "id": "deepmath_eval:29894",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:29919",
+      "id": "deepmath_eval:29919",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:30007",
+      "id": "deepmath_eval:30007",
+      "maj_ok": 0.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:31171",
+      "id": "deepmath_eval:31171",
+      "maj_ok": 0.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:31222",
+      "id": "deepmath_eval:31222",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:32134",
+      "id": "deepmath_eval:32134",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:33035",
+      "id": "deepmath_eval:33035",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:33810",
+      "id": "deepmath_eval:33810",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:33971",
+      "id": "deepmath_eval:33971",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:34025",
+      "id": "deepmath_eval:34025",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:341",
+      "id": "deepmath_eval:341",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:34127",
+      "id": "deepmath_eval:34127",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:34217",
+      "id": "deepmath_eval:34217",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:3432",
+      "id": "deepmath_eval:3432",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:35013",
+      "id": "deepmath_eval:35013",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:35318",
+      "id": "deepmath_eval:35318",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:35349",
+      "id": "deepmath_eval:35349",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:35900",
+      "id": "deepmath_eval:35900",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:36203",
+      "id": "deepmath_eval:36203",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:3643",
+      "id": "deepmath_eval:3643",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "deepmath_eval:36763",
+      "id": "deepmath_eval:36763",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:37460",
+      "id": "deepmath_eval:37460",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:3754",
+      "id": "deepmath_eval:3754",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:37663",
+      "id": "deepmath_eval:37663",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:37762",
+      "id": "deepmath_eval:37762",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:37838",
+      "id": "deepmath_eval:37838",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:38021",
+      "id": "deepmath_eval:38021",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:38484",
+      "id": "deepmath_eval:38484",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:38496",
+      "id": "deepmath_eval:38496",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:38957",
+      "id": "deepmath_eval:38957",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:39085",
+      "id": "deepmath_eval:39085",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:39180",
+      "id": "deepmath_eval:39180",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:39518",
+      "id": "deepmath_eval:39518",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:39621",
+      "id": "deepmath_eval:39621",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:39740",
+      "id": "deepmath_eval:39740",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:39777",
+      "id": "deepmath_eval:39777",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:40420",
+      "id": "deepmath_eval:40420",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:40882",
+      "id": "deepmath_eval:40882",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:41673",
+      "id": "deepmath_eval:41673",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:41742",
+      "id": "deepmath_eval:41742",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:41882",
+      "id": "deepmath_eval:41882",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:41965",
+      "id": "deepmath_eval:41965",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:42245",
+      "id": "deepmath_eval:42245",
+      "maj_ok": 0.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:42389",
+      "id": "deepmath_eval:42389",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:42842",
+      "id": "deepmath_eval:42842",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:43197",
+      "id": "deepmath_eval:43197",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:43411",
+      "id": "deepmath_eval:43411",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:44060",
+      "id": "deepmath_eval:44060",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:44206",
+      "id": "deepmath_eval:44206",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:44255",
+      "id": "deepmath_eval:44255",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:44359",
+      "id": "deepmath_eval:44359",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:44657",
+      "id": "deepmath_eval:44657",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:45744",
+      "id": "deepmath_eval:45744",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:46224",
+      "id": "deepmath_eval:46224",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:46350",
+      "id": "deepmath_eval:46350",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:46436",
+      "id": "deepmath_eval:46436",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:4689",
+      "id": "deepmath_eval:4689",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:47109",
+      "id": "deepmath_eval:47109",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:47355",
+      "id": "deepmath_eval:47355",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:47719",
+      "id": "deepmath_eval:47719",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:48544",
+      "id": "deepmath_eval:48544",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:48580",
+      "id": "deepmath_eval:48580",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:48860",
+      "id": "deepmath_eval:48860",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:48920",
+      "id": "deepmath_eval:48920",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:49006",
+      "id": "deepmath_eval:49006",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:49112",
+      "id": "deepmath_eval:49112",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:49140",
+      "id": "deepmath_eval:49140",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:49474",
+      "id": "deepmath_eval:49474",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:49527",
+      "id": "deepmath_eval:49527",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:49876",
+      "id": "deepmath_eval:49876",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:50076",
+      "id": "deepmath_eval:50076",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:50203",
+      "id": "deepmath_eval:50203",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:50591",
+      "id": "deepmath_eval:50591",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:50914",
+      "id": "deepmath_eval:50914",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:51087",
+      "id": "deepmath_eval:51087",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:51313",
+      "id": "deepmath_eval:51313",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:51503",
+      "id": "deepmath_eval:51503",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:51518",
+      "id": "deepmath_eval:51518",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:51543",
+      "id": "deepmath_eval:51543",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:52595",
+      "id": "deepmath_eval:52595",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:52663",
+      "id": "deepmath_eval:52663",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:52758",
+      "id": "deepmath_eval:52758",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:52833",
+      "id": "deepmath_eval:52833",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:5312",
+      "id": "deepmath_eval:5312",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:54112",
+      "id": "deepmath_eval:54112",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:54741",
+      "id": "deepmath_eval:54741",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:54969",
+      "id": "deepmath_eval:54969",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:55118",
+      "id": "deepmath_eval:55118",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:55338",
+      "id": "deepmath_eval:55338",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:55668",
+      "id": "deepmath_eval:55668",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:55758",
+      "id": "deepmath_eval:55758",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:56530",
+      "id": "deepmath_eval:56530",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:56745",
+      "id": "deepmath_eval:56745",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:56763",
+      "id": "deepmath_eval:56763",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:5679",
+      "id": "deepmath_eval:5679",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:56818",
+      "id": "deepmath_eval:56818",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:56991",
+      "id": "deepmath_eval:56991",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:57264",
+      "id": "deepmath_eval:57264",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:57282",
+      "id": "deepmath_eval:57282",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:57421",
+      "id": "deepmath_eval:57421",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:57648",
+      "id": "deepmath_eval:57648",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:58184",
+      "id": "deepmath_eval:58184",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:5825",
+      "id": "deepmath_eval:5825",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:58292",
+      "id": "deepmath_eval:58292",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:58348",
+      "id": "deepmath_eval:58348",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:58669",
+      "id": "deepmath_eval:58669",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:59060",
+      "id": "deepmath_eval:59060",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "deepmath_eval:59458",
+      "id": "deepmath_eval:59458",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:59520",
+      "id": "deepmath_eval:59520",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:60273",
+      "id": "deepmath_eval:60273",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:60304",
+      "id": "deepmath_eval:60304",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:60394",
+      "id": "deepmath_eval:60394",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:61289",
+      "id": "deepmath_eval:61289",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:61323",
+      "id": "deepmath_eval:61323",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:61335",
+      "id": "deepmath_eval:61335",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:61456",
+      "id": "deepmath_eval:61456",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:61824",
+      "id": "deepmath_eval:61824",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:62123",
+      "id": "deepmath_eval:62123",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:62566",
+      "id": "deepmath_eval:62566",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:63178",
+      "id": "deepmath_eval:63178",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "deepmath_eval:6351",
+      "id": "deepmath_eval:6351",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:63548",
+      "id": "deepmath_eval:63548",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:63563",
+      "id": "deepmath_eval:63563",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:63699",
+      "id": "deepmath_eval:63699",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:64206",
+      "id": "deepmath_eval:64206",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:64596",
+      "id": "deepmath_eval:64596",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:64628",
+      "id": "deepmath_eval:64628",
+      "maj_ok": 1.0,
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:6472",
+      "id": "deepmath_eval:6472",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:64918",
+      "id": "deepmath_eval:64918",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:6589",
+      "id": "deepmath_eval:6589",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:66114",
+      "id": "deepmath_eval:66114",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:66678",
+      "id": "deepmath_eval:66678",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:6691",
+      "id": "deepmath_eval:6691",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:67529",
+      "id": "deepmath_eval:67529",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:67875",
+      "id": "deepmath_eval:67875",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:67904",
+      "id": "deepmath_eval:67904",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:68310",
+      "id": "deepmath_eval:68310",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:68862",
+      "id": "deepmath_eval:68862",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:69916",
+      "id": "deepmath_eval:69916",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:70605",
+      "id": "deepmath_eval:70605",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:70689",
+      "id": "deepmath_eval:70689",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:71276",
+      "id": "deepmath_eval:71276",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:71693",
+      "id": "deepmath_eval:71693",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:71746",
+      "id": "deepmath_eval:71746",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:71958",
+      "id": "deepmath_eval:71958",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:72095",
+      "id": "deepmath_eval:72095",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:72263",
+      "id": "deepmath_eval:72263",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:7279",
+      "id": "deepmath_eval:7279",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:73050",
+      "id": "deepmath_eval:73050",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:73078",
+      "id": "deepmath_eval:73078",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:73334",
+      "id": "deepmath_eval:73334",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:73550",
+      "id": "deepmath_eval:73550",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:73924",
+      "id": "deepmath_eval:73924",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:74244",
+      "id": "deepmath_eval:74244",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:74432",
+      "id": "deepmath_eval:74432",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:74912",
+      "id": "deepmath_eval:74912",
+      "maj_ok": 1.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:76036",
+      "id": "deepmath_eval:76036",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:76088",
+      "id": "deepmath_eval:76088",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:7628",
+      "id": "deepmath_eval:7628",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:76687",
+      "id": "deepmath_eval:76687",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:77564",
+      "id": "deepmath_eval:77564",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:77602",
+      "id": "deepmath_eval:77602",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:7778",
+      "id": "deepmath_eval:7778",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:77801",
+      "id": "deepmath_eval:77801",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:77929",
+      "id": "deepmath_eval:77929",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:78561",
+      "id": "deepmath_eval:78561",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:7868",
+      "id": "deepmath_eval:7868",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:78931",
+      "id": "deepmath_eval:78931",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:78971",
+      "id": "deepmath_eval:78971",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:79278",
+      "id": "deepmath_eval:79278",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:79458",
+      "id": "deepmath_eval:79458",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:79704",
+      "id": "deepmath_eval:79704",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:80598",
+      "id": "deepmath_eval:80598",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:80694",
+      "id": "deepmath_eval:80694",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:80953",
+      "id": "deepmath_eval:80953",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "deepmath_eval:81051",
+      "id": "deepmath_eval:81051",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:8137",
+      "id": "deepmath_eval:8137",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:81485",
+      "id": "deepmath_eval:81485",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:81648",
+      "id": "deepmath_eval:81648",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:82026",
+      "id": "deepmath_eval:82026",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:82028",
+      "id": "deepmath_eval:82028",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:82629",
+      "id": "deepmath_eval:82629",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:82974",
+      "id": "deepmath_eval:82974",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:83010",
+      "id": "deepmath_eval:83010",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:8365",
+      "id": "deepmath_eval:8365",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:84370",
+      "id": "deepmath_eval:84370",
+      "maj_ok": 0.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:84623",
+      "id": "deepmath_eval:84623",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "deepmath_eval:84844",
+      "id": "deepmath_eval:84844",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.625,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:84846",
+      "id": "deepmath_eval:84846",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:85410",
+      "id": "deepmath_eval:85410",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:85492",
+      "id": "deepmath_eval:85492",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:86042",
+      "id": "deepmath_eval:86042",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "deepmath_eval:86125",
+      "id": "deepmath_eval:86125",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.625,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:86561",
+      "id": "deepmath_eval:86561",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:86597",
+      "id": "deepmath_eval:86597",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:86615",
+      "id": "deepmath_eval:86615",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:86848",
+      "id": "deepmath_eval:86848",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "deepmath_eval:86927",
+      "id": "deepmath_eval:86927",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.75,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "deepmath_eval:87015",
+      "id": "deepmath_eval:87015",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "deepmath_eval:87138",
+      "id": "deepmath_eval:87138",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:87169",
+      "id": "deepmath_eval:87169",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:87186",
+      "id": "deepmath_eval:87186",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:87256",
+      "id": "deepmath_eval:87256",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:87546",
+      "id": "deepmath_eval:87546",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:88162",
+      "id": "deepmath_eval:88162",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:88474",
+      "id": "deepmath_eval:88474",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "deepmath_eval:88566",
+      "id": "deepmath_eval:88566",
+      "maj_ok": 1.0,
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:88626",
+      "id": "deepmath_eval:88626",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:88682",
+      "id": "deepmath_eval:88682",
+      "maj_ok": 0.0,
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:88891",
+      "id": "deepmath_eval:88891",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:89188",
+      "id": "deepmath_eval:89188",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:89298",
+      "id": "deepmath_eval:89298",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:89372",
+      "id": "deepmath_eval:89372",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "deepmath_eval:89468",
+      "id": "deepmath_eval:89468",
+      "maj_ok": 0.0,
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.625,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:89572",
+      "id": "deepmath_eval:89572",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:90280",
+      "id": "deepmath_eval:90280",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:90353",
+      "id": "deepmath_eval:90353",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:90639",
+      "id": "deepmath_eval:90639",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:90821",
+      "id": "deepmath_eval:90821",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "deepmath_eval:91036",
+      "id": "deepmath_eval:91036",
+      "maj_ok": 1.0,
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 0.875,
+      "stratum": "geometry_discrete",
+      "stratum_id": "geometry_discrete",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:91039",
+      "id": "deepmath_eval:91039",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:91100",
+      "id": "deepmath_eval:91100",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:91581",
+      "id": "deepmath_eval:91581",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:91838",
+      "id": "deepmath_eval:91838",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:91848",
+      "id": "deepmath_eval:91848",
+      "maj_ok": 1.0,
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:92035",
+      "id": "deepmath_eval:92035",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:9304",
+      "id": "deepmath_eval:9304",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:93210",
+      "id": "deepmath_eval:93210",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:93997",
+      "id": "deepmath_eval:93997",
+      "maj_ok": 1.0,
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:94226",
+      "id": "deepmath_eval:94226",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "algebra_analysis",
+      "stratum_id": "algebra_analysis",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:94401",
+      "id": "deepmath_eval:94401",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 0.0,
+        "math_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:9573",
+      "id": "deepmath_eval:9573",
+      "maj_ok": 0.0,
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "math_maj_at_8": 1.0,
+        "math_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "deepmath_eval:9655",
+      "id": "deepmath_eval:9655",
+      "maj_ok": 1.0,
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "nt_combinatorics",
+      "stratum_id": "nt_combinatorics",
+      "value": 1.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.5375,
+    "capability_slope_8_1": 0.15583333333333338,
+    "distinct_answers_at_8": 3.5366666666666666,
+    "forgotten_rate": 0.03,
+    "interior_sharpening_delta": 0.1891025641025641,
+    "learnable_fraction": 0.33666666666666667,
+    "math_avg_at_8": 0.5375,
+    "math_equal_stratum_avg_at_8": 0.5375,
+    "math_maj_at_8": 0.5833333333333334,
+    "math_pass_at_1": 0.5375,
+    "math_pass_at_2": 0.6038095238095238,
+    "math_pass_at_4": 0.6521428571428571,
+    "math_pass_at_8": 0.6933333333333334,
+    "math_strict_avg_at_8": 0.5375,
+    "mean_correct_tokens": 2255.1209302325583,
+    "mean_incorrect_tokens": 2707.8756756756757,
+    "mean_tokens": 2464.52,
+    "median_tokens": 1789.5,
+    "natural_stop_parse_failure_rate": 0.007601351351351352,
+    "net_frontier_expansion": 0.07666666666666667,
+    "newly_solved_rate": 0.10666666666666667,
+    "overall_parse_failure_rate": 0.0075,
+    "p95_tokens": 6811.499999999996,
+    "p99_tokens": 12288.0,
+    "solved_problem_count": 208.0,
+    "stop_rate": 0.9866666666666667,
+    "stratum_algebra_analysis_avg_at_8": 0.6125,
+    "stratum_geometry_discrete_avg_at_8": 0.43625,
+    "stratum_nt_combinatorics_avg_at_8": 0.56375,
+    "tokens_per_correct": 4585.153488372093,
+    "total_correct_rollouts": 1290.0,
+    "truncation_rate": 0.013333333333333334
+  },
+  "n_problems": 300,
+  "paired_transitions": {
+    "baseline_id": "b0_muse_glimmer_30b",
+    "both_solved_count": 176,
+    "both_unsolved_count": 83,
+    "candidate_id": "armA_pureb0_math_muse_glimmer_30b_drgrpo_cispo_pct100",
+    "ci95_delta_avg_at_k": [
+      0.07916666666666668,
+      0.12541666666666668
+    ],
+    "ci95_delta_capability_slope_8_1": [
+      -0.06375,
+      0.013333333333333334
+    ],
+    "ci95_delta_equal_stratum_avg_at_k": [
+      0.07916666666666666,
+      0.12541666666666665
+    ],
+    "ci95_delta_maj_at_8": [
+      0.03333333333333333,
+      0.10666666666666667
+    ],
+    "ci95_delta_pass_at_8": [
+      0.03666666666666667,
+      0.12000000000000001
+    ],
+    "delta_capability_slope_8_1": -0.025416666666666643,
+    "delta_maj_at_8": 0.07,
+    "delta_pass_at_1": 0.1020833333333333,
+    "delta_pass_at_2": 0.0865476190476191,
+    "delta_pass_at_4": 0.07519047619047614,
+    "delta_pass_at_8": 0.07666666666666666,
+    "expected_k": 8,
+    "forgotten_count": 9,
+    "forgotten_of_solved": 0.04864864864864865,
+    "forgotten_rate": 0.03,
+    "full_mastery_delta": 0.13,
+    "interior_item_count": 117,
+    "interior_sharpening_delta": 0.1891025641025641,
+    "n_problems": 300,
+    "net_frontier_expansion": 0.07666666666666667,
+    "newly_solved_count": 32,
+    "newly_solved_of_unsolved": 0.2782608695652174,
+    "newly_solved_rate": 0.10666666666666667
+  },
+  "protocol_id": "v4_math_confirm_k8",
+  "schema_version": "4.0",
+  "scored_at_utc": "2026-11-24T22:53:42.474800+00:00",
+  "track": "math"
+}

@@ -1,0 +1,76 @@
+{
+  "adapted_linear_modules": 192,
+  "algo": "drgrpo_cispo",
+  "applied_prior_factor_tensors": 192,
+  "chat_kwargs": {
+    "reasoning_effort": "medium"
+  },
+  "group_stats": {
+    "active_groups_total": 62,
+    "algo": "drgrpo_cispo",
+    "luffy_offpolicy_groups_included": 0,
+    "mean_comp_tokens": 3298.6431451612902,
+    "mixed_onpolicy_groups": 62,
+    "raw_groups_total": 128,
+    "skipped_saturated_groups": 45,
+    "skipped_zero_groups": 21
+  },
+  "lr": 8.5e-06,
+  "merge_parity_pct100": {
+    "max_abs_logit_diff": 8.81751823425293,
+    "mean_abs_logit_diff": 0.18512311950325966,
+    "merged_linear_tensors": 192,
+    "top1_token_agreement": 1.0
+  },
+  "milestone_checkpoints": {
+    "pct100": "/scratch/governed_crossfamily_v4/checkpoints_v4/math_inkling2_mini/armB_s3_math_inkling2_mini_drgrpo_cispo_pct100"
+  },
+  "model_key": "inkling2_mini",
+  "peak_vram_gb_rank0": 76.00590896606445,
+  "status": "RLVR_TRAINED_AND_CONSOLIDATED",
+  "step_logs": [
+    {
+      "clipped_frac_rank0": 0.002450239156074211,
+      "grad_norm": 0.0595703125,
+      "loss": -0.023406460881233215,
+      "mean_ratio_rank0": 0.999983704123293,
+      "ppo_epoch": 1,
+      "step": 1
+    },
+    {
+      "clipped_frac_rank0": 0.002513309784382233,
+      "grad_norm": 0.057373046875,
+      "loss": -0.018602950498461723,
+      "mean_ratio_rank0": 1.000330289343401,
+      "ppo_epoch": 1,
+      "step": 4
+    },
+    {
+      "clipped_frac_rank0": 0.0025252606741609953,
+      "grad_norm": 0.0537109375,
+      "loss": -0.01327657699584961,
+      "mean_ratio_rank0": 1.000470516731594,
+      "ppo_epoch": 1,
+      "step": 8
+    },
+    {
+      "clipped_frac_rank0": 0.005486199902515062,
+      "grad_norm": 0.049560546875,
+      "loss": -0.04348798468708992,
+      "mean_ratio_rank0": 0.9998558260630859,
+      "ppo_epoch": 1,
+      "step": 12
+    },
+    {
+      "clipped_frac_rank0": 0.0037222116898424813,
+      "grad_norm": 0.06884765625,
+      "loss": -0.013691795989871025,
+      "mean_ratio_rank0": 0.9989525288246888,
+      "ppo_epoch": 1,
+      "step": 16
+    }
+  ],
+  "steps_completed": 16,
+  "track": "math",
+  "train_wall_seconds": 1822.1242815498263
+}

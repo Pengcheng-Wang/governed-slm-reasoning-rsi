@@ -1,0 +1,21 @@
+{
+  "primary_metric": "lean_avg_at_8",
+  "aggregation_weighting": "equal_item",
+  "bootstrap_mode": "cluster",
+  "direction": "maximize",
+  "decision_stage": "confirm",
+  "alpha_one_sided": 0.025,
+  "max_confirm_looks": 1,
+  "alpha_schedule": [0.025],
+  "require_candidate_artifacts": true,
+  "min_improvement": 0.01,
+  "current_incumbent_id": "b0_base",
+  "required_comparators": ["b0_base"],
+  "paired_aux_noninferiority": {
+    "stop_rate": 0.025,
+    "lean_pass_at_8": 0.02
+  },
+  "hard_floors": {
+    "axiom_audit_clean_rate": 1.0
+  }
+}

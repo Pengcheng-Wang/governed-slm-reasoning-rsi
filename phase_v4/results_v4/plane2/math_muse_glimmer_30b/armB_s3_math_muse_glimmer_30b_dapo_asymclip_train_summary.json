@@ -1,0 +1,86 @@
+{
+  "adapted_linear_modules": 416,
+  "algo": "dapo_asymclip",
+  "applied_prior_factor_tensors": 416,
+  "chat_kwargs": {
+    "current_date": "2026-11-22",
+    "reasoning_strength": "medium"
+  },
+  "group_stats": {
+    "active_groups_total": 66,
+    "algo": "dapo_asymclip",
+    "luffy_offpolicy_groups_included": 0,
+    "mean_comp_tokens": 5204.255681818182,
+    "mixed_onpolicy_groups": 66,
+    "raw_groups_total": 128,
+    "skipped_saturated_groups": 45,
+    "skipped_zero_groups": 17
+  },
+  "lr": 7e-06,
+  "merge_parity_pct100": {
+    "max_abs_logit_diff": 2.382904052734375,
+    "mean_abs_logit_diff": 0.11780607514083385,
+    "merged_linear_tensors": 416,
+    "top1_token_agreement": 1.0
+  },
+  "milestone_checkpoints": {
+    "pct100": "/scratch/governed_crossfamily_v4/checkpoints_v4/math_muse_glimmer_30b/armB_s3_math_muse_glimmer_30b_dapo_asymclip_pct100",
+    "pct50": "/scratch/governed_crossfamily_v4/checkpoints_v4/math_muse_glimmer_30b/armB_s3_math_muse_glimmer_30b_dapo_asymclip_pct50"
+  },
+  "model_key": "muse_glimmer_30b",
+  "peak_vram_gb_rank0": 31.86016321182251,
+  "status": "RLVR_TRAINED_AND_CONSOLIDATED",
+  "step_logs": [
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.1025390625,
+      "loss": 0.2742447257041931,
+      "mean_ratio_rank0": 1.0,
+      "ppo_epoch": 1,
+      "step": 1
+    },
+    {
+      "clipped_frac_rank0": 2.44140625e-05,
+      "grad_norm": 0.11962890625,
+      "loss": 0.4646853804588318,
+      "mean_ratio_rank0": 0.9995886316548138,
+      "ppo_epoch": 1,
+      "step": 4
+    },
+    {
+      "clipped_frac_rank0": 0.00044941824482318835,
+      "grad_norm": 0.2314453125,
+      "loss": 0.3019292652606964,
+      "mean_ratio_rank0": 0.997038009081947,
+      "ppo_epoch": 1,
+      "step": 8
+    },
+    {
+      "clipped_frac_rank0": 0.0008472553896015339,
+      "grad_norm": 0.1533203125,
+      "loss": 0.16833412647247314,
+      "mean_ratio_rank0": 0.9930440242371367,
+      "ppo_epoch": 1,
+      "step": 12
+    },
+    {
+      "clipped_frac_rank0": 0.004529346392295198,
+      "grad_norm": 0.10791015625,
+      "loss": 0.4498569369316101,
+      "mean_ratio_rank0": 0.9912235667922343,
+      "ppo_epoch": 1,
+      "step": 16
+    },
+    {
+      "clipped_frac_rank0": 0.002935483402735857,
+      "grad_norm": 0.1884765625,
+      "loss": 0.29196897149086,
+      "mean_ratio_rank0": 0.9921130337813795,
+      "ppo_epoch": 1,
+      "step": 17
+    }
+  ],
+  "steps_completed": 17,
+  "track": "math",
+  "train_wall_seconds": 1524.9952607889427
+}

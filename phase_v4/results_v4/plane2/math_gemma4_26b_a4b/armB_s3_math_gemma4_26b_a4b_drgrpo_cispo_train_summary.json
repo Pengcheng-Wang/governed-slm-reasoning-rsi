@@ -1,0 +1,76 @@
+{
+  "adapted_linear_modules": 205,
+  "algo": "drgrpo_cispo",
+  "applied_prior_factor_tensors": 205,
+  "chat_kwargs": {
+    "enable_thinking": false
+  },
+  "group_stats": {
+    "active_groups_total": 60,
+    "algo": "drgrpo_cispo",
+    "luffy_offpolicy_groups_included": 0,
+    "mean_comp_tokens": 5422.304166666667,
+    "mixed_onpolicy_groups": 60,
+    "raw_groups_total": 144,
+    "skipped_saturated_groups": 61,
+    "skipped_zero_groups": 23
+  },
+  "lr": 8e-06,
+  "merge_parity_pct100": {
+    "max_abs_logit_diff": 2.4648499488830566,
+    "mean_abs_logit_diff": 0.1582084745168686,
+    "merged_linear_tensors": 205,
+    "top1_token_agreement": 1.0
+  },
+  "milestone_checkpoints": {
+    "pct100": "/scratch/governed_crossfamily_v4/checkpoints_v4/math_gemma4_26b_a4b/armB_s3_math_gemma4_26b_a4b_drgrpo_cispo_pct100"
+  },
+  "model_key": "gemma4_26b_a4b",
+  "peak_vram_gb_rank0": 26.181972980499268,
+  "status": "RLVR_TRAINED_AND_CONSOLIDATED",
+  "step_logs": [
+    {
+      "clipped_frac_rank0": 0.000387391213508121,
+      "grad_norm": 2.359375,
+      "loss": -0.09774856269359589,
+      "mean_ratio_rank0": 1.000030325884366,
+      "ppo_epoch": 1,
+      "step": 1
+    },
+    {
+      "clipped_frac_rank0": 0.000674528457576033,
+      "grad_norm": 0.3671875,
+      "loss": -0.05085359886288643,
+      "mean_ratio_rank0": 0.998660153366019,
+      "ppo_epoch": 1,
+      "step": 4
+    },
+    {
+      "clipped_frac_rank0": 0.0036611263437020913,
+      "grad_norm": 0.20703125,
+      "loss": -0.03865983337163925,
+      "mean_ratio_rank0": 0.9906169760809153,
+      "ppo_epoch": 1,
+      "step": 8
+    },
+    {
+      "clipped_frac_rank0": 0.02177665246035212,
+      "grad_norm": 0.142578125,
+      "loss": -0.054908156394958496,
+      "mean_ratio_rank0": 0.982911907928698,
+      "ppo_epoch": 1,
+      "step": 12
+    },
+    {
+      "clipped_frac_rank0": 0.04089972321167371,
+      "grad_norm": 0.388671875,
+      "loss": -0.1339762806892395,
+      "mean_ratio_rank0": 0.9773346706693196,
+      "ppo_epoch": 1,
+      "step": 15
+    }
+  ],
+  "steps_completed": 15,
+  "track": "math",
+  "train_wall_seconds": 774.8680617719656
+}

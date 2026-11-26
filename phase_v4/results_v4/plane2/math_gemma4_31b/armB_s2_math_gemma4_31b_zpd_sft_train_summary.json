@@ -1,0 +1,65 @@
+{
+  "adapted_linear_modules": 410,
+  "applied_prior_factor_tensors": 410,
+  "chat_kwargs": {
+    "enable_thinking": false
+  },
+  "data_audit": {
+    "dropped_overlong_rows": 1,
+    "seq_len_max": 7532,
+    "seq_len_p50": 1881,
+    "seq_len_p95": 4098,
+    "sft_suffix": "<turn|>",
+    "supervised_tokens_total": 789800,
+    "total_traces": 399,
+    "unique_problems": 348
+  },
+  "dist_strategy": "fsdp",
+  "final_logit_softcapping": 30.0,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "grad_norm": 0.2021484375,
+      "loss": 0.3899264633655548,
+      "lr": 4.25e-06,
+      "step": 1
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.1865234375,
+      "loss": 0.4523823857307434,
+      "lr": 6.375e-06,
+      "step": 10
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.09765625,
+      "loss": 0.4755839705467224,
+      "lr": 1.2447961799571732e-06,
+      "step": 20
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 1.4609375,
+      "loss": 0.4751400947570801,
+      "lr": 0.0,
+      "step": 26
+    }
+  ],
+  "lr": 8.5e-06,
+  "lr_schedule": "cosine",
+  "merge_parity": {
+    "max_abs_logit_diff": 2.7148044109344482,
+    "mean_abs_logit_diff": 0.24038034677505493,
+    "merged_linear_tensors": 410,
+    "top1_token_agreement": 0.9921875
+  },
+  "model_key": "gemma4_31b",
+  "output_multiplier": null,
+  "peak_vram_gb_rank0": 28.103967666625977,
+  "status": "TRAINED_AND_CONSOLIDATED",
+  "steps_completed": 26,
+  "track": "math",
+  "train_wall_seconds": 1328.8936132830568,
+  "world_size": 8
+}

@@ -1,0 +1,3191 @@
+{
+  "candidate_id": "b0_muse_glimmer_30b",
+  "channel_family": "muse_glimmer",
+  "env_fingerprint": "a100_80gb_bf16_v4",
+  "expected_k": 8,
+  "items": [
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:1",
+      "id": "arxivlean_0326:1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:10",
+      "id": "arxivlean_0326:10",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:11",
+      "id": "arxivlean_0326:11",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:12",
+      "id": "arxivlean_0326:12",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:13",
+      "id": "arxivlean_0326:13",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:14",
+      "id": "arxivlean_0326:14",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:15",
+      "id": "arxivlean_0326:15",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:16",
+      "id": "arxivlean_0326:16",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:17",
+      "id": "arxivlean_0326:17",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:18",
+      "id": "arxivlean_0326:18",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:19",
+      "id": "arxivlean_0326:19",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:2",
+      "id": "arxivlean_0326:2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:20",
+      "id": "arxivlean_0326:20",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:21",
+      "id": "arxivlean_0326:21",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:22",
+      "id": "arxivlean_0326:22",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:23",
+      "id": "arxivlean_0326:23",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:24",
+      "id": "arxivlean_0326:24",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:25",
+      "id": "arxivlean_0326:25",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:26",
+      "id": "arxivlean_0326:26",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:27",
+      "id": "arxivlean_0326:27",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:28",
+      "id": "arxivlean_0326:28",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:29",
+      "id": "arxivlean_0326:29",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:3",
+      "id": "arxivlean_0326:3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:30",
+      "id": "arxivlean_0326:30",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:31",
+      "id": "arxivlean_0326:31",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "arxivlean_0326:32",
+      "id": "arxivlean_0326:32",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:33",
+      "id": "arxivlean_0326:33",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:34",
+      "id": "arxivlean_0326:34",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:35",
+      "id": "arxivlean_0326:35",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:36",
+      "id": "arxivlean_0326:36",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:37",
+      "id": "arxivlean_0326:37",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:38",
+      "id": "arxivlean_0326:38",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:39",
+      "id": "arxivlean_0326:39",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:40",
+      "id": "arxivlean_0326:40",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:41",
+      "id": "arxivlean_0326:41",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:5",
+      "id": "arxivlean_0326:5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:6",
+      "id": "arxivlean_0326:6",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:7",
+      "id": "arxivlean_0326:7",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:8",
+      "id": "arxivlean_0326:8",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0326:9",
+      "id": "arxivlean_0326:9",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:1",
+      "id": "arxivlean_0626:1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:10",
+      "id": "arxivlean_0626:10",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:11",
+      "id": "arxivlean_0626:11",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:12",
+      "id": "arxivlean_0626:12",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:13",
+      "id": "arxivlean_0626:13",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:14",
+      "id": "arxivlean_0626:14",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:15",
+      "id": "arxivlean_0626:15",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:16",
+      "id": "arxivlean_0626:16",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:17",
+      "id": "arxivlean_0626:17",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:19",
+      "id": "arxivlean_0626:19",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:2",
+      "id": "arxivlean_0626:2",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:20",
+      "id": "arxivlean_0626:20",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:21",
+      "id": "arxivlean_0626:21",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:22",
+      "id": "arxivlean_0626:22",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:23",
+      "id": "arxivlean_0626:23",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:24",
+      "id": "arxivlean_0626:24",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:25",
+      "id": "arxivlean_0626:25",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:26",
+      "id": "arxivlean_0626:26",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:27",
+      "id": "arxivlean_0626:27",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:29",
+      "id": "arxivlean_0626:29",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:3",
+      "id": "arxivlean_0626:3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:30",
+      "id": "arxivlean_0626:30",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:31",
+      "id": "arxivlean_0626:31",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:32",
+      "id": "arxivlean_0626:32",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:33",
+      "id": "arxivlean_0626:33",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:34",
+      "id": "arxivlean_0626:34",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:35",
+      "id": "arxivlean_0626:35",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:36",
+      "id": "arxivlean_0626:36",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:38",
+      "id": "arxivlean_0626:38",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:39",
+      "id": "arxivlean_0626:39",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:4",
+      "id": "arxivlean_0626:4",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:40",
+      "id": "arxivlean_0626:40",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:41",
+      "id": "arxivlean_0626:41",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:42",
+      "id": "arxivlean_0626:42",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:43",
+      "id": "arxivlean_0626:43",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:44",
+      "id": "arxivlean_0626:44",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:45",
+      "id": "arxivlean_0626:45",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:46",
+      "id": "arxivlean_0626:46",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:5",
+      "id": "arxivlean_0626:5",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:6",
+      "id": "arxivlean_0626:6",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:7",
+      "id": "arxivlean_0626:7",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:8",
+      "id": "arxivlean_0626:8",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0626:9",
+      "id": "arxivlean_0626:9",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0926:22",
+      "id": "arxivlean_0926:22",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "arxivlean_0926:3",
+      "id": "arxivlean_0926:3",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "arxivlean_2026",
+      "stratum_id": "arxivlean_2026",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:1",
+      "id": "formalmath:1",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:105",
+      "id": "formalmath:105",
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:107",
+      "id": "formalmath:107",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:108",
+      "id": "formalmath:108",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:109",
+      "id": "formalmath:109",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:110",
+      "id": "formalmath:110",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:112",
+      "id": "formalmath:112",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:113",
+      "id": "formalmath:113",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:117",
+      "id": "formalmath:117",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:118",
+      "id": "formalmath:118",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:126",
+      "id": "formalmath:126",
+      "n_correct": 4,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.5
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:129",
+      "id": "formalmath:129",
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:132",
+      "id": "formalmath:132",
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:133",
+      "id": "formalmath:133",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:135",
+      "id": "formalmath:135",
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:136",
+      "id": "formalmath:136",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:139",
+      "id": "formalmath:139",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.375
+      },
+      "cluster_id": "formalmath:14",
+      "id": "formalmath:14",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.375,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:146",
+      "id": "formalmath:146",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:147",
+      "id": "formalmath:147",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:150",
+      "id": "formalmath:150",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:151",
+      "id": "formalmath:151",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:152",
+      "id": "formalmath:152",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:154",
+      "id": "formalmath:154",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "formalmath:158",
+      "id": "formalmath:158",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:16",
+      "id": "formalmath:16",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:160",
+      "id": "formalmath:160",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:165",
+      "id": "formalmath:165",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:169",
+      "id": "formalmath:169",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:170",
+      "id": "formalmath:170",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:179",
+      "id": "formalmath:179",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:184",
+      "id": "formalmath:184",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:185",
+      "id": "formalmath:185",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:191",
+      "id": "formalmath:191",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:193",
+      "id": "formalmath:193",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:196",
+      "id": "formalmath:196",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:197",
+      "id": "formalmath:197",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:206",
+      "id": "formalmath:206",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:212",
+      "id": "formalmath:212",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:214",
+      "id": "formalmath:214",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:216",
+      "id": "formalmath:216",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:217",
+      "id": "formalmath:217",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:223",
+      "id": "formalmath:223",
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "formalmath:224",
+      "id": "formalmath:224",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:227",
+      "id": "formalmath:227",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:228",
+      "id": "formalmath:228",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:230",
+      "id": "formalmath:230",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:235",
+      "id": "formalmath:235",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:24",
+      "id": "formalmath:24",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:248",
+      "id": "formalmath:248",
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.375
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:25",
+      "id": "formalmath:25",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:255",
+      "id": "formalmath:255",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:257",
+      "id": "formalmath:257",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:259",
+      "id": "formalmath:259",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:260",
+      "id": "formalmath:260",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:262",
+      "id": "formalmath:262",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "formalmath:264",
+      "id": "formalmath:264",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.625,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:265",
+      "id": "formalmath:265",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:27",
+      "id": "formalmath:27",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:278",
+      "id": "formalmath:278",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:279",
+      "id": "formalmath:279",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.125
+      },
+      "cluster_id": "formalmath:282",
+      "id": "formalmath:282",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.125,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:289",
+      "id": "formalmath:289",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:292",
+      "id": "formalmath:292",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "formalmath:295",
+      "id": "formalmath:295",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:296",
+      "id": "formalmath:296",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:306",
+      "id": "formalmath:306",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:312",
+      "id": "formalmath:312",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:316",
+      "id": "formalmath:316",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:317",
+      "id": "formalmath:317",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "formalmath:323",
+      "id": "formalmath:323",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:327",
+      "id": "formalmath:327",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:330",
+      "id": "formalmath:330",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:331",
+      "id": "formalmath:331",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:333",
+      "id": "formalmath:333",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:335",
+      "id": "formalmath:335",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:336",
+      "id": "formalmath:336",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "formalmath:337",
+      "id": "formalmath:337",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:338",
+      "id": "formalmath:338",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:341",
+      "id": "formalmath:341",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:347",
+      "id": "formalmath:347",
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:348",
+      "id": "formalmath:348",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "formalmath:35",
+      "id": "formalmath:35",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:352",
+      "id": "formalmath:352",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:353",
+      "id": "formalmath:353",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:36",
+      "id": "formalmath:36",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:360",
+      "id": "formalmath:360",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:365",
+      "id": "formalmath:365",
+      "n_correct": 8,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 1.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:367",
+      "id": "formalmath:367",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:369",
+      "id": "formalmath:369",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:370",
+      "id": "formalmath:370",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:371",
+      "id": "formalmath:371",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:373",
+      "id": "formalmath:373",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:374",
+      "id": "formalmath:374",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:375",
+      "id": "formalmath:375",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:383",
+      "id": "formalmath:383",
+      "n_correct": 2,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.25
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:385",
+      "id": "formalmath:385",
+      "n_correct": 6,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.75
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:388",
+      "id": "formalmath:388",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:389",
+      "id": "formalmath:389",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:39",
+      "id": "formalmath:39",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:392",
+      "id": "formalmath:392",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:393",
+      "id": "formalmath:393",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:395",
+      "id": "formalmath:395",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:398",
+      "id": "formalmath:398",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:399",
+      "id": "formalmath:399",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:404",
+      "id": "formalmath:404",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:405",
+      "id": "formalmath:405",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:407",
+      "id": "formalmath:407",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.625
+      },
+      "cluster_id": "formalmath:412",
+      "id": "formalmath:412",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.625,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:413",
+      "id": "formalmath:413",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:414",
+      "id": "formalmath:414",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:420",
+      "id": "formalmath:420",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:421",
+      "id": "formalmath:421",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:423",
+      "id": "formalmath:423",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:48",
+      "id": "formalmath:48",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:49",
+      "id": "formalmath:49",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:50",
+      "id": "formalmath:50",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:51",
+      "id": "formalmath:51",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:52",
+      "id": "formalmath:52",
+      "n_correct": 5,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.625
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:53",
+      "id": "formalmath:53",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:55",
+      "id": "formalmath:55",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:56",
+      "id": "formalmath:56",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:61",
+      "id": "formalmath:61",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:64",
+      "id": "formalmath:64",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:66",
+      "id": "formalmath:66",
+      "n_correct": 7,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.875
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:67",
+      "id": "formalmath:67",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:69",
+      "id": "formalmath:69",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:74",
+      "id": "formalmath:74",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:75",
+      "id": "formalmath:75",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:78",
+      "id": "formalmath:78",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:80",
+      "id": "formalmath:80",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:81",
+      "id": "formalmath:81",
+      "n_correct": 1,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.125
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:82",
+      "id": "formalmath:82",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:87",
+      "id": "formalmath:87",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "formalmath:9",
+      "id": "formalmath:9",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "formalmath:91",
+      "id": "formalmath:91",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "formalmath:93",
+      "id": "formalmath:93",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "formalmath_analysis_calculus",
+      "stratum_id": "formalmath_analysis_calculus",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:96",
+      "id": "formalmath:96",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 0.0,
+        "stop_rate": 0.875
+      },
+      "cluster_id": "formalmath:98",
+      "id": "formalmath:98",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.875,
+      "stratum": "formalmath_nt_combinatorics_geom",
+      "stratum_id": "formalmath_nt_combinatorics_geom",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_8": 1.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "formalmath:99",
+      "id": "formalmath:99",
+      "n_correct": 3,
+      "pass_at_k": 1.0,
+      "stop_rate": 1.0,
+      "stratum": "formalmath_algebra",
+      "stratum_id": "formalmath_algebra",
+      "value": 0.375
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.1,
+    "axiom_audit_clean_rate": 1.0,
+    "capability_slope_8_1": 0.07333333333333333,
+    "lean_avg_at_8": 0.1,
+    "lean_equal_stratum_avg_at_8": 0.09030975877192983,
+    "lean_pass_at_1": 0.1,
+    "lean_pass_at_2": 0.1226984126984127,
+    "lean_pass_at_4": 0.14787301587301588,
+    "lean_pass_at_8": 0.17333333333333334,
+    "lean_strict_avg_at_8": 0.1,
+    "learnable_fraction": 0.12,
+    "mean_correct_tokens": 374.77777777777777,
+    "mean_incorrect_tokens": 1307.187037037037,
+    "mean_tokens": 1213.9461111111111,
+    "median_tokens": 1054.5,
+    "p95_tokens": 2884.2,
+    "p99_tokens": 3072.0,
+    "solved_problem_count": 39.0,
+    "stop_rate": 0.9583333333333334,
+    "stratum_arxivlean_2026_avg_at_8": 0.0,
+    "stratum_formalmath_algebra_avg_at_8": 0.23519736842105263,
+    "stratum_formalmath_analysis_calculus_avg_at_8": 0.026041666666666668,
+    "stratum_formalmath_nt_combinatorics_geom_avg_at_8": 0.1,
+    "tokens_per_correct": 12139.461111111112,
+    "total_correct_rollouts": 180.0,
+    "truncation_rate": 0.041666666666666664
+  },
+  "n_problems": 225,
+  "protocol_id": "v4_lean_holdout_k8",
+  "schema_version": "4.0",
+  "scored_at_utc": "2026-11-24T15:53:26.618309+00:00",
+  "track": "lean"
+}

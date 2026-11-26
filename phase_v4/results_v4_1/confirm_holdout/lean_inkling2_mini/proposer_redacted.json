@@ -1,0 +1,8 @@
+{
+  "trial_prefix": "confirm_lean_inkling2_mini",
+  "decision_stage": "confirm",
+  "iut_decision": "ROLLBACK",
+  "comparators_tested": 1,
+  "comparators_promoted": 0,
+  "halt_recommended": true
+}

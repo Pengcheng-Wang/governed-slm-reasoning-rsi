@@ -1,0 +1,48 @@
+{
+  "aggregation_weighting": "equal_stratum",
+  "candidate_artifact_sha256": "2d385e23ed9a069d01402163f5864b957785971e2df718595e0d5289e5bf669c",
+  "candidate_id": "armA_pureb0_math_muse_glimmer_30b_drgrpo_cispo_pct100",
+  "comparisons": {
+    "b0_muse_glimmer_30b": {
+      "bootstrap_mode": "cluster_1d",
+      "ci95_high": 0.026116496225191854,
+      "ci95_low": -0.021827032417056524,
+      "distinct_cluster_deltas": 9,
+      "effective_null_margin": 0.015,
+      "insufficient_replication": false,
+      "lcb_one_sided": -0.021827032417056524,
+      "low_cluster_warning": false,
+      "margin_excess_lcb_one_sided": -0.036827032417056524,
+      "margin_mode": "additive",
+      "n_clusters": 194,
+      "n_items": 194,
+      "n_positive_clusters": 39,
+      "n_seeds": 0,
+      "n_strata": 3,
+      "obs_candidate": 0.4552040942163029,
+      "obs_reference": 0.45301042526347746,
+      "se": 0.01228632277230027,
+      "signed_gain": 0.002193668952825467,
+      "signflip_method": "none",
+      "signflip_p_one_sided": 1.0,
+      "statistic": "mean",
+      "weighting": "equal_stratum"
+    }
+  },
+  "direction": "maximize",
+  "finalized_at_utc": "2026-11-25T00:00:18.572503+00:00",
+  "holdout_guardrails_passed": true,
+  "holdout_primary_replicated": false,
+  "holdout_tripwires": [],
+  "ledger_head_at_reserve_sha256": "f7a9615a29d9a94320f2cffb5988697d3294c3962d7a29727671e092a279b943",
+  "manifest_root_sha256": "8f69efbd508ae4291fde22faa6edcc6a6cae759228d45dbcb147ea5f85e47c50",
+  "primary_metric": "math_equal_stratum_avg_at_8",
+  "primary_statistic": "mean",
+  "required_comparators_verified": [
+    "b0_muse_glimmer_30b"
+  ],
+  "reserved_at_utc": "2026-11-24T22:55:08.060539+00:00",
+  "rules_sha256": "97a1e36bd4ce921ecca8825c3bf556a1a90a08e9a4868200883b6b940be749c1",
+  "schema_version": "3.0",
+  "status": "FINALIZED"
+}

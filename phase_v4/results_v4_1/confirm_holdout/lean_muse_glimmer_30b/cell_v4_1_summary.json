@@ -1,0 +1,73 @@
+{
+  "cell_name": "lean_muse_glimmer_30b",
+  "winner_id": "muse_lean_sft_matched_plus_gspo",
+  "confirm_decision": "ROLLBACK",
+  "confirm_verdict": {
+    "guard_version": "3.9.0",
+    "trial_prefix": "confirm_lean_muse_glimmer_30b",
+    "decision_stage": "confirm",
+    "effective_alpha_one_sided": 0.025,
+    "n_perm": 8000,
+    "p_floor": 0.00012498437695288088,
+    "confirm_looks_used": 1,
+    "alpha_spent": 0.025,
+    "alpha_budget": 0.025,
+    "look_accounting": "ledger",
+    "candidate_id": "muse_lean_sft_matched_plus_gspo",
+    "protocol_id": "v4_1_lean_confirm150_k8",
+    "candidate_artifact_sha256": "c95bb472bfd04bd966c50cbea440ccf5c9e99e4e8fc35449aec3f6a951473b1b",
+    "artifact_semantic_sha256": "9291272c40a47e567dfba06e7d30f05b75fa649459940c4d364cb192756d7817",
+    "timestamp_utc": "2026-11-25T11:51:54.057913+00:00",
+    "rules_sha256": "5369c8f9f9b3d7dc407916da91924c142b88bc377fee66ed74a6aef94c9f8826",
+    "item_cluster_key": null,
+    "hypothesis": "lean_muse_glimmer_30b: muse_lean_sft_matched_plus_gspo beats B0 with clean channel/precision hygiene",
+    "confirm_policy_sha256": "665d5022567982e32e34fb5aadef55c7fe94bce6ce83bc557d77ff2c36b2e100",
+    "registered_retest": false,
+    "evidence_block_sha256": null,
+    "comparator_ids": [
+      "b0_base"
+    ],
+    "paired_aux_noninferiority": {
+      "stop_rate": 0.05,
+      "lean_pass_at_8": 0.02
+    },
+    "status": "OK",
+    "iut_decision": "ROLLBACK",
+    "halt_recommended": true,
+    "comparators_tested": 1,
+    "comparators_promoted": 0,
+    "failed_comparators": [
+      "b0_base"
+    ],
+    "results_by_comparator": {
+      "b0_base": {
+        "decision": "ROLLBACK",
+        "signed_improvement": 0.043333333333333335,
+        "lcb_one_sided_vs_incumbent": 0.010833333333333334,
+        "margin_excess_lcb_one_sided": 0.0008333333333333335,
+        "tripwires": [
+          "paired_aux_noninferiority_failed:stop_rate:lcb=-0.100833<=-0.050000"
+        ],
+        "df_satterthwaite": null,
+        "nonpositive_crossed_variance_fallback": null
+      }
+    }
+  },
+  "paired_contrasts": {
+    "confirm_muse_lean_sft_matched_plus_gspo_vs_b0": {
+      "cand_id": "muse_lean_sft_matched_plus_gspo",
+      "ref_id": "b0_base",
+      "n_problems": 150,
+      "delta_avg_at_8": 0.043333333333333335,
+      "lcb95_one_sided_avg_at_8": 0.015,
+      "ci95_two_sided_avg_at_8": [
+        0.01,
+        0.07833333333333334
+      ],
+      "delta_stop_rate": -0.04833333333333333,
+      "lcb95_one_sided_stop_rate": -0.08916666666666667,
+      "delta_has_thinking_rate": -1.0
+    }
+  },
+  "holdout_touched": false
+}

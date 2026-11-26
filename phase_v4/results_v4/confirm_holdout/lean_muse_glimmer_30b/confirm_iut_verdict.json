@@ -1,0 +1,21 @@
+{
+  "status": "OK",
+  "trial_prefix": "confirm_armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct50",
+  "iut_decision": "ROLLBACK",
+  "comparators_tested": 1,
+  "comparators_promoted": 0,
+  "failed_comparators": [
+    "b0_muse_glimmer_30b"
+  ],
+  "results_by_comparator": {
+    "b0_muse_glimmer_30b": {
+      "decision": "ROLLBACK",
+      "signed_improvement": 0.0703792735042735,
+      "lcb_one_sided_vs_incumbent": 0.033360042735042755,
+      "margin_excess_lcb_one_sided": 0.018360042735042756,
+      "tripwires": [
+        "baseline_degradation_exceeded:stop_rate_degradation=0.052778>0.03"
+      ]
+    }
+  }
+}

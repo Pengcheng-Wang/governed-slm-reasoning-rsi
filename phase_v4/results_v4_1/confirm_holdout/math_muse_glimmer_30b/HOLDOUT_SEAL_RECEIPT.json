@@ -1,0 +1,73 @@
+{
+  "aggregation_weighting": "equal_item",
+  "artifact_semantic_sha256": "f0b93876a66fbf71d86caf2b9ddfb99eedc96865237eb059b08d12a4b9f8b9c6",
+  "baseline_id": "b0_base",
+  "candidate_artifact_sha256": "69d5e8f098cdadcf6ecfbf212bc037129cb1e4eb029d496ecd916741bc600507",
+  "candidate_id": "muse_math_gspo_faithful_luffy",
+  "comparisons": {
+    "b0_base": {
+      "bootstrap_mode": "cluster_1d",
+      "ci95_high": 0.36916666666666664,
+      "ci95_low": 0.2458333333333333,
+      "crossed_design_complete": null,
+      "decision": "PROMOTE",
+      "decision_reason": "confirmed_statistically_and_practically",
+      "distinct_cluster_deltas": 12,
+      "effective_null_margin": 0.01,
+      "insufficient_replication": false,
+      "lcb_one_sided": 0.2458333333333333,
+      "low_cluster_warning": false,
+      "margin_excess_lcb_one_sided": 0.23583333333333328,
+      "margin_mode": "additive",
+      "n_boot_usable": 4000,
+      "n_clusters": 150,
+      "n_item_clusters": 0,
+      "n_items": 150,
+      "n_perm": 8000,
+      "n_positive_clusters": 88,
+      "n_seeds": 0,
+      "n_strata": 3,
+      "obs_candidate": 0.7333333333333333,
+      "obs_reference": 0.4275,
+      "p_floor": 0.00012498437695288088,
+      "primary_replicated": true,
+      "se": 0.031262983726454814,
+      "signed_gain": 0.3058333333333333,
+      "signflip_method": "monte_carlo_8000",
+      "signflip_p_one_sided": 0.00012498437695288088,
+      "signflip_resolution": 0.00012498437695288088,
+      "statistic": "mean",
+      "weighting": "equal_item"
+    }
+  },
+  "direction": "maximize",
+  "finalized_at_utc": "2026-11-25T10:31:50.819967+00:00",
+  "holdout_accepted": true,
+  "holdout_guardrails_passed": true,
+  "holdout_primary_replicated": true,
+  "holdout_tripwires": [],
+  "item_cluster_key": null,
+  "ledger_file": "/scratch/governed_crossfamily_v4/results_v4_1/confirm_holdout/math_muse_glimmer_30b/trial_ledger_v4_1.jsonl",
+  "ledger_head_at_reserve_sha256": "165e95697f0641650c4a8524ea4b8a550320bb264a0a6ae86a9bd93112cc8f10",
+  "manifest_root_sha256": "f30b202047ccd475c9253057561151ab170c3849e38642e235d1e38d5f01395b",
+  "n_perm": 8000,
+  "p_floor": 0.00012498437695288088,
+  "paired_aux_alpha_one_sided": 0.0125,
+  "paired_aux_noninferiority": {
+    "math_pass_at_8": 0.02,
+    "stop_rate": 0.05
+  },
+  "primary_metric": "math_avg_at_8",
+  "primary_statistic": "mean",
+  "reference_ids": {
+    "b0_base": "b0_base"
+  },
+  "required_comparators_verified": [
+    "b0_base"
+  ],
+  "reserved_at_utc": "2026-11-25T09:55:05.381149+00:00",
+  "rules_sha256": "d5f3ef352827d221fa8e5e9263ac73c10f0009564e3f193fb5b96dcaeb8e6fcc",
+  "schema_version": "3.9.0",
+  "seal_file": "/scratch/governed_crossfamily_v4/results_v4_1/confirm_holdout/math_muse_glimmer_30b/HOLDOUT_SEAL_RECEIPT.json",
+  "status": "FINALIZED"
+}

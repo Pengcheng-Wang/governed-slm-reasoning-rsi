@@ -1,0 +1,100 @@
+{
+  "adapted_linear_modules": 192,
+  "applied_prior_factor_tensors": 0,
+  "chat_kwargs": {
+    "reasoning_effort": "low"
+  },
+  "data_audit": {
+    "dropped_overlong_rows": 92,
+    "seq_len_max": 1999,
+    "seq_len_p50": 833,
+    "seq_len_p95": 1574,
+    "sft_suffix": "<|end_message|><|content_model_end_sampling|>",
+    "supervised_tokens_total": 736175,
+    "total_traces": 1164,
+    "unique_problems": 1164
+  },
+  "dist_strategy": "fsdp",
+  "final_logit_softcapping": 30.0,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "grad_norm": 0.7109375,
+      "loss": 0.3891804814338684,
+      "lr": 5.833333333333332e-06,
+      "step": 1
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.921875,
+      "loss": 0.2670563757419586,
+      "lr": 3.5e-05,
+      "step": 10
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.263671875,
+      "loss": 0.25215423107147217,
+      "lr": 3.5e-05,
+      "step": 20
+    },
+    {
+      "epoch": 1,
+      "grad_norm": 0.1767578125,
+      "loss": 0.1950148344039917,
+      "lr": 3.5e-05,
+      "step": 30
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.1943359375,
+      "loss": 0.18612676858901978,
+      "lr": 3.5e-05,
+      "step": 40
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.1513671875,
+      "loss": 0.18509671092033386,
+      "lr": 3.5e-05,
+      "step": 50
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.1865234375,
+      "loss": 0.17619800567626953,
+      "lr": 3.5e-05,
+      "step": 60
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.224609375,
+      "loss": 0.19181345403194427,
+      "lr": 3.5e-05,
+      "step": 70
+    },
+    {
+      "epoch": 2,
+      "grad_norm": 0.1796875,
+      "loss": 0.17397508025169373,
+      "lr": 3.5e-05,
+      "step": 74
+    }
+  ],
+  "lr": 3.5e-05,
+  "lr_schedule": "constant_with_warmup",
+  "merge_parity": {
+    "max_abs_logit_diff": 5.851913928985596,
+    "mean_abs_logit_diff": 0.3001323826611042,
+    "merged_linear_tensors": 192,
+    "top1_token_agreement": 0.984375
+  },
+  "model_key": "inkling2_mini",
+  "output_multiplier": null,
+  "peak_vram_gb_rank0": 68.40763473510742,
+  "status": "TRAINED_AND_CONSOLIDATED",
+  "steps_completed": 74,
+  "track": "lean",
+  "train_wall_seconds": 2351.6212717266753,
+  "world_size": 8
+}

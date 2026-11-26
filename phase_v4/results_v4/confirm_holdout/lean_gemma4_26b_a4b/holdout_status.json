@@ -1,0 +1,25 @@
+{
+  "status": "CONFIRMED_ROLLBACK_NO_HOLDOUT_TOUCH",
+  "track": "lean",
+  "model_key": "gemma4_26b_a4b",
+  "candidate_id": "armB_s3_lean_gemma4_26b_a4b_dapo_asymclip_pct100",
+  "confirm_verdict": {
+    "status": "OK",
+    "trial_prefix": "confirm_armB_s3_lean_gemma4_26b_a4b_dapo_asymclip_pct100",
+    "iut_decision": "ROLLBACK",
+    "comparators_tested": 1,
+    "comparators_promoted": 0,
+    "failed_comparators": [
+      "b0_gemma4_26b_a4b"
+    ],
+    "results_by_comparator": {
+      "b0_gemma4_26b_a4b": {
+        "decision": "ROLLBACK",
+        "signed_improvement": 0.006510416666666685,
+        "lcb_one_sided_vs_incumbent": -0.01923601090267757,
+        "margin_excess_lcb_one_sided": -0.03423601090267757,
+        "tripwires": []
+      }
+    }
+  }
+}

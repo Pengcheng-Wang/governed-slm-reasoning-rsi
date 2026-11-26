@@ -1,0 +1,22 @@
+{
+  "aggregation_weighting": "equal_stratum",
+  "alpha_one_sided": 0.05,
+  "claim_scope": "fixed_checkpoint",
+  "decision_stage": "search",
+  "direction": "maximize",
+  "hard_floors": {
+    "axiom_audit_clean_rate": 1.0,
+    "stop_rate": 0.55
+  },
+  "max_degradation_vs_baseline": {
+    "lean_pass_at_8": 0.04,
+    "stop_rate": 0.035
+  },
+  "metric_directions": {
+    "lean_pass_at_8": "maximize",
+    "stop_rate": "maximize"
+  },
+  "min_improvement": 0.01,
+  "primary_metric": "lean_equal_stratum_avg_at_8",
+  "require_env_fingerprint_match": true
+}

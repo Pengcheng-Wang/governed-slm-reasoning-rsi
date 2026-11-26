@@ -1,0 +1,3397 @@
+{
+  "candidate_id": "probe_gemma4_26b_a4b",
+  "channel_family": "gemma4",
+  "env_fingerprint": "a100_80gb_bf16_v4",
+  "expected_k": 4,
+  "items": [
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:101968",
+      "id": "goedel_sft_v2:101968",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:102997",
+      "id": "goedel_sft_v2:102997",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:104220",
+      "id": "goedel_sft_v2:104220",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:105378",
+      "id": "goedel_sft_v2:105378",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:108015",
+      "id": "goedel_sft_v2:108015",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:110396",
+      "id": "goedel_sft_v2:110396",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:110524",
+      "id": "goedel_sft_v2:110524",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:112133",
+      "id": "goedel_sft_v2:112133",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:114256",
+      "id": "goedel_sft_v2:114256",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:116700",
+      "id": "goedel_sft_v2:116700",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:120110",
+      "id": "goedel_sft_v2:120110",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:121525",
+      "id": "goedel_sft_v2:121525",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:122876",
+      "id": "goedel_sft_v2:122876",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:124549",
+      "id": "goedel_sft_v2:124549",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:129889",
+      "id": "goedel_sft_v2:129889",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:130532",
+      "id": "goedel_sft_v2:130532",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:13445",
+      "id": "goedel_sft_v2:13445",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:134907",
+      "id": "goedel_sft_v2:134907",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:141211",
+      "id": "goedel_sft_v2:141211",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:141533",
+      "id": "goedel_sft_v2:141533",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:143720",
+      "id": "goedel_sft_v2:143720",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:14539",
+      "id": "goedel_sft_v2:14539",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:147066",
+      "id": "goedel_sft_v2:147066",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:147130",
+      "id": "goedel_sft_v2:147130",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:148159",
+      "id": "goedel_sft_v2:148159",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:149382",
+      "id": "goedel_sft_v2:149382",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:150218",
+      "id": "goedel_sft_v2:150218",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:156973",
+      "id": "goedel_sft_v2:156973",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:162506",
+      "id": "goedel_sft_v2:162506",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:171770",
+      "id": "goedel_sft_v2:171770",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:174600",
+      "id": "goedel_sft_v2:174600",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:174986",
+      "id": "goedel_sft_v2:174986",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:176981",
+      "id": "goedel_sft_v2:176981",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:177688",
+      "id": "goedel_sft_v2:177688",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:177946",
+      "id": "goedel_sft_v2:177946",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:185151",
+      "id": "goedel_sft_v2:185151",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:185987",
+      "id": "goedel_sft_v2:185987",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:1865",
+      "id": "goedel_sft_v2:1865",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:189268",
+      "id": "goedel_sft_v2:189268",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:189397",
+      "id": "goedel_sft_v2:189397",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:191713",
+      "id": "goedel_sft_v2:191713",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:192099",
+      "id": "goedel_sft_v2:192099",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:195895",
+      "id": "goedel_sft_v2:195895",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:202135",
+      "id": "goedel_sft_v2:202135",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:209662",
+      "id": "goedel_sft_v2:209662",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:21616",
+      "id": "goedel_sft_v2:21616",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:216160",
+      "id": "goedel_sft_v2:216160",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:216481",
+      "id": "goedel_sft_v2:216481",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:221371",
+      "id": "goedel_sft_v2:221371",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:224845",
+      "id": "goedel_sft_v2:224845",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:22516",
+      "id": "goedel_sft_v2:22516",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:226389",
+      "id": "goedel_sft_v2:226389",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:229541",
+      "id": "goedel_sft_v2:229541",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:23224",
+      "id": "goedel_sft_v2:23224",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:236232",
+      "id": "goedel_sft_v2:236232",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:238483",
+      "id": "goedel_sft_v2:238483",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:241829",
+      "id": "goedel_sft_v2:241829",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:244080",
+      "id": "goedel_sft_v2:244080",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:25347",
+      "id": "goedel_sft_v2:25347",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:253602",
+      "id": "goedel_sft_v2:253602",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:256561",
+      "id": "goedel_sft_v2:256561",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:261257",
+      "id": "goedel_sft_v2:261257",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:262094",
+      "id": "goedel_sft_v2:262094",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:262737",
+      "id": "goedel_sft_v2:262737",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:262930",
+      "id": "goedel_sft_v2:262930",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:264410",
+      "id": "goedel_sft_v2:264410",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:265246",
+      "id": "goedel_sft_v2:265246",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:267755",
+      "id": "goedel_sft_v2:267755",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:270264",
+      "id": "goedel_sft_v2:270264",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:270521",
+      "id": "goedel_sft_v2:270521",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:272644",
+      "id": "goedel_sft_v2:272644",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:273095",
+      "id": "goedel_sft_v2:273095",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:276826",
+      "id": "goedel_sft_v2:276826",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:285189",
+      "id": "goedel_sft_v2:285189",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:285704",
+      "id": "goedel_sft_v2:285704",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:287248",
+      "id": "goedel_sft_v2:287248",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:296126",
+      "id": "goedel_sft_v2:296126",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:296769",
+      "id": "goedel_sft_v2:296769",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:297091",
+      "id": "goedel_sft_v2:297091",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:29722",
+      "id": "goedel_sft_v2:29722",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:298378",
+      "id": "goedel_sft_v2:298378",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:301659",
+      "id": "goedel_sft_v2:301659",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:301980",
+      "id": "goedel_sft_v2:301980",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:303331",
+      "id": "goedel_sft_v2:303331",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:304039",
+      "id": "goedel_sft_v2:304039",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:305454",
+      "id": "goedel_sft_v2:305454",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:307127",
+      "id": "goedel_sft_v2:307127",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:310215",
+      "id": "goedel_sft_v2:310215",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:315169",
+      "id": "goedel_sft_v2:315169",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:322503",
+      "id": "goedel_sft_v2:322503",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:323725",
+      "id": "goedel_sft_v2:323725",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:324175",
+      "id": "goedel_sft_v2:324175",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:324883",
+      "id": "goedel_sft_v2:324883",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:326363",
+      "id": "goedel_sft_v2:326363",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:327907",
+      "id": "goedel_sft_v2:327907",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:329644",
+      "id": "goedel_sft_v2:329644",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:330158",
+      "id": "goedel_sft_v2:330158",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:334662",
+      "id": "goedel_sft_v2:334662",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:339873",
+      "id": "goedel_sft_v2:339873",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:340066",
+      "id": "goedel_sft_v2:340066",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:342382",
+      "id": "goedel_sft_v2:342382",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:342446",
+      "id": "goedel_sft_v2:342446",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:344891",
+      "id": "goedel_sft_v2:344891",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:350488",
+      "id": "goedel_sft_v2:350488",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:356471",
+      "id": "goedel_sft_v2:356471",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:360910",
+      "id": "goedel_sft_v2:360910",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:362389",
+      "id": "goedel_sft_v2:362389",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:362582",
+      "id": "goedel_sft_v2:362582",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:363869",
+      "id": "goedel_sft_v2:363869",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:365027",
+      "id": "goedel_sft_v2:365027",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:367279",
+      "id": "goedel_sft_v2:367279",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:368630",
+      "id": "goedel_sft_v2:368630",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:371846",
+      "id": "goedel_sft_v2:371846",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:372361",
+      "id": "goedel_sft_v2:372361",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:372683",
+      "id": "goedel_sft_v2:372683",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:37442",
+      "id": "goedel_sft_v2:37442",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:374420",
+      "id": "goedel_sft_v2:374420",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:37828",
+      "id": "goedel_sft_v2:37828",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:380596",
+      "id": "goedel_sft_v2:380596",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:384970",
+      "id": "goedel_sft_v2:384970",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:388251",
+      "id": "goedel_sft_v2:388251",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:388702",
+      "id": "goedel_sft_v2:388702",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:390953",
+      "id": "goedel_sft_v2:390953",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:392819",
+      "id": "goedel_sft_v2:392819",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:398802",
+      "id": "goedel_sft_v2:398802",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:402212",
+      "id": "goedel_sft_v2:402212",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:405235",
+      "id": "goedel_sft_v2:405235",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:405621",
+      "id": "goedel_sft_v2:405621",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:409288",
+      "id": "goedel_sft_v2:409288",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:410961",
+      "id": "goedel_sft_v2:410961",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:41173",
+      "id": "goedel_sft_v2:41173",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:413084",
+      "id": "goedel_sft_v2:413084",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:417330",
+      "id": "goedel_sft_v2:417330",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:417587",
+      "id": "goedel_sft_v2:417587",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:419968",
+      "id": "goedel_sft_v2:419968",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:421705",
+      "id": "goedel_sft_v2:421705",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:427945",
+      "id": "goedel_sft_v2:427945",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:429746",
+      "id": "goedel_sft_v2:429746",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:430390",
+      "id": "goedel_sft_v2:430390",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:432963",
+      "id": "goedel_sft_v2:432963",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:43425",
+      "id": "goedel_sft_v2:43425",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:434764",
+      "id": "goedel_sft_v2:434764",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:436823",
+      "id": "goedel_sft_v2:436823",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:441648",
+      "id": "goedel_sft_v2:441648",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:442356",
+      "id": "goedel_sft_v2:442356",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:446023",
+      "id": "goedel_sft_v2:446023",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:452520",
+      "id": "goedel_sft_v2:452520",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:453936",
+      "id": "goedel_sft_v2:453936",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:456509",
+      "id": "goedel_sft_v2:456509",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:457024",
+      "id": "goedel_sft_v2:457024",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:458954",
+      "id": "goedel_sft_v2:458954",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:459983",
+      "id": "goedel_sft_v2:459983",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:460176",
+      "id": "goedel_sft_v2:460176",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:4632",
+      "id": "goedel_sft_v2:4632",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:465001",
+      "id": "goedel_sft_v2:465001",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:470598",
+      "id": "goedel_sft_v2:470598",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:477482",
+      "id": "goedel_sft_v2:477482",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:477610",
+      "id": "goedel_sft_v2:477610",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:478254",
+      "id": "goedel_sft_v2:478254",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:484301",
+      "id": "goedel_sft_v2:484301",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:484816",
+      "id": "goedel_sft_v2:484816",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:488225",
+      "id": "goedel_sft_v2:488225",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:4889",
+      "id": "goedel_sft_v2:4889",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:489062",
+      "id": "goedel_sft_v2:489062",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:493372",
+      "id": "goedel_sft_v2:493372",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:496074",
+      "id": "goedel_sft_v2:496074",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:501092",
+      "id": "goedel_sft_v2:501092",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:502314",
+      "id": "goedel_sft_v2:502314",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:507525",
+      "id": "goedel_sft_v2:507525",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:509198",
+      "id": "goedel_sft_v2:509198",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:514473",
+      "id": "goedel_sft_v2:514473",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:516339",
+      "id": "goedel_sft_v2:516339",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:51659",
+      "id": "goedel_sft_v2:51659",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:518269",
+      "id": "goedel_sft_v2:518269",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:526118",
+      "id": "goedel_sft_v2:526118",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:529656",
+      "id": "goedel_sft_v2:529656",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:529785",
+      "id": "goedel_sft_v2:529785",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:531393",
+      "id": "goedel_sft_v2:531393",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:531650",
+      "id": "goedel_sft_v2:531650",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:53268",
+      "id": "goedel_sft_v2:53268",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:536218",
+      "id": "goedel_sft_v2:536218",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:545997",
+      "id": "goedel_sft_v2:545997",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:547412",
+      "id": "goedel_sft_v2:547412",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:548506",
+      "id": "goedel_sft_v2:548506",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:549085",
+      "id": "goedel_sft_v2:549085",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:551915",
+      "id": "goedel_sft_v2:551915",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:552301",
+      "id": "goedel_sft_v2:552301",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:55391",
+      "id": "goedel_sft_v2:55391",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:554424",
+      "id": "goedel_sft_v2:554424",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:557770",
+      "id": "goedel_sft_v2:557770",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:558542",
+      "id": "goedel_sft_v2:558542",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:558863",
+      "id": "goedel_sft_v2:558863",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:561758",
+      "id": "goedel_sft_v2:561758",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:565297",
+      "id": "goedel_sft_v2:565297",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:565683",
+      "id": "goedel_sft_v2:565683",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:568835",
+      "id": "goedel_sft_v2:568835",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:568899",
+      "id": "goedel_sft_v2:568899",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:569800",
+      "id": "goedel_sft_v2:569800",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:570250",
+      "id": "goedel_sft_v2:570250",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:570508",
+      "id": "goedel_sft_v2:570508",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:571151",
+      "id": "goedel_sft_v2:571151",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:571215",
+      "id": "goedel_sft_v2:571215",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:574689",
+      "id": "goedel_sft_v2:574689",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:575204",
+      "id": "goedel_sft_v2:575204",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:585562",
+      "id": "goedel_sft_v2:585562",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:585883",
+      "id": "goedel_sft_v2:585883",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:604733",
+      "id": "goedel_sft_v2:604733",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:605312",
+      "id": "goedel_sft_v2:605312",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:613161",
+      "id": "goedel_sft_v2:613161",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:613482",
+      "id": "goedel_sft_v2:613482",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:619465",
+      "id": "goedel_sft_v2:619465",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:620237",
+      "id": "goedel_sft_v2:620237",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:622553",
+      "id": "goedel_sft_v2:622553",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:622618",
+      "id": "goedel_sft_v2:622618",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:628858",
+      "id": "goedel_sft_v2:628858",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:63561",
+      "id": "goedel_sft_v2:63561",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:6369",
+      "id": "goedel_sft_v2:6369",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:639988",
+      "id": "goedel_sft_v2:639988",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:647386",
+      "id": "goedel_sft_v2:647386",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:656907",
+      "id": "goedel_sft_v2:656907",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:657229",
+      "id": "goedel_sft_v2:657229",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:659545",
+      "id": "goedel_sft_v2:659545",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:66263",
+      "id": "goedel_sft_v2:66263",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:664370",
+      "id": "goedel_sft_v2:664370",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:667201",
+      "id": "goedel_sft_v2:667201",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:667265",
+      "id": "goedel_sft_v2:667265",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:671575",
+      "id": "goedel_sft_v2:671575",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:680067",
+      "id": "goedel_sft_v2:680067",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:70123",
+      "id": "goedel_sft_v2:70123",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:70509",
+      "id": "goedel_sft_v2:70509",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:71024",
+      "id": "goedel_sft_v2:71024",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:72053",
+      "id": "goedel_sft_v2:72053",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:78808",
+      "id": "goedel_sft_v2:78808",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.25
+      },
+      "cluster_id": "goedel_sft_v2:85692",
+      "id": "goedel_sft_v2:85692",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.25,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.5
+      },
+      "cluster_id": "goedel_sft_v2:86528",
+      "id": "goedel_sft_v2:86528",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.5,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.0
+      },
+      "cluster_id": "goedel_sft_v2:87815",
+      "id": "goedel_sft_v2:87815",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:88780",
+      "id": "goedel_sft_v2:88780",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:93219",
+      "id": "goedel_sft_v2:93219",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 0.75
+      },
+      "cluster_id": "goedel_sft_v2:95856",
+      "id": "goedel_sft_v2:95856",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 0.75,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    },
+    {
+      "aux_metrics": {
+        "lean_pass_at_4": 0.0,
+        "stop_rate": 1.0
+      },
+      "cluster_id": "goedel_sft_v2:99009",
+      "id": "goedel_sft_v2:99009",
+      "n_correct": 0,
+      "pass_at_k": 0.0,
+      "stop_rate": 1.0,
+      "stratum": "goedel_sft_v2",
+      "stratum_id": "goedel_sft_v2",
+      "value": 0.0
+    }
+  ],
+  "metrics": {
+    "admitted_trace_fraction": 0.0,
+    "axiom_audit_clean_rate": 1.0,
+    "capability_slope_4_1": 0.0,
+    "lean_avg_at_4": 0.0,
+    "lean_equal_stratum_avg_at_4": 0.0,
+    "lean_pass_at_1": 0.0,
+    "lean_pass_at_2": 0.0,
+    "lean_pass_at_4": 0.0,
+    "lean_strict_avg_at_4": 0.0,
+    "learnable_fraction": 0.0,
+    "mean_correct_tokens": 0.0,
+    "mean_incorrect_tokens": 1398.6145833333333,
+    "mean_tokens": 1398.6145833333333,
+    "median_tokens": 2048.0,
+    "p95_tokens": 2048.0,
+    "p99_tokens": 2048.0,
+    "solved_problem_count": 0.0,
+    "stop_rate": 0.4739583333333333,
+    "stratum_goedel_sft_v2_avg_at_4": 0.0,
+    "tokens_per_correct": 1342670.0,
+    "total_correct_rollouts": 0.0,
+    "truncation_rate": 0.5260416666666666
+  },
+  "n_problems": 240,
+  "protocol_id": "v4_lean_stage2_probe_k4",
+  "schema_version": "4.0",
+  "scored_at_utc": "2026-11-23T04:02:59.737453+00:00",
+  "track": "lean"
+}

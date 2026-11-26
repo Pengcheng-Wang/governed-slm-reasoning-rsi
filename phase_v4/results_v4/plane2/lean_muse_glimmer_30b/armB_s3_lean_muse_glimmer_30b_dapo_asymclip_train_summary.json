@@ -1,0 +1,78 @@
+{
+  "adapted_linear_modules": 416,
+  "algo": "dapo_asymclip",
+  "applied_prior_factor_tensors": 416,
+  "chat_kwargs": {
+    "current_date": "2026-11-22",
+    "reasoning_strength": "low"
+  },
+  "group_stats": {
+    "active_groups_total": 64,
+    "algo": "dapo_asymclip",
+    "luffy_offpolicy_groups_included": 0,
+    "mean_comp_tokens": 648.48828125,
+    "mixed_onpolicy_groups": 64,
+    "raw_groups_total": 240,
+    "skipped_saturated_groups": 2,
+    "skipped_zero_groups": 174
+  },
+  "lr": 5.5e-06,
+  "merge_parity_pct100": {
+    "max_abs_logit_diff": 1.270273208618164,
+    "mean_abs_logit_diff": 0.099248131737113,
+    "merged_linear_tensors": 416,
+    "top1_token_agreement": 0.96875
+  },
+  "milestone_checkpoints": {
+    "pct100": "/scratch/governed_crossfamily_v4/checkpoints_v4/lean_muse_glimmer_30b/armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct100",
+    "pct50": "/scratch/governed_crossfamily_v4/checkpoints_v4/lean_muse_glimmer_30b/armB_s3_lean_muse_glimmer_30b_dapo_asymclip_pct50"
+  },
+  "model_key": "muse_glimmer_30b",
+  "peak_vram_gb_rank0": 24.391169548034668,
+  "status": "RLVR_TRAINED_AND_CONSOLIDATED",
+  "step_logs": [
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.119140625,
+      "loss": 0.3415713310241699,
+      "mean_ratio_rank0": 1.0,
+      "ppo_epoch": 1,
+      "step": 1
+    },
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.1279296875,
+      "loss": -0.06576056778430939,
+      "mean_ratio_rank0": 0.9997459385235478,
+      "ppo_epoch": 1,
+      "step": 4
+    },
+    {
+      "clipped_frac_rank0": 0.0007913167134588569,
+      "grad_norm": 0.185546875,
+      "loss": 0.1662362962961197,
+      "mean_ratio_rank0": 0.9987933852010112,
+      "ppo_epoch": 1,
+      "step": 8
+    },
+    {
+      "clipped_frac_rank0": 0.0020223550612461995,
+      "grad_norm": 0.1484375,
+      "loss": 0.3158894181251526,
+      "mean_ratio_rank0": 0.9992182786731773,
+      "ppo_epoch": 1,
+      "step": 12
+    },
+    {
+      "clipped_frac_rank0": 0.005301544745303029,
+      "grad_norm": 0.12109375,
+      "loss": 0.25149136781692505,
+      "mean_ratio_rank0": 1.0010210434977425,
+      "ppo_epoch": 1,
+      "step": 16
+    }
+  ],
+  "steps_completed": 16,
+  "track": "lean",
+  "train_wall_seconds": 561.4581587719731
+}

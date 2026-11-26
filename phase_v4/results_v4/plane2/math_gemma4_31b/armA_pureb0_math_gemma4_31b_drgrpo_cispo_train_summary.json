@@ -1,0 +1,60 @@
+{
+  "adapted_linear_modules": 410,
+  "algo": "drgrpo_cispo",
+  "applied_prior_factor_tensors": 0,
+  "chat_kwargs": {
+    "enable_thinking": false
+  },
+  "group_stats": {
+    "active_groups_total": 20,
+    "algo": "drgrpo_cispo",
+    "luffy_offpolicy_groups_included": 0,
+    "mean_comp_tokens": 1291.28125,
+    "mixed_onpolicy_groups": 20,
+    "raw_groups_total": 128,
+    "skipped_saturated_groups": 91,
+    "skipped_zero_groups": 17
+  },
+  "lr": 7e-06,
+  "merge_parity_pct100": {
+    "max_abs_logit_diff": 1.0782227516174316,
+    "mean_abs_logit_diff": 0.05891593266278505,
+    "merged_linear_tensors": 410,
+    "top1_token_agreement": 1.0
+  },
+  "milestone_checkpoints": {
+    "pct100": "/scratch/governed_crossfamily_v4/checkpoints_v4/math_gemma4_31b/armA_pureb0_math_gemma4_31b_drgrpo_cispo_pct100"
+  },
+  "model_key": "gemma4_31b",
+  "peak_vram_gb_rank0": 29.236006259918213,
+  "status": "RLVR_TRAINED_AND_CONSOLIDATED",
+  "step_logs": [
+    {
+      "clipped_frac_rank0": 0.0,
+      "grad_norm": 0.134765625,
+      "loss": 0.0004661809653043747,
+      "mean_ratio_rank0": 1.0,
+      "ppo_epoch": 1,
+      "step": 1
+    },
+    {
+      "clipped_frac_rank0": 0.0007980464913238022,
+      "grad_norm": 0.052734375,
+      "loss": 0.00493279006332159,
+      "mean_ratio_rank0": 1.0000486856047004,
+      "ppo_epoch": 1,
+      "step": 4
+    },
+    {
+      "clipped_frac_rank0": 0.00021294718909710392,
+      "grad_norm": 0.0634765625,
+      "loss": -0.00029837898910045624,
+      "mean_ratio_rank0": 1.0001363703802473,
+      "ppo_epoch": 1,
+      "step": 5
+    }
+  ],
+  "steps_completed": 5,
+  "track": "math",
+  "train_wall_seconds": 153.99453665595502
+}
